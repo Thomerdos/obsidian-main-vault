@@ -1,19 +1,19 @@
 ---
 date: 2026-07-11
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Vulfpeck
-- The Fearless Flyers
-- Magma
-- Léon Phal
-- Souleance
-pays: France
+- '[[Vulfpeck]]'
+- '[[The Fearless Flyers]]'
+- '[[Magma]]'
+- '[[Léon Phal]]'
+- '[[Souleance]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

@@ -1,15 +1,9 @@
 ---
-concerts: []
 continent: Europe
-festivals: []
-groupes-origine: []
-pays-concerts: 2023-07-23 - Guitare en Scène
-pays-villes: Lyon
-salles: []
 tags:
 - pays
 type: pays
-villes: []
+parent: '[[Pays]]'
 ---
 
 # 🌍 France

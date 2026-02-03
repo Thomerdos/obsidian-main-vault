@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: Italie
+pays: '[[Italie]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2017-09-01 - 2Days Prog + 1
 ville-festivals: 2Days Prog + 1
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Veruno

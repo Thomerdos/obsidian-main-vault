@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1968
 genre:
-- Heavy Metal
-- Doom Metal
-genres: []
-groupe-concerts:
-- 2016-06-17 - Hellfest
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Heavy Metal]]'
+- '[[Doom Metal]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Black Sabbath

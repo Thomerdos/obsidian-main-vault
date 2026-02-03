@@ -1,16 +1,12 @@
 ---
-concerts: []
 formation: null
 genre: []
-genres: []
-groupe-concerts:
-- 2026-02-07 - Sinner G's, Teodoro Lopes
-origine: ''
 pays-origine: null
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Teodoro Lopes

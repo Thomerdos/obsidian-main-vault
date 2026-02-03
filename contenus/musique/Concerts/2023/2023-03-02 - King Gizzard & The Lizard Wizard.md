@@ -2,14 +2,14 @@
 date: 2023-03-02
 festival: ''
 groupes:
-- King Gizzard & The Lizard Wizard
-pays: France
+- '[[King Gizzard & The Lizard Wizard]]'
+pays: '[[France]]'
 rating: null
-salle: Zénith de Paris
+salle: '[[Zénith de Paris]]'
 tags:
 - concert
 type: concert
-ville: Paris
+ville: '[[Paris]]'
 ---
 
 # 🎸 Concert

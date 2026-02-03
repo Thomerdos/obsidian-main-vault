@@ -2,14 +2,14 @@
 date: 2025-05-28
 festival: ''
 groupes:
-- Steven Wilson
-pays: France
+- '[[Steven Wilson]]'
+pays: '[[France]]'
 rating: null
-salle: Bourse du Travail
+salle: '[[Bourse du Travail]]'
 tags:
 - concert
 type: concert
-ville: Lyon
+ville: '[[Lyon]]'
 ---
 
 # 🎸 Concert

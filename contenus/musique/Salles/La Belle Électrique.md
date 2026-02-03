@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2015-12-11 - Ghost
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Grenoble
+ville: '[[Grenoble]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ La Belle Électrique

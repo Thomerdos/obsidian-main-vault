@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 2010
 genre:
-- Jazz Fusion
-- Electronic
-genres: []
-groupe-concerts:
-- 2022-07-06 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Jazz Fusion]]'
+- '[[Electronic]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://louiscole.bandcamp.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Louis Cole

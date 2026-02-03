@@ -2,12 +2,13 @@
 editions: []
 editions-vues: []
 festival-editions: 2024-06-21 - Rock Imperium Festival
-pays: Espagne
+pays: '[[Espagne]]'
 periode: null
 tags:
 - festival
 type: festival
-ville: Cartagena
+ville: '[[Cartagena]]'
+parent: '[[Festivals]]'
 ---
 
 # 🎪 Rock Imperium Festival

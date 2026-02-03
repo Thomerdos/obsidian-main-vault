@@ -1,16 +1,16 @@
 ---
 date: 2018-07-11
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Magma
-- Thomas de Pourquery
-pays: France
+- '[[Magma]]'
+- '[[Thomas de Pourquery]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

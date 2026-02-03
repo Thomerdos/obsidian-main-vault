@@ -1,15 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2023-05-10 - Wishbone Ash
 ville-festivals: Nuits de Fourvière
-ville-salles: Ninkasi Gerland
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Lyon

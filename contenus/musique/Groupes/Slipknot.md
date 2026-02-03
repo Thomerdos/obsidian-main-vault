@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1995
 genre:
-- Nu Metal
-- Alternative Metal
-genres: []
-groupe-concerts:
-- 2023-06-15 - Hellfest
-origine: ''
-pays-origine: États-Unis
+- '[[Nu Metal]]'
+- '[[Alternative Metal]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://www.slipknot1.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Slipknot

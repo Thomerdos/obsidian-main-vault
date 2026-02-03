@@ -1,17 +1,13 @@
 ---
-concerts: []
 formation: 2018
 genre:
-- Hip Hop
-genres: []
-groupe-concerts:
-- 2026-02-07 - Sinner G's, Teodoro Lopes
-origine: ''
-pays-origine: France
+- '[[Hip Hop]]'
+pays-origine: '[[France]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Sinner G's

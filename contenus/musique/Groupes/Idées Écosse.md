@@ -1,5 +1,6 @@
 ---
 notion-id: 25bc6a4e-9a41-80a4-95a4-d8fdd3cc22e0
+parent: '[[Groupes]]'
 ---
 
 Dates envisagées : départ 30 avril /retour 14 mai

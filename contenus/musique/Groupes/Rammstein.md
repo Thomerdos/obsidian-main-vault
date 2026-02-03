@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1994
 genre:
-- Industrial Metal
-- Neue Deutsche Härte
-genres: []
-groupe-concerts:
-- 2016-06-17 - Hellfest
-origine: ''
-pays-origine: Allemagne
+- '[[Industrial Metal]]'
+- '[[Neue Deutsche Härte]]'
+pays-origine: '[[Allemagne]]'
 site-web: https://www.rammstein.de
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Rammstein

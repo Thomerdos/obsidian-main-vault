@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2018-07-01 - Steve Hackett
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Grenoble
+ville: '[[Grenoble]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ Radiant-Bellevue

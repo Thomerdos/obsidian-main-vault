@@ -1,13 +1,9 @@
 ---
-concerts: []
 continent: Amérique du Nord
-festivals: []
-groupes-origine: []
-salles: []
 tags:
 - pays
 type: pays
-villes: []
+parent: '[[Pays]]'
 ---
 
 # 🌍 États-Unis

@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 2015
 genre:
-- Jazz
-- Spiritual Jazz
-genres: []
-groupe-concerts:
-- 2025-07-04 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Jazz]]'
+- '[[Spiritual Jazz]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://www.kamasispace.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Kamasi Washington

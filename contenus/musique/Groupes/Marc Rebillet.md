@@ -1,19 +1,15 @@
 ---
-concerts: []
 formation: Solo depuis 2016
 genre:
-- Electronic
-- Funk
-- Comedy
-genres: []
-groupe-concerts:
-- 2022-07-06 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Electronic]]'
+- '[[Funk]]'
+- '[[Comedy]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://www.marcrebillet.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Marc Rebillet

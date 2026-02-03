@@ -1,19 +1,14 @@
 ---
-concerts: []
 formation: 2004
 genre:
-- Jazz Fusion
-- Funk
-genres: []
-groupe-concerts:
-- 2019-07-04 - Jazz à Vienne
-- 2023-07-05 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Jazz Fusion]]'
+- '[[Funk]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://snarkypuppy.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Snarky Puppy

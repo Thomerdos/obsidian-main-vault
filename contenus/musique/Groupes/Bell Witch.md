@@ -1,17 +1,13 @@
 ---
-concerts: []
 formation: 2010
 genre:
-- Funeral Doom Metal
-genres: []
-groupe-concerts:
-- 2024-04-28 - Bell Witch
-origine: ''
-pays-origine: États-Unis
+- '[[Funeral Doom Metal]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://bellwitch.bandcamp.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Bell Witch

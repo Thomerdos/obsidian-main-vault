@@ -1,16 +1,16 @@
 ---
 date: 2025-06-30
-festival: Nuits de Fourvière
+festival: '[[Nuits de Fourvière]]'
 groupes:
-- Beth Gibbons
-- Bill Callahan
-pays: France
+- '[[Beth Gibbons]]'
+- '[[Bill Callahan]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Lyon
+ville: '[[Lyon]]'
 ---
 
 # 🎸 Concert

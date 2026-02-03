@@ -1,17 +1,13 @@
 ---
-concerts: []
 formation: 2017
 genre:
-- Progressive Metal
-genres: []
-groupe-concerts:
-- 2017-09-01 - 2Days Prog + 1
-origine: ''
-pays-origine: États-Unis
+- '[[Progressive Metal]]'
+pays-origine: '[[États-Unis]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Mike Portnoy's Shattered Fortress

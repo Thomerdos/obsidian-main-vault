@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 2012
 genre:
-- Doom Metal
-- Sludge Metal
-genres: []
-groupe-concerts:
-- 2025-11-23 - Drowned, Stargazer, Liquid Flesh
-origine: ''
-pays-origine: France
+- '[[Doom Metal]]'
+- '[[Sludge Metal]]'
+pays-origine: '[[France]]'
 site-web: https://drowned.bandcamp.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Drowned

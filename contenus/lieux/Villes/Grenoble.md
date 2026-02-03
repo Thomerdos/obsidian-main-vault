@@ -1,14 +1,10 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2015-12-11 - Ghost
-ville-salles: Le Ciel
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Grenoble

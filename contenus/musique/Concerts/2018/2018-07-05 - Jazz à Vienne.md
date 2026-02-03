@@ -1,16 +1,16 @@
 ---
 date: 2018-07-05
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Avishai Cohen
-- Ron Carter
-pays: France
+- '[[Avishai Cohen]]'
+- '[[Ron Carter]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

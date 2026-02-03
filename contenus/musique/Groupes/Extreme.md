@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1985
 genre:
-- Hard Rock
-- Funk Metal
-genres: []
-groupe-concerts:
-- 2024-06-21 - Rock Imperium Festival
-origine: ''
-pays-origine: États-Unis
+- '[[Hard Rock]]'
+- '[[Funk Metal]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://www.extreme-band.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Extreme

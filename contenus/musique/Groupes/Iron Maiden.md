@@ -1,19 +1,14 @@
 ---
-concerts: []
 formation: 1975
 genre:
-- Heavy Metal
-- NWOBHM
-genres: []
-groupe-concerts:
-- 2025-07-19 - Iron Maiden
-- 2023-06-15 - Hellfest
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Heavy Metal]]'
+- '[[NWOBHM]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://ironmaiden.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Iron Maiden

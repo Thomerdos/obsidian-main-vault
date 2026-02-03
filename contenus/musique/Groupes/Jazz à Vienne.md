@@ -1,15 +1,13 @@
 ---
-concerts: []
 formation: 1981
 genre:
-- Festival
-genres: []
-origine: ''
-pays-origine: France
+- '[[Festival]]'
+pays-origine: '[[France]]'
 site-web: https://www.jazzavienne.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Jazz à Vienne

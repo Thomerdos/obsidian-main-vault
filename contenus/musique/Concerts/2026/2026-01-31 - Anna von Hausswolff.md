@@ -1,14 +1,15 @@
 ---
 type: concert
 date: 2026-01-31
-groupes: ["Anna von Hausswolff"]
-salle: Le Trabendo
-festival: 
-ville: Paris
-pays: France
-rating:
+groupes:
+- '[[Anna von Hausswolff]]'
+salle: '[[Le Trabendo]]'
+festival: null
+ville: '[[Paris]]'
+pays: '[[France]]'
+rating: null
 tags:
-  - concert
+- concert
 ---
 
 # 🎸 Concert

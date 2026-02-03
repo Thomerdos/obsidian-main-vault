@@ -1,19 +1,14 @@
 ---
-concerts: []
 formation: 1969
 genre:
-- Progressive Rock
-- Hard Rock
-genres: []
-groupe-concerts:
-- 2023-05-10 - Wishbone Ash
-- 2023-07-23 - Guitare en Scène
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Progressive Rock]]'
+- '[[Hard Rock]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://www.wishboneash.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Wishbone Ash

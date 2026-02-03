@@ -1,16 +1,16 @@
 ---
 date: 2024-07-16
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Vulfpeck
-- Léon Phal
-pays: France
+- '[[Vulfpeck]]'
+- '[[Léon Phal]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

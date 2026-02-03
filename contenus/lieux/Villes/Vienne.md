@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2023-06-29 - Jazz à Vienne
 ville-festivals: Jazz à Vienne
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Vienne

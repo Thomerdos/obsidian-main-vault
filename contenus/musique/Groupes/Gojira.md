@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1996
 genre:
-- Progressive Metal
-- Death Metal
-genres: []
-groupe-concerts:
-- 2022-06-17 - Hellfest
-origine: ''
-pays-origine: France
+- '[[Progressive Metal]]'
+- '[[Death Metal]]'
+pays-origine: '[[France]]'
 site-web: https://www.gojira-music.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Gojira

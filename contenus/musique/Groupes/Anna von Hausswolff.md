@@ -1,17 +1,15 @@
 ---
-concerts: []
 formation: Solo depuis 2010
 genre:
-- Experimental
-- Drone
-- Gothic
-genres: []
-origine: ''
-pays-origine: Suède
+- '[[Experimental]]'
+- '[[Drone]]'
+- '[[Gothic]]'
+pays-origine: '[[Suède]]'
 site-web: https://annavonhausswolff.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Anna von Hausswolff

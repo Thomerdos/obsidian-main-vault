@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1988
 genre:
-- Acid Jazz
-- Funk
-genres: []
-groupe-concerts:
-- 2025-06-30 - Jazz à Vienne
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Acid Jazz]]'
+- '[[Funk]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Galliano

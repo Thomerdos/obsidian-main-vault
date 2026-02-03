@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 1978
 genre:
-- Neoclassical Metal
-- Heavy Metal
-genres: []
-groupe-concerts:
-- 2024-06-21 - Rock Imperium Festival
-origine: ''
-pays-origine: Suède
+- '[[Neoclassical Metal]]'
+- '[[Heavy Metal]]'
+pays-origine: '[[Suède]]'
 site-web: https://www.yngwiemalmsteen.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Yngwie Malmsteen

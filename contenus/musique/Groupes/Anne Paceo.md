@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 2011
 genre:
-- Jazz
-- Electronic
-genres: []
-groupe-concerts:
-- 2025-06-26 - Jazz à Vienne
-origine: ''
-pays-origine: France
+- '[[Jazz]]'
+- '[[Electronic]]'
+pays-origine: '[[France]]'
 site-web: https://www.annepaceo.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Anne Paceo

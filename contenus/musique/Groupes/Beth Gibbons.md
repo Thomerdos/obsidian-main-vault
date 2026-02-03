@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 2002
 genre:
-- Trip Hop
-- Alternative
-genres: []
-groupe-concerts:
-- 2025-06-30 - Nuits de Fourvière
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Trip Hop]]'
+- '[[Alternative]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Beth Gibbons
