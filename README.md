@@ -1,6 +1,17 @@
 # 🎸 Obsidian Concert Vault
 
-A structured Obsidian vault for tracking concert attendance with automatic relationship management via Dataview.
+A structured Obsidian vault for tracking concert attendance with **automatic relationship management** and **full relational database system**.
+
+## ✨ New: Relational Database System
+
+This vault now includes a complete relational database system that:
+- ✅ **Automatically manages bidirectional relationships** between all entities
+- ✅ **Visualizes connections in Graph View** with color-coded entity types
+- ✅ **Auto-detects similar artists**, co-occurring genres, and tour companions
+- ✅ **Validates data integrity** with schema enforcement
+- ✅ **228 notes with 291+ relationships** across concerts, artists, genres, venues, cities, and countries
+
+**📚 [See the complete relational system guide →](README-RELATIONS.md)**
 
 ## 🚀 Quick Start
 
@@ -145,8 +156,40 @@ Works with all Obsidian themes. Tested with:
 - Minimal theme
 - Things theme
 
+## 🔗 Relational System
+
+The vault uses a complete relational database system:
+
+- **7 Entity Types**: concerts, artists, genres, venues, festivals, cities, countries
+- **291+ Relationships**: automatically maintained bidirectional links
+- **Auto-Detection**: similar artists, genre co-occurrence, tour companions
+- **Graph View**: visualize all connections with color-coded nodes
+- **Schema Validation**: ensures data integrity
+
+### Quick Commands
+
+```bash
+# Migrate data (already done)
+python3 tools/migrate-vault.py --vault .
+
+# Build relationships
+python3 tools/build-relations.py --vault .
+
+# Validate data
+python3 tools/validate-schema.py --vault .
+
+# Generate statistics
+python3 tools/generate-stats.py --vault .
+```
+
+**📚 [Complete relational system guide →](README-RELATIONS.md)**
+
 ## 🗺️ Roadmap
 
+- [x] ~~Relational database system with automatic bidirectional links~~
+- [x] ~~Schema-based validation and migration tools~~
+- [x] ~~Graph View with color-coded entity types~~
+- [x] ~~Auto-detection of similar artists and related content~~
 - [ ] GitHub Actions for automated concert addition
 - [ ] Python CLI tool for interactive concert entry
 - [ ] Data validation workflow

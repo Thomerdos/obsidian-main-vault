@@ -5,7 +5,7 @@ required:
   - name: string
 
 optional:
-  - genre: list[link]
+  - genres: list[link]
   - pays-origine: link
   - formation: number
   - site-web: url
