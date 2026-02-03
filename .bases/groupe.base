@@ -1,0 +1,43 @@
+type: groupe
+icon: 🎤
+
+required:
+  - name: string
+
+optional:
+  - genre: list[link]
+  - pays-origine: link
+  - formation: number
+  - site-web: url
+
+relations:
+  groupe-concerts:
+    target: Musique/Concerts/
+    type: list
+    inverse: concert-groupes
+    
+  groupe-genres:
+    target: Musique/Genres/
+    type: list
+    bidirectional: true
+    inverse: genre-groupes
+    
+  groupe-origine:
+    target: Lieux/Pays/
+    type: single
+    inverse: pays-groupes-origine
+
+auto_relations:
+  groupe-similar:
+    description: "Groupes similaires (mêmes concerts/genres)"
+    algorithm: "jaccard_similarity"
+    threshold: 0.3
+    
+  groupe-tour-together:
+    description: "Groupes ayant tourné ensemble"
+    query: "groupes partageant 3+ concerts"
+    min_count: 3
+
+graph:
+  color: "#4ECDC4"
+  icon: "🎤"

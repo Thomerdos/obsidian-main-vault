@@ -1,0 +1,35 @@
+type: ville
+icon: 🏙️
+
+required:
+  - name: string
+  - pays: link
+
+optional:
+  - region: text
+
+relations:
+  ville-pays:
+    target: Lieux/Pays/
+    type: single
+    bidirectional: true
+    inverse: pays-villes
+    
+  ville-salles:
+    target: Musique/Salles/
+    type: list
+    inverse: salle-ville
+    
+  ville-festivals:
+    target: Musique/Festivals/
+    type: list
+    inverse: festival-ville
+    
+  ville-concerts:
+    target: Musique/Concerts/
+    type: list
+    inverse: concert-ville
+
+graph:
+  color: "#FCBAD3"
+  icon: "🏙️"
