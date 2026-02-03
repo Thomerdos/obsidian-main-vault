@@ -1,14 +1,13 @@
 ---
-editions: []
-editions-vues: []
-festival-editions: 2025-04-17 - Roadburn Festival
 pays: '[[Pays-Bas]]'
-periode: null
+periode: Avril
 tags:
 - festival
 type: festival
 ville: '[[Tilburg]]'
 parent: '[[Festivals]]'
+editions-vues:
+- 2025
 ---
 
 # 🎪 Roadburn Festival

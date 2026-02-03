@@ -1,7 +1,9 @@
 ---
 formation: null
-genre: []
-pays-origine: null
+genre:
+- '[[Jazz]]'
+- '[[Experimental]]'
+pays-origine: '[[France]]'
 site-web: null
 tags:
 - groupe
@@ -13,8 +15,8 @@ parent: '[[Groupes]]'
 
 ## 📊 Informations
 
-- **Genre** : 
-- **Pays** : [[]]
+- **Genre** : [[Jazz]], [[Experimental]]
+- **Pays** : [[France]]
 - **Formation** : 
 - **Site web** : 
 

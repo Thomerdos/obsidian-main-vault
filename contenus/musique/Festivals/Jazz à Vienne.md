@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2023-06-29 - Jazz à Vienne
 pays: '[[France]]'
 periode: null
 tags:

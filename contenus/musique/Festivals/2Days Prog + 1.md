@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2017-09-01 - 2Days Prog + 1
 pays: '[[Italie]]'
 periode: null
 tags:

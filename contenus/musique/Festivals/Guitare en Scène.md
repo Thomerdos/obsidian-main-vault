@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2023-07-23 - Guitare en Scène
 pays: '[[France]]'
 periode: null
 tags:

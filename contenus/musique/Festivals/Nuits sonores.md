@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2025-10-30 - Nuits sonores
 pays: '[[France]]'
 periode: null
 tags:

@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2024-06-21 - Rock Imperium Festival
 pays: '[[Espagne]]'
 periode: null
 tags:

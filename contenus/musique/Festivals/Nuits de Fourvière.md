@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2025-06-30 - Nuits de Fourvière
 pays: '[[France]]'
 periode: null
 tags:

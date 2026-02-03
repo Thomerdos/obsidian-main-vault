@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2025-08-14 - Motocultor Festival
 pays: '[[France]]'
 periode: null
 tags:

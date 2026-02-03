@@ -1,7 +1,5 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2026-05-22 - Courts of Chaos Festival
 pays: '[[France]]'
 periode: null
 tags:
