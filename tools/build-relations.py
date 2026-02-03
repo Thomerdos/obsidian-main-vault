@@ -34,19 +34,23 @@ class RelationBuilder:
         self.stats = defaultdict(int)
         
     def load_schemas(self):
-        """Load all .base schema files."""
-        bases_dir = self.vault_dir / ".bases"
+        """Load all .base schema files recursively from bases/ directory."""
+        bases_dir = self.vault_dir / "bases"
         if not bases_dir.exists():
-            logger.error(f"Schemas directory not found: {bases_dir}")
-            return False
+            # Fallback to old .bases directory for compatibility
+            bases_dir = self.vault_dir / ".bases"
+            if not bases_dir.exists():
+                logger.error(f"Schemas directory not found: {bases_dir}")
+                return False
             
-        for schema_file in bases_dir.glob("*.base"):
+        # Load schemas recursively
+        for schema_file in bases_dir.rglob("*.base"):
             try:
                 with open(schema_file, 'r', encoding='utf-8') as f:
                     schema = yaml.safe_load(f)
                     entity_type = schema['type']
                     self.schemas[entity_type] = schema
-                    logger.info(f"Loaded schema: {entity_type}")
+                    logger.info(f"Loaded schema: {entity_type} from {schema_file.relative_to(self.vault_dir)}")
             except Exception as e:
                 logger.error(f"Error loading schema {schema_file}: {e}")
                 return False

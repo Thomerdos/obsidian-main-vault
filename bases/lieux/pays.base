@@ -1,0 +1,36 @@
+type: pays
+icon: 🌍
+
+required:
+  - name: string
+  - continent: string
+
+relations:
+  pays-villes:
+    target: Lieux/Villes/
+    type: list
+    inverse: ville-pays
+    
+  pays-salles:
+    target: Musique/Salles/
+    type: list
+    inverse: salle-pays
+    
+  pays-festivals:
+    target: Musique/Festivals/
+    type: list
+    inverse: festival-pays
+    
+  pays-concerts:
+    target: Musique/Concerts/
+    type: list
+    inverse: concert-pays
+    
+  pays-groupes-origine:
+    target: Musique/Groupes/
+    type: list
+    inverse: groupe-origine
+
+graph:
+  color: "#A8E6CF"
+  icon: "🌍"

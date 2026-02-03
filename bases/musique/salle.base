@@ -1,0 +1,37 @@
+type: salle
+icon: 🏛️
+
+required:
+  - name: string
+  - ville: link
+  - pays: link
+
+optional:
+  - capacite: number
+  - adresse: text
+
+relations:
+  salle-concerts:
+    target: Musique/Concerts/
+    type: list
+    inverse: concert-salle
+    
+  salle-ville:
+    target: Lieux/Villes/
+    type: single
+    bidirectional: true
+    inverse: ville-salles
+    
+  salle-pays:
+    target: Lieux/Pays/
+    type: single
+    inverse: pays-salles
+
+auto_relations:
+  salle-nearby:
+    description: "Salles dans la même ville"
+    query: "salles avec ville identique"
+
+graph:
+  color: "#F38181"
+  icon: "🏛️"
