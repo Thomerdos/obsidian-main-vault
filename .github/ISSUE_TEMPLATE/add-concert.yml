@@ -1,0 +1,84 @@
+name: Add New Concert
+description: Automatically create a concert entry
+title: "[Concert] YYYY-MM-DD - Artist/Festival Name"
+labels: ["new-concert"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add a New Concert
+        Fill in the details below to automatically create a concert file.
+        
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: Concert date in YYYY-MM-DD format
+      placeholder: "2026-02-03"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: artists
+    attributes:
+      label: Artists
+      description: Comma-separated list of artists/bands
+      placeholder: "Artist 1, Artist 2, Artist 3"
+    validations:
+      required: true
+      
+  - type: input
+    id: venue
+    attributes:
+      label: Venue
+      description: Name of the venue (leave empty if festival or no specific venue)
+      placeholder: "L'Olympia"
+    validations:
+      required: false
+      
+  - type: input
+    id: festival
+    attributes:
+      label: Festival
+      description: Name of the festival (leave empty if not a festival)
+      placeholder: "Hellfest"
+    validations:
+      required: false
+      
+  - type: input
+    id: city
+    attributes:
+      label: City
+      description: City where the concert took place
+      placeholder: "Paris"
+    validations:
+      required: true
+      
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Country where the concert took place
+      placeholder: "France"
+    validations:
+      required: true
+      
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (Optional)
+      description: Any additional notes or memories from the concert
+      placeholder: "Amazing setlist, great atmosphere..."
+    validations:
+      required: false
+      
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### What happens next?
+        1. A GitHub Action will automatically create the concert file
+        2. A Pull Request will be opened for review
+        3. Once merged, the concert will appear in your vault
+        
+        **Note:** Make sure all required fields are filled correctly!
