@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Indie Rock, Electronic
+- **Genre** : [[Indie Rock]], [[Electronic]]
 - **Pays** : [[Allemagne]]
 - **Formation** : 1989
 - **Site web** : https://www.thenotwist.com

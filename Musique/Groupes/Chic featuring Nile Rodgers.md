@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Disco, Funk
+- **Genre** : [[Disco]], [[Funk]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1976
 - **Site web** : https://www.chic.org

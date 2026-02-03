@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock
+- **Genre** : [[Progressive Rock]]
 - **Pays** : [[France]]
 - **Formation** : 1969
 - **Site web** : http://www.ange-officiel.com

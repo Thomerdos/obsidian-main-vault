@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Acid Jazz, Funk
+- **Genre** : [[Acid Jazz]], [[Funk]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1988
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Heavy Metal, Rock
+- **Genre** : [[Heavy Metal]], [[Rock]]
 - **Pays** : [[Suède]]
 - **Formation** : 2006
 - **Site web** : https://ghost-official.com

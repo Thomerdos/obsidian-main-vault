@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Trip Hop, Progressive Rock
+- **Genre** : [[Trip Hop]], [[Progressive Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1994
 - **Site web** : https://www.archiveofficial.com

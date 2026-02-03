@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Hard Rock, Heavy Metal
+- **Genre** : [[Hard Rock]], [[Heavy Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1967
 - **Site web** : https://blueoystercult.com

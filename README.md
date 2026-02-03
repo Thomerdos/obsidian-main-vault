@@ -37,9 +37,10 @@ A structured Obsidian vault for tracking concert attendance with automatic relat
 ```
 Musique/
 ├── Concerts.md              # Main index with statistics
-├── _templates/              # Templates for new entities
+├── _templates/              # 5 templates (concert, groupe, salle, festival, genre)
 ├── Concerts/YYYY/           # Concert files by year (56 total)
 ├── Groupes/                 # Artist pages (67 total)
+├── Genres/                  # Musical genre pages (56 total)
 ├── Festivals/               # Festival pages (12 total)
 └── Salles/                  # Venue pages (15 total)
 
@@ -54,6 +55,7 @@ Lieux/
 All pages include Dataview queries that auto-generate relationships:
 
 - **Artist pages** → List all concerts where they played
+- **Genre pages** → List all artists and concerts of that genre
 - **Venue pages** → List all concerts at that venue
 - **Festival pages** → List all editions attended
 - **City pages** → List venues and concerts in that city
@@ -64,6 +66,7 @@ All pages include Dataview queries that auto-generate relationships:
 Current vault contains:
 - **56 concerts** (2013-2026)
 - **67 artists/groups**
+- **56 musical genres**
 - **15 venues** across 5 countries
 - **12 festivals**
 - **14 cities** with concert activity

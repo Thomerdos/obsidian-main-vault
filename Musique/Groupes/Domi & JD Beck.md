@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Fusion, Electronic
+- **Genre** : [[Jazz]], [[Fusion]], [[Electronic]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2018
 - **Site web** : 

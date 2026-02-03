@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Funk, Soul, Electronic
+- **Genre** : [[Funk]], [[Soul]], [[Electronic]]
 - **Pays** : [[France]]
 - **Formation** : Solo depuis 2016
 - **Site web** : https://dabeull.bandcamp.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz
+- **Genre** : [[Jazz]]
 - **Pays** : [[France]]
 - **Formation** : Solo depuis 2012
 - **Site web** : 

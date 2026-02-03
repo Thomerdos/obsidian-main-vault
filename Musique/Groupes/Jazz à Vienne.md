@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Festival
+- **Genre** : [[Festival]]
 - **Pays** : [[France]]
 - **Formation** : 1981
 - **Site web** : https://www.jazzavienne.com

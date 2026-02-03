@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Funk, Soul, Jazz
+- **Genre** : [[Funk]], [[Soul]], [[Jazz]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 1993
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Metal, Metalcore
+- **Genre** : [[Progressive Metal]], [[Metalcore]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2000
 - **Site web** : https://betweentheburiedandme.com

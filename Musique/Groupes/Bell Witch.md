@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Funeral Doom Metal
+- **Genre** : [[Funeral Doom Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2010
 - **Site web** : https://bellwitch.bandcamp.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Hard Rock, Heavy Metal
+- **Genre** : [[Hard Rock]], [[Heavy Metal]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1968
 - **Site web** : https://www.deeppurple.com

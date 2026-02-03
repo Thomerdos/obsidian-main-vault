@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Nu Metal, Alternative Metal
+- **Genre** : [[Nu Metal]], [[Alternative Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1995
 - **Site web** : https://www.slipknot1.com

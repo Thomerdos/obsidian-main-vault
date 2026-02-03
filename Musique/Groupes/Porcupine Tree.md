@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock
+- **Genre** : [[Progressive Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1987
 - **Site web** : https://www.porcupinetree.com

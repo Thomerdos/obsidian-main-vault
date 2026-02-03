@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock, Hard Rock
+- **Genre** : [[Progressive Rock]], [[Hard Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1969
 - **Site web** : https://www.wishboneash.com

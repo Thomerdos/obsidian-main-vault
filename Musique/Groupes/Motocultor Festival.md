@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Festival
+- **Genre** : [[Festival]]
 - **Pays** : [[France]]
 - **Formation** : 2007
 - **Site web** : https://www.motocultor-festival.com

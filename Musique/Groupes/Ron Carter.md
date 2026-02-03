@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz
+- **Genre** : [[Jazz]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 1959
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz Fusion, Funk
+- **Genre** : [[Jazz Fusion]], [[Funk]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2004
 - **Site web** : https://snarkypuppy.com

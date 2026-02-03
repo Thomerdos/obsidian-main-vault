@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Autre
+- **Genre** : [[Autre]]
 - **Pays** : [[]]
 - **Formation** : 
 - **Site web** : 

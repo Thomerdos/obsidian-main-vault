@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Heavy Metal, NWOBHM
+- **Genre** : [[Heavy Metal]], [[NWOBHM]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1975
 - **Site web** : https://ironmaiden.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Doom Metal, Sludge
+- **Genre** : [[Doom Metal]], [[Sludge]]
 - **Pays** : [[France]]
 - **Formation** : 2015
 - **Site web** : 

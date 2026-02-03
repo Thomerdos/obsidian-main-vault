@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Latin Jazz
+- **Genre** : [[Jazz]], [[Latin Jazz]]
 - **Pays** : [[Cuba]]
 - **Formation** : Solo depuis 1963
 - **Site web** : 

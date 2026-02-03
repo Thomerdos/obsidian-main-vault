@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Experimental, Drone, Gothic
+- **Genre** : [[Experimental]], [[Drone]], [[Gothic]]
 - **Pays** : [[Suède]]
 - **Formation** : Solo depuis 2010
 - **Site web** : https://annavonhausswolff.com

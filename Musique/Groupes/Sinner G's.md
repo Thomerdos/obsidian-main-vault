@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Hip Hop
+- **Genre** : [[Hip Hop]]
 - **Pays** : [[France]]
 - **Formation** : 2018
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Groove Metal, Thrash Metal
+- **Genre** : [[Groove Metal]], [[Thrash Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1981
 - **Site web** : 

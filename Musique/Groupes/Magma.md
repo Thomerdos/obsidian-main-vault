@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz-Rock, Zeuhl, Progressive
+- **Genre** : [[Jazz-Rock]], [[Zeuhl]], [[Progressive]]
 - **Pays** : [[France]]
 - **Formation** : 1969
 - **Site web** : https://www.magmamusic.com

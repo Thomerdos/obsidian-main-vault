@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Doom Metal, Psychedelic
+- **Genre** : [[Doom Metal]], [[Psychedelic]]
 - **Pays** : [[France]]
 - **Formation** : 2014
 - **Site web** : https://stargazer-band.bandcamp.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock, Progressive Metal
+- **Genre** : [[Progressive Rock]], [[Progressive Metal]]
 - **Pays** : [[Pays-Bas]]
 - **Formation** : 1995
 - **Site web** : https://www.arjenlucassen.com/ayreon

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Metal, Death Metal
+- **Genre** : [[Progressive Metal]], [[Death Metal]]
 - **Pays** : [[Suède]]
 - **Formation** : 1989
 - **Site web** : https://opeth.com

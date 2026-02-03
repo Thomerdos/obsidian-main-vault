@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Funk, Instrumental
+- **Genre** : [[Funk]], [[Instrumental]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2017
 - **Site web** : 

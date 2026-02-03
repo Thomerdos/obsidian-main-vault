@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Pop, Soul
+- **Genre** : [[Jazz]], [[Pop]], [[Soul]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : Solo depuis 2011
 - **Site web** : https://www.jacobcollier.com

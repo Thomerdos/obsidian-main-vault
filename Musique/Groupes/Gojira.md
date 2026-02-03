@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Metal, Death Metal
+- **Genre** : [[Progressive Metal]], [[Death Metal]]
 - **Pays** : [[France]]
 - **Formation** : 1996
 - **Site web** : https://www.gojira-music.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz Fusion, Electronic
+- **Genre** : [[Jazz Fusion]], [[Electronic]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 2010
 - **Site web** : https://louiscole.bandcamp.com

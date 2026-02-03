@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Trip Hop, Alternative
+- **Genre** : [[Trip Hop]], [[Alternative]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : Solo depuis 2002
 - **Site web** : 

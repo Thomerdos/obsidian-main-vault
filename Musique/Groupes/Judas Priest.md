@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Heavy Metal
+- **Genre** : [[Heavy Metal]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1969
 - **Site web** : https://judaspriest.com

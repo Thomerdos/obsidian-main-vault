@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock, Art Rock
+- **Genre** : [[Progressive Rock]], [[Art Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : Solo depuis 2008
 - **Site web** : https://www.stevenwilsonhq.com

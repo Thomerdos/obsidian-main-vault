@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Folk, Indie Rock
+- **Genre** : [[Folk]], [[Indie Rock]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 1990
 - **Site web** : http://www.dragcity.com/artists/bill-callahan

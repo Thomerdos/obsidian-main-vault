@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock
+- **Genre** : [[Progressive Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : Solo depuis 1975
 - **Site web** : https://www.hackettsongs.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Metal
+- **Genre** : [[Progressive Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2017
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Hard Rock, Funk Metal
+- **Genre** : [[Hard Rock]], [[Funk Metal]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1985
 - **Site web** : https://www.extreme-band.com

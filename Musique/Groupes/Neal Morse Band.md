@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock
+- **Genre** : [[Progressive Rock]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 2015
 - **Site web** : https://www.nealmorse.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Afrobeat, Jazz
+- **Genre** : [[Afrobeat]], [[Jazz]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 2014
 - **Site web** : https://www.kokorokomusic.com

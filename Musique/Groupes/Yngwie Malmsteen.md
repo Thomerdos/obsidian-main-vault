@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Neoclassical Metal, Heavy Metal
+- **Genre** : [[Neoclassical Metal]], [[Heavy Metal]]
 - **Pays** : [[Suède]]
 - **Formation** : Solo depuis 1978
 - **Site web** : https://www.yngwiemalmsteen.com

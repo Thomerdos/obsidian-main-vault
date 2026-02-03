@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Drone Metal, Experimental
+- **Genre** : [[Drone Metal]], [[Experimental]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1998
 - **Site web** : https://www.southernlord.com

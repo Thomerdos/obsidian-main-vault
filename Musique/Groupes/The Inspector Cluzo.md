@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Rock, Stoner Rock
+- **Genre** : [[Rock]], [[Stoner Rock]]
 - **Pays** : [[France]]
 - **Formation** : 2008
 - **Site web** : https://www.theinspectorcluzo.com

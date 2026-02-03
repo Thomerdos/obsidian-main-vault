@@ -12,7 +12,8 @@ obsidian-main-vault/
 │   │   ├── template-concert.md
 │   │   ├── template-groupe.md
 │   │   ├── template-salle.md
-│   │   └── template-festival.md
+│   │   ├── template-festival.md
+│   │   └── template-genre.md
 │   ├── Concerts/                # Fiches individuelles de concerts
 │   │   ├── 2013/
 │   │   ├── 2015/
@@ -26,6 +27,7 @@ obsidian-main-vault/
 │   │   ├── 2025/
 │   │   └── 2026/
 │   ├── Groupes/                 # Pages des artistes/groupes
+│   ├── Genres/                  # Pages des genres musicaux (56 total)
 │   ├── Festivals/               # Pages des festivals récurrents
 │   └── Salles/                  # Pages des lieux de concert
 │
@@ -88,11 +90,20 @@ Le fichier principal [`Musique/Concerts.md`](Musique/Concerts.md) contient :
 3. Renseigner la ville et le pays
 4. Les éditions visitées seront listées automatiquement via Dataview
 
+### 🎵 Ajouter un Nouveau Genre
+
+1. Copier le template : `Musique/_templates/template-genre.md`
+2. Créer un fichier dans `Musique/Genres/`
+3. Les artistes du genre seront listés automatiquement via Dataview
+4. Les concerts du genre seront listés automatiquement via Dataview
+5. Ajouter des genres liés et des artistes représentatifs
+
 ## 🔗 Relations Automatiques
 
 Grâce aux queries Dataview intégrées dans les templates, les relations sont automatiquement créées :
 
 - **Depuis un Groupe** → Liste de tous les concerts où ce groupe a joué
+- **Depuis un Genre** → Liste de tous les groupes et concerts de ce genre
 - **Depuis une Salle** → Liste de tous les concerts dans cette salle
 - **Depuis un Festival** → Liste de toutes les éditions visitées
 - **Depuis une Ville** → Liste des salles et concerts dans cette ville
@@ -114,6 +125,7 @@ Dans [`Musique/Concerts.md`](Musique/Concerts.md), vous trouverez :
 Chaque type d'entité a son propre frontmatter YAML pour permettre des requêtes avancées :
 - **Concerts** : date, groupes, salle, festival, ville, pays, rating
 - **Groupes** : genre, pays-origine, formation, site-web
+- **Genres** : tags (genre)
 - **Salles** : ville, pays, capacite, adresse
 - **Festivals** : ville, pays, periode, editions-vues
 - **Villes** : pays, region
@@ -145,6 +157,7 @@ Un script Python (`scripts/migrate-concerts.py`) a été utilisé pour créer au
 - 12 pages de festivals  
 - 14 pages de villes
 - 5 pages de pays
+- 56 pages de genres musicaux
 - 6 templates réutilisables
 
 ## 📝 Notes

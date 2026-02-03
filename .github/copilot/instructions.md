@@ -13,6 +13,7 @@ obsidian-main-vault/
 │   ├── _templates/              # Reusable templates
 │   ├── Concerts/YYYY/           # Individual concert files by year
 │   ├── Groupes/                 # Artist/band pages
+│   ├── Genres/                  # Musical genre pages (56 total)
 │   ├── Festivals/               # Festival pages
 │   └── Salles/                  # Venue pages
 └── Lieux/
@@ -25,7 +26,8 @@ obsidian-main-vault/
 ### 1. Entity Types
 
 - **Concert**: Individual concert event with date, artists, location
-- **Groupe**: Artist/band with concert history
+- **Groupe**: Artist/band with concert history and genres
+- **Genre**: Musical genre with artists and concerts of that style
 - **Salle**: Venue with location and concerts held there
 - **Festival**: Recurring festival with editions attended
 - **Ville**: City with venues and concerts
@@ -49,11 +51,15 @@ tags: [concert]
 
 # Groupe
 type: groupe
-genre: []
+genre: ["Genre1", "Genre2"]
 pays-origine: 
 formation: 
 site-web: 
 tags: [groupe]
+
+# Genre
+type: genre
+tags: [genre]
 
 # Salle
 type: salle
@@ -67,7 +73,8 @@ tags: [salle]
 ### 3. Automatic Relationships
 
 All templates include Dataview queries that create bidirectional links:
-- Group pages show all concerts where they played
+- Group pages show all concerts where they played and link to genres
+- Genre pages list all artists and concerts of that genre
 - Venue pages list all concerts at that venue
 - City pages show all venues and concerts
 - Festival pages track all editions attended
@@ -89,12 +96,13 @@ Automatic location inference via cascading mappings:
 4. Add line to `Musique/Concerts.md` in appropriate year section
 5. Create missing entity pages (groups, venues) if needed
 
-### Adding a New Group/Venue/Festival
+### Adding a New Group/Genre/Venue/Festival
 
 1. Copy appropriate template from `_templates/`
-2. Create file in correct directory (Groupes/, Salles/, Festivals/)
+2. Create file in correct directory (Groupes/, Genres/, Salles/, Festivals/)
 3. Fill frontmatter with required fields
-4. Dataview queries will automatically list related concerts
+4. For groups, use wiki links for genres: `- **Genre** : [[Heavy Metal]], [[Progressive Rock]]`
+5. Dataview queries will automatically list related concerts
 
 ### Updating Main Index
 

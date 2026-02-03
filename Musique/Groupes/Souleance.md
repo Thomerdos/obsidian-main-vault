@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Soul, Funk, Jazz
+- **Genre** : [[Soul]], [[Funk]], [[Jazz]]
 - **Pays** : [[France]]
 - **Formation** : 2006
 - **Site web** : https://souleance.bandcamp.com

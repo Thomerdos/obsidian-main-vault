@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Hip Hop
+- **Genre** : [[Jazz]], [[Hip Hop]]
 - **Pays** : [[France]]
 - **Formation** : Solo depuis 2018
 - **Site web** : 

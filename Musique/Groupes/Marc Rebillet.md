@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Electronic, Funk, Comedy
+- **Genre** : [[Electronic]], [[Funk]], [[Comedy]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 2016
 - **Site web** : https://www.marcrebillet.com

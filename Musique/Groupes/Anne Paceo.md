@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Electronic
+- **Genre** : [[Jazz]], [[Electronic]]
 - **Pays** : [[France]]
 - **Formation** : Solo depuis 2011
 - **Site web** : https://www.annepaceo.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz, Spiritual Jazz
+- **Genre** : [[Jazz]], [[Spiritual Jazz]]
 - **Pays** : [[États-Unis]]
 - **Formation** : Solo depuis 2015
 - **Site web** : https://www.kamasispace.com

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Jazz
+- **Genre** : [[Jazz]]
 - **Pays** : [[Israël]]
 - **Formation** : Solo depuis 1998
 - **Site web** : https://www.avishaicohenmusic.com

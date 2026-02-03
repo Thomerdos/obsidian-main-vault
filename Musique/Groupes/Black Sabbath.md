@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Heavy Metal, Doom Metal
+- **Genre** : [[Heavy Metal]], [[Doom Metal]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 1968
 - **Site web** : 

@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Industrial Metal, Neue Deutsche Härte
+- **Genre** : [[Industrial Metal]], [[Neue Deutsche Härte]]
 - **Pays** : [[Allemagne]]
 - **Formation** : 1994
 - **Site web** : https://www.rammstein.de

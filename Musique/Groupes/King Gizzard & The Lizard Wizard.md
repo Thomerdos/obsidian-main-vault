@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Psychedelic Rock, Garage Rock
+- **Genre** : [[Psychedelic Rock]], [[Garage Rock]]
 - **Pays** : [[Australie]]
 - **Formation** : 2010
 - **Site web** : https://kinggizzardandthelizardwizard.com

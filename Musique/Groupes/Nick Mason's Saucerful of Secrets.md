@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Progressive Rock, Psychedelic Rock
+- **Genre** : [[Progressive Rock]], [[Psychedelic Rock]]
 - **Pays** : [[Royaume-Uni]]
 - **Formation** : 2018
 - **Site web** : https://www.saucerfulofsecrets.com

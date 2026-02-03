@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Electronic, Krautrock
+- **Genre** : [[Electronic]], [[Krautrock]]
 - **Pays** : [[Allemagne]]
 - **Formation** : 1970
 - **Site web** : https://www.kraftwerk.com

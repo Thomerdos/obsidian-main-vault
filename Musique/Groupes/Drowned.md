@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Doom Metal, Sludge Metal
+- **Genre** : [[Doom Metal]], [[Sludge Metal]]
 - **Pays** : [[France]]
 - **Formation** : 2012
 - **Site web** : https://drowned.bandcamp.com

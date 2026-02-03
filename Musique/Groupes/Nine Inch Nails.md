@@ -12,7 +12,7 @@ tags:
 
 ## 📊 Informations
 
-- **Genre** : Industrial Rock, Alternative Rock
+- **Genre** : [[Industrial Rock]], [[Alternative Rock]]
 - **Pays** : [[États-Unis]]
 - **Formation** : 1988
 - **Site web** : https://www.nin.com
