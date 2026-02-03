@@ -1,0 +1,255 @@
+name: Add Concert from Issue
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  add-concert:
+    # Only run if issue has the "new-concert" label
+    if: contains(github.event.issue.labels.*.name, 'new-concert')
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Parse issue and create concert file
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import os
+          import re
+          from pathlib import Path
+          from datetime import datetime
+          
+          issue_body = os.environ.get('ISSUE_BODY', '')
+          issue_title = os.environ.get('ISSUE_TITLE', '')
+          
+          print(f"Processing issue: {issue_title}")
+          print(f"Issue body:\n{issue_body}\n")
+          
+          # Parse issue body for concert details
+          # Expected format:
+          # Date: YYYY-MM-DD
+          # Artists: Artist1, Artist2
+          # Venue: Venue Name
+          # Festival: Festival Name (optional)
+          # City: City Name
+          # Country: Country Name
+          
+          date_match = re.search(r'Date:\s*(\d{4}-\d{2}-\d{2})', issue_body, re.IGNORECASE)
+          artists_match = re.search(r'Artists?:\s*(.+)', issue_body, re.IGNORECASE)
+          venue_match = re.search(r'Venue:\s*(.+)', issue_body, re.IGNORECASE)
+          festival_match = re.search(r'Festival:\s*(.+)', issue_body, re.IGNORECASE)
+          city_match = re.search(r'City:\s*(.+)', issue_body, re.IGNORECASE)
+          country_match = re.search(r'Country:\s*(.+)', issue_body, re.IGNORECASE)
+          
+          if not date_match:
+              print("❌ Error: Date not found in issue body")
+              with open('concert_error.txt', 'w') as f:
+                  f.write("Missing required field: Date (format: YYYY-MM-DD)")
+              exit(1)
+          
+          date = date_match.group(1).strip()
+          year = date.split('-')[0]
+          
+          # Parse artists
+          artists = []
+          if artists_match:
+              artists_str = artists_match.group(1).strip()
+              artists = [a.strip() for a in artists_str.split(',')]
+          
+          venue = venue_match.group(1).strip() if venue_match else ""
+          festival = festival_match.group(1).strip() if festival_match else ""
+          city = city_match.group(1).strip() if city_match else ""
+          country = country_match.group(1).strip() if country_match else ""
+          
+          if not city or not country:
+              print("❌ Error: City and Country are required")
+              with open('concert_error.txt', 'w') as f:
+                  f.write("Missing required fields: City and/or Country")
+              exit(1)
+          
+          # Generate concert title
+          if festival:
+              concert_title = festival
+          elif len(artists) > 0:
+              concert_title = ", ".join(artists[:3])
+              if len(artists) > 3:
+                  concert_title += f" (+{len(artists)-3} more)"
+          else:
+              concert_title = "Concert"
+          
+          # Create filename
+          filename = f"{date} - {concert_title}.md"
+          # Clean filename
+          filename = filename.replace('/', '-').replace(':', '').replace('?', '')
+          
+          # Create directory if needed
+          concert_dir = Path(f"Musique/Concerts/{year}")
+          concert_dir.mkdir(parents=True, exist_ok=True)
+          
+          file_path = concert_dir / filename
+          
+          # Check if file already exists
+          if file_path.exists():
+              print(f"⚠️  Warning: File already exists: {file_path}")
+              with open('concert_error.txt', 'w') as f:
+                  f.write(f"Concert file already exists: {filename}")
+              exit(1)
+          
+          # Format artists for YAML
+          artists_yaml = '", "'.join(artists)
+          if artists_yaml:
+              artists_yaml = f'"{artists_yaml}"'
+          
+          artists_display = ", ".join([f"[[{a}]]" for a in artists])
+          
+          # Determine location display
+          if festival:
+              lieu_display = f"[[{festival}]]"
+              if city:
+                  lieu_display += f" - [[{city}]]"
+              type_event = "Festival"
+          elif venue:
+              lieu_display = f"[[{venue}]]"
+              if city:
+                  lieu_display += f" - [[{city}]]"
+              type_event = "Concert"
+          else:
+              lieu_display = f"[[{city}]]" if city else ""
+              type_event = "Concert"
+          
+          # Create concert file content
+          content = f"""---
+type: concert
+date: {date}
+groupes: [{artists_yaml}]
+salle: {venue}
+festival: {festival}
+ville: {city}
+pays: {country}
+rating:
+tags:
+  - concert
+---
+
+# 🎸 Concert
+
+## 📅 Informations
+
+- **Date** : {date}
+- **Groupes** : {artists_display}
+- **Lieu** : {lieu_display}
+- **Type** : {type_event}
+
+## 🎵 Setlist
+
+- 
+
+## 💭 Notes & Impressions
+
+
+
+## 📷 Photos & Souvenirs
+
+
+
+## 🔗 Liens
+
+- [[Concerts|Retour à l'index des concerts]]
+"""
+          
+          # Write file
+          with open(file_path, 'w', encoding='utf-8') as f:
+              f.write(content)
+          
+          print(f"✅ Created concert file: {file_path}")
+          
+          # Save details for next step
+          with open('concert_details.txt', 'w') as f:
+              f.write(f"FILE:{file_path}\n")
+              f.write(f"DATE:{date}\n")
+              f.write(f"TITLE:{concert_title}\n")
+              f.write(f"ARTISTS:{','.join(artists)}\n")
+              f.write(f"VENUE:{venue}\n")
+              f.write(f"FESTIVAL:{festival}\n")
+              f.write(f"CITY:{city}\n")
+              f.write(f"COUNTRY:{country}\n")
+          
+          PYTHON_SCRIPT
+      
+      - name: Create Pull Request
+        if: success()
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Add concert from issue #${{ github.event.issue.number }}"
+          branch: "concert/issue-${{ github.event.issue.number }}"
+          title: "Add concert: ${{ github.event.issue.title }}"
+          body: |
+            This PR was automatically created from issue #${{ github.event.issue.number }}.
+            
+            **Concert details:**
+            - Created concert file based on issue data
+            - File location: `Musique/Concerts/YYYY/YYYY-MM-DD - Event.md`
+            
+            Please review and merge if correct.
+            
+            Closes #${{ github.event.issue.number }}
+          labels: automated-pr, concert
+      
+      - name: Comment on issue (success)
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let details = '';
+            try {
+              details = fs.readFileSync('concert_details.txt', 'utf8');
+            } catch (e) {
+              console.log('Could not read concert details');
+            }
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '✅ Concert file created successfully! A pull request has been opened for review.\n\n' + details
+            })
+      
+      - name: Comment on issue (failure)
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let error = 'Unknown error occurred';
+            try {
+              error = fs.readFileSync('concert_error.txt', 'utf8');
+            } catch (e) {
+              console.log('Could not read error details');
+            }
+            
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '❌ Failed to create concert file:\n\n' + error + '\n\nPlease check the issue format and try again.'
+            })

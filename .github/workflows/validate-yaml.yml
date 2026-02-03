@@ -1,0 +1,210 @@
+name: Validate Concert YAML
+
+on:
+  pull_request:
+    paths:
+      - 'Musique/Concerts/**/*.md'
+      - 'Musique/Groupes/**/*.md'
+      - 'Musique/Salles/**/*.md'
+      - 'Musique/Festivals/**/*.md'
+      - 'Lieux/**/*.md'
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pyyaml
+      
+      - name: Validate YAML frontmatter
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import os
+          import yaml
+          import sys
+          from pathlib import Path
+          
+          errors = []
+          warnings = []
+          
+          def validate_frontmatter(file_path):
+              """Validate YAML frontmatter in markdown file"""
+              with open(file_path, 'r', encoding='utf-8') as f:
+                  content = f.read()
+              
+              if not content.startswith('---'):
+                  errors.append(f"{file_path}: Missing frontmatter")
+                  return
+              
+              # Extract frontmatter
+              parts = content.split('---', 2)
+              if len(parts) < 3:
+                  errors.append(f"{file_path}: Invalid frontmatter format")
+                  return
+              
+              frontmatter = parts[1]
+              
+              # Try to parse YAML
+              try:
+                  data = yaml.safe_load(frontmatter)
+              except yaml.YAMLError as e:
+                  errors.append(f"{file_path}: YAML syntax error - {e}")
+                  return
+              
+              if not data:
+                  errors.append(f"{file_path}: Empty frontmatter")
+                  return
+              
+              # Validate required fields based on type
+              file_type = data.get('type')
+              
+              if file_type == 'concert':
+                  required = ['date', 'groupes', 'ville', 'pays', 'tags']
+                  for field in required:
+                      if field not in data:
+                          errors.append(f"{file_path}: Missing required field '{field}'")
+                      elif field in ['ville', 'pays'] and not data[field]:
+                          errors.append(f"{file_path}: Empty required field '{field}'")
+                  
+                  # Check date format
+                  if 'date' in data:
+                      date_str = str(data['date'])
+                      if len(date_str) != 10 or date_str.count('-') != 2:
+                          warnings.append(f"{file_path}: Date should be YYYY-MM-DD format")
+              
+              elif file_type == 'groupe':
+                  if 'tags' not in data or 'groupe' not in data.get('tags', []):
+                      warnings.append(f"{file_path}: Should have 'groupe' tag")
+              
+              elif file_type == 'salle':
+                  required = ['ville', 'pays']
+                  for field in required:
+                      if field not in data or not data[field]:
+                          errors.append(f"{file_path}: Missing or empty field '{field}'")
+              
+              elif file_type == 'festival':
+                  required = ['ville', 'pays']
+                  for field in required:
+                      if field not in data or not data[field]:
+                          errors.append(f"{file_path}: Missing or empty field '{field}'")
+              
+              elif file_type == 'ville':
+                  if 'pays' not in data or not data['pays']:
+                      errors.append(f"{file_path}: Missing or empty field 'pays'")
+              
+              elif file_type == 'pays':
+                  if 'continent' not in data:
+                      warnings.append(f"{file_path}: Missing field 'continent'")
+          
+          # Find all markdown files in relevant directories
+          base_dir = Path('.')
+          
+          dirs_to_check = [
+              'Musique/Concerts',
+              'Musique/Groupes',
+              'Musique/Salles',
+              'Musique/Festivals',
+              'Lieux/Villes',
+              'Lieux/Pays'
+          ]
+          
+          for dir_path in dirs_to_check:
+              full_path = base_dir / dir_path
+              if full_path.exists():
+                  for md_file in full_path.rglob('*.md'):
+                      if md_file.name.startswith('_'):
+                          continue  # Skip template files
+                      validate_frontmatter(md_file)
+          
+          # Print results
+          print(f"\n{'='*70}")
+          print("YAML Validation Results")
+          print(f"{'='*70}\n")
+          
+          if errors:
+              print(f"❌ Found {len(errors)} error(s):\n")
+              for error in errors:
+                  print(f"  • {error}")
+              print()
+          
+          if warnings:
+              print(f"⚠️  Found {len(warnings)} warning(s):\n")
+              for warning in warnings:
+                  print(f"  • {warning}")
+              print()
+          
+          if not errors and not warnings:
+              print("✅ All YAML frontmatter is valid!")
+          
+          print(f"\n{'='*70}")
+          
+          # Exit with error if there are errors
+          if errors:
+              sys.exit(1)
+          
+          PYTHON_SCRIPT
+      
+      - name: Check wiki links
+        run: |
+          python3 << 'PYTHON_SCRIPT'
+          import re
+          from pathlib import Path
+          
+          def extract_wiki_links(content):
+              """Extract all [[wiki links]] from content"""
+              return re.findall(r'\[\[([^\]]+)\]\]', content)
+          
+          def get_all_pages():
+              """Get all markdown page names (without .md extension)"""
+              pages = set()
+              for md_file in Path('.').rglob('*.md'):
+                  if not md_file.name.startswith('_'):
+                      pages.add(md_file.stem)
+              return pages
+          
+          broken_links = []
+          all_pages = get_all_pages()
+          
+          # Check links in changed files
+          dirs_to_check = ['Musique/Concerts', 'Musique/Groupes', 'Musique/Salles', 
+                           'Musique/Festivals', 'Lieux/Villes', 'Lieux/Pays']
+          
+          for dir_path in dirs_to_check:
+              full_path = Path(dir_path)
+              if full_path.exists():
+                  for md_file in full_path.rglob('*.md'):
+                      if md_file.name.startswith('_'):
+                          continue
+                      
+                      with open(md_file, 'r', encoding='utf-8') as f:
+                          content = f.read()
+                      
+                      links = extract_wiki_links(content)
+                      for link in links:
+                          # Remove path prefix if present (e.g., "Musique/Concerts/...")
+                          link_name = link.split('/')[-1].split('|')[0]
+                          
+                          if link_name not in all_pages and link_name not in ['Concerts']:
+                              broken_links.append(f"{md_file}: [[{link}]]")
+          
+          if broken_links:
+              print(f"\n⚠️  Found {len(broken_links)} potentially broken wiki link(s):\n")
+              for link in broken_links[:10]:  # Show first 10
+                  print(f"  • {link}")
+              if len(broken_links) > 10:
+                  print(f"  ... and {len(broken_links) - 10} more")
+              print("\nNote: Some links may be intentionally external or refer to index pages.")
+          else:
+              print("\n✅ All wiki links appear valid!")
+          
+          PYTHON_SCRIPT
