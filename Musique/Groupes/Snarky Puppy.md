@@ -1,0 +1,41 @@
+---
+type: groupe
+genre: ["Jazz Fusion", "Funk"]
+pays-origine: États-Unis
+formation: 2004
+site-web: https://snarkypuppy.com
+tags:
+  - groupe
+---
+
+# 🎤 Snarky Puppy
+
+## 📊 Informations
+
+- **Genre** : Jazz Fusion, Funk
+- **Pays** : [[États-Unis]]
+- **Formation** : 2004
+- **Site web** : https://snarkypuppy.com
+
+## 🎸 Albums favoris
+
+- 
+
+## 🎪 Concerts vus
+
+```dataview
+TABLE date as "Date", salle as "Salle", ville as "Ville"
+FROM "Musique/Concerts"
+WHERE contains(groupes, this.file.name)
+SORT date DESC
+```
+
+## 💭 Notes
+
+
+
+## 🔗 Liens
+
+- [Spotify]()
+- [Bandcamp]()
+- [Site officiel]()
