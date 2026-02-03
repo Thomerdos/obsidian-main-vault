@@ -15,7 +15,7 @@ Ce guide explique comment utiliser les templates Templater avancés pour automat
 
 1. Aller dans **Settings** → **Templater**
 2. Configurer les paramètres suivants :
-   - **Template folder location** : `Musique/_templates` (ou ajouter `Lieux/_templates`)
+   - **Template folder location** : `Templates`
    - **Trigger Templater on new file creation** : ✅ Activé
    - **Enable System Commands** : ✅ Activé
    - **Script files folder location** : (optionnel)
