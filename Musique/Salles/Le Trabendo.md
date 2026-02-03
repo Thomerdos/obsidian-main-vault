@@ -1,11 +1,12 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+tags:
+- salle
 type: salle
 ville: Paris
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Le Trabendo

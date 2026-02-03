@@ -1,8 +1,13 @@
 ---
-type: pays
+concerts: []
 continent: Europe
+festivals: []
+groupes-origine: []
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 Royaume-Uni
@@ -29,5 +34,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

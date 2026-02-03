@@ -91,7 +91,7 @@ class StatsGenerator:
             
             # Count connections
             total_connections = 0
-            for key, value in fm.items():
+            for key, value in fm.metadata.items():
                 if isinstance(value, list) and value:
                     total_connections += len(value)
                     self.stats['relation_counts'][f'{entity_type}_{key}'] += len(value)

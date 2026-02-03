@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2013-07-10
-groupes: ["Chucho Valdés"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Chucho Valdés
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

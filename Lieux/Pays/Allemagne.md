@@ -1,8 +1,15 @@
 ---
-type: pays
+concerts: []
 continent: Europe
+festivals: []
+groupes-origine: []
+pays-concerts: 2025-07-17 - Chaos Descends Festival
+pays-villes: Crispendorf
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 Allemagne
@@ -29,5 +36,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

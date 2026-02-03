@@ -1,14 +1,14 @@
 ---
-type: concert
 date: 2025-08-14
-groupes: []
-salle: 
 festival: Motocultor Festival
-ville: Carhaix
+groupes: []
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Carhaix
 ---
 
 # 🎸 Concert

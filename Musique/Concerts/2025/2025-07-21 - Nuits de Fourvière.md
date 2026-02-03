@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2025-07-21
-groupes: ["Kraftwerk"]
-salle: 
 festival: Nuits de Fourvière
-ville: Lyon
+groupes:
+- Kraftwerk
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Lyon
 ---
 
 # 🎸 Concert

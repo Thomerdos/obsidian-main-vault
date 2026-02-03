@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2023-06-29
-groupes: ["Jacob Collier", "Domi & JD Beck"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Jacob Collier
+- Domi & JD Beck
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

@@ -1,8 +1,13 @@
 ---
-type: pays
+concerts: []
 continent: Asoe
+festivals: []
+groupes-origine: []
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 Israël
@@ -29,5 +34,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

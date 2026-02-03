@@ -1,14 +1,17 @@
 ---
-type: concert
 date: 2025-11-23
-groupes: ["Drowned", "Stargazer", "Liquid Flesh"]
-salle: Brin de Zinc
-festival: 
-ville: Lyon
+festival: ''
+groupes:
+- Drowned
+- Stargazer
+- Liquid Flesh
 pays: France
-rating:
+rating: null
+salle: Brin de Zinc
 tags:
-  - concert
+- concert
+type: concert
+ville: Lyon
 ---
 
 # 🎸 Concert

@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2013-07-01
-groupes: ["Chic featuring Nile Rodgers"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Chic featuring Nile Rodgers
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

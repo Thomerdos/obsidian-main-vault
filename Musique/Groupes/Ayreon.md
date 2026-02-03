@@ -1,11 +1,22 @@
 ---
-type: groupe
-genre: ["Progressive Rock", "Progressive Metal"]
-pays-origine: Pays-Bas
+concerts: []
 formation: 1995
+genre:
+- Progressive Rock
+- Progressive Metal
+genres: []
+groupe-concerts:
+- 2017-09-15 - Ayreon
+- 2019-09-15 - Ayreon
+- 2025-09-13 - Ayreon
+- 2015-09-18 - Ayreon
+- 2023-09-16 - Ayreon
+origine: ''
+pays-origine: Pays-Bas
 site-web: https://www.arjenlucassen.com/ayreon
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Ayreon

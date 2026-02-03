@@ -1,11 +1,17 @@
 ---
-type: groupe
-genre: ["Progressive Rock"]
-pays-origine: États-Unis
+concerts: []
 formation: 2015
+genre:
+- Progressive Rock
+genres: []
+groupe-concerts:
+- 2017-09-01 - 2Days Prog + 1
+origine: ''
+pays-origine: États-Unis
 site-web: https://www.nealmorse.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Neal Morse Band

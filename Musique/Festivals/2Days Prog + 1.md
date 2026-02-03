@@ -1,11 +1,13 @@
 ---
+editions: []
+editions-vues: []
+festival-editions: 2017-09-01 - 2Days Prog + 1
+pays: Italie
+periode: null
+tags:
+- festival
 type: festival
 ville: Veruno
-pays: Italie
-periode: 
-editions-vues: []
-tags:
-  - festival
 ---
 
 # 🎪 2Days Prog + 1

@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Electronic", "Krautrock"]
-pays-origine: Allemagne
+concerts: []
 formation: 1970
+genre:
+- Electronic
+- Krautrock
+genres: []
+groupe-concerts:
+- 2025-07-21 - Nuits de Fourvière
+origine: ''
+pays-origine: Allemagne
 site-web: https://www.kraftwerk.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Kraftwerk

@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Funk", "Instrumental"]
-pays-origine: États-Unis
+concerts: []
 formation: 2017
-site-web: 
+genre:
+- Funk
+- Instrumental
+genres: []
+groupe-concerts:
+- 2026-07-11 - Jazz à Vienne
+origine: ''
+pays-origine: États-Unis
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 The Fearless Flyers

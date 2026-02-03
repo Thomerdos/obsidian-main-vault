@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2025-07-19 - Iron Maiden
+tags:
+- salle
 type: salle
 ville: Paris
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Paris La Défense Arena

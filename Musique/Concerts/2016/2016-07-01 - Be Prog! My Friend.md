@@ -1,14 +1,18 @@
 ---
-type: concert
 date: 2016-07-01
-groupes: ["Steven Wilson", "Opeth", "Magma", "Between the Buried and Me"]
-salle: 
 festival: Be Prog! My Friend
-ville: Barcelone
+groupes:
+- Steven Wilson
+- Opeth
+- Magma
+- Between the Buried and Me
 pays: Espagne
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Barcelone
 ---
 
 # 🎸 Concert

@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2022-11-02
-groupes: ["Porcupine Tree"]
-salle: Zénith de Paris
-festival: 
-ville: Paris
+festival: ''
+groupes:
+- Porcupine Tree
 pays: France
-rating:
+rating: null
+salle: Zénith de Paris
 tags:
-  - concert
+- concert
+type: concert
+ville: Paris
 ---
 
 # 🎸 Concert

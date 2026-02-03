@@ -1,11 +1,19 @@
 ---
-type: groupe
-genre: ["Soul", "Funk", "Jazz"]
-pays-origine: France
+concerts: []
 formation: 2006
+genre:
+- Soul
+- Funk
+- Jazz
+genres: []
+groupe-concerts:
+- 2026-07-11 - Jazz à Vienne
+origine: ''
+pays-origine: France
 site-web: https://souleance.bandcamp.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Souleance

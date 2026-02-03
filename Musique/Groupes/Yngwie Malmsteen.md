@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Neoclassical Metal", "Heavy Metal"]
-pays-origine: Suède
+concerts: []
 formation: Solo depuis 1978
+genre:
+- Neoclassical Metal
+- Heavy Metal
+genres: []
+groupe-concerts:
+- 2024-06-21 - Rock Imperium Festival
+origine: ''
+pays-origine: Suède
 site-web: https://www.yngwiemalmsteen.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Yngwie Malmsteen

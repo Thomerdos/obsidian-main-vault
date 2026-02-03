@@ -1,8 +1,15 @@
 ---
-type: pays
+concerts: []
 continent: Europe
+festivals: []
+groupes-origine: []
+pays-concerts: 2023-09-16 - Ayreon
+pays-villes: Tilburg
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 Pays-Bas
@@ -29,5 +36,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2019-07-04
-groupes: ["Snarky Puppy", "Kokoroko"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Snarky Puppy
+- Kokoroko
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

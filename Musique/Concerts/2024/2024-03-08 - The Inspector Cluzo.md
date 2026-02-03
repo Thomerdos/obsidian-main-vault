@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2024-03-08
-groupes: ["The Inspector Cluzo"]
-salle: La Belle Électrique
-festival: 
-ville: Grenoble
+festival: ''
+groupes:
+- The Inspector Cluzo
 pays: France
-rating:
+rating: null
+salle: La Belle Électrique
 tags:
-  - concert
+- concert
+type: concert
+ville: Grenoble
 ---
 
 # 🎸 Concert

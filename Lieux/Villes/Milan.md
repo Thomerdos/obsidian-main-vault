@@ -1,9 +1,13 @@
 ---
-type: ville
+concerts: []
+festivals: []
 pays: Italie
-region: 
+region: null
+salles: []
 tags:
-  - ville
+- ville
+type: ville
+ville-concerts: 2024-07-18 - Nick Mason's Saucerful of Secrets
 ---
 
 # 🏙️ Milan
@@ -31,5 +35,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

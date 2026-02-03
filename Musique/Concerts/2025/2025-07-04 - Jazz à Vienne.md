@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2025-07-04
-groupes: ["Kamasi Washington", "Meshell Ndegeocello"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Kamasi Washington
+- Meshell Ndegeocello
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

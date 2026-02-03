@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Progressive Metal", "Metalcore"]
-pays-origine: États-Unis
+concerts: []
 formation: 2000
+genre:
+- Progressive Metal
+- Metalcore
+genres: []
+groupe-concerts:
+- 2016-07-01 - Be Prog! My Friend
+origine: ''
+pays-origine: États-Unis
 site-web: https://betweentheburiedandme.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Between the Buried and Me

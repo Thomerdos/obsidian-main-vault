@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2026-02-07
-groupes: ["Sinner G's", "Teodoro Lopes"]
-salle: Michel Musique
-festival: 
-ville: Grenoble
+festival: ''
+groupes:
+- Sinner G's
+- Teodoro Lopes
 pays: France
-rating:
+rating: null
+salle: Michel Musique
 tags:
-  - concert
+- concert
+type: concert
+ville: Grenoble
 ---
 
 # 🎸 Concert

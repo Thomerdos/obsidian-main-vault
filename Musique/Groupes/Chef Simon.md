@@ -1,11 +1,15 @@
 ---
-type: groupe
-genre: ["Autre"]
+concerts: []
+formation: null
+genre:
+- Autre
+genres: []
+origine: ''
 pays-origine: France
-formation: 
-site-web: 
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Chef Simon

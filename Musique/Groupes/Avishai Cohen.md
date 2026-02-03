@@ -1,11 +1,17 @@
 ---
-type: groupe
-genre: ["Jazz"]
-pays-origine: Israël
+concerts: []
 formation: Solo depuis 1998
+genre:
+- Jazz
+genres: []
+groupe-concerts:
+- 2018-07-05 - Jazz à Vienne
+origine: ''
+pays-origine: Israël
 site-web: https://www.avishaicohenmusic.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Avishai Cohen

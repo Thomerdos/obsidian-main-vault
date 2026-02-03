@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2025-06-02 - Blue Öyster Cult
+tags:
+- salle
 type: salle
 ville: Paris
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ L'Olympia

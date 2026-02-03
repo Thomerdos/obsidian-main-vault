@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2025-06-30
-groupes: ["Dabeull", "Galliano"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Dabeull
+- Galliano
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

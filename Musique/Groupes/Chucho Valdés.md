@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Jazz", "Latin Jazz"]
-pays-origine: Cuba
+concerts: []
 formation: Solo depuis 1963
-site-web: 
+genre:
+- Jazz
+- Latin Jazz
+genres: []
+groupe-concerts:
+- 2013-07-10 - Jazz à Vienne
+origine: ''
+pays-origine: Cuba
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Chucho Valdés

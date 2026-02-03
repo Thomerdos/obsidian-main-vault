@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: Pays-Bas
+salle-concerts: 2023-09-16 - Ayreon
+tags:
+- salle
 type: salle
 ville: Tilburg
-pays: Pays-Bas
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Poppodium 013
