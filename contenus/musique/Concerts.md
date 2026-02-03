@@ -1,3 +1,10 @@
+---
+type: index
+tags:
+  - index
+  - hub
+---
+
 # 🎸 Mes Concerts
 
 > Base de données de tous les concerts et festivals auxquels j'ai assisté, organisés avec des liens vers les groupes, salles et villes.
