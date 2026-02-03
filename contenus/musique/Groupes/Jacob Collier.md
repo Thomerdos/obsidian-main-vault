@@ -1,19 +1,15 @@
 ---
-concerts: []
 formation: Solo depuis 2011
 genre:
-- Jazz
-- Pop
-- Soul
-genres: []
-groupe-concerts:
-- 2023-06-29 - Jazz à Vienne
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Jazz]]'
+- '[[Pop]]'
+- '[[Soul]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://www.jacobcollier.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Jacob Collier

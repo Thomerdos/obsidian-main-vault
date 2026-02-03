@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2026-02-07 - Sinner G's, Teodoro Lopes
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Grenoble
+ville: '[[Grenoble]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ Michel Musique

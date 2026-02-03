@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2023-06-15 - Hellfest
 ville-festivals: Hellfest
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Clisson

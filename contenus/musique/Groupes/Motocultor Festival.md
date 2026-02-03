@@ -1,15 +1,13 @@
 ---
-concerts: []
 formation: 2007
 genre:
-- Festival
-genres: []
-origine: ''
-pays-origine: France
+- '[[Festival]]'
+pays-origine: '[[France]]'
 site-web: https://www.motocultor-festival.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Motocultor Festival

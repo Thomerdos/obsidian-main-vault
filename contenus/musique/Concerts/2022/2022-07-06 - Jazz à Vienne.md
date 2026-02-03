@@ -1,16 +1,16 @@
 ---
 date: 2022-07-06
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Marc Rebillet
-- Louis Cole
-pays: France
+- '[[Marc Rebillet]]'
+- '[[Louis Cole]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

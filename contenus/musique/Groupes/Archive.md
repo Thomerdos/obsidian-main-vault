@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1994
 genre:
-- Trip Hop
-- Progressive Rock
-genres: []
-groupe-concerts:
-- 2019-11-19 - Archive
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Trip Hop]]'
+- '[[Progressive Rock]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://www.archiveofficial.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Archive

@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: Espagne
+pays: '[[Espagne]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2016-07-01 - Be Prog! My Friend
 ville-festivals: Be Prog! My Friend
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Barcelone

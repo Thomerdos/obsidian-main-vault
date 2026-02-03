@@ -2,14 +2,14 @@
 date: 2019-01-27
 festival: ''
 groupes:
-- Judas Priest
-pays: France
+- '[[Judas Priest]]'
+pays: '[[France]]'
 rating: null
-salle: Zénith de Paris
+salle: '[[Zénith de Paris]]'
 tags:
 - concert
 type: concert
-ville: Paris
+ville: '[[Paris]]'
 ---
 
 # 🎸 Concert

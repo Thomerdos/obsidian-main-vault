@@ -1,20 +1,15 @@
 ---
-concerts: []
 formation: 2011
 genre:
-- Funk
-- Soul
-- Jazz
-genres: []
-groupe-concerts:
-- 2024-07-16 - Jazz à Vienne
-- 2026-07-11 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Funk]]'
+- '[[Soul]]'
+- '[[Jazz]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://vulfpeck.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Vulfpeck

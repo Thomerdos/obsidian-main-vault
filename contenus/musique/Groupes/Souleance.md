@@ -1,19 +1,15 @@
 ---
-concerts: []
 formation: 2006
 genre:
-- Soul
-- Funk
-- Jazz
-genres: []
-groupe-concerts:
-- 2026-07-11 - Jazz à Vienne
-origine: ''
-pays-origine: France
+- '[[Soul]]'
+- '[[Funk]]'
+- '[[Jazz]]'
+pays-origine: '[[France]]'
 site-web: https://souleance.bandcamp.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Souleance

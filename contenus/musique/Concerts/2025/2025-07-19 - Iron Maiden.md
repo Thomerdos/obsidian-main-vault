@@ -2,14 +2,14 @@
 date: 2025-07-19
 festival: ''
 groupes:
-- Iron Maiden
-pays: France
+- '[[Iron Maiden]]'
+pays: '[[France]]'
 rating: null
-salle: Paris La Défense Arena
+salle: '[[Paris La Défense Arena]]'
 tags:
 - concert
 type: concert
-ville: Paris
+ville: '[[Paris]]'
 ---
 
 # 🎸 Concert

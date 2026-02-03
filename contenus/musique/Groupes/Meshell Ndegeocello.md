@@ -1,19 +1,15 @@
 ---
-concerts: []
 formation: Solo depuis 1993
 genre:
-- Funk
-- Soul
-- Jazz
-genres: []
-groupe-concerts:
-- 2025-07-04 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Funk]]'
+- '[[Soul]]'
+- '[[Jazz]]'
+pays-origine: '[[États-Unis]]'
 site-web: null
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Meshell Ndegeocello

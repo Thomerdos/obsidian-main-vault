@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2025-10-30 - Nuits sonores
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Lyon
+ville: '[[Lyon]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ Le Sucre

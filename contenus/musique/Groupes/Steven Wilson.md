@@ -1,19 +1,14 @@
 ---
-concerts: []
 formation: Solo depuis 2008
 genre:
-- Progressive Rock
-- Art Rock
-genres: []
-groupe-concerts:
-- 2025-05-28 - Steven Wilson
-- 2016-07-01 - Be Prog! My Friend
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Progressive Rock]]'
+- '[[Art Rock]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://www.stevenwilsonhq.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Steven Wilson

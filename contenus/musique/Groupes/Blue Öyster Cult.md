@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1967
 genre:
-- Hard Rock
-- Heavy Metal
-genres: []
-groupe-concerts:
-- 2025-06-02 - Blue Öyster Cult
-origine: ''
-pays-origine: États-Unis
+- '[[Hard Rock]]'
+- '[[Heavy Metal]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://blueoystercult.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Blue Öyster Cult

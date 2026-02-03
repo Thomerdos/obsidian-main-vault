@@ -2,14 +2,14 @@
 date: 2024-01-31
 festival: ''
 groupes:
-- The Notwist
-pays: France
+- '[[The Notwist]]'
+pays: '[[France]]'
 rating: null
-salle: L'Épicerie Moderne
+salle: '[[L''Épicerie Moderne]]'
 tags:
 - concert
 type: concert
-ville: Lyon
+ville: '[[Lyon]]'
 ---
 
 # 🎸 Concert

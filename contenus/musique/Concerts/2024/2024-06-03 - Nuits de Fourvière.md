@@ -1,15 +1,15 @@
 ---
 date: 2024-06-03
-festival: Nuits de Fourvière
+festival: '[[Nuits de Fourvière]]'
 groupes:
-- King Gizzard & The Lizard Wizard
-pays: France
+- '[[King Gizzard & The Lizard Wizard]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Lyon
+ville: '[[Lyon]]'
 ---
 
 # 🎸 Concert

@@ -1,7 +1,6 @@
 ---
 children: []
-groupes: []
-parent: ''
+parent: '[[Genres]]'
 related: []
 tags:
 - genre

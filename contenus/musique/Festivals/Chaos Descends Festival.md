@@ -1,13 +1,14 @@
 ---
-editions: []
-editions-vues: []
-festival-editions: 2025-07-17 - Chaos Descends Festival
-pays: Allemagne
-periode: null
+pays: '[[Allemagne]]'
+periode: Juillet
 tags:
 - festival
 type: festival
-ville: Crispendorf
+ville: '[[Crispendorf]]'
+parent: '[[Festivals]]'
+editions-vues:
+- 2024
+- 2025
 ---
 
 # 🎪 Chaos Descends Festival

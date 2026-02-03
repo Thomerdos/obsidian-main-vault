@@ -1,14 +1,15 @@
 ---
 type: concert
 date: 2025-10-30
-groupes: ["Sunn O)))"]
-salle: Le Sucre
-festival: Nuits sonores
-ville: Lyon
-pays: France
-rating:
+groupes:
+- '[[Sunn O)))]]'
+salle: '[[Le Sucre]]'
+festival: '[[Nuits sonores]]'
+ville: '[[Lyon]]'
+pays: '[[France]]'
+rating: null
 tags:
-  - concert
+- concert
 ---
 
 # 🎸 Concert

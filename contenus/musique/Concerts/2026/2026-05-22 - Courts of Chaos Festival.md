@@ -1,14 +1,14 @@
 ---
 date: 2026-05-22
-festival: Courts of Chaos Festival
+festival: '[[Courts of Chaos Festival]]'
 groupes: []
-pays: France
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Plozévet
+ville: '[[Plozévet]]'
 ---
 
 # 🎸 Concert

@@ -2,13 +2,13 @@
 type: concert
 date: 2025-04-17
 groupes: []
-salle: Poppodium 013
-festival: Roadburn Festival
-ville: Tilburg
-pays: Pays-Bas
-rating:
+salle: '[[Poppodium 013]]'
+festival: '[[Roadburn Festival]]'
+ville: '[[Tilburg]]'
+pays: '[[Pays-Bas]]'
+rating: null
 tags:
-  - concert
+- concert
 ---
 
 # 🎸 Concert

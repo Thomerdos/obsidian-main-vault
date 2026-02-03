@@ -1,22 +1,15 @@
 ---
-concerts: []
 formation: 1969
 genre:
-- Jazz-Rock
-- Zeuhl
-- Progressive
-genres: []
-groupe-concerts:
-- 2026-07-11 - Jazz à Vienne
-- 2018-07-11 - Jazz à Vienne
-- 2016-07-01 - Be Prog! My Friend
-- 2023-07-23 - Guitare en Scène
-origine: ''
-pays-origine: France
+- '[[Jazz-Rock]]'
+- '[[Zeuhl]]'
+- '[[Progressive]]'
+pays-origine: '[[France]]'
 site-web: https://www.magmamusic.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Magma

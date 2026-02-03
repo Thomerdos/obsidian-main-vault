@@ -1,14 +1,10 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2023-03-02 - King Gizzard & The Lizard Wizard
-ville-salles: Paris La Défense Arena
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Paris

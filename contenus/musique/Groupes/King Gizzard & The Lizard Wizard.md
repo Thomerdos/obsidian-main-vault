@@ -1,19 +1,14 @@
 ---
-concerts: []
 formation: 2010
 genre:
-- Psychedelic Rock
-- Garage Rock
-genres: []
-groupe-concerts:
-- 2024-06-03 - Nuits de Fourvière
-- 2023-03-02 - King Gizzard & The Lizard Wizard
-origine: ''
-pays-origine: Australie
+- '[[Psychedelic Rock]]'
+- '[[Garage Rock]]'
+pays-origine: '[[Australie]]'
 site-web: https://kinggizzardandthelizardwizard.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 King Gizzard & The Lizard Wizard

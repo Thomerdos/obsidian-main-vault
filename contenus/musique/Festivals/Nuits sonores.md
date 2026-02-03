@@ -1,13 +1,12 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2025-10-30 - Nuits sonores
-pays: France
+pays: '[[France]]'
 periode: null
 tags:
 - festival
 type: festival
-ville: Lyon
+ville: '[[Lyon]]'
+parent: '[[Festivals]]'
 ---
 
 # 🎪 Nuits sonores

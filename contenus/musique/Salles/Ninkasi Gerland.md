@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2023-05-10 - Wishbone Ash
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Lyon
+ville: '[[Lyon]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ Ninkasi Gerland

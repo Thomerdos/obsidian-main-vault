@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2024-01-31 - The Notwist
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Lyon
+ville: '[[Lyon]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ L'Épicerie Moderne

@@ -1,13 +1,12 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2026-05-22 - Courts of Chaos Festival
-pays: France
+pays: '[[France]]'
 periode: null
 tags:
 - festival
 type: festival
-ville: Plozévet
+ville: '[[Plozévet]]'
+parent: '[[Festivals]]'
 ---
 
 # 🎪 Courts of Chaos Festival

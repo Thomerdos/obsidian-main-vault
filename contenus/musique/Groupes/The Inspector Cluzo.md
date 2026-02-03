@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 2008
 genre:
-- Rock
-- Stoner Rock
-genres: []
-groupe-concerts:
-- 2024-03-08 - The Inspector Cluzo
-origine: ''
-pays-origine: France
+- '[[Rock]]'
+- '[[Stoner Rock]]'
+pays-origine: '[[France]]'
 site-web: https://www.theinspectorcluzo.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 The Inspector Cluzo

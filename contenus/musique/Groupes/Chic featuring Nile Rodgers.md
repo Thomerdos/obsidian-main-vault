@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 1976
 genre:
-- Disco
-- Funk
-genres: []
-groupe-concerts:
-- 2013-07-01 - Jazz à Vienne
-origine: ''
-pays-origine: États-Unis
+- '[[Disco]]'
+- '[[Funk]]'
+pays-origine: '[[États-Unis]]'
 site-web: https://www.chic.org
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Chic featuring Nile Rodgers

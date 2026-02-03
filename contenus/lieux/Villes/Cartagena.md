@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: Espagne
+pays: '[[Espagne]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2024-06-21 - Rock Imperium Festival
 ville-festivals: Rock Imperium Festival
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Cartagena

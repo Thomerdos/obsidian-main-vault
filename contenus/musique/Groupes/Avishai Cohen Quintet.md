@@ -1,17 +1,13 @@
 ---
-concerts: []
 formation: 1998
 genre:
-- Jazz
-genres: []
-groupe-concerts:
-- 2025-06-26 - Jazz à Vienne
-origine: ''
-pays-origine: Israël
+- '[[Jazz]]'
+pays-origine: '[[Israël]]'
 site-web: https://www.avishaicohenmusic.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Avishai Cohen Quintet

@@ -1,15 +1,9 @@
 ---
-concerts: []
 continent: Europe
-festivals: []
-groupes-origine: []
-pays-concerts: 2016-07-01 - Be Prog! My Friend
-pays-villes: Cartagena
-salles: []
 tags:
 - pays
 type: pays
-villes: []
+parent: '[[Pays]]'
 ---
 
 # 🌍 Espagne

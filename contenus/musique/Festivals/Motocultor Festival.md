@@ -1,13 +1,12 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2025-08-14 - Motocultor Festival
-pays: France
+pays: '[[France]]'
 periode: null
 tags:
 - festival
 type: festival
-ville: Carhaix
+ville: '[[Carhaix]]'
+parent: '[[Festivals]]'
 ---
 
 # 🎪 Motocultor Festival

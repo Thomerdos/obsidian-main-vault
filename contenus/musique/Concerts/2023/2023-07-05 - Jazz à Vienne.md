@@ -1,15 +1,15 @@
 ---
 date: 2023-07-05
-festival: Jazz à Vienne
+festival: '[[Jazz à Vienne]]'
 groupes:
-- Snarky Puppy
-pays: France
+- '[[Snarky Puppy]]'
+pays: '[[France]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Vienne
+ville: '[[Vienne]]'
 ---
 
 # 🎸 Concert

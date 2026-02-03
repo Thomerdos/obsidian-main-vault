@@ -1,13 +1,12 @@
 ---
-editions: []
 editions-vues: []
-festival-editions: 2016-07-01 - Be Prog! My Friend
-pays: Espagne
+pays: '[[Espagne]]'
 periode: null
 tags:
 - festival
 type: festival
-ville: Barcelone
+ville: '[[Barcelone]]'
+parent: '[[Festivals]]'
 ---
 
 # 🎪 Be Prog! My Friend

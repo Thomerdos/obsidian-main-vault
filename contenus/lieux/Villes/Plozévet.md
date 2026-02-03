@@ -1,14 +1,11 @@
 ---
-concerts: []
-festivals: []
-pays: France
+pays: '[[France]]'
 region: null
-salles: []
 tags:
 - ville
 type: ville
-ville-concerts: 2026-05-22 - Courts of Chaos Festival
 ville-festivals: Courts of Chaos Festival
+parent: '[[Villes]]'
 ---
 
 # 🏙️ Plozévet

@@ -1,18 +1,14 @@
 ---
-concerts: []
 formation: 2014
 genre:
-- Afrobeat
-- Jazz
-genres: []
-groupe-concerts:
-- 2019-07-04 - Jazz à Vienne
-origine: ''
-pays-origine: Royaume-Uni
+- '[[Afrobeat]]'
+- '[[Jazz]]'
+pays-origine: '[[Royaume-Uni]]'
 site-web: https://www.kokorokomusic.com
 tags:
 - groupe
 type: groupe
+parent: '[[Groupes]]'
 ---
 
 # 🎤 Kokoroko

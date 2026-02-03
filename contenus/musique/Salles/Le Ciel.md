@@ -1,13 +1,12 @@
 ---
 adresse: null
 capacite: null
-concerts: []
-pays: France
-salle-concerts: 2024-04-28 - Bell Witch
+pays: '[[France]]'
 tags:
 - salle
 type: salle
-ville: Grenoble
+ville: '[[Grenoble]]'
+parent: '[[Salles]]'
 ---
 
 # 🏛️ Le Ciel

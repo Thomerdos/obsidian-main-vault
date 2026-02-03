@@ -2,14 +2,14 @@
 date: 2024-07-18
 festival: ''
 groupes:
-- Nick Mason's Saucerful of Secrets
-pays: Italie
+- '[[Nick Mason''s Saucerful of Secrets]]'
+pays: '[[Italie]]'
 rating: null
 salle: ''
 tags:
 - concert
 type: concert
-ville: Milan
+ville: '[[Milan]]'
 ---
 
 # 🎸 Concert
