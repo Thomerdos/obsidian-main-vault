@@ -2,7 +2,60 @@
 
 ## ✅ Task Completion Status: 100%
 
-This document provides a complete overview of the implemented relational database system for the Obsidian concert vault.
+This document provides a complete overview of the implemented relational database system for the Obsidian vault, including the major restructuring completed in February 2026.
+
+---
+
+## 🔄 Recent Major Update: Vault Restructuring (Feb 2026)
+
+**Goal:** Restructure the entire vault to be Obsidian-compatible and scalable, moving from hidden `.bases/` to visible `bases/` with organized subdirectories.
+
+**Status:** ✅ **FULLY IMPLEMENTED**
+
+### Key Changes
+
+1. **Directory Restructuring**
+   - `.bases/` → `bases/` (now visible in Obsidian)
+   - Organized schemas by domain: `bases/musique/`, `bases/lieux/`, `bases/recettes/`
+   - Content moved to `contenus/` with domain organization
+   - Templates organized in `templates/` with subdirectories
+   - Tools categorized in `tools/` (ready for core, migration, validation subdirs)
+
+2. **New Recipe Domain Added**
+   - Created 3 new schemas: `recette.base`, `ingredient.base`, `categorie-recette.base`
+   - Added recipe templates in `templates/recettes/`
+   - Migrated 60+ recipe files to `contenus/recettes/`
+
+3. **Python Script Updates**
+   - All 6 Python scripts updated to support recursive schema loading
+   - Backward compatible with old `.bases/` directory
+   - Automatic detection of `.base` files in subdirectories
+   - Updated paths throughout for new structure
+
+4. **Configuration**
+   - Added `.obsidian/app.json` for Obsidian settings
+   - Configured to use `contenus/` as default location for new files
+
+### New Directory Structure
+
+```
+obsidian-main-vault/
+├── bases/                    # Schemas (VISIBLE in Obsidian)
+│   ├── musique/             # 5 music schemas
+│   ├── lieux/               # 2 location schemas
+│   └── recettes/            # 3 recipe schemas (NEW)
+├── contenus/                # All content organized by domain
+│   ├── musique/             # 200+ music files
+│   ├── lieux/               # 23 location files
+│   └── recettes/            # 60+ recipe files
+├── templates/               # Templater templates by domain
+│   ├── musique/             # 7 music templates
+│   ├── lieux/               # 2 location templates
+│   └── recettes/            # 3 recipe templates (NEW)
+├── tools/                   # 6 Python automation scripts
+├── docs/                    # 3 documentation files
+└── .obsidian/              # Obsidian configuration
+```
 
 ---
 
@@ -16,10 +69,11 @@ This document provides a complete overview of the implemented relational databas
 
 ## 📦 Deliverables
 
-### 1. Schema System (`.bases/`) ✅
+### 1. Schema System (`bases/`) ✅
 
-Created 7 schema definition files:
+Created 10 schema definition files organized by domain:
 
+**Music Domain (`bases/musique/`):**
 | Schema File | Entity Type | Purpose |
 |-------------|-------------|---------|
 | `concert.base` | 🎸 Concert | Individual concert events |
@@ -27,8 +81,19 @@ Created 7 schema definition files:
 | `genre.base` | 🎵 Genre | Musical genres with hierarchy |
 | `salle.base` | 🏛️ Salle | Concert venues |
 | `festival.base` | 🎪 Festival | Music festivals |
+
+**Location Domain (`bases/lieux/`):**
+| Schema File | Entity Type | Purpose |
+|-------------|-------------|---------|
 | `ville.base` | 🏙️ Ville | Cities |
 | `pays.base` | 🌍 Pays | Countries |
+
+**Recipe Domain (`bases/recettes/`):** ✨ NEW
+| Schema File | Entity Type | Purpose |
+|-------------|-------------|---------|
+| `recette.base` | 🍽️ Recette | Recipe files |
+| `ingredient.base` | 🥕 Ingredient | Recipe ingredients |
+| `categorie-recette.base` | 📚 Categorie-Recette | Recipe categories |
 
 **Features:**
 - Required/optional field definitions
@@ -36,6 +101,7 @@ Created 7 schema definition files:
 - Auto-relation rules (similarity, co-occurrence)
 - Graph View color scheme
 - YAML format for easy editing
+- Recursive loading from subdirectories
 
 ### 2. Python Tools (`tools/`) ✅
 

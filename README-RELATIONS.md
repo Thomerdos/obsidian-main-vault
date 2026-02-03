@@ -1,45 +1,60 @@
-# 🔗 Obsidian Concert Vault - Relational Database System
+# 🔗 Obsidian Main Vault - Relational Database System
 
-Complete relational database system for managing concert data with automatic bidirectional relationships visible in Graph View.
+Complete relational database system for managing multi-domain data (music, locations, recipes) with automatic bidirectional relationships visible in Graph View.
 
-## �� Overview
+## 🎯 Overview
 
 This system transforms your Obsidian vault into a fully relational database where:
 
-✅ **All entities are interconnected** (concerts, artists, genres, venues, festivals, cities, countries)
+✅ **All entities are interconnected** (concerts, artists, genres, venues, festivals, cities, countries, recipes, ingredients)
 ✅ **Bidirectional relationships** are automatically maintained
 ✅ **Graph View** visualizes all connections
 ✅ **Auto-detection** finds similar artists, co-occurring genres, and tour companions
 ✅ **Schema validation** ensures data integrity
 ✅ **Migration safe** with automatic backups
+✅ **Multi-domain support** for music, locations, and recipes
 
 ## 🚀 Quick Start
 
 ### 1. Understand the System
 
-The vault uses **7 entity types**, each with a schema file:
+The vault uses **10 entity types**, each with a schema file:
 
+**Music Domain:**
 - 🎸 **Concert** - Individual concert events
 - 🎤 **Groupe** - Musical artists/bands
 - 🎵 **Genre** - Musical genres (with hierarchies)
 - 🏛️ **Salle** - Concert venues
 - 🎪 **Festival** - Music festivals
+
+**Location Domain:**
 - 🏙️ **Ville** - Cities
 - 🌍 **Pays** - Countries
 
+**Recipe Domain:**
+- 🍽️ **Recette** - Recipe files
+- 🥕 **Ingredient** - Recipe ingredients
+- 📚 **Categorie-Recette** - Recipe categories
+
 ### 2. Initial Setup
 
-The system is pre-configured with schema files in `.bases/`:
+The system is organized with schema files in `bases/`:
 
 ```bash
-.bases/
-├── concert.base
-├── groupe.base
-├── genre.base
-├── salle.base
-├── festival.base
-├── ville.base
-└── pays.base
+bases/
+├── musique/
+│   ├── concert.base
+│   ├── groupe.base
+│   ├── genre.base
+│   ├── salle.base
+│   └── festival.base
+├── lieux/
+│   ├── ville.base
+│   └── pays.base
+└── recettes/
+    ├── recette.base
+    ├── ingredient.base
+    └── categorie-recette.base
 ```
 
 ### 3. Migrate Existing Data
