@@ -4,7 +4,7 @@ date: 2026-01-31
 groupes:
 - '[[Anna von Hausswolff]]'
 salle: '[[Le Trabendo]]'
-festival: null
+festival: ''
 ville: '[[Paris]]'
 pays: '[[France]]'
 rating: null
