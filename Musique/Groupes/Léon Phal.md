@@ -1,11 +1,19 @@
 ---
-type: groupe
-genre: ["Jazz", "Hip Hop"]
-pays-origine: France
+concerts: []
 formation: Solo depuis 2018
-site-web: 
+genre:
+- Jazz
+- Hip Hop
+genres: []
+groupe-concerts:
+- 2024-07-16 - Jazz à Vienne
+- 2026-07-11 - Jazz à Vienne
+origine: ''
+pays-origine: France
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Léon Phal

@@ -1,14 +1,17 @@
 ---
-type: concert
 date: 2024-06-21
-groupes: ["Judas Priest", "Extreme", "Yngwie Malmsteen"]
-salle: 
 festival: Rock Imperium Festival
-ville: Cartagena
+groupes:
+- Judas Priest
+- Extreme
+- Yngwie Malmsteen
 pays: Espagne
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Cartagena
 ---
 
 # 🎸 Concert

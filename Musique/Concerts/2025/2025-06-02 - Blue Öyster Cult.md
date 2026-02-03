@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2025-06-02
-groupes: ["Blue Öyster Cult"]
-salle: L'Olympia
-festival: 
-ville: Paris
+festival: ''
+groupes:
+- Blue Öyster Cult
 pays: France
-rating:
+rating: null
+salle: L'Olympia
 tags:
-  - concert
+- concert
+type: concert
+ville: Paris
 ---
 
 # 🎸 Concert

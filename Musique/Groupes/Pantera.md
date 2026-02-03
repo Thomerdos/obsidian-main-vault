@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Groove Metal", "Thrash Metal"]
-pays-origine: États-Unis
+concerts: []
 formation: 1981
-site-web: 
+genre:
+- Groove Metal
+- Thrash Metal
+genres: []
+groupe-concerts:
+- 2023-06-15 - Hellfest
+origine: ''
+pays-origine: États-Unis
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Pantera

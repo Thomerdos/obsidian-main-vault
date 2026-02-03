@@ -1,14 +1,14 @@
 ---
-type: concert
 date: 2024-05-17
-groupes: []
-salle: 
 festival: Courts of Chaos Festival
-ville: Plozévet
+groupes: []
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Plozévet
 ---
 
 # 🎸 Concert

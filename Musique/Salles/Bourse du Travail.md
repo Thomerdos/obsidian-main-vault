@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2025-05-28 - Steven Wilson
+tags:
+- salle
 type: salle
 ville: Lyon
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Bourse du Travail

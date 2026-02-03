@@ -1,14 +1,17 @@
 ---
-type: concert
 date: 2023-07-23
-groupes: ["Porcupine Tree", "Magma", "Wishbone Ash"]
-salle: 
 festival: Guitare en Scène
-ville: St-Julien-en-Genevois
+groupes:
+- Porcupine Tree
+- Magma
+- Wishbone Ash
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: St-Julien-en-Genevois
 ---
 
 # 🎸 Concert

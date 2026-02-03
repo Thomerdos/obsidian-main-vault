@@ -1,8 +1,15 @@
 ---
-type: pays
+concerts: []
 continent: Europe
+festivals: []
+groupes-origine: []
+pays-concerts: 2017-09-01 - 2Days Prog + 1
+pays-villes: Veruno
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 Italie
@@ -29,5 +36,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

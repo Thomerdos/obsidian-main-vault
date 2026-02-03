@@ -26,3 +26,7 @@ __pycache__/
 *.old
 .concert_details.txt
 .concert_error.txt
+
+# Backup and log directories
+.backups/
+logs/

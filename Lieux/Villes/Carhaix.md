@@ -1,9 +1,14 @@
 ---
-type: ville
+concerts: []
+festivals: []
 pays: France
-region: 
+region: null
+salles: []
 tags:
-  - ville
+- ville
+type: ville
+ville-concerts: 2025-08-14 - Motocultor Festival
+ville-festivals: Motocultor Festival
 ---
 
 # 🏙️ Carhaix
@@ -31,5 +36,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

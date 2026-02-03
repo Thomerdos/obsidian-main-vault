@@ -1,7 +1,11 @@
 ---
-type: genre
+children: []
+groupes: []
+parent: ''
+related: []
 tags:
-  - genre
+- genre
+type: genre
 ---
 
 # 🎵 Thrash Metal
@@ -43,5 +47,3 @@ LIMIT 50
 - 
 
 ## 📝 Notes
-
-

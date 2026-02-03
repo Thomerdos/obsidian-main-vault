@@ -1,11 +1,15 @@
 ---
-type: groupe
-genre: ["Autre"]
-pays-origine: 
-formation: 
-site-web: 
+concerts: []
+formation: null
+genre:
+- Autre
+genres: []
+origine: ''
+pays-origine: null
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Namiko Hirasawa Chen

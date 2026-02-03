@@ -1,11 +1,15 @@
 ---
-type: groupe
-genre: ["Progressive Rock"]
-pays-origine: France
+concerts: []
 formation: 1969
+genre:
+- Progressive Rock
+genres: []
+origine: ''
+pays-origine: France
 site-web: http://www.ange-officiel.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Ange

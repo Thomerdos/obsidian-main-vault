@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2023-03-02 - King Gizzard & The Lizard Wizard
+tags:
+- salle
 type: salle
 ville: Paris
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Zénith de Paris

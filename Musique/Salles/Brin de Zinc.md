@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2025-11-23 - Drowned, Stargazer, Liquid Flesh
+tags:
+- salle
 type: salle
 ville: Lyon
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Brin de Zinc

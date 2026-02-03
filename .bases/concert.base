@@ -1,0 +1,57 @@
+type: concert
+icon: 🎸
+
+required:
+  - date: date
+  - ville: link
+  - pays: link
+
+optional:
+  - groupes: list[link]
+  - salle: link
+  - festival: link
+  - rating: number
+
+relations:
+  concert-groupes:
+    target: Musique/Groupes/
+    type: list
+    bidirectional: true
+    inverse: groupe-concerts
+    
+  concert-salle:
+    target: Musique/Salles/
+    type: single
+    bidirectional: true
+    inverse: salle-concerts
+    
+  concert-festival:
+    target: Musique/Festivals/
+    type: single
+    bidirectional: true
+    inverse: festival-editions
+    
+  concert-ville:
+    target: Lieux/Villes/
+    type: single
+    bidirectional: true
+    inverse: ville-concerts
+    
+  concert-pays:
+    target: Lieux/Pays/
+    type: single
+    bidirectional: true
+    inverse: pays-concerts
+
+auto_relations:
+  concert-same-night:
+    description: "Groupes ayant joué le même soir"
+    query: "groupes qui partagent la même date"
+    
+  concert-same-venue:
+    description: "Concerts dans la même salle"
+    query: "concerts avec salle identique"
+
+graph:
+  color: "#FF6B6B"
+  icon: "🎸"

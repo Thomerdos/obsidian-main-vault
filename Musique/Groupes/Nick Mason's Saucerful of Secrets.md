@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Progressive Rock", "Psychedelic Rock"]
-pays-origine: Royaume-Uni
+concerts: []
 formation: 2018
+genre:
+- Progressive Rock
+- Psychedelic Rock
+genres: []
+groupe-concerts:
+- 2024-07-18 - Nick Mason's Saucerful of Secrets
+origine: ''
+pays-origine: Royaume-Uni
 site-web: https://www.saucerfulofsecrets.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Nick Mason's Saucerful of Secrets

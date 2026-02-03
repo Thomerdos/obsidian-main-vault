@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Indie Rock", "Electronic"]
-pays-origine: Allemagne
+concerts: []
 formation: 1989
+genre:
+- Indie Rock
+- Electronic
+genres: []
+groupe-concerts:
+- 2024-01-31 - The Notwist
+origine: ''
+pays-origine: Allemagne
 site-web: https://www.thenotwist.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 The Notwist

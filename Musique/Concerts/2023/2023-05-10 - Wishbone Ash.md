@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2023-05-10
-groupes: ["Wishbone Ash"]
-salle: Ninkasi Gerland
-festival: 
-ville: Lyon
+festival: ''
+groupes:
+- Wishbone Ash
 pays: France
-rating:
+rating: null
+salle: Ninkasi Gerland
 tags:
-  - concert
+- concert
+type: concert
+ville: Lyon
 ---
 
 # 🎸 Concert

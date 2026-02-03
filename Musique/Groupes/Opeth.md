@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Progressive Metal", "Death Metal"]
-pays-origine: Suède
+concerts: []
 formation: 1989
+genre:
+- Progressive Metal
+- Death Metal
+genres: []
+groupe-concerts:
+- 2016-07-01 - Be Prog! My Friend
+origine: ''
+pays-origine: Suède
 site-web: https://opeth.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Opeth

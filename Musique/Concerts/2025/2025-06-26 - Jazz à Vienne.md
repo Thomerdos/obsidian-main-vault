@@ -1,14 +1,16 @@
 ---
-type: concert
 date: 2025-06-26
-groupes: ["Avishai Cohen Quintet", "Anne Paceo"]
-salle: 
 festival: Jazz à Vienne
-ville: Vienne
+groupes:
+- Avishai Cohen Quintet
+- Anne Paceo
 pays: France
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Vienne
 ---
 
 # 🎸 Concert

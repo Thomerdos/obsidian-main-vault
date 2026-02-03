@@ -1,11 +1,13 @@
 ---
+editions: []
+editions-vues: []
+festival-editions: 2023-06-15 - Hellfest
+pays: France
+periode: null
+tags:
+- festival
 type: festival
 ville: Clisson
-pays: France
-periode: 
-editions-vues: []
-tags:
-  - festival
 ---
 
 # 🎪 Hellfest

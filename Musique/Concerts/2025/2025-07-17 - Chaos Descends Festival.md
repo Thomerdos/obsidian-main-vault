@@ -1,14 +1,14 @@
 ---
-type: concert
 date: 2025-07-17
-groupes: []
-salle: 
 festival: Chaos Descends Festival
-ville: Crispendorf
+groupes: []
 pays: Allemagne
-rating:
+rating: null
+salle: ''
 tags:
-  - concert
+- concert
+type: concert
+ville: Crispendorf
 ---
 
 # 🎸 Concert

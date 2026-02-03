@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Heavy Metal"]
-pays-origine: Royaume-Uni
+concerts: []
 formation: 1969
+genre:
+- Heavy Metal
+genres: []
+groupe-concerts:
+- 2024-06-21 - Rock Imperium Festival
+- 2019-01-27 - Judas Priest
+origine: ''
+pays-origine: Royaume-Uni
 site-web: https://judaspriest.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Judas Priest

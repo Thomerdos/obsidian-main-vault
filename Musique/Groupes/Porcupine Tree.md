@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Progressive Rock"]
-pays-origine: Royaume-Uni
+concerts: []
 formation: 1987
+genre:
+- Progressive Rock
+genres: []
+groupe-concerts:
+- 2022-11-02 - Porcupine Tree
+- 2023-07-23 - Guitare en Scène
+origine: ''
+pays-origine: Royaume-Uni
 site-web: https://www.porcupinetree.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Porcupine Tree

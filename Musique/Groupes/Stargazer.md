@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Doom Metal", "Psychedelic"]
-pays-origine: France
+concerts: []
 formation: 2014
+genre:
+- Doom Metal
+- Psychedelic
+genres: []
+groupe-concerts:
+- 2025-11-23 - Drowned, Stargazer, Liquid Flesh
+origine: ''
+pays-origine: France
 site-web: https://stargazer-band.bandcamp.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Stargazer

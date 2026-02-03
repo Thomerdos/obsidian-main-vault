@@ -1,9 +1,15 @@
 ---
-type: ville
+concerts: []
+festivals: []
 pays: Pays-Bas
-region: 
+region: null
+salles: []
 tags:
-  - ville
+- ville
+type: ville
+ville-concerts: 2023-09-16 - Ayreon
+ville-festivals: Roadburn Festival
+ville-salles: Poppodium 013
 ---
 
 # 🏙️ Tilburg
@@ -31,5 +37,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

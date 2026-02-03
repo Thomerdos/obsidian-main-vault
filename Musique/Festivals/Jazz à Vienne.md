@@ -1,11 +1,13 @@
 ---
+editions: []
+editions-vues: []
+festival-editions: 2023-06-29 - Jazz à Vienne
+pays: France
+periode: null
+tags:
+- festival
 type: festival
 ville: Vienne
-pays: France
-periode: 
-editions-vues: []
-tags:
-  - festival
 ---
 
 # 🎪 Jazz à Vienne

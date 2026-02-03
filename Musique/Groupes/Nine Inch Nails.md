@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Industrial Rock", "Alternative Rock"]
-pays-origine: États-Unis
+concerts: []
 formation: 1988
+genre:
+- Industrial Rock
+- Alternative Rock
+genres: []
+groupe-concerts:
+- 2022-06-17 - Hellfest
+origine: ''
+pays-origine: États-Unis
 site-web: https://www.nin.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Nine Inch Nails

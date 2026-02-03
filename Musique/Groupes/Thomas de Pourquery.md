@@ -1,11 +1,17 @@
 ---
-type: groupe
-genre: ["Jazz"]
-pays-origine: France
+concerts: []
 formation: Solo depuis 2012
-site-web: 
+genre:
+- Jazz
+genres: []
+groupe-concerts:
+- 2018-07-11 - Jazz à Vienne
+origine: ''
+pays-origine: France
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Thomas de Pourquery

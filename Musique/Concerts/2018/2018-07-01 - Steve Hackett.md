@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2018-07-01
-groupes: ["Steve Hackett"]
-salle: Radiant-Bellevue
-festival: 
-ville: Grenoble
+festival: ''
+groupes:
+- Steve Hackett
 pays: France
-rating:
+rating: null
+salle: Radiant-Bellevue
 tags:
-  - concert
+- concert
+type: concert
+ville: Grenoble
 ---
 
 # 🎸 Concert

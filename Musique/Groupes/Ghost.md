@@ -1,11 +1,24 @@
 ---
-type: groupe
-genre: ["Heavy Metal", "Rock"]
-pays-origine: Suède
+concerts: []
 formation: 2006
+genre:
+- Heavy Metal
+- Rock
+genres: []
+groupe-concerts:
+- 2017-04-06 - Ghost
+- 2022-06-17 - Hellfest
+- 2019-02-03 - Ghost
+- 2025-04-26 - Ghost
+- 2016-06-17 - Hellfest
+- 2015-12-11 - Ghost
+- 2023-05-26 - Ghost
+origine: ''
+pays-origine: Suède
 site-web: https://ghost-official.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Ghost

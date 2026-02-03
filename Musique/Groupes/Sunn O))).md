@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Drone Metal", "Experimental"]
-pays-origine: États-Unis
+concerts: []
 formation: 1998
+genre:
+- Drone Metal
+- Experimental
+genres: []
+groupe-concerts:
+- 2025-10-30 - Nuits sonores
+origine: ''
+pays-origine: États-Unis
 site-web: https://www.southernlord.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Sunn O)))

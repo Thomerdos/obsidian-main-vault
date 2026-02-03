@@ -1,8 +1,13 @@
 ---
-type: pays
+concerts: []
 continent: Amérique du Nord
+festivals: []
+groupes-origine: []
+salles: []
 tags:
-  - pays
+- pays
+type: pays
+villes: []
 ---
 
 # 🌍 États-Unis
@@ -29,5 +34,3 @@ SORT date DESC
 ```
 
 ## 📝 Notes
-
-

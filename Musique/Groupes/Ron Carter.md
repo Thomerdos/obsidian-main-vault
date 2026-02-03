@@ -1,11 +1,17 @@
 ---
-type: groupe
-genre: ["Jazz"]
-pays-origine: États-Unis
+concerts: []
 formation: Solo depuis 1959
-site-web: 
+genre:
+- Jazz
+genres: []
+groupe-concerts:
+- 2018-07-05 - Jazz à Vienne
+origine: ''
+pays-origine: États-Unis
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Ron Carter

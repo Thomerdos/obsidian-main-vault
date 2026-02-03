@@ -1,14 +1,15 @@
 ---
-type: concert
 date: 2024-04-28
-groupes: ["Bell Witch"]
-salle: Le Ciel
-festival: 
-ville: Grenoble
+festival: ''
+groupes:
+- Bell Witch
 pays: France
-rating:
+rating: null
+salle: Le Ciel
 tags:
-  - concert
+- concert
+type: concert
+ville: Grenoble
 ---
 
 # 🎸 Concert

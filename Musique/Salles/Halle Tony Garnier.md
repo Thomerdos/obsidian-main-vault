@@ -1,11 +1,13 @@
 ---
+adresse: null
+capacite: null
+concerts: []
+pays: France
+salle-concerts: 2023-05-26 - Ghost
+tags:
+- salle
 type: salle
 ville: Lyon
-pays: France
-capacite: 
-adresse: 
-tags:
-  - salle
 ---
 
 # 🏛️ Halle Tony Garnier

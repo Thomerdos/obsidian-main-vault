@@ -1,11 +1,19 @@
 ---
-type: groupe
-genre: ["Jazz", "Fusion", "Electronic"]
-pays-origine: États-Unis
+concerts: []
 formation: 2018
-site-web: 
+genre:
+- Jazz
+- Fusion
+- Electronic
+genres: []
+groupe-concerts:
+- 2023-06-29 - Jazz à Vienne
+origine: ''
+pays-origine: États-Unis
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Domi & JD Beck

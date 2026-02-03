@@ -1,11 +1,13 @@
 ---
+editions: []
+editions-vues: []
+festival-editions: 2023-07-23 - Guitare en Scène
+pays: France
+periode: null
+tags:
+- festival
 type: festival
 ville: St-Julien-en-Genevois
-pays: France
-periode: 
-editions-vues: []
-tags:
-  - festival
 ---
 
 # 🎪 Guitare en Scène

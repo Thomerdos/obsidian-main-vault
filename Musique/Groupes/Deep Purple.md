@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Hard Rock", "Heavy Metal"]
-pays-origine: Royaume-Uni
+concerts: []
 formation: 1968
+genre:
+- Hard Rock
+- Heavy Metal
+genres: []
+groupe-concerts:
+- 2022-06-17 - Hellfest
+origine: ''
+pays-origine: Royaume-Uni
 site-web: https://www.deeppurple.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Deep Purple

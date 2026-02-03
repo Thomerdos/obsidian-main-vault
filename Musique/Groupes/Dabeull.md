@@ -1,11 +1,19 @@
 ---
-type: groupe
-genre: ["Funk", "Soul", "Electronic"]
-pays-origine: France
+concerts: []
 formation: Solo depuis 2016
+genre:
+- Funk
+- Soul
+- Electronic
+genres: []
+groupe-concerts:
+- 2025-06-30 - Jazz à Vienne
+origine: ''
+pays-origine: France
 site-web: https://dabeull.bandcamp.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Dabeull

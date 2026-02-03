@@ -1,11 +1,18 @@
 ---
-type: groupe
-genre: ["Doom Metal", "Sludge"]
-pays-origine: France
+concerts: []
 formation: 2015
-site-web: 
+genre:
+- Doom Metal
+- Sludge
+genres: []
+groupe-concerts:
+- 2025-11-23 - Drowned, Stargazer, Liquid Flesh
+origine: ''
+pays-origine: France
+site-web: null
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Liquid Flesh

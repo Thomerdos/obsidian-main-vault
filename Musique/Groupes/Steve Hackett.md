@@ -1,11 +1,17 @@
 ---
-type: groupe
-genre: ["Progressive Rock"]
-pays-origine: Royaume-Uni
+concerts: []
 formation: Solo depuis 1975
+genre:
+- Progressive Rock
+genres: []
+groupe-concerts:
+- 2018-07-01 - Steve Hackett
+origine: ''
+pays-origine: Royaume-Uni
 site-web: https://www.hackettsongs.com
 tags:
-  - groupe
+- groupe
+type: groupe
 ---
 
 # 🎤 Steve Hackett
