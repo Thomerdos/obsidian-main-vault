@@ -1,0 +1,812 @@
+{
+  "total_notes": 311,
+  "validated": {
+    "validated_ville": 14,
+    "validated_pays": 9,
+    "validated_genre": 56,
+    "validated_salle": 16,
+    "validated_groupe": 65,
+    "validated_festival": 12,
+    "validated_concert": 56
+  },
+  "errors": 229,
+  "warnings": 73,
+  "error_details": {
+    "Lieux/Villes/Crispendorf.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Milan.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Barcelone.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Clisson.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Cartagena.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Ploz\u00e9vet.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Veruno.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Tilburg.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Grenoble.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Carhaix.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/St-Julien-en-Genevois.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Paris.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Vienne.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Villes/Lyon.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Allemagne.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Su\u00e8de.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Italie.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/France.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Pays-Bas.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Espagne.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/\u00c9tats-Unis.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Royaume-Uni.md": [
+      "Missing required field: name"
+    ],
+    "Lieux/Pays/Isra\u00ebl.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Gothic.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Disco.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Doom Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Alternative Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Sludge Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/NWOBHM.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Drone Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Alternative Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Stoner Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Industrial Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Indie Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Groove Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Folk.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Krautrock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Thrash Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Nu Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Jazz-Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Psychedelic.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Autre.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Drone.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Death Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Art Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Experimental.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Acid Jazz.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Neue Deutsche H\u00e4rte.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Afrobeat.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Metalcore.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Soul.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Zeuhl.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Comedy.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Progressive Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Garage Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Progressive Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Alternative.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Latin Jazz.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Hard Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Fusion.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Hip Hop.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Funeral Doom Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Pop.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Psychedelic Rock.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Funk.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Instrumental.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Jazz Fusion.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Jazz.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Electronic.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Funk Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Neoclassical Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Sludge.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Trip Hop.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Industrial Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Spiritual Jazz.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Progressive.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Genres/Heavy Metal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/L'\u00c9picerie Moderne.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Radiant-Bellevue.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Z\u00e9nith de Paris.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Halle Tony Garnier.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Le Sucre.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/L'Olympia.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Le Trabendo.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Paris La D\u00e9fense Arena.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Michel Musique.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/La Belle \u00c9lectrique.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Brin de Zinc.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/LDLC Arena.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Poppodium 013.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Bourse du Travail.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Ninkasi Gerland.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Salles/Le Ciel.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Ange.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Sinner G's.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Thomas de Pourquery.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Marc Rebillet.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Deep Purple.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Gojira.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Nine Inch Nails.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Domi & JD Beck.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Magma.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Iron Maiden.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Ron Carter.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Pantera.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Sunn O))).md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Judas Priest.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Jazz \u00e0 Vienne.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Steven Wilson.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Louis Cole.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Archive.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Beth Gibbons.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Avishai Cohen Quintet.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Chucho Vald\u00e9s.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Liquid Flesh.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Kraftwerk.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Chef Simon.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Extreme.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Avishai Cohen.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Galliano.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Yngwie Malmsteen.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Wishbone Ash.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Black Sabbath.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Between the Buried and Me.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Kamasi Washington.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Namiko Hirasawa Chen.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Snarky Puppy.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/The Fearless Flyers.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Porcupine Tree.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/King Gizzard & The Lizard Wizard.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Bill Callahan.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Vulfpeck.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Opeth.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Neal Morse Band.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/L\u00e9on Phal.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Drowned.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Steve Hackett.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Anna von Hausswolff.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/The Inspector Cluzo.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Stargazer.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Chic featuring Nile Rodgers.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Meshell Ndegeocello.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Mike Portnoy's Shattered Fortress.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Ghost.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Ayreon.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/The Notwist.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Blue \u00d6yster Cult.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Nick Mason's Saucerful of Secrets.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Anne Paceo.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Teodoro Lopes.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Jacob Collier.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Kokoroko.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Souleance.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Bell Witch.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Slipknot.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Motocultor Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Rammstein.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Groupes/Dabeull.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Jazz \u00e0 Vienne.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Be Prog! My Friend.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Chaos Descends Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Rock Imperium Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Courts of Chaos Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/2Days Prog + 1.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Nuits sonores.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Hellfest.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Guitare en Sc\u00e8ne.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Nuits de Fourvi\u00e8re.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Roadburn Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Festivals/Motocultor Festival.md": [
+      "Missing required field: name"
+    ],
+    "Musique/Concerts/2024/2024-07-18 - Chaos Descends Festival.md": [],
+    "Musique/Concerts/2024/2024-06-03 - Nuits de Fourvi\u00e8re.md": [],
+    "Musique/Concerts/2024/2024-07-16 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2024/2024-01-31 - The Notwist.md": [],
+    "Musique/Concerts/2024/2024-03-08 - The Inspector Cluzo.md": [],
+    "Musique/Concerts/2024/2024-06-21 - Rock Imperium Festival.md": [],
+    "Musique/Concerts/2024/2024-04-28 - Bell Witch.md": [],
+    "Musique/Concerts/2024/2024-07-18 - Nick Mason's Saucerful of Secrets.md": [],
+    "Musique/Concerts/2024/2024-05-17 - Courts of Chaos Festival.md": [],
+    "Musique/Concerts/2017/2017-04-06 - Ghost.md": [],
+    "Musique/Concerts/2017/2017-09-15 - Ayreon.md": [],
+    "Musique/Concerts/2017/2017-09-01 - 2Days Prog + 1.md": [],
+    "Musique/Concerts/2026/2026-05-22 - Courts of Chaos Festival.md": [],
+    "Musique/Concerts/2026/2026-31-01 - Anna von Hausswolff.md": [
+      "Cannot read file: month must be in 1..12"
+    ],
+    "Musique/Concerts/2026/2026-02-07 - Sinner G's, Teodoro Lopes.md": [],
+    "Musique/Concerts/2026/2026-06-18 - Hellfest.md": [],
+    "Musique/Concerts/2026/2026-07-11 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2018/2018-07-05 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2018/2018-07-01 - Steve Hackett.md": [],
+    "Musique/Concerts/2018/2018-07-11 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2022/2022-11-02 - Porcupine Tree.md": [],
+    "Musique/Concerts/2022/2022-06-17 - Hellfest.md": [],
+    "Musique/Concerts/2022/2022-07-06 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2013/2013-07-10 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2013/2013-07-01 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2019/2019-11-19 - Archive.md": [],
+    "Musique/Concerts/2019/2019-09-15 - Ayreon.md": [],
+    "Musique/Concerts/2019/2019-01-27 - Judas Priest.md": [],
+    "Musique/Concerts/2019/2019-02-03 - Ghost.md": [],
+    "Musique/Concerts/2019/2019-07-04 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2025/2025-10-30 - Nuits sonores.md": [],
+    "Musique/Concerts/2025/2025-07-17 - Chaos Descends Festival.md": [],
+    "Musique/Concerts/2025/2025-09-13 - Ayreon.md": [],
+    "Musique/Concerts/2025/2025-07-19 - Iron Maiden.md": [],
+    "Musique/Concerts/2025/2025-06-02 - Blue \u00d6yster Cult.md": [],
+    "Musique/Concerts/2025/2025-06-30 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2025/2025-07-04 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2025/2025-08-14 - Motocultor Festival.md": [],
+    "Musique/Concerts/2025/2025-07-21 - Nuits de Fourvi\u00e8re.md": [],
+    "Musique/Concerts/2025/2025-06-30 - Nuits de Fourvi\u00e8re.md": [],
+    "Musique/Concerts/2025/2025-06-26 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2025/2025-04-26 - Ghost.md": [],
+    "Musique/Concerts/2025/2025-11-23 - Drowned, Stargazer, Liquid Flesh.md": [],
+    "Musique/Concerts/2025/2025-05-28 - Steven Wilson.md": [],
+    "Musique/Concerts/2025/2025-04-17 - Roadburn Festival.md": [],
+    "Musique/Concerts/2016/2016-06-17 - Hellfest.md": [],
+    "Musique/Concerts/2016/2016-07-01 - Be Prog! My Friend.md": [],
+    "Musique/Concerts/2015/2015-09-18 - Ayreon.md": [],
+    "Musique/Concerts/2015/2015-12-11 - Ghost.md": [],
+    "Musique/Concerts/2023/2023-05-26 - Ghost.md": [],
+    "Musique/Concerts/2023/2023-07-05 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2023/2023-05-10 - Wishbone Ash.md": [],
+    "Musique/Concerts/2023/2023-09-16 - Ayreon.md": [],
+    "Musique/Concerts/2023/2023-03-02 - King Gizzard & The Lizard Wizard.md": [],
+    "Musique/Concerts/2023/2023-06-15 - Hellfest.md": [],
+    "Musique/Concerts/2023/2023-06-29 - Jazz \u00e0 Vienne.md": [],
+    "Musique/Concerts/2023/2023-07-23 - Guitare en Sc\u00e8ne.md": []
+  },
+  "warning_details": {
+    "Asie.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "README-RELATIONS.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "README.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "tools/README.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "docs/GRAPH-GUIDE.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "docs/RELATIONS.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "docs/SCHEMA.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/VERIFICATION-LOCALISATION.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/GUIDE-GENRES.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/Concerts.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/README-STRUCTURE.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Daube \u00e0 la proven\u00e7ale par Philippe Etchebest \u2022 Les Nouvelles Gastronomiques  Actualit\u00e9s.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette Courgettes farcies l\u00e9g\u00e8res.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Comment faire des rouleaux de printemps facilement - Le Riz Jaune.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Fondue de poireaux.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Pot\u00e9e au Mur\u00e7on.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Chashu (Japanese Braised Pork Belly) - Just One Cookbook.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/salade de chou japonaise, LA recette comme au resto.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Poulet saut\u00e9 aux champignons noirs et aux pousses de bambou, la recette de Cooking with Morgane.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Nems, la recette de Cooking with Morgane.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Boeuf bourguignon.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Asperges sauce Hollandaise.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Dad's Authentic Cantonese Chow Mein A Chinese Chef's Secrets.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Hongrie Gourmande depuis 1993 - Le Goulache Hongrois  Guly\u00e1s.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette 53 Le Maghmoor ou la moussaka libanaise.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Sweet and Sour Stir Fry \u0e1c\u0e31\u0e14\u0e40\u0e1b\u0e23\u0e35\u0e49\u0e22\u0e27\u0e2b\u0e27\u0e32\u0e19 Recipe & Video Tutorial.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/La vraie recette du Poulet basquaise  traditions et produits de quali\u00e9 Qualit\u00e9.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Couscous v\u00e9g\u00e9tarien \u00e0 la gafsienne  La Tunisienne.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Homemade Miso Soup (Video) \u5473\u564c\u6c41.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette Makis maison.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Risotto aux asperges et aux morilles, une d\u00e9licieuse recette.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Piperade basque traditionnelle  la meilleure recette.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Pot\u00e9e aux saucisses de Montb\u00e9liard.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Papillote de saumon au four  l\u00e9g\u00e8re, fondante et parfum\u00e9e.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Spaghetti \u00e0 la tomate, aux asperges et \u00e0 l\u2019ail confit pour 4 personnes - Recettes - Elle \u00e0 Table.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Ratatouille proven\u00e7ale, une recette facile et savoureuse.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette de ramen  Shoyu tare - Sauce pour ramen soja.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Ragout de seiches a la tomate pour 4 personnes - Recettes - Elle \u00e0 Table.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Kakuni (Japanese Simmered Pork Belly).md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Concombres \u00e0 l'aigre-doux dits Senfgurken.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Aubergines \u00e0 la Parmigiana fa\u00e7on Jamie Oliver.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Petits oignons glac\u00e9s.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Souris d'agneau de 7 heures \u25b7 Recette de Cyril Lignac.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Moussaka libanaise, recette.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/La v\u00e9ritable recette traditionnelle des p\u00e2tes \u00e0 la carbonara.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Sauce chimichurri traditionnelle.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Tomates confites.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Authentic Pad Thai Recipe & Video Tutorial.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Authentic Thai Red Curry Recipe (Gaeng Ped).md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Navets glac\u00e9s au miel.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/La pur\u00e9e de piments au gingembre.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Bo Bun vietnamien au boeuf  la vraie recette, facile et faite maison.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette Chorba frik.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Dad's Authentic Sweet and Sour Pork A Chinese Chef's Secrets.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Taboul\u00e9 libanais traditionnel  frais, citronn\u00e9 et herbac\u00e9.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette R\u00f4ti de boeuf (rosbeef) au four - 750g.com.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette Japonaise - Shoyu Ramen - Ramen sauce soja.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Blanquette de veau.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Petits pois \u00e0 la fran\u00e7aise, une recette classique d\u00e9licieuse.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/\u0152ufs brouill\u00e9s aux asperges  une recette rapide et savoureuse !.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Recette du rougail saucisse  un d\u00e9licieux classique de la cuisine r\u00e9unionnaise.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Dad's Authentic Beef and Broccoli A Chinese Chef's Secrets.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Pommes saut\u00e9es \u00e0 cru.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Sauce au poivre facile et onctueuse \u2013 Recette maison.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Tan Tan Ramen (Tantanmen) \u5766\u3005\u9eba.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Dad's Authentic Homemade Chili Oil A Chinese Chef's Secrets.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Green Thai Curry Recipe.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Kimchi Recipe (Napa Cabbage Kimchi).md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Carbonade flamande.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/Piments (poivrons) de Padr\u00f3n, saut\u00e9s \u00e0 l\u2019huile d\u2019olive.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Recettes/Fiches/P\u00e2tes alle vongole de Cyril Lignac.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/Groupes/Randos a faire.md": [
+      "No 'type' field in frontmatter"
+    ],
+    "Musique/Groupes/Id\u00e9es \u00c9cosse.md": [
+      "No 'type' field in frontmatter"
+    ]
+  }
+}

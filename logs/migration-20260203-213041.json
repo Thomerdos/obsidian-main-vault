@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-02-03T21:30:41.101812",
+  "dry_run": true,
+  "backup_created": true,
+  "statistics": {
+    "scanned_ville": 14,
+    "scanned_pays": 9,
+    "scanned_genre": 56,
+    "scanned_salle": 16,
+    "scanned_groupe": 65,
+    "scanned_festival": 12,
+    "scanned_concert": 56,
+    "field_added_salles": 23,
+    "field_added_festivals": 23,
+    "field_added_concerts": 104,
+    "notes_modified": 226,
+    "field_added_villes": 9,
+    "field_added_groupes-origine": 9,
+    "field_added_parent": 56,
+    "field_added_children": 56,
+    "field_added_related": 56,
+    "field_added_groupes": 56,
+    "field_added_genres": 65,
+    "field_added_origine": 65,
+    "field_added_editions": 12,
+    "field_added_salle": 31,
+    "field_added_festival": 25
+  },
+  "notes_processed": 228
+}
