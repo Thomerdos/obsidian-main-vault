@@ -161,7 +161,7 @@ def create_concert_file(date, groupes, salle, festival, ville, pays, vault_dir):
     filename = filename.replace('/', '-').replace(':', '').replace('?', '')
     
     # Create directory
-    concert_dir = vault_dir / "Musique" / "Concerts" / year
+    concert_dir = vault_dir / "contenus" / "musique" / "Concerts" / year
     concert_dir.mkdir(parents=True, exist_ok=True)
     
     file_path = concert_dir / filename

@@ -1,0 +1,48 @@
+---
+concerts: []
+formation: Solo depuis 1990
+genre:
+- Folk
+- Indie Rock
+genres: []
+groupe-concerts:
+- 2025-06-30 - Nuits de Fourvière
+origine: ''
+pays-origine: États-Unis
+site-web: http://www.dragcity.com/artists/bill-callahan
+tags:
+- groupe
+type: groupe
+---
+
+# 🎤 Bill Callahan
+
+## 📊 Informations
+
+- **Genre** : [[Folk]], [[Indie Rock]]
+- **Pays** : [[États-Unis]]
+- **Formation** : Solo depuis 1990
+- **Site web** : http://www.dragcity.com/artists/bill-callahan
+
+## 🎸 Albums favoris
+
+- 
+
+## 🎪 Concerts vus
+
+```dataview
+TABLE date as "Date", salle as "Salle", ville as "Ville"
+FROM "Musique/Concerts"
+WHERE contains(groupes, this.file.name)
+SORT date DESC
+```
+
+## 💭 Notes
+
+
+
+## 🔗 Liens
+
+- [Spotify]()
+- [Bandcamp]()
+- [Site officiel]()
