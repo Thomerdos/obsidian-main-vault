@@ -21,6 +21,8 @@ WHERE date >= date(today)
 SORT date ASC
 ```
 
+- [ ] **2026-31-01** : [[Musique/Concerts/2026/2026-31-01 - Anna von Hausswolff|Anna von Hausswolff]] - *[[Le Trabendo]]*
+
 - [ ] **2026-07-11** : [[Musique/Concerts/2026/2026-07-11 - Jazz à Vienne|Jazz à Vienne]] - All Night Jazz : [[Vulfpeck]] / [[The Fearless Flyers]] / [[Magma]] / [[Léon Phal]] / [[Souleance]]
 - [ ] **2026-06-18** : [[Musique/Concerts/2026/2026-06-18 - Hellfest|Hellfest 2026]] - *[[Clisson]]*
 - [ ] **2026-05-22** : [[Musique/Concerts/2026/2026-05-22 - Courts of Chaos Festival|Courts of Chaos Festival 2026]] - *[[Plozévet]]*
