@@ -4,3 +4,10 @@
 # Add below lines to exclude OS settings and caches
 .trash/
 .DS_Store
+# Old directories - migrated to new structure
+/Villes/
+/Pays/
+/Musique/Salles de concert/
+/Musique/Salles de concert.old/
+/Musique/Concerts.md.backup
+/scripts/
