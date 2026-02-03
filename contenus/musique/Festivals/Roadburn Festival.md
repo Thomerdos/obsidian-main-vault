@@ -22,7 +22,7 @@ ville: Tilburg
 
 ```dataview
 TABLE date as "Date", groupes as "Groupes vus"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 WHERE contains(festival, this.file.name)
 SORT date DESC
 ```

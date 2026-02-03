@@ -18,7 +18,7 @@ Genre musical : Latin Jazz
 
 ```dataview
 TABLE pays-origine as "Pays", formation as "Formation"
-FROM "Musique/Groupes"
+FROM "contenus/musique/Groupes"
 WHERE contains(genre, this.file.name)
 SORT file.name ASC
 ```
@@ -27,7 +27,7 @@ SORT file.name ASC
 
 ```dataview
 TABLE date as "Date", groupes as "Artistes", ville as "Ville"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 FLATTEN groupes as groupe_name
 WHERE contains(file(groupe_name).genre, this.file.name)
 SORT date DESC

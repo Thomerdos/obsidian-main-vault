@@ -136,13 +136,13 @@ Chaque type d'entité a son propre frontmatter YAML pour permettre des requêtes
 Exemples de queries disponibles :
 ```dataview
 TABLE groupes as "Artistes", salle as "Salle", ville as "Ville"
-FROM "Musique/Concerts/2025"
+FROM "contenus/musique/Concerts/2025"
 SORT date DESC
 ```
 
 ```dataview
 TABLE length(rows.file.link) as "Nombre de fois"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 FLATTEN groupes as groupe
 GROUP BY groupe
 SORT length(rows.file.link) DESC

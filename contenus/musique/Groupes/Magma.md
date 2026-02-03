@@ -36,7 +36,7 @@ type: groupe
 
 ```dataview
 TABLE date as "Date", salle as "Salle", ville as "Ville"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 WHERE contains(groupes, this.file.name)
 SORT date DESC
 ```

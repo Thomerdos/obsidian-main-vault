@@ -42,7 +42,7 @@ Chaque page de genre liste automatiquement tous les artistes de ce style :
 
 ```dataview
 TABLE pays-origine as "Pays", formation as "Formation"
-FROM "Musique/Groupes"
+FROM "contenus/musique/Groupes"
 WHERE contains(genre, this.file.name)
 SORT file.name ASC
 ```
@@ -58,7 +58,7 @@ Chaque page liste aussi les concerts du genre :
 
 ```dataview
 TABLE date as "Date", groupes as "Artistes", ville as "Ville"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 FLATTEN groupes as groupe_name
 WHERE contains(file(groupe_name).genre, this.file.name)
 SORT date DESC
@@ -181,7 +181,7 @@ Basé sur les queries Dataview, vous pouvez identifier :
 **Query personnalisée:**
 ```dataview
 TABLE genre, formation
-FROM "Musique/Groupes"
+FROM "contenus/musique/Groupes"
 WHERE contains(genre, "Progressive Rock") AND pays-origine = "France"
 ```
 
@@ -192,7 +192,7 @@ WHERE contains(genre, "Progressive Rock") AND pays-origine = "France"
 **Query personnalisée:**
 ```dataview
 TABLE date, groupes
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 FLATTEN groupes as groupe_name
 WHERE contains(file(groupe_name).genre, "Jazz") AND ville = "Vienne"
 SORT date DESC

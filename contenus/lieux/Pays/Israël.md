@@ -20,7 +20,7 @@ villes: []
 
 ```dataview
 LIST
-FROM "Lieux/Villes"
+FROM "contenus/lieux/Villes"
 WHERE contains(pays, this.file.name)
 ```
 
@@ -28,7 +28,7 @@ WHERE contains(pays, this.file.name)
 
 ```dataview
 TABLE date as "Date", groupes as "Artistes", ville as "Ville"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 WHERE contains(pays, this.file.name)
 SORT date DESC
 ```

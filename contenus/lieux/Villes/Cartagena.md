@@ -22,7 +22,7 @@ ville-festivals: Rock Imperium Festival
 
 ```dataview
 LIST
-FROM "Musique/Salles"
+FROM "contenus/musique/Salles"
 WHERE contains(ville, this.file.name)
 ```
 
@@ -30,7 +30,7 @@ WHERE contains(ville, this.file.name)
 
 ```dataview
 TABLE date as "Date", groupes as "Artistes", salle as "Salle"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 WHERE contains(ville, this.file.name)
 SORT date DESC
 ```

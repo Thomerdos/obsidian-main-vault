@@ -23,7 +23,7 @@ ville: Paris
 
 ```dataview
 TABLE date as "Date", groupes as "Artistes"
-FROM "Musique/Concerts"
+FROM "contenus/musique/Concerts"
 WHERE contains(salle, this.file.name)
 SORT date DESC
 ```
