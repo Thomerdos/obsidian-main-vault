@@ -35,13 +35,17 @@ class StatsGenerator:
         }
         
     def load_schemas(self):
-        """Load all .base schema files."""
-        bases_dir = self.vault_dir / ".bases"
+        """Load all .base schema files recursively from bases/ directory."""
+        bases_dir = self.vault_dir / "bases"
         if not bases_dir.exists():
-            logger.warning(f"Schemas directory not found: {bases_dir}")
-            return True
+            # Fallback to old .bases directory for compatibility
+            bases_dir = self.vault_dir / ".bases"
+            if not bases_dir.exists():
+                logger.warning(f"Schemas directory not found: {bases_dir}")
+                return True
             
-        for schema_file in bases_dir.glob("*.base"):
+        # Load schemas recursively
+        for schema_file in bases_dir.rglob("*.base"):
             try:
                 with open(schema_file, 'r', encoding='utf-8') as f:
                     schema = yaml.safe_load(f)
