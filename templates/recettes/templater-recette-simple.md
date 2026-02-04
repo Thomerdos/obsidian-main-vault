@@ -39,4 +39,3 @@ if (tp.frontmatter.ingredients && tp.frontmatter.ingredients.length > 0) {
 <% if (tp.frontmatter.source) { %>
 - [Recette originale](<%= tp.frontmatter.source %>)
 <% } %>
-
