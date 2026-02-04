@@ -231,41 +231,40 @@ python3 tools/migrate-recipes.py --recipe "Piperade"
 
 ### 1. Parsing des ingrédients
 
-Le script parse différents formats d'ingrédients:
+Le script parse différents formats d'ingrédients (français et anglais):
 
 ```python
 # Formats reconnus:
-"- [ ] 600 g oignon"           → "oignon"
-"- [ ] 3 unité poivron"        → "poivron"
-"- [ ] quelque pincée sel"     → "sel"
-"- 2 kg pommes de terre"       → "pomme de terre"
-```
-
-**Regex utilisées**:
-```python
-r'^[\d,\.]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée)s?\s+(.+)$'
-r'^quelques?\s+(?:pincée|gousse|unité)s?\s+(.+)$'
-r'^\d+\s+(.+)$'
+"- [ ] 600 g oignon"                          → "oignon"
+"- [ ] 3 unité poivron"                       → "poivron"
+"- [ ] 1¾ cups coconut milk (divided)"        → "lait de coco"
+"- [ ] 2 Tablespoons chopped palm sugar"      → "sucre de palme"
+"- [ ] quelques pincées de sel"               → "sel"
 ```
 
 ### 2. Normalisation des ingrédients
 
-**Règles de normalisation**:
+**Règles de normalisation appliquées**:
 
-1. Conversion en minuscules
-2. Suppression des articles: `le`, `la`, `les`, `l'`, `un`, `une`, `des`, `du`, `de`, `d'`
-3. Conversion pluriel → singulier pour les ingrédients courants
-4. Forme canonique: `ail` (pas `gousses d'ail`)
+1. **Traduction anglais → français** : `coconut milk` → `lait de coco`, `chicken stock` → `bouillon de poulet`
+2. **Singulier** : `tomates` → `tomate`, `oignons` → `oignon`
+3. **Sans articles** : `le beurre` → `beurre`, `de l'ail` → `ail`
+4. **Sans quantités** : `3-4 tbsp tamarin` → `tamarin`
+5. **Sans préparations** : `palm sugar, chopped` → `sucre de palme`
+6. **Forme canonique** : `gousses d'ail` → `ail`
 
-**Table de normalisation**:
+**⚠️ Important** : La normalisation automatique n'est jamais parfaite. Pour un résultat optimal, une révision manuelle est recommandée.
+
+**Dictionnaire de traduction** (60+ mappings) :
 ```python
-{
-    'oignons': 'oignon',
-    'tomates': 'tomate',
-    'carottes': 'carotte',
-    'pommes de terre': 'pomme de terre',
-    "gousses d'ail": 'ail',
-    # ... etc
+INGREDIENT_MAPPINGS = {
+    'coconut milk': 'lait de coco',
+    'chicken stock': 'bouillon de poulet',
+    'fish sauce': 'sauce de poisson',
+    'palm sugar': 'sucre de palme',
+    'chicken thigh': 'cuisses de poulet',
+    'thai eggplant': 'aubergine thaï',
+    # ... plus de 60 mappings
 }
 ```
 
@@ -344,17 +343,20 @@ tags:
 \`\`\`dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  source as "Source"
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 \`\`\`
 
 **Explication de la requête**:
-- `file.outlinks` = tous les wikilinks sortants de chaque recette
+- `ingredients` = champ du frontmatter contenant la liste des wikilinks d'ingrédients
 - `this.file.link` = référence à la page d'ingrédient actuelle
-- Si une recette contient `[[tomate]]`, elle apparaîtra automatiquement sur la page "tomate.md"
-- Cette méthode utilise le graphe de liens natif d'Obsidian au lieu des propriétés frontmatter
+- Dataview cherche dans le frontmatter `ingredients:` de chaque recette
+- Si une recette a `[[tomate]]` dans son frontmatter, elle apparaît sur la page "tomate.md"
+- **Important** : Les wikilinks sont UNIQUEMENT dans le frontmatter, pas dans le texte
 
 ## 💡 Notes
 
