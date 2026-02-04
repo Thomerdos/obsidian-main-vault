@@ -35,19 +35,19 @@ tags:
 ## 🥘 Ingrédients
 
 <%* 
-// List ingredients with wiki links
+// Afficher les ingrédients avec liens wiki
 if (tp.frontmatter.ingredients && tp.frontmatter.ingredients.length > 0) {
   tp.frontmatter.ingredients.forEach(ingredient => {
     tR += `- [[${ingredient}]]\n`;
   });
 } else {
-  tR += "<!-- Add ingredients here -->\n";
+  tR += "<!-- Ajouter les ingrédients ici -->\n";
 }
 %>
 
 ## 👨‍🍳 Instructions
 
-<!-- Add step-by-step instructions here -->
+<!-- Ajouter les instructions étape par étape ici -->
 
 ## 📷 Photos
 

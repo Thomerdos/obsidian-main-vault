@@ -2,7 +2,7 @@
 
 ## Repository Context
 
-This is an Obsidian vault for managing concert attendance data with structured markdown files, YAML frontmatter, and Dataview queries using a **hub/star graph structure**.
+This is an Obsidian vault for managing concert attendance data and recipes with structured markdown files, YAML frontmatter, and Dataview queries using a **hub/star graph structure**.
 
 ## Key Changes (2026-02-03)
 
@@ -32,9 +32,13 @@ obsidian-main-vault/
 │   │   ├── Villes/             # City pages (14+ total)
 │   │   └── Pays/               # Country pages (9+ total)
 │   └── recettes/
-│       ├── Ingredients.md      # HUB for ingredients
-│       ├── Categories.md       # HUB for recipe categories
-│       └── Fiches/             # Recipe files (60+ total)
+│       ├── Auteurs.md            # HUB pour tous les auteurs
+│       ├── Ingredients.md        # HUB pour tous les ingrédients
+│       ├── Categories.md         # HUB pour les catégories
+│       ├── Recherche-par-ingredients.md  # Recherche interactive
+│       ├── Fiches/               # Fichiers de recettes (60+ total)
+│       ├── Ingredients/          # Pages d'ingrédients
+│       └── Auteurs/              # Pages d'auteurs
 └── templates/                  # Templater templates
 ```
 
@@ -152,6 +156,63 @@ tags:
   - pays
 ```
 
+### Recette (Recipe)
+```yaml
+type: recette
+title: "Nom de la recette"
+source: "https://..."
+author:
+  - "[[Nom Auteur]]"
+published: 2024-01-15
+created: 2026-02-04
+image: "https://..."
+type_cuisine: "Italienne"
+origine: "Toscane"
+regime:
+  - "végétarien"
+saison:
+  - "été"
+temps_preparation: 30
+temps_cuisson: 45
+ingredients:
+  - tomate
+  - basilic
+  - mozzarella
+tags:
+  - recette
+```
+
+**Important pour les recettes**:
+- `ingredients`: liste normalisée (singulier, minuscules, sans article)
+- `author`: liste de liens wiki vers pages d'auteurs: `"[[Chef Simon]]"`
+- Sections en français mais propriétés en anglais pour cohérence
+
+### Ingredient
+```yaml
+type: ingredient
+nom: "tomate"
+categorie: "légume"
+recettes: []
+allergenes: []
+saison:
+  - "été"
+tags:
+  - ingredient
+```
+
+### Auteur (Recipe Author)
+```yaml
+type: auteur
+nom: "Chef Simon"
+parent: "[[Auteurs]]"          # REQUIRED
+site_web: "https://..."
+specialite:
+  - "Cuisine française"
+  - "Pâtisserie"
+tags:
+  - auteur
+```
+
 ## Important Rules
 
 ### Wiki Links in YAML
@@ -237,6 +298,51 @@ WHERE type = "groupe"
 SORT file.name ASC
 ```
 
+### Recipe Page - Show Ingredients with Links
+```markdown
+## Ingrédients
+
+- 500g [[tomate]]
+- 2 [[oignon]]
+- 3 gousses [[ail]]
+- 100g [[parmesan]]
+```
+
+### Ingredient Page - Show All Recipes Using It
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "tomate")
+SORT file.name ASC
+```
+
+### Author Page - Show All Their Recipes
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  type_cuisine as "Cuisine",
+  temps_preparation as "Préparation (min)"
+FROM "contenus/recettes/Fiches"
+WHERE contains(author, this.file.link)
+SORT file.name ASC
+```
+
+### Search Recipes by Multiple Ingredients
+```dataview
+TABLE 
+  ingredients as "Ingrédients",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE 
+  contains(ingredients, "tomate") AND
+  contains(ingredients, "basilic")
+SORT file.name ASC
+```
+
 ## Common Tasks
 
 ### Adding a New Concert
@@ -260,17 +366,61 @@ SORT file.name ASC
 3. Optionally add related/children genres using wiki links
 4. Genre appears automatically in Genres hub
 
+### Adding a New Recipe
+
+1. Create file: `contenus/recettes/Fiches/Nom de la Recette.md`
+2. Use recipe template with English property names but French sections
+3. List ingredients in `ingredients: []` (normalized: singular, lowercase)
+4. Link authors: `author: ["[[Chef Name]]"]`
+5. Add wiki links in ingredient section: `- 500g [[tomate]]`
+6. Recipe appears automatically in ingredient and author pages
+
+### Adding a New Author
+
+1. Create file: `contenus/recettes/Auteurs/Author Name.md`
+2. **MUST include** `parent: "[[Auteurs]]"`
+3. Fill in `site_web` and `specialite`
+4. Recipes will automatically appear via Dataview
+
+### Search Recipes by Ingredients
+
+**Method 1: Obsidian**
+- Use `contenus/recettes/Recherche-par-ingredients.md`
+- Edit the ingredient list in the DataviewJS query
+
+**Method 2: Command Line**
+```bash
+# Find recipes with these ingredients
+python3 tools/search-recipes-by-ingredients.py tomate oignon ail
+
+# Require all ingredients
+python3 tools/search-recipes-by-ingredients.py --exact tomate basilic mozzarella
+
+# Show what's missing
+python3 tools/search-recipes-by-ingredients.py --show-missing poulet riz
+```
+
 ## Code Style Guidelines
 
 ### YAML
 - Lowercase with hyphens: `pays-origine`, not `PaysOrigine`
 - Wiki links in quotes: `"[[Page Name]]"`
 - Arrays for multiple values: `genre: ["[[Genre1]]", "[[Genre2]]"]`
+- **Property names in English** for consistency across the vault
 
 ### Markdown
-- Use emoji icons: 🎸 (concerts), 🎤 (groups), 🏛️ (venues), 🎪 (festivals)
+- Use emoji icons: 🎸 (concerts), 🎤 (groups), 🏛️ (venues), 🎪 (festivals), 🍽️ (recipes), 🥕 (ingredients), 👨‍🍳 (authors)
 - Use wiki links: `[[Page Name]]`
 - Date format: `YYYY-MM-DD`
+
+### Recipe-specific
+- Ingredient names: normalized (singular, lowercase, no articles)
+  - ✅ `tomate`, `oignon`, `ail`
+  - ❌ `tomates`, `Oignon`, `de l'ail`
+- Ingredient list in recipe: include quantity + wiki link
+  - ✅ `- 500g [[tomate]]`
+  - ❌ `- [[500g tomate]]`
+- Section headers in French: `## Ingrédients`, `## Instructions`, `## Notes & Astuces`
 
 ### File Naming
 - Concerts: `YYYY-MM-DD - Event Name.md`
@@ -288,26 +438,46 @@ SORT file.name ASC
 ### Python Scripts (tools/)
 - `add-concert.py` - Interactive concert creation
 - `generate-stats.py` - Generate vault statistics
+- `migrate-recipes.py` - Recipe migration and ingredient extraction
+- `search-recipes-by-ingredients.py` - Find recipes by available ingredients
 
-**Note**: Relationship management scripts have been removed (build-relations.py, sync-graph.py, migrate-vault.py, validate-schema.py) - no longer needed!
+**Recipe Tools Usage**:
+```bash
+# Migrate/update recipes
+python3 tools/migrate-recipes.py --dry-run
+
+# Search by ingredients
+python3 tools/search-recipes-by-ingredients.py tomate oignon ail
+
+# With options
+python3 tools/search-recipes-by-ingredients.py --exact --show-missing poulet riz
+```
 
 ## Common Pitfalls to Avoid
 
-1. ❌ Missing `parent` field in entities
+1. ❌ Missing `parent` field in entities (except concerts and recipes)
 2. ❌ Wiki links without quotes in YAML: `genre: [[Metal]]` → Use `"[[Metal]]"`
 3. ❌ Including obsolete computed fields like `concerts: []`
 4. ❌ Wrong hub page name: `parent: "[[Genre]]"` → Use `"[[Genres]]"` (plural)
 5. ❌ Trying to run removed Python scripts
 6. ❌ Creating `.base` schema files (no longer used)
+7. ❌ Non-normalized ingredients: `tomates` → Use `tomate`
+8. ❌ Including quantity in ingredient name: `ingredients: ["500g tomate"]` → Use `["tomate"]`
 
 ## Best Practices
 
-1. **Always use hub pages** - Don't skip the `parent` field
+1. **Always use hub pages** - Don't skip the `parent` field (except for concerts and recipes)
 2. **Test in Obsidian** - Verify Dataview renders correctly
 3. **Keep wiki links quoted** - Prevents YAML parsing errors
 4. **Check Graph View** - Should show clean star patterns
 5. **Use Dataview** - Let queries handle relationship display
+6. **English property names** - Use `author`, `created`, `published` for consistency
+7. **French content** - Section headers and content in French: `## Ingrédients`, `## Instructions`
+8. **Normalize ingredients** - Always singular, lowercase, no articles
 
 ---
 
-**Remember**: This vault now uses native Obsidian features only. No Python scripts needed for relationships!
+**Remember**: 
+- Concert vault uses native Obsidian features only. No Python scripts needed for relationships!
+- Recipe system uses Python tools for migration and search, but relationships work via Dataview
+- Property names in English, content and section headers in French
