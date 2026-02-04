@@ -47,14 +47,13 @@ saison:
 - hiver
 type: recette
 ---
-
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/72/boeuf-bourguignon-video-3000x2000.jpg)
 
 Boeuf bourguignon. Un ragoût de boeuf classique de la cuisine française cuisiné au vin rouge.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- 2 kg de [[[[viande de boeuf (gîte, paleron ou macreuse)]]]]
+- 2 kg de [[viande de boeuf (gîte, paleron ou macreuse)]]
 - 1,5 l de [[fond de veau lié]]
 - 8 cl [[d'huile]]
 - 200 g de [[carotte]]
@@ -64,7 +63,7 @@ Boeuf bourguignon. Un ragoût de boeuf classique de la cuisine française cuisin
 - 400 g de [[poitrine de porc salée]]
 - 400 g de [[champignon]]
 - 300 g de [[oignon]]
-- 70 g de [[[[beurre (40 g pour les champignons + 30 g pour les petits oignons)]]]]
+- 70 g de [[beurre (40 g pour les champignons + 30 g pour les petits oignons)]]
 - 1 cas de [[sucre]]
 - 3 cas de [[fécule de pomme de terre]]
 - [[sel]]

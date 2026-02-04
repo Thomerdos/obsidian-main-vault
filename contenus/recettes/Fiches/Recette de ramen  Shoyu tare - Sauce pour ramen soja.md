@@ -20,14 +20,13 @@ ingredients:
 - cc de glutamate monosodique
 type: recette
 ---
-
 ![](https://www.commeaujapon.fr/wp-content/uploads/2020/11/shoyu-tare.jpg)
 
 La tare est l'un des éléments de base de la soupe d'un ramen. Voici la recette de la sauce de base pour un shoyu ramen, le ramen sauce soja.
 
 ## Ingrédients
 
-- 10 g [[[[katsuobushi (copeaux de bonite séchée)]]]]
+- 10 g [[katsuobushi (copeaux de bonite séchée)]]
 - 2  [[shitakés séchés]]
 - 5 g [[kombu]]
 - 150 ml [[sauce soja]]

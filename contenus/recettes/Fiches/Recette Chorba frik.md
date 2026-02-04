@@ -23,24 +23,23 @@ ingredients:
 - huile d'olive
 type: recette
 ---
-
 ![](https://img.cuisineaz.com/680x357/2017/01/10/i115502-chorba-frik.jpeg)
 
 Chorba frik – Ingrédients de la recette : 250 g de mouton, 100 g de viande hachée, 100 g de pois chiches trempés la veille, 1 botte de coriandre hachée, 1 branche de céleri
 
 ## Ingrédients
 
-- [[[[préparation]]]]
+- [[préparation]]
 - 250 g [[mouton]]
 - 100 g [[viande de boeuf]]
 - 100 g [[pois chiches]]
-- 1 [[[[botte(s) coriandre]]]]
-- 1 [[[[verre(s) frik (blé dur immature concassé)]]]]
+- 1 [[botte(s) coriandre]]
+- 1 [[verre(s) frik (blé dur immature concassé)]]
 - 2 [[concentré de tomate]]
 - 1 [[c. à soupe piment doux en poudre]]
 - 1 [[c. à soupe smen]]
 - 1 [[oignon]]
-- 1 [[[[branche(s) de céleri]]]]
+- 1 [[branche(s) de céleri]]
 - [[sel]]
 - [[poivre]]
 - 2 [[huile d'olive]]

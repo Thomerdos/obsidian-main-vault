@@ -20,7 +20,6 @@ ingredients:
 - japanese karashi  or hot english mustard )
 type: recette
 ---
-
 ![](https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg)
 
 If you love pork, you must try this kakuni (角煮, simmered pork belly). The pork is so tender with lovely sweet soy sauce flavour.
@@ -28,15 +27,15 @@ If you love pork, you must try this kakuni (角煮, simmered pork belly). The po
 ## Ingrédients
 
 - 500g (1lb)  pork belly ((Note 1))
-- 1  [[[[shallot/scallion stem (, white part crashed (note 7))]]]]
+- 1  [[shallot/scallion stem (, white part crashed (note 7))]]
 - 30g (1oz)  ginger (, crashed (note 7))
 - 100ml (3.foz)  sake
 - 100ml (3.foz)  water
 - 2 [[soy sauce]]
-- 2 [[[[tbsp sugar ((note 2))]]]]
-- 6  [[[[green beans (, boiled and cut into bite size)]]]]
-- 1 [[[[tbsp shallots (, white part julienned (note 3))]]]]
-- [[[[japanese karashi ((note4) or hot english mustard (optional))]]]]
+- 2 [[tbsp sugar ((note 2))]]
+- 6  [[green beans (, boiled and cut into bite size)]]
+- 1 [[tbsp shallots (, white part julienned (note 3))]]
+- [[japanese karashi ((note4) or hot english mustard (optional))]]
 
 ## Instructions
 

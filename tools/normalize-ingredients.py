@@ -383,7 +383,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "{ingredient_name}")
+WHERE contains(file.outlinks, this.file.link)
 SORT file.name ASC
 ```
 

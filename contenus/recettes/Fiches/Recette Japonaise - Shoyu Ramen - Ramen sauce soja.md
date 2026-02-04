@@ -44,14 +44,13 @@ ingredients:
 - bout de zeste de citron ou yuzu
 type: recette
 ---
-
 ![](https://www.commeaujapon.fr/wp-content/uploads/2020/10/ramen-titre.jpg)
 
 La recette d'un authentique shoyu ramen, le ramen sauce soja. Nous allons préparer ensemble le taré, bouillon et accompagnements d'un vrai ramen !
 
 ## Ingrédients
 
-- 10 g [[[[katsuobushi (copeaux de bonite séchée)]]]]
+- 10 g [[katsuobushi (copeaux de bonite séchée)]]
 - 2  [[shitakés séchés]]
 - 5 g [[kombu]]
 - 160 ml [[sauce soja]]
@@ -65,7 +64,7 @@ La recette d'un authentique shoyu ramen, le ramen sauce soja. Nous allons prépa
 - 4  [[shitaké séchés]]
 - 600 g [[pilons de poulet]]
 - 1  [[oignon]]
-- 1/2  poireau ou quelques oignons verts (cébette)
+- 1/2  poir[[eau]] ou quelques [[oignons]] verts (cébette)
 - 4 gousses [[d'ail]]
 - 4 [[tranches gingembre]]
 - 500 g [[poitrine de porc]]
@@ -74,15 +73,15 @@ La recette d'un authentique shoyu ramen, le ramen sauce soja. Nous allons prépa
 - 1 [[cs sucre]]
 - 1 [[cs saké]]
 - 2 [[cs bonite séchée]]
-- 2 [[[[bout d'oignons verts (cébette) ou poireau]]]]
+- 2 [[bout d'oignons verts (cébette) ou poireau]]
 - 2  [[sachet plastique pour congélation]]
 - Un [[peu d'huile végétale]]
-- 3 [[[[bouts d'oignons verts (cébette) ou poireau]]]]
-- 2 [[[[paquet de nouilles (nouille maison)]]]]
-- 1-2  œufs
+- 3 [[bouts d'oignons verts (cébette) ou poireau]]
+- 2 [[paquet de nouilles (nouille maison)]]
+- 1-2  [[œufs]]
 - [[menma]]
 - 1/4  feuille de nori
-- [[[[oignon vert (cébette)]]]]
+- [[oignon vert (cébette)]]
 - 1  [[bout de zeste de citron ou yuzu]]
 
 ## Instructions

@@ -22,14 +22,13 @@ ingredients:
 - huile
 type: recette
 ---
-
 ![](https://sweetkwisine.com/wp-content/uploads/2021/10/pimgingembre3.jpg)
 
 La purée de piments au gingembre maison pour accompagner tous les poissons de ton choix et plus si affinités - by Sweet Kwisine
 
 ## Ingrédients
 
-- 10  [[[[piments forts (antillais bien rouges)]]]]
+- 10  [[piments forts (antillais bien rouges)]]
 - 5  [[piments végétariens]]
 - 10 [[cm de gingembre frais]]
 - 2  gousses [[d’ail]]
@@ -37,7 +36,7 @@ La purée de piments au gingembre maison pour accompagner tous les poissons de t
 - 2  cuillères [[à soupe de vinaigre blanc]]
 - le [[jus d’un demi-citron]]
 - [[huile]]
-- un [[[[mixeur (1 couteau, une fourchette et des gants)]]]]
+- un [[mixeur (1 couteau, une fourchette et des gants)]]
 
 ## Instructions
 
