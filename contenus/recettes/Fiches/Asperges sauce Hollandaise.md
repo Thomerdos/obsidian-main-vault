@@ -10,7 +10,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[asperge blanche]]'
 - '[[citron]]'
-- '[[jaune d''oeuf]]'
+- '[[jaune d'oeuf]]'
 - '[[beurre]]'
 - '[[eau]]'
 - '[[sel]]'
