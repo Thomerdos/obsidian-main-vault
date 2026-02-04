@@ -24,7 +24,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "fécule de pomme de terre")
+WHERE contains(file.outlinks, this.file.link)
 SORT file.name ASC
 ```
 
