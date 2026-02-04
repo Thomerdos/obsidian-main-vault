@@ -23,23 +23,22 @@ tags:
 - PlatEnSauce
 base: '[[Recettes.base]]'
 ingredients:
-- viande de boeuf
-- fond de veau lié
-- d'huile
-- carotte
-- oignon
-- d'ail
-- vin rouge corsé
-- poitrine de porc salée
-- champignon
-- oignon
-- beurre
-- sucre
-- fécule de pomme de terre
-- sel
-- poivre en grains
-- thym
-- laurier
+- '[[boeuf]]'
+- '[[fond de veau]]'
+- '[[huile]]'
+- '[[carotte]]'
+- '[[oignon]]'
+- '[[ail]]'
+- '[[vin rouge]]'
+- '[[poitrine de porc]]'
+- '[[champignon]]'
+- '[[beurre]]'
+- '[[sucre]]'
+- '[[fécule de pomme de terre]]'
+- '[[sel]]'
+- '[[poivre]]'
+- '[[thym]]'
+- '[[feuille de laurier]]'
 type_cuisine: Française
 regime:
 - sans gluten
@@ -47,29 +46,30 @@ saison:
 - hiver
 type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/72/boeuf-bourguignon-video-3000x2000.jpg)
 
 Boeuf bourguignon. Un ragoût de boeuf classique de la cuisine française cuisiné au vin rouge.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- 2 kg de [[viande de boeuf (gîte, paleron ou macreuse)]]
-- 1,5 l de [[fond de veau lié]]
-- 8 cl [[d'huile]]
-- 200 g de [[carotte]]
-- 200 g [[oignon]]
-- 6 gousses [[d'ail]]
-- 75 cl de [[vin rouge corsé]]
-- 400 g de [[poitrine de porc salée]]
-- 400 g de [[champignon]]
-- 300 g de [[oignon]]
-- 70 g de [[beurre (40 g pour les champignons + 30 g pour les petits oignons)]]
-- 1 cas de [[sucre]]
-- 3 cas de [[fécule de pomme de terre]]
-- [[sel]]
-- [[poivre en grains]]
-- [[thym]]
-- [[laurier]]
+- 2 kg de viande de boeuf (gîte, paleron ou macreuse)
+- 1,5 l de fond de veau lié
+- 8 cl d'huile
+- 200 g de carotte
+- 200 g oignon
+- 6 gousses d'ail
+- 75 cl de vin rouge corsé
+- 400 g de poitrine de porc salée
+- 400 g de champignon
+- 300 g de oignon
+- 70 g de beurre (40 g pour les champignons + 30 g pour les petits oignons)
+- 1 cas de sucre
+- 3 cas de fécule de pomme de terre
+- sel
+- poivre en grains
+- thym
+- laurier
 
 ## Instructions
 

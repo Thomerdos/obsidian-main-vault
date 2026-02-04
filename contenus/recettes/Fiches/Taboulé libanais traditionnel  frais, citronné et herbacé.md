@@ -16,11 +16,11 @@ tags:
 - RecetteDuTaboulé
 base: '[[Recettes.base]]'
 ingredients:
-- boulghour
-- citron
-- menthe
-- persil
-- tomate
+- '[[boulgour]]'
+- '[[citron]]'
+- '[[menthe]]'
+- '[[persil]]'
+- '[[tomate]]'
 type: recette
 ---
 
@@ -30,10 +30,10 @@ Découvrez la recette du taboulé libanais traditionnel : persil, menthe, citron
 
 ## Ingrédients
 
-- [[boulghour]]
-- [[citron]]
-- [[menthe]]
-- [[persil]]
-- [[tomate]]
+- boulghour
+- citron
+- menthe
+- persil
+- tomate
 
 ## Instructions

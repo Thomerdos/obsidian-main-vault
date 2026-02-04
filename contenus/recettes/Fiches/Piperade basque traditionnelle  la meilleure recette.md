@@ -20,17 +20,17 @@ tags:
 - RecetteTouteL'année
 base: '[[Recettes.base]]'
 ingredients:
-- oignon
-- piment doux
-- poivron
-- ail
-- bouquet garni
-- tomate
-- huile d'olive
-- sel
-- poivre
-- sucre
-- piment d'espelette
+- '[[oignon]]'
+- '[[piment doux]]'
+- '[[poivron]]'
+- '[[ail]]'
+- '[[bouquet garni]]'
+- '[[tomate]]'
+- "[[huile d'olive]]"
+- '[[sel]]'
+- '[[poivre]]'
+- '[[sucre]]'
+- "[[piment d'Espelette]]"
 origine: Sud-Ouest
 regime:
 - végétarien
@@ -45,17 +45,17 @@ Découvrez cette recette de piperade basque traditionnelle. Ce plat traditionnel
 
 ## Ingrédients
 
-- 600 g [[oignon]]
-- 1,2 kg [[piment doux]]
-- 3 unité [[poivron]]
-- 3 gousse [[ail]]
-- 1 unité [[bouquet garni]]
-- 1,5 kg [[tomate]]
-- 1 filet [[huile d'olive]]
-- quelque pincée [[sel]]
-- quelque pincée [[poivre]]
-- quelque pincée [[sucre]]
-- quelque pincée [[piment d'espelette]]
+- 600 g oignon
+- 1,2 kg piment doux
+- 3 unité poivron
+- 3 gousse ail
+- 1 unité bouquet garni
+- 1,5 kg tomate
+- 1 filet huile d'olive
+- quelque pincée sel
+- quelque pincée poivre
+- quelque pincée sucre
+- quelque pincée piment d'espelette
 
 ## Instructions
 

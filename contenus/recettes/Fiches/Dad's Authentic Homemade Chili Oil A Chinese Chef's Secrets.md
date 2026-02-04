@@ -11,20 +11,19 @@ tags:
 - 辣椒油
 base: '[[Recettes.base]]'
 ingredients:
-- sichuan dried piment flakes
-- gingembre
-- red oignon
-- shallot
-- clove ail
-- star anise
-- dash graines de sésame
-- neutral oil
-- huile de sésame
-- sel
-- sucre
-- white poivre
-- paprika
-- neutral oil
+- '[[piment du Sichuan]]'
+- '[[gingembre]]'
+- '[[oignon rouge]]'
+- '[[échalote]]'
+- '[[ail]]'
+- '[[anis étoilé]]'
+- '[[graines de sésame]]'
+- '[[huile neutre]]'
+- '[[huile de sésame]]'
+- '[[sel]]'
+- '[[sucre]]'
+- '[[poivre blanc]]'
+- '[[paprika]]'
 type: recette
 ---
 
@@ -34,20 +33,20 @@ Learn how a 2x James Beard Award Winning Chinese Chef cooks this Homemade Chili 
 
 ## Ingrédients
 
-- [[sichuan dried piment flakes]]
-- [[gingembre]]
-- 1 [[oz red oignon]]
-- 1 [[oz shallot]]
-- 3 [[clove ail]]
-- 2 [[piece star anise]]
-- 1 [[dash graines de sésame]]
-- 4 [[oz neutral oil]]
-- 1 [[tsp huile de sésame]]
-- [[sel]]
-- [[sucre]]
-- [[white poivre]]
-- 1 [[tbsp paprika]]
-- 1 [[tbsp neutral oil]]
+- sichuan dried piment flakes
+- gingembre
+- 1 oz red oignon
+- 1 oz shallot
+- 3 clove ail
+- 2 piece star anise
+- 1 dash graines de sésame
+- 4 oz neutral oil
+- 1 tsp huile de sésame
+- sel
+- sucre
+- white poivre
+- 1 tbsp paprika
+- 1 tbsp neutral oil
 
 ## Instructions
 

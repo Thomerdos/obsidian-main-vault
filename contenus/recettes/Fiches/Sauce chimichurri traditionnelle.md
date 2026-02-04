@@ -11,33 +11,34 @@ tags:
 - SauceArgentine
 base: '[[Recettes.base]]'
 ingredients:
-- bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé
-- à soupe d’origan fraîchement ciselé
-- d’ail pressées
-- tasse de ciboule
-- 'petit piment rouge : retirer les graines et la membrane intérieure blanche puis
-  le tailler finement'
-- à soupe de vinaigre de vin rouge
-- à café de jus de citron frais
-- d’huile
-- sel et poivre
+- '[[persil]]'
+- '[[cuillères à soupe d’origan fraîchement ciselé]]'
+- '[[d’ail pressées]]'
+- '[[ciboule]]'
+- '[[piment rouge]]'
+- '[[vinaigre de vin rouge]]'
+- '[[jus de citron]]'
+- '[[d’huile]]'
+- '[[sel]]'
 type: recette
 ---
+
 ![](https://www.laylita.com/recettes/wp-content/uploads/2014/10/sauce-chimichurri-traditionnelle.jpg)
 
 La sauce chimichurri traditionnelle, originaire d'Argentine, se prépare à partir de persil, d’origan, d’ail, d’oignon, de piment, de vinaigre et d’huile.
 
 ## Ingrédients
 
-- [[bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé]]
-- 2 cuillères [[à soupe d’origan fraîchement ciselé]]
-- 4 gousses [[d’ail pressées]]
-- [[tasse de ciboule]]
-- 1  [[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]
-- 2 cuillères [[à soupe de vinaigre de vin rouge]]
-- 1 cuillère [[à café de jus de citron frais]]
-- 120 mL [[d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)]]
-- [[sel et poivre]]
+- bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé
+- 2 cuillères à soupe d’origan fraîchement ciselé
+- 4 gousses d’ail pressées
+- tasse de ciboule
+- 1  petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement
+- 2 cuillères à soupe de vinaigre de vin rouge
+- 1 cuillère à café de jus de citron frais
+- 120 mL d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)
+- 'sel'
+- 'poivre'
 
 ## Instructions
 

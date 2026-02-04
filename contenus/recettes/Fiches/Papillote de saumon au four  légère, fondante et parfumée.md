@@ -21,13 +21,12 @@ tags:
 - recetteRapidePoisson
 base: '[[Recettes.base]]'
 ingredients:
-- aneth
-- citron
-- citron confit
-- coriandre
-- saumon
-- tomate
-- tomate
+- '[[aneth]]'
+- '[[citron]]'
+- '[[citron confit]]'
+- '[[coriandre]]'
+- '[[saumon]]'
+- '[[tomate]]'
 type: recette
 ---
 
@@ -37,12 +36,12 @@ Une papillote de saumon fondante et parfumée aux tomates, citron et aneth. Simp
 
 ## Ingrédients
 
-- [[aneth]]
-- [[citron]]
-- [[citron confit]]
-- [[coriandre]]
-- [[saumon]]
-- [[tomate]]
-- [[tomate]]
+- aneth
+- citron
+- citron confit
+- coriandre
+- saumon
+- tomate
+- tomate
 
 ## Instructions

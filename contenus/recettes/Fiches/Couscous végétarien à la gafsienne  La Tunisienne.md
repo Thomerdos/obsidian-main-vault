@@ -8,38 +8,39 @@ created: 2026-02-02
 image: https://www.latunisienne.fr/wp-content/uploads/2015/02/couscous-complet-vgétarien-gafsa-2-e1423477143915.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- couscous complet
-- épinard
-- bol de pois chiches
-- cs de tomate concentrée
-- huile d’olive
-- cs de piment moulu
-- pointe de curcuma
-- sel
-- thym
-- carotte
-- oignon
-- piment
+- '[[couscous]]'
+- '[[épinard]]'
+- '[[pois chiche]]'
+- '[[concentré de tomate]]'
+- '[[huile d’olive]]'
+- '[[piment moulu]]'
+- '[[curcuma]]'
+- '[[sel]]'
+- '[[thym]]'
+- '[[carotte]]'
+- '[[oignon]]'
+- '[[piment]]'
 type: recette
 ---
+
 ![](https://www.latunisienne.fr/wp-content/uploads/2015/02/couscous-complet-vgétarien-gafsa-2-e1423477143915.jpg)
 
 La recette tunisienne traditionnelle du couscous complet aux légumes et aux blettes, originaire du centre de la Tunisie.
 
 ## Ingrédients
 
-- 500 g de [[couscous complet]]
-- 250 g [[épinard]]
-- 1  [[bol de pois chiches (trempés dès la veille)]]
-- 3  [[cs de tomate concentrée]]
-- [[huile d’olive]]
-- 1,5  [[cs de piment moulu]]
-- 1  [[pointe de curcuma]]
-- [[sel]]
-- [[thym]]
-- 6  [[carotte]]
-- 1  [[oignon]]
-- 2  [[piment]]
+- 500 g de couscous complet
+- 250 g épinard
+- 1  bol de pois chiches (trempés dès la veille)
+- 3  cs de tomate concentrée
+- huile d’olive
+- 1,5  cs de piment moulu
+- 1  pointe de curcuma
+- sel
+- thym
+- 6  carotte
+- 1  oignon
+- 2  piment
 
 ## Instructions
 

@@ -8,46 +8,47 @@ created: 2026-02-02
 image: https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- medium firm tofu
-- cloves ail
-- pineapple, bite-sized pieces
-- oignon
-- tomate
-- mini cucumber or regular cucumber, halved lengthwise and
-- asperge
-- poivron, any colour
-- noix de cajou
-- oignon
-- white vinegar or riz wine vinegar
-- oyster sauce
-- thai sriraja panich sauce
-- sauce soja
-- brown sucre
-- toasted huile de sésame
+- '[[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized]]'
+- '[[ail]]'
+- '[[ananas]]'
+- '[[oignon]]'
+- '[[tomate]]'
+- '[[concombre]]'
+- '[[asperge]]'
+- '[[poivron]]'
+- '[[noix de cajou]]'
+- '[[ciboule]]'
+- '[[vinaigre de riz]]'
+- "[[sauce d'huître]]"
+- '[[sauce sriracha]]'
+- '[[sauce soja]]'
+- '[[sucre roux]]'
+- '[[huile de sésame grillée]]'
 type: recette
 ---
+
 ![](https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg)
 
 This sweet and sour stir fry recipe is not like your Chinese take out. It's not gooey and cloying, but bright, fresh, with lots of veggies and cashews!
 
 ## Ingrédients
 
-- 300g [[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized pieces (see note)]]
-- 3 [[cloves ail]]
-- [[pineapple, bite-sized pieces]]
-- [[oignon, 1-cm]]
-- 1 [[tomate]]
-- 1 [[cup mini cucumber or regular cucumber, halved lengthwise and]]
-- [[asparagus]]
-- 1 [[cup poivron, any colour. 1-cm-wide strips]]
-- [[cashews]]
-- [[green onions, cut into 1" pieces on a bias (half the white part horizontally if large)]]
-- 2 [[tbsp white vinegar or riz wine vinegar]]
-- 2 [[tbsp oyster sauce]]
-- 2 [[tbsp thai sriraja panich sauce (or substitute sriracha)]]
-- 1 [[tbsp soy sauce]]
-- 2 [[tbsp brown sucre, packed]]
-- [[toasted huile de sésame]]
+- 300g medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized pieces (see note)
+- 3 cloves ail
+- pineapple, bite-sized pieces
+- oignon, 1-cm
+- 1 tomate
+- 1 cup mini cucumber or regular cucumber, halved lengthwise and
+- asparagus
+- 1 cup poivron, any colour. 1-cm-wide strips
+- cashews
+- green onions, cut into 1" pieces on a bias (half the white part horizontally if large)
+- 2 tbsp white vinegar or riz wine vinegar
+- 2 tbsp oyster sauce
+- 2 tbsp thai sriraja panich sauce (or substitute sriracha)
+- 1 tbsp soy sauce
+- 2 tbsp brown sucre, packed
+- toasted huile de sésame
 
 ## Instructions
 

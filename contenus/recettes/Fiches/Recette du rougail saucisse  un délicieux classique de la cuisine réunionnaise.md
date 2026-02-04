@@ -13,15 +13,15 @@ tags:
 - Reunionnais
 base: '[[Recettes.base]]'
 ingredients:
-- saucisses fraîches
-- saucisses fumées
-- petits piment
-- tomate
-- oignon
-- gingembre
-- sel
-- poivre
-- huile
+- '[[saucisse]]'
+- '[[saucisse fumée]]'
+- '[[piment]]'
+- '[[tomate]]'
+- '[[oignon]]'
+- '[[gingembre]]'
+- '[[sel]]'
+- '[[poivre]]'
+- '[[huile]]'
 type: recette
 ---
 
@@ -31,15 +31,15 @@ A la fois relevée et douce, riche et modeste, la recette du rougail saucisses e
 
 ## Ingrédients
 
-- 2 [[saucisses fraîches]]
-- 2 [[saucisses fumées]]
-- 4 [[petits piment]]
-- 4 [[tomate]]
-- 2 [[oignon]]
-- [[gingembre]]
-- [[sel]]
-- [[poivre]]
-- [[huile]]
+- 2 saucisses fraîches
+- 2 saucisses fumées
+- 4 petits piment
+- 4 tomate
+- 2 oignon
+- gingembre
+- sel
+- poivre
+- huile
 
 ## Instructions
 

@@ -1,34 +1,8 @@
 ---
+title: Huile d’olive
 type: ingredient
-nom: "huile d’olive"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
-tags:
-  - ingredient
 ---
 
-# 🥕 Huile d’olive
+# Huile d’olive
 
-## 📋 Informations
-
-- **Catégorie**: 
-- **Saison**: 
-- **Allergènes**: 
-
-## 🍽️ Utilisé dans les recettes
-
-```dataview
-TABLE WITHOUT ID
-  file.link as "Recette",
-  source as "Source"
-FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
-SORT file.name ASC
-```
-
-## 💡 Notes
-
-
-## 🔗 Liens
+Ingrédient utilisé dans les recettes.

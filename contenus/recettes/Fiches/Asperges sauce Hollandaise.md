@@ -8,14 +8,15 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2018/06/12/i140367-asperges-sauce-hollandaise.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- botte asperge blanche
-- citron
-- jaune d'œuf
-- beurre
-- eau
-- sel, poivre
+- '[[asperge blanche]]'
+- '[[citron]]'
+- '[[jaune d''oeuf]]'
+- '[[beurre]]'
+- '[[eau]]'
+- '[[sel]]'
 type: recette
 ---
+
 ![](https://img.cuisineaz.com/680x357/2018/06/12/i140367-asperges-sauce-hollandaise.jpeg)
 
 Il n'y a rien de meilleur que des asperges fraîchement cueillies et cuites à la vapeur. Encore croquantes ou fondantes selon vos goûts, nous vous proposons de...
@@ -23,12 +24,13 @@ Il n'y a rien de meilleur que des asperges fraîchement cueillies et cuites à l
 ## Ingrédients
 
 - [ ] 
-- 2 [[botte(s) asperge(s) blanche(s)]]
-- 1 [[citron(s)]]
-- 3 [[jaune(s) d'œuf(s)]]
-- 250 g [[beurre]]
-- 30 ml [[eau]]
-- [[sel, poivre]]
+- 2 botte(s) asperge(s) blanche(s)
+- 1 citron(s)
+- 3 jaune(s) d'œuf(s)
+- 250 g beurre
+- 30 ml eau
+- 'sel'
+- 'poivre'
 
 ## Instructions
 

@@ -4,41 +4,64 @@ Ce document explique le fonctionnement du script `migrate-recipes.py`, ses optio
 
 ## 📋 Vue d'ensemble
 
-Le script `migrate-recipes.py` est un outil Python qui transforme les recettes Obsidian pour les structurer avec des propriétés frontmatter cohérentes et des liens wiki vers les ingrédients.
+Le script `migrate-recipes.py` est un outil Python qui transforme les recettes Obsidian pour les structurer avec des propriétés frontmatter cohérentes et des liens wiki vers les ingrédients **uniquement dans le frontmatter**.
 
 ### Fonctionnalités principales
 
 1. **Extraction d'ingrédients**: Parse la section `## Ingrédients` et extrait les noms d'ingrédients
-2. **Normalisation**: Convertit les noms en forme canonique (singulier, minuscules, sans article)
+2. **Normalisation**: Convertit les noms en forme canonique (singulier, minuscules, sans article, traduction français)
 3. **Transformation de tags**: Convertit les anciens tags en propriétés structurées
 4. **Création de pages**: Génère automatiquement les pages d'ingrédients
 5. **Scraping web**: Récupère les instructions manquantes depuis les sources
-6. **Mise à jour des liens**: Ajoute des liens wiki `[[ingredient]]` dans les recettes
-7. **Rapport de migration**: Génère un rapport détaillé des changements
+6. **Wikilinks dans frontmatter**: Ajoute des liens wiki `[[ingredient]]` **uniquement dans le frontmatter**
+7. **Texte préservé**: Le texte des recettes reste complètement intact (format original)
+8. **Rapport de migration**: Génère un rapport détaillé des changements
 
-## 🔗 Système de wikilinks et graphe de liens
+## 🔗 Système de wikilinks frontmatter-only
 
-### Pourquoi utiliser des wikilinks ?
+### ⚠️ Changement important : Wikilinks UNIQUEMENT dans le frontmatter
 
-Le système d'ingrédients utilise maintenant le **graphe de liens natif d'Obsidian** avec des wikilinks `[[ingredient]]` au lieu de simplement utiliser les propriétés frontmatter.
+**Nouvelle approche** (depuis février 2026) : Les wikilinks sont désormais **uniquement dans le frontmatter**, pas dans le texte.
 
-**Avantages** :
+### Pourquoi ce changement ?
 
-✅ **Liens cliquables**: Les propriétés frontmatter ne sont pas cliquables dans Obsidian. Avec `[[tomate]]` dans le corps de la recette, on peut cliquer pour naviguer  
-✅ **Backlinks automatiques**: Obsidian affiche automatiquement les backlinks dans chaque page d'ingrédient  
-✅ **Graphe visuel**: Le graphe montre les relations entre recettes et ingrédients  
-✅ **Navigation intuitive**: Utilise les fonctionnalités natives d'Obsidian
+**Problèmes de l'ancien système** (wikilinks dans le texte) :
+- ❌ Liens invalides : `[[1¾ cups coconut milk (divided)]]` crée une page qui n'existe pas
+- ❌ Texte modifié : Le format original des recettes est altéré
+- ❌ Multiples crochets : `[[[[ingredient]]]]` dans certains fichiers
+- ❌ Multilingue compliqué : Difficile de normaliser quand les quantités sont incluses
+
+**Avantages du nouveau système** (wikilinks frontmatter-only) :
+- ✅ **Texte intact** : Le format original des recettes est complètement préservé
+- ✅ **Backlinks fonctionnent** : Via le frontmatter `ingredients: []`
+- ✅ **Graphe de liens** : Montre les relations recette ↔ ingrédient
+- ✅ **Normalisation facilitée** : Les ingrédients sont normalisés uniquement dans le frontmatter
+- ✅ **Plus de liens cassés** : Pas de wikilinks avec quantités ou notes
+- ✅ **Système plus simple** : Une seule source de vérité pour les liens
 
 ### Comment ça fonctionne
 
 **Dans les recettes** :
 ```markdown
+---
+title: Green Thai Curry Recipe
+ingredients:
+  - "[[lait de coco]]"
+  - "[[bouillon de poulet]]"
+  - "[[cuisses de poulet]]"
+  - "[[sucre de palme]]"
+type: recette
+---
+
 ## Ingrédients
 
-- 6 [[tomate]]s
-- 2 [[oignon]]s  
-- 3 gousses d'[[ail]]
+- 1¾ cups coconut milk (divided)
+- 1 cup chicken stock (unsalted)
+- 1 lb chicken thigh (boneless, skinless)
+- 2 Tablespoons palm sugar
 ```
+
+**Le texte reste intact**, seul le frontmatter contient les liens normalisés.
 
 **Dans les pages d'ingrédients** :
 ```markdown
@@ -47,37 +70,69 @@ Le système d'ingrédients utilise maintenant le **graphe de liens natif d'Obsid
 \`\`\`dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  source as "Source"
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 \`\`\`
 ```
 
 **Explication de la requête** :
-- `file.outlinks` : tous les wikilinks sortants de chaque fichier de recette
+- `ingredients` : champ du frontmatter contenant la liste des wikilinks
 - `this.file.link` : référence à la page d'ingrédient actuelle
-- Dataview compare automatiquement : si une recette a un lien vers cet ingrédient, elle est listée
+- Dataview cherche dans le champ `ingredients` du frontmatter de chaque recette
+- Si une recette a `[[tomate]]` dans son frontmatter, elle apparaît sur la page "tomate.md"
 
-### Script d'ajout automatique
+### Scripts disponibles
 
-Le script `tools/add-wikilinks-to-recipes.py` automatise l'ajout de wikilinks :
+#### 1. `migrate-recipes.py` - Migration principale
+
+Extrait les ingrédients et crée les wikilinks dans le frontmatter :
 
 ```bash
 # Voir ce qui serait fait
-python3 tools/add-wikilinks-to-recipes.py --dry-run
+python3 tools/migrate-recipes.py --dry-run
 
-# Ajouter les wikilinks réellement
-python3 tools/add-wikilinks-to-recipes.py
+# Lancer la migration
+python3 tools/migrate-recipes.py
+
+# Avec scraping d'instructions
+python3 tools/migrate-recipes.py --scrape
+```
+
+#### 2. `clean-recipe-wikilinks.py` - Nettoyage du texte
+
+Supprime tous les wikilinks du texte des recettes (section ## Ingrédients) :
+
+```bash
+# Voir ce qui serait fait
+python3 tools/clean-recipe-wikilinks.py --dry-run
+
+# Nettoyer les wikilinks
+python3 tools/clean-recipe-wikilinks.py
 ```
 
 Le script :
-1. Lit les ingrédients normalisés du frontmatter
-2. Cherche chaque ingrédient dans la section "## Ingrédients"
-3. Ajoute `[[ingredient]]` autour de chaque occurrence
-4. Gère les pluriels, articles (d', de, du, etc.)
-5. Corrige les wikilinks malformés (`[[[[ingredient]]]]` → `[[ingredient]]`)
-6. Génère un rapport détaillé
+1. Lit chaque recette
+2. Dans la section "## Ingrédients", supprime tous les `[[wikilinks]]`
+3. Corrige les wikilinks malformés (`[[[[ingredient]]]]` → `ingredient`)
+4. Préserve le texte original
+
+#### 3. `update-ingredient-pages.py` - Mise à jour des pages d'ingrédients
+
+Met à jour la requête Dataview dans les pages d'ingrédients :
+
+```bash
+# Voir ce qui serait fait
+python3 tools/update-ingredient-pages.py --dry-run
+
+# Mettre à jour les pages
+python3 tools/update-ingredient-pages.py
+```
+
+Change `WHERE contains(file.outlinks, ...)` en `WHERE contains(ingredients, ...)`
 
 ## 🚀 Installation
 
@@ -176,41 +231,40 @@ python3 tools/migrate-recipes.py --recipe "Piperade"
 
 ### 1. Parsing des ingrédients
 
-Le script parse différents formats d'ingrédients:
+Le script parse différents formats d'ingrédients (français et anglais):
 
 ```python
 # Formats reconnus:
-"- [ ] 600 g oignon"           → "oignon"
-"- [ ] 3 unité poivron"        → "poivron"
-"- [ ] quelque pincée sel"     → "sel"
-"- 2 kg pommes de terre"       → "pomme de terre"
-```
-
-**Regex utilisées**:
-```python
-r'^[\d,\.]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée)s?\s+(.+)$'
-r'^quelques?\s+(?:pincée|gousse|unité)s?\s+(.+)$'
-r'^\d+\s+(.+)$'
+"- [ ] 600 g oignon"                          → "oignon"
+"- [ ] 3 unité poivron"                       → "poivron"
+"- [ ] 1¾ cups coconut milk (divided)"        → "lait de coco"
+"- [ ] 2 Tablespoons chopped palm sugar"      → "sucre de palme"
+"- [ ] quelques pincées de sel"               → "sel"
 ```
 
 ### 2. Normalisation des ingrédients
 
-**Règles de normalisation**:
+**Règles de normalisation appliquées**:
 
-1. Conversion en minuscules
-2. Suppression des articles: `le`, `la`, `les`, `l'`, `un`, `une`, `des`, `du`, `de`, `d'`
-3. Conversion pluriel → singulier pour les ingrédients courants
-4. Forme canonique: `ail` (pas `gousses d'ail`)
+1. **Traduction anglais → français** : `coconut milk` → `lait de coco`, `chicken stock` → `bouillon de poulet`
+2. **Singulier** : `tomates` → `tomate`, `oignons` → `oignon`
+3. **Sans articles** : `le beurre` → `beurre`, `de l'ail` → `ail`
+4. **Sans quantités** : `3-4 tbsp tamarin` → `tamarin`
+5. **Sans préparations** : `palm sugar, chopped` → `sucre de palme`
+6. **Forme canonique** : `gousses d'ail` → `ail`
 
-**Table de normalisation**:
+**⚠️ Important** : La normalisation automatique n'est jamais parfaite. Pour un résultat optimal, une révision manuelle est recommandée.
+
+**Dictionnaire de traduction** (60+ mappings) :
 ```python
-{
-    'oignons': 'oignon',
-    'tomates': 'tomate',
-    'carottes': 'carotte',
-    'pommes de terre': 'pomme de terre',
-    "gousses d'ail": 'ail',
-    # ... etc
+INGREDIENT_MAPPINGS = {
+    'coconut milk': 'lait de coco',
+    'chicken stock': 'bouillon de poulet',
+    'fish sauce': 'sauce de poisson',
+    'palm sugar': 'sucre de palme',
+    'chicken thigh': 'cuisses de poulet',
+    'thai eggplant': 'aubergine thaï',
+    # ... plus de 60 mappings
 }
 ```
 
@@ -289,17 +343,20 @@ tags:
 \`\`\`dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  source as "Source"
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 \`\`\`
 
 **Explication de la requête**:
-- `file.outlinks` = tous les wikilinks sortants de chaque recette
+- `ingredients` = champ du frontmatter contenant la liste des wikilinks d'ingrédients
 - `this.file.link` = référence à la page d'ingrédient actuelle
-- Si une recette contient `[[tomate]]`, elle apparaîtra automatiquement sur la page "tomate.md"
-- Cette méthode utilise le graphe de liens natif d'Obsidian au lieu des propriétés frontmatter
+- Dataview cherche dans le frontmatter `ingredients:` de chaque recette
+- Si une recette a `[[tomate]]` dans son frontmatter, elle apparaît sur la page "tomate.md"
+- **Important** : Les wikilinks sont UNIQUEMENT dans le frontmatter, pas dans le texte
 
 ## 💡 Notes
 

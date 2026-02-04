@@ -14,48 +14,48 @@ tags:
 - TraditionalKimchi
 base: '[[Recettes.base]]'
 ingredients:
-- napa cabbage , remove thick outer cabbage leaves)
-- eau )
-- korean coarse sea sel , )
-- 1/2 cup cooking sel , )
-- glutinous riz flour )
-- eau )
-- gochugaru , )
-- korean radish
-- fine sea sel
-- korean sauce de poisson
-- seled crevettes fermentées
-- korean chives , cut in
-- carotte
-- 1/4 cup
-- 1/2 tbsp
-- raw sucre
-- oignon , blended  or finely grated)
+- '[[chou chinois]]'
+- '[[eau]]'
+- '[[gros sel]]'
+- '[[sel]]'
+- '[[farine de riz gluant]]'
+- '[[piment coréen]]'
+- '[[radis]]'
+- '[[sel fin]]'
+- '[[sauce de poisson]]'
+- '[[crevettes fermentées]]'
+- '[[ciboulette coréenne]]'
+- '[[carotte]]'
+- '[[ail]]'
+- '[[gingembre]]'
+- '[[sucre roux]]'
+- '[[oignon]]'
 type: recette
 ---
+
 ![](https://mykoreankitchen.com/wp-content/uploads/2022/01/5.-Homemade-Kimchi.jpg)
 
 Learn how to make napa cabbage kimchi, a popular Korean side dish made from fermented napa cabbage. Check out my best kimchi recipe and tips!
 
 ## Ingrédients
 
-- 4 kg [[napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)]]
-- 16 [[cups water ((3840 ml))]]
-- [[1.5 cups korean coarse sea salt (or natural rock salt (for salt water), (285g / 10 ounces))]]
-- [[1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))]]
-- 2 [[tbsp glutinous rice flour ((sweet rice flour))]]
-- [[1.5 cups water ((360 ml))]]
-- [[1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))]]
-- 540 g [[korean radish (or daikon radish (19 ounces), julienned)]]
-- 1 [[tbsp fine sea sel]]
-- [[korean sauce de poisson]]
-- 2 [[tbsp salted fermented shrimp (, minced)]]
-- 90 g [[korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)]]
-- 140 g [[carrots ((4.9 ounces), julienned)]]
-- [[1/4 cup minced garlic ((42g / 1.48 ounces))]]
-- [[1/2 tbsp minced ginger]]
-- 2 [[tbsp raw sucre]]
-- 75 g [[onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely grated)]]
+- 4 kg napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)
+- 16 cups water ((3840 ml))
+- 1.5 cups korean coarse sea salt (or natural rock salt (for salt water), (285g / 10 ounces))
+- 1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))
+- 2 tbsp glutinous rice flour ((sweet rice flour))
+- 1.5 cups water ((360 ml))
+- 1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))
+- 540 g korean radish (or daikon radish (19 ounces), julienned)
+- 1 tbsp fine sea sel
+- korean sauce de poisson
+- 2 tbsp salted fermented shrimp (, minced)
+- 90 g korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)
+- 140 g carrots ((4.9 ounces), julienned)
+- 1/4 cup minced garlic ((42g / 1.48 ounces))
+- 1/2 tbsp minced ginger
+- 2 tbsp raw sucre
+- 75 g onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely grated)
 
 ## Instructions
 

@@ -18,9 +18,9 @@ tags:
 - RecetteRapide
 base: '[[Recettes.base]]'
 ingredients:
-- huile d'olive
-- piment
-- sel de maldon
+- "[[huile d'olive]]"
+- '[[piment]]'
+- '[[fleur de sel]]'
 type: recette
 ---
 
@@ -30,8 +30,8 @@ Découvrez la recette des piments ou poivrons de Padron grillés (Pemento de Her
 
 ## Ingrédients
 
-- [[huile d'olive]]
-- [[piment]]
-- [[sel de maldon]]
+- huile d'olive
+- piment
+- sel de maldon
 
 ## Instructions

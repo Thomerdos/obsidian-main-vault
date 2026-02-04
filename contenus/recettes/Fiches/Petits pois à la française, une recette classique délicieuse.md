@@ -13,12 +13,12 @@ tags:
 - PetitsPoisÀLaFrançaise
 base: '[[Recettes.base]]'
 ingredients:
-- beurre
-- laitue
-- lardons
-- oignon
-- petits pois
-- sucrine
+- '[[beurre]]'
+- '[[laitue]]'
+- '[[lardon]]'
+- '[[oignon]]'
+- '[[petit pois]]'
+- '[[sucrine]]'
 type: recette
 ---
 
@@ -28,11 +28,11 @@ Une recette traditionnelle et délicieuse mêlant petits pois frais, lardons et 
 
 ## Ingrédients
 
-- [[beurre]]
-- [[laitue]]
-- [[lardons]]
-- [[oignon]]
-- [[petits pois]]
-- [[sucrine]]
+- beurre
+- laitue
+- lardons
+- oignon
+- petits pois
+- sucrine
 
 ## Instructions

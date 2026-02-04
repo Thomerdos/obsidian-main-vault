@@ -10,28 +10,29 @@ tags:
 - Video
 base: '[[Recettes.base]]'
 ingredients:
-- eau
-- kombu  )
-- bonite séchée  )
-- soft/silken tofu
-- miso )
-- dried algue wakame
-- green oignon/cébette
+- '[[eau]]'
+- '[[kombu]]'
+- '[[katsuobushi]]'
+- '[[tofu soyeux]]'
+- '[[miso]]'
+- '[[algue wakame]]'
+- '[[ciboule]]'
 type: recette
 ---
+
 ![](https://www.justonecookbook.com/wp-content/uploads/2022/06/Miso-Soup-8297-I.jpg)
 
 Make my authentic, homemade Japanese miso soup with an easy from-scratch dashi stock and classic ingredients like tofu and wakame seaweed.
 
 ## Ingrédients
 
-- 4 [[cups eau]]
-- 1 [[piece kombu (dried kelp) ((⅓ oz, 10 g per piece; 4 x 4 inches or 10 x 10 cm))]]
-- 1 [[cup katsuobushi (dried bonito flakes) ((packed; i used a loosely packed 3 cups in the video for stronger flavor))]]
-- 7 [[oz soft/silken tofu (kinugoshi dofu)]]
-- 4 [[tbsp miso ((use 1 tbsp, 18 g for every 1 cup, 240 ml of dashi))]]
-- 1 [[tbsp dried algue wakame]]
-- 1  [[green onion/scallion]]
+- 4 cups eau
+- 1 piece kombu (dried kelp) ((⅓ oz, 10 g per piece; 4 x 4 inches or 10 x 10 cm))
+- 1 cup katsuobushi (dried bonito flakes) ((packed; i used a loosely packed 3 cups in the video for stronger flavor))
+- 7 oz soft/silken tofu (kinugoshi dofu)
+- 4 tbsp miso ((use 1 tbsp, 18 g for every 1 cup, 240 ml of dashi))
+- 1 tbsp dried algue wakame
+- 1  green onion/scallion
 
 ## Instructions
 

@@ -138,12 +138,14 @@ def scrape_instructions(url: str) -> Optional[str]:
 
 def parse_ingredient_line(line: str) -> Optional[str]:
     """
-    Extract ingredient name from a line like:
+    Extract ONLY the main ingredient name from a line like:
     - [ ] 600 g oignon
     - [ ] 3 unité poivron
-    - [ ] quelque pincée sel
+    - [ ] 1¾ cups coconut milk (divided)
+    - [ ] 2 Tablespoons finely chopped palm sugar
     
-    Returns the ingredient name without quantity/unit.
+    Returns ONLY the main ingredient name without quantity/unit/preparation/notes.
+    Example: "2 tbsp finely chopped fresh basil" → "basil"
     """
     line = line.strip()
     
@@ -151,50 +153,174 @@ def parse_ingredient_line(line: str) -> Optional[str]:
     line = re.sub(r'^-\s*\[[ x]\]\s*', '', line)
     line = re.sub(r'^[-*]\s+', '', line)
     
+    # Remove existing wikilinks (clean up malformed ones too)
+    line = re.sub(r'\[\[+', '', line)
+    line = re.sub(r'\]\]+', '', line)
+    
     if not line or len(line) < 2:
         return None
     
-    # Pattern: optional number, optional unit, then ingredient name
-    # Match patterns like: "600 g oignon", "3 unité poivron", "quelque pincée sel"
+    # Remove notes in parentheses first (like "(divided)", "(see note 1)")
+    line_without_notes = re.sub(r'\([^)]*\)', '', line).strip()
+    
+    # Pattern: optional number/fraction, optional unit, then ingredient name
+    # Extended to handle English units and more complex patterns
     patterns = [
-        r'^[\d,\.]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée|cuillère|cas|cac|tasse|branche|feuille|brin)s?\s+(.+)$',
-        r'^quelques?\s+(?:pincée|gousse|unité|branche|feuille|brin)s?\s+(.+)$',
-        r'^\d+\s+(.+)$',  # Just number and name
+        # French units with "de"
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|unités|gousse|gousses|filet|filets|pincée|pincées|cuillère|cuillères|cas|cac|tasse|tasses|branche|branches|feuille|feuilles|brin|brins)s?\s+(?:de\s+)?(.+)$',
+        # English units with "of"
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s-]+(?:cup|cups|tablespoon|tablespoons|tbsp|tsp|teaspoon|teaspoons|ounce|ounces|oz|pound|pounds|lb|lbs|serving|servings|stalk|stalks|piece|pieces|clove|cloves|pinch)s?\s+(?:of\s+)?(.+)$',
+        # Words like "quelques"
+        r'^quelques?\s+(?:pincée|pincées|gousse|gousses|unité|unités|branche|branches|feuille|feuilles|brin|brins)s?\s+(?:de\s+)?(.+)$',
+        # Just number and name
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s-]+(.+)$',
     ]
     
+    ingredient = None
     for pattern in patterns:
-        match = re.match(pattern, line, re.IGNORECASE)
+        match = re.match(pattern, line_without_notes, re.IGNORECASE)
         if match:
             ingredient = match[1].strip()
-            # Clean up whitespace
-            ingredient = re.sub(r'\s+', ' ', ingredient)
-            # Skip if it starts with "à " (like "à soupe")
-            if ingredient.lower().startswith('à '):
-                return None
-            # Skip if still has numbers (like "1/4 chou")
-            if re.match(r'^\d+[/\d]*\s', ingredient):
-                return None
-            return ingredient.lower()
+            break
     
     # Fallback: if line doesn't start with number, might be just the ingredient
-    if not re.match(r'^\d', line):
-        return line.lower()
+    if not ingredient:
+        if not re.match(r'^[\d,\.\s-]', line_without_notes):
+            ingredient = line_without_notes
     
-    return None
+    if not ingredient or len(ingredient) < 2:
+        return None
+    
+    # Clean up whitespace
+    ingredient = re.sub(r'\s+', ' ', ingredient)
+    
+    # Remove preparation descriptors at the start
+    ingredient = re.sub(r'^(?:finely\s+|roughly\s+|thinly\s+|thickly\s+|coarsely\s+)?(?:chopped|diced|minced|sliced|grated|shredded|crushed|pressed|cut|torn|packed|peeled|washed|cleaned|trimmed|drained|rinsed|soaked)\s+', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove preparation descriptors after commas (e.g., "sugar, chopped" → "sugar")
+    ingredient = re.sub(r',\s*(?:finely\s+|roughly\s+|thinly\s+)?(?:chopped|diced|minced|sliced|grated|shredded|crushed|cut|torn|packed).*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove "cut into..." or "sliced into..." patterns
+    ingredient = re.sub(r',?\s+(?:cut|sliced|chopped|diced)\s+into\s+.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove size/quality descriptors at the start (medium, large, small, fresh, dried, etc.)
+    ingredient = re.sub(r'^(?:small|medium|large|extra-large|fresh|dried|dry|frozen|canned|bottled|unsalted|salted|raw|cooked|roasted|toasted)\s+', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove "size" after ingredient (e.g., "onion, medium size" → "onion")
+    ingredient = re.sub(r',?\s*(?:medium|large|small)\s+size.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove measurement-related endings (e.g., "soak in room temp water for 1 hour")
+    ingredient = re.sub(r',?\s+(?:soak|soaked)\s+in\s+.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Skip if it starts with "à " (like "à soupe") or "of " or "to " or "for "
+    if ingredient.lower().startswith(('à ', 'of ', 'to ', 'for ', 'into ', 'about ')):
+        return None
+    
+    # Skip if still has numbers at the start (like "1/4 chou")
+    if re.match(r'^[\d/\s-]+$', ingredient) or re.match(r'^[\d/]', ingredient):
+        return None
+    
+    # Skip very short results
+    if len(ingredient) < 2:
+        return None
+    
+    # Clean trailing dots, commas, etc.
+    ingredient = ingredient.rstrip('.,;:')
+    
+    return ingredient.lower()
 
+
+# English to French ingredient mappings (for normalization)
+INGREDIENT_MAPPINGS = {
+    # Liquids & Dairy
+    'coconut milk': 'lait de coco',
+    'chicken stock': 'bouillon de poulet',
+    'fish sauce': 'sauce de poisson',
+    'soy sauce': 'sauce soja',
+    'oyster sauce': 'sauce huître',
+    'heavy cream': 'crème épaisse',
+    'milk': 'lait',
+    'water': 'eau',
+    
+    # Sugars & Sweeteners
+    'palm sugar': 'sucre de palme',
+    'brown sugar': 'sucre brun',
+    'sugar': 'sucre',
+    
+    # Proteins
+    'chicken thigh': 'cuisses de poulet',
+    'chicken thighs': 'cuisses de poulet',
+    'chicken breast': 'blanc de poulet',
+    'shrimp': 'crevettes',
+    'dried shrimp': 'crevettes séchées',
+    'tofu': 'tofu',
+    'pressed tofu': 'tofu pressé',
+    
+    # Vegetables
+    'thai eggplant': 'aubergine thaï',
+    'eggplant': 'aubergine',
+    'thai basil': 'basilic thaï',
+    'basil': 'basilic',
+    'garlic': 'ail',
+    'garlic chives': 'ail chives',
+    'onion': 'oignon',
+    'onions': 'oignon',
+    'tomato': 'tomate',
+    'tomatoes': 'tomate',
+    'carrot': 'carotte',
+    'carrots': 'carotte',
+    'bell pepper': 'poivron',
+    'bell peppers': 'poivron',
+    'green beans': 'haricots verts',
+    'bean sprouts': 'germes de soja',
+    
+    # Spices & Seasonings
+    'makrut lime leaves': 'feuilles de combava',
+    'lime leaves': 'feuilles de combava',
+    'chili': 'piment',
+    'chili flakes': 'piment en flocons',
+    'dried chili flakes': 'piment séché en flocons',
+    'salt': 'sel',
+    'pepper': 'poivre',
+    'black pepper': 'poivre noir',
+    
+    # Noodles & Rice
+    'rice noodles': 'nouilles de riz',
+    'dry rice noodles': 'nouilles de riz sèches',
+    'rice': 'riz',
+    
+    # Others
+    'tamarind': 'tamarin',
+    'thai cooking tamarind': 'tamarin thaïlandais',
+    'peanuts': 'cacahuètes',
+    'roasted peanuts': 'cacahuètes grillées',
+    'lime': 'citron vert',
+    'lemon': 'citron',
+    'oil': 'huile',
+    'vegetable oil': 'huile végétale',
+    'olive oil': "huile d'olive",
+    'butter': 'beurre',
+    'eggs': 'oeufs',
+    'egg': 'oeuf',
+}
 
 def normalize_ingredient_name(name: str) -> str:
     """
     Normalize ingredient name for consistency.
-    Handles plural/singular, removes articles, etc.
+    Handles plural/singular, removes articles, translates English to French.
+    Priority: French names, singular form, no articles.
     """
     if not name:
         return ""
     
     name = name.strip().lower()
     
-    # Remove leading articles
-    name = re.sub(r'^(le|la|les|l\'|un|une|des|du|de|d\')\s+', '', name)
+    # Remove leading articles (French and English)
+    name = re.sub(r'^(le|la|les|l\'|un|une|des|du|de|d\'|the|a|an|some)\s+', '', name)
+    
+    # Check if it's in our English-to-French mapping
+    if name in INGREDIENT_MAPPINGS:
+        return INGREDIENT_MAPPINGS[name]
     
     # Common plurals to singular (French)
     replacements = {
@@ -203,17 +329,25 @@ def normalize_ingredient_name(name: str) -> str:
         'carottes': 'carotte',
         'pommes de terre': 'pomme de terre',
         "gousses d'ail": 'ail',
-        'ail': 'ail',
+        'gousses ail': 'ail',
         'piments': 'piment',
         'poivrons': 'poivron',
         'aubergines': 'aubergine',
         'courgettes': 'courgette',
         'champignons': 'champignon',
+        'échalotes': 'échalote',
+        'oeufs': 'oeuf',
     }
     
-    for plural, singular in replacements.items():
-        if name == plural:
-            return singular
+    # Check exact match first
+    if name in replacements:
+        return replacements[name]
+    
+    # Try removing 's' at the end for English plurals and check mapping again
+    if name.endswith('s') and len(name) > 3:
+        singular = name[:-1]
+        if singular in INGREDIENT_MAPPINGS:
+            return INGREDIENT_MAPPINGS[singular]
     
     return name
 
@@ -224,7 +358,7 @@ def extract_ingredients_from_content(content: str) -> List[str]:
     in_ingredients_section = False
     
     for line in content.split('\n'):
-        if line.strip().startswith('## Ingrédients'):
+        if line.strip().startswith('## Ingrédients') or line.strip().startswith('## Ingredients'):
             in_ingredients_section = True
             continue
         elif line.strip().startswith('##') and in_ingredients_section:
@@ -307,48 +441,6 @@ def write_recipe_file(filepath: Path, frontmatter: Dict, content: str):
         f.write(content)
 
 
-def update_ingredients_section(content: str, ingredients: List[str]) -> str:
-    """
-    Update the ## Ingrédients section to include wiki links.
-    Preserves quantities but adds [[ingredient]] links.
-    """
-    lines = content.split('\n')
-    updated_lines = []
-    in_ingredients_section = False
-    
-    for line in lines:
-        if line.strip().startswith('## Ingrédients'):
-            in_ingredients_section = True
-            updated_lines.append(line)
-            continue
-        elif line.strip().startswith('##') and in_ingredients_section:
-            in_ingredients_section = False
-        
-        if in_ingredients_section and line.strip():
-            # Try to add wiki link to ingredient
-            ingredient = parse_ingredient_line(line)
-            if ingredient:
-                normalized = normalize_ingredient_name(ingredient)
-                if normalized and normalized in ingredients:
-                    # Check if line already has wiki links
-                    if '[[' not in line:
-                        # Replace ingredient name with wiki link
-                        # Keep the quantity part
-                        line_clean = re.sub(r'^-\s*\[[ x]\]\s*', '- ', line)
-                        # Find the ingredient in the line and wrap it
-                        if normalized in line_clean.lower():
-                            pattern = re.compile(re.escape(normalized), re.IGNORECASE)
-                            line_clean = pattern.sub(f'[[{normalized}]]', line_clean, count=1)
-                            updated_lines.append(line_clean)
-                            continue
-            updated_lines.append(line)
-            continue
-        
-        updated_lines.append(line)
-    
-    return '\n'.join(updated_lines)
-
-
 def create_ingredient_page(vault_path: Path, ingredient: str, recipes: List[str]):
     """Create an ingredient page in contenus/recettes/Ingredients/"""
     ingredients_dir = vault_path / 'contenus' / 'recettes' / 'Ingredients'
@@ -403,11 +495,11 @@ def create_ingredient_page(vault_path: Path, ingredient: str, recipes: List[str]
 ```dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  temps_preparation as "Préparation (min)",
-  temps_cuisson as "Cuisson (min)",
-  type_cuisine as "Cuisine"
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 
@@ -472,11 +564,17 @@ def process_recipe(filepath: Path, vault_path: Path, scrape: bool = False, dry_r
         # Update frontmatter
         modified = False
         
-        # Add ingredients list
-        if ingredients and 'ingredients' not in frontmatter:
-            frontmatter['ingredients'] = ingredients
-            result['properties_added'].append('ingredients')
-            modified = True
+        # Add/update ingredients list with wikilinks in frontmatter ONLY
+        if ingredients:
+            # Create wikilinks for frontmatter
+            ingredients_with_links = [f"[[{ing}]]" for ing in ingredients]
+            
+            # Always update if ingredients changed
+            existing_ingredients = frontmatter.get('ingredients', [])
+            if existing_ingredients != ingredients_with_links:
+                frontmatter['ingredients'] = ingredients_with_links
+                result['properties_added'].append('ingredients')
+                modified = True
         
         # Add transformed properties
         for prop, value in new_props.items():
@@ -518,12 +616,8 @@ def process_recipe(filepath: Path, vault_path: Path, scrape: bool = False, dry_r
                             result['instructions_scraped'] = True
                             modified = True
         
-        # Update ingredients section with wiki links
-        if ingredients:
-            new_content = update_ingredients_section(content, ingredients)
-            if new_content != content:
-                content = new_content
-                modified = True
+        # NOTE: We DO NOT modify the text of the ingredients section
+        # Wikilinks are ONLY in the frontmatter
         
         # Write changes
         if modified and not dry_run:

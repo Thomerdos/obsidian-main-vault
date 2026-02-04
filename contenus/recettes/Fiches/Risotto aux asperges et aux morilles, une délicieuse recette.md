@@ -14,6 +14,25 @@ tags:
 - risottoAuxAspergesEtMorilles
 base: '[[Recettes.base]]'
 ingredients:
+- '[[asperge]]'
+- '[[beurre]]'
+- '[[échalote]]'
+- '[[fromage]]'
+- "[[huile d'olive]]"
+- '[[morille]]'
+- '[[parmesan]]'
+- '[[riz]]'
+- '[[thym]]'
+- '[[vin blanc]]'
+type: recette
+---
+
+![](https://www.papillesetpupilles.fr/opengraph_image/159731)
+
+Réalisez cette recette facile de risotto aux asperges vertes et morilles, fondant et parfumé. Facile à préparer, parfaite pour le printemps ou les fêtes.
+
+## Ingrédients
+
 - asperge
 - asperge
 - beurre
@@ -25,25 +44,5 @@ ingredients:
 - riz
 - thym
 - vin blanc
-type: recette
----
-
-![](https://www.papillesetpupilles.fr/opengraph_image/159731)
-
-Réalisez cette recette facile de risotto aux asperges vertes et morilles, fondant et parfumé. Facile à préparer, parfaite pour le printemps ou les fêtes.
-
-## Ingrédients
-
-- [[asperge]]
-- [[asperge]]
-- [[beurre]]
-- [[echalotes]]
-- [[fromages]]
-- [[huile d'olive]]
-- [[morilles]]
-- [[parmesan]]
-- [[riz]]
-- [[thym]]
-- [[vin blanc]]
 
 ## Instructions

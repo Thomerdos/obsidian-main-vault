@@ -1,34 +1,8 @@
 ---
+title: Mirin
 type: ingredient
-nom: "mirin"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
-tags:
-  - ingredient
 ---
 
-# 🥕 Mirin
+# Mirin
 
-## 📋 Informations
-
-- **Catégorie**: 
-- **Saison**: 
-- **Allergènes**: 
-
-## 🍽️ Utilisé dans les recettes
-
-```dataview
-TABLE WITHOUT ID
-  file.link as "Recette",
-  source as "Source"
-FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
-SORT file.name ASC
-```
-
-## 💡 Notes
-
-
-## 🔗 Liens
+Ingrédient utilisé dans les recettes.
