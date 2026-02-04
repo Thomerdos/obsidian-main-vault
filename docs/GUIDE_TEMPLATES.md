@@ -6,7 +6,7 @@ Les templates de recettes ont été simplifiés pour faciliter leur utilisation 
 
 ## Templates Disponibles
 
-### 1. Template Principal : `templater-recette.md`
+### 2. Template Principal : `templater-recette.md`
 
 Le template principal a été simplifié en supprimant les champs optionnels peu utilisés :
 
@@ -53,10 +53,6 @@ Le template Webclipper a été simplifié de la même manière et harmonisé ave
 - Structure identique au template principal
 - Sélecteurs CSS conservés pour l'extraction automatique
 - Notes d'utilisation simplifiées
-
-### 3. Backup : `templater-recette-old.md`
-
-L'ancien template complet a été sauvegardé pour référence. Si vous avez besoin des champs additionnels (type_cuisine, regime, saison, etc.), vous pouvez les ajouter manuellement aux recettes qui en ont besoin.
 
 ## Compatibilité
 
