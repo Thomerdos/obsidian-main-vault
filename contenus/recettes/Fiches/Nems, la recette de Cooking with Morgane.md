@@ -1,20 +1,13 @@
 ---
-title: "Nems, la recette de Cooking with Morgane"
-source: "https://www.cookingwithmorgane.com/fr/recette/nems.html"
-author:
-published:
+title: Nems, la recette de Cooking with Morgane
+source: https://www.cookingwithmorgane.com/fr/recette/nems.html
 created: 2026-02-02
-image:
-tags:
-base: "[[Recettes.base]]"
+base: '[[Recettes.base]]'
+type: recette
 ---
-
-
-
 
 ## Ingrédients
 
 - [ ] 
 
 ## Instructions
-

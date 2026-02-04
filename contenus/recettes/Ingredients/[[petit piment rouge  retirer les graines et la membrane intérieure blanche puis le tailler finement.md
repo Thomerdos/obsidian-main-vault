@@ -1,0 +1,36 @@
+---
+type: ingredient
+nom: '[[petit piment rouge : retirer les graines et la membrane intérieure blanche
+  puis le tailler finement]]'
+categorie: ''
+recettes:
+- Sauce chimichurri traditionnelle
+tags:
+- ingredient
+---
+
+# 🥕 [[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "[[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

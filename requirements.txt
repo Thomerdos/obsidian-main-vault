@@ -1,0 +1,15 @@
+# Python dependencies for Obsidian vault tools
+
+# YAML processing
+PyYAML>=6.0.1
+
+# Web scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# CLI interface
+click>=8.1.0
+
+# Rate limiting for web scraping
+ratelimit>=2.2.1

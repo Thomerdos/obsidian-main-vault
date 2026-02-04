@@ -1,49 +1,72 @@
 ---
-title: "Blanquette de veau"
-source: "https://chefsimon.com/gourmets/chef-simon/recettes/blanquette-de-veau--12"
+title: Blanquette de veau
+source: https://chefsimon.com/gourmets/chef-simon/recettes/blanquette-de-veau--12
 author:
-  - "[[Chef Simon]]"
+- '[[Chef Simon]]'
 published: 2011-12-07
 created: 2026-02-02
-image: "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/69/blanquette-de-veau-a-l-ancienne-3000x2000.jpg"
+image: https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/69/blanquette-de-veau-a-l-ancienne-3000x2000.jpg
 tags:
-  - "Veau"
-  - "Blanquette"
-  - "CuisineClassique"
-  - "CuisineFamiliale"
-  - "ComfortFood"
-  - "Viande"
-  - "Mijoté"
-  - "Hiver"
-  - "CuisineFrançaise"
-  - "BlanquetteDeVeau"
-  - "PlatEnSauce"
-base: "[[Recettes.base]]"
+- Veau
+- Blanquette
+- CuisineClassique
+- CuisineFamiliale
+- ComfortFood
+- Viande
+- Mijoté
+- Hiver
+- CuisineFrançaise
+- BlanquetteDeVeau
+- PlatEnSauce
+base: '[[Recettes.base]]'
+ingredients:
+- veau (épaule, flanchet, tendron, poitrine)
+- carotte
+- oignon
+- citron
+- clous de girofle
+- d'ail
+- bouquet garni
+- poireaux
+- champignons de paris
+- petits oignons grelots glacés à blanc ou oignons saucier
+- beurre
+- sucre
+- farine
+- litres de bouillon de cuisson
+- crème entière
+- muscade
+- sel
+type_cuisine: Française
+saison:
+- hiver
+type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/69/blanquette-de-veau-a-l-ancienne-3000x2000.jpg)
 
 Blanquette de veau. La recette de la blanquette de veau à l'ancienne, discutée et argumentée.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- [ ] 2,5 kg de veau (épaule, flanchet, tendron, poitrine)
-- [ ] 8 carottes
-- [ ] 4 oignons
-- [ ] 1 citron
-- [ ] clous de girofle
-- [ ] 8 gousses d'ail
-- [ ] un bouquet garni
-- [ ] 2 poireaux
-- [ ] 500 g de champignons de Paris
-- [ ] 250 g de petits oignons grelots glacés à blanc ou oignons saucier
-- [ ] 40 g de beurre
-- [ ] 20 g de sucre
-- [ ] 180 g beurre
-- [ ] 180 g de farine
-- [ ] 2 litres de bouillon de cuisson
-- [ ] 1,5 dl de crème entière
-- [ ] muscade
-- [ ] sel
+- 2,5 kg de [[[[veau (épaule, flanchet, tendron, poitrine)]]]]
+- 8 [[[[carotte]]s]]
+- 4 [[[[oignon]]s]]
+- 1 [[[[citron]]]]
+- [[[[clous de girofle]]]]
+- 8 gousses [[[[d'ail]]]]
+- un [[[[bouquet garni]]]]
+- 2 [[[[poireaux]]]]
+- 500 g de [[[[champignons de paris]]]]
+- 250 g de [[[[petits oignons grelots glacés à blanc ou oignons saucier]]]]
+- 40 g de [[[[beurre]]]]
+- 20 g de [[[[sucre]]]]
+- 180 g [[[[beurre]]]]
+- 180 g de [[[[farine]]]]
+- 2 [[[[litres de bouillon de cuisson]]]]
+- 1,5 dl de [[[[crème entière]]]]
+- [[[[muscade]]]]
+- [[[[sel]]]]
 
 ## Instructions
 

@@ -1,52 +1,75 @@
 ---
-title: "Dad's Authentic Beef and Broccoli: A Chinese Chef's Secrets"
-source: "https://www.madewithlau.com/recipes/beef-broccoli"
+title: 'Dad''s Authentic Beef and Broccoli: A Chinese Chef''s Secrets'
+source: https://www.madewithlau.com/recipes/beef-broccoli
 author:
-  - "[[Made With Lau]]"
+- '[[Made With Lau]]'
 published: 2021-10-07
 created: 2026-02-02
-image: "https://cdn.sanity.io/images/2r0kdewr/production/5283c364dc5b47a3e0a64e604661f68d13669d8c-6000x3375.jpg?w=600&q=50"
+image: https://cdn.sanity.io/images/2r0kdewr/production/5283c364dc5b47a3e0a64e604661f68d13669d8c-6000x3375.jpg?w=600&q=50
 tags:
-  - "Beef"
-  - "Broccoli"
-  - "ChineseRecipe"
-  - "Velveting"
-  - "CornstarchMarinade"
-  - "StirFry"
-base: "[[Recettes.base]]"
+- Beef
+- Broccoli
+- ChineseRecipe
+- Velveting
+- CornstarchMarinade
+- StirFry
+base: '[[Recettes.base]]'
+ingredients:
+- oz beef
+- lb broccoli
+- 0.5 carrot
+- small piece ginger
+- stem scallions
+- cloves garlic
+- tbsp cooking oil
+- pinch salt
+- tsp sesame oil
+- tsp baking soda
+- tbsp oyster sauce
+- tbsp light soy sauce
+- tbsp water
+- tbsp cornstarch
+- 0.25 tsp white pepper
+- tsp sugar
+- tbsp cooking wine
+- tsp light soy sauce
+- tsp dark soy sauce
+- tsp cornstarch
+type: recette
 ---
+
 ![](https://cdn.sanity.io/images/2r0kdewr/production/5283c364dc5b47a3e0a64e604661f68d13669d8c-6000x3375.jpg?w=600&q=50)
 
 Learn how a 2x James Beard Award Winning Chinese Chef cooks this Beef and Broccoli recipe after making this dish thousands of times!
 
 ## Ingrédients
 
-- [ ] 12 oz beef
-- [ ] 1 lb broccoli
-- [ ] 0.5 carrot
-- [ ] 1 small piece ginger
-- [ ] 1 stem scallions
-- [ ] 2 cloves garlic
-- [ ] 2 tbsp cooking oil
-- [ ] 1 pinch salt
-- [ ] 1 tsp sesame oil
-- [ ] 1 tsp baking soda
-- [ ] 1 tbsp oyster sauce
-- [ ] 1 tbsp light soy sauce
-- [ ] 2 tbsp water
-- [ ] 1 tbsp cornstarch
-- [ ] 0.25 tsp white pepper
-- [ ] 1 tsp sugar
-- [ ] 1 tbsp cooking wine
-- [ ] 1 tbsp cooking oil
-- [ ] 1 tbsp oyster sauce
-- [ ] 1 tsp light soy sauce
-- [ ] 1 tsp dark soy sauce
-- [ ] 1 tbsp water
-- [ ] 1 tbsp cooking wine
-- [ ] 1 tsp sugar
-- [ ] 1 tsp cornstarch
-- [ ] 0.25 tsp white pepper
+- 12 [[[[oz beef]]]]
+- 1 [[[[lb broccoli]]]]
+- [[[[0.5 carrot]]]]
+- 1 [[[[small piece ginger]]]]
+- 1 [[[[stem scallions]]]]
+- 2 [[[[cloves garlic]]]]
+- 2 [[[[tbsp cooking oil]]]]
+- 1 [[[[pinch salt]]]]
+- 1 [[[[tsp sesame oil]]]]
+- 1 [[[[tsp baking soda]]]]
+- 1 [[[[tbsp oyster sauce]]]]
+- 1 [[[[tbsp light soy sauce]]]]
+- 2 [[[[tbsp water]]]]
+- 1 [[[[tbsp cornstarch]]]]
+- [[[[0.25 tsp white pepper]]]]
+- 1 [[[[tsp sugar]]]]
+- 1 [[[[tbsp cooking wine]]]]
+- 1 [[[[tbsp cooking oil]]]]
+- 1 [[[[tbsp oyster sauce]]]]
+- 1 [[[[tsp light soy sauce]]]]
+- 1 [[[[tsp dark soy sauce]]]]
+- 1 [[[[tbsp water]]]]
+- 1 [[[[tbsp cooking wine]]]]
+- 1 [[[[tsp sugar]]]]
+- 1 [[[[tsp cornstarch]]]]
+- [[[[0.25 tsp white pepper]]]]
 
 ## Instructions
 

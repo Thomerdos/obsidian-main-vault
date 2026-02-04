@@ -1,32 +1,41 @@
 ---
-title: "Pommes sautées à cru"
-source: "https://chefsimon.com/gourmets/chef-simon/recettes/pommes-sautees-a-cru"
+title: Pommes sautées à cru
+source: https://chefsimon.com/gourmets/chef-simon/recettes/pommes-sautees-a-cru
 author:
-  - "[[Chef Simon]]"
+- '[[Chef Simon]]'
 published: 2011-12-07
 created: 2026-02-02
-image: "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/799/pommes-sautees-a-cru-3000x2000.jpg"
+image: https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/799/pommes-sautees-a-cru-3000x2000.jpg
 tags:
-  - "PommeDeTerre"
-  - "Accompagnement"
-  - "CuisineFrançaise"
-  - "Bistrot"
-  - "PommesMireille"
-  - "PommesDeTerreSarladaises"
-  - "CuisineLyonnaise"
-base: "[[Recettes.base]]"
+- PommeDeTerre
+- Accompagnement
+- CuisineFrançaise
+- Bistrot
+- PommesMireille
+- PommesDeTerreSarladaises
+- CuisineLyonnaise
+base: '[[Recettes.base]]'
+ingredients:
+- pomme de terre
+- sel
+- poivre
+- persil haché
+- graisse de canard ou de beurre clarifié
+type_cuisine: Française
+type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/799/pommes-sautees-a-cru-3000x2000.jpg)
 
 Pommes sautées à cru. Une alternative bistronomique à la friture.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- [ ] 1 kg de pommes de terre
-- [ ] sel
-- [ ] poivre
-- [ ] persil haché
-- [ ] 150 g de graisse de canard ou de beurre clarifié
+- 1 kg de pommes de terre
+- [[[[sel]]]]
+- [[[[poivre]]]]
+- [[[[persil haché]]]]
+- 150 g de [[[[graisse de canard ou de beurre clarifié]]]]
 
 ## Instructions
 

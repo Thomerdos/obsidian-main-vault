@@ -1,34 +1,50 @@
 ---
-title: "Recette Chorba frik"
-source: "https://www.cuisineaz.com/recettes/chorba-frik-8139.aspx"
+title: Recette Chorba frik
+source: https://www.cuisineaz.com/recettes/chorba-frik-8139.aspx
 author:
-  - "[[badia]]"
+- '[[badia]]'
 published: 2006-10-20
 created: 2026-02-02
-image: "https://img.cuisineaz.com/680x357/2017/01/10/i115502-chorba-frik.jpeg"
-tags:
-base: "[[Recettes.base]]"
+image: https://img.cuisineaz.com/680x357/2017/01/10/i115502-chorba-frik.jpeg
+base: '[[Recettes.base]]'
+ingredients:
+- préparation
+- mouton
+- viande de boeuf hachée
+- pois chiches
+- botte(s) coriandre
+- verre(s) frik (blé dur immature concassé)
+- c. à soupe concentré de tomate
+- c. à soupe piment doux en poudre
+- c. à soupe smen
+- oignon(s)
+- branche(s) de céleri
+- sel
+- poivre
+- c. à soupe huile d'olive
+type: recette
 ---
+
 ![](https://img.cuisineaz.com/680x357/2017/01/10/i115502-chorba-frik.jpeg)
 
 Chorba frik – Ingrédients de la recette : 250 g de mouton, 100 g de viande hachée, 100 g de pois chiches trempés la veille, 1 botte de coriandre hachée, 1 branche de céleri
 
 ## Ingrédients
 
-- [ ] Préparation
-- [ ] 250 g Mouton
-- [ ] 100 g Viande de boeuf hachée
-- [ ] 100 g Pois chiches
-- [ ] 1 botte(s) Coriandre
-- [ ] 1 verre(s) Frik (blé dur immature concassé)
-- [ ] 2 c. à soupe Concentré de tomate
-- [ ] 1 c. à soupe Piment doux en poudre
-- [ ] 1 c. à soupe Smen
-- [ ] 1 Oignon(s)
-- [ ] 1 Branche(s) de céleri
-- [ ] Sel
-- [ ] Poivre
-- [ ] 2 c. à soupe Huile d'olive
+- [[[[préparation]]]]
+- 250 g [[[[mouton]]]]
+- 100 g [[[[viande de boeuf hachée]]]]
+- 100 g [[[[pois chiches]]]]
+- 1 [[[[botte(s) coriandre]]]]
+- 1 [[[[verre(s) frik (blé dur immature concassé)]]]]
+- 2 [[[[c. à soupe concentré de tomate]]]]
+- 1 [[[[c. à soupe piment doux en poudre]]]]
+- 1 [[[[c. à soupe smen]]]]
+- 1 [[[[oignon(s)]]]]
+- 1 [[[[branche(s) de céleri]]]]
+- [[[[sel]]]]
+- [[[[poivre]]]]
+- 2 [[[[c. à soupe huile d'olive]]]]
 
 ## Instructions
 

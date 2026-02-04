@@ -1,0 +1,35 @@
+---
+type: ingredient
+nom: cuiller à soupe de crème épaisse (facultatif)
+categorie: ''
+recettes:
+- Fondue de poireaux
+tags:
+- ingredient
+---
+
+# 🥕 Cuiller à soupe de crème épaisse (facultatif)
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "cuiller à soupe de crème épaisse (facultatif)")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

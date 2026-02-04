@@ -1,36 +1,53 @@
 ---
-title: "Dad's Authentic Homemade Chili Oil: A Chinese Chef's Secrets"
-source: "https://www.madewithlau.com/recipes/homemade-chili-oil"
+title: 'Dad''s Authentic Homemade Chili Oil: A Chinese Chef''s Secrets'
+source: https://www.madewithlau.com/recipes/homemade-chili-oil
 author:
-  - "[[Made With Lau]]"
+- '[[Made With Lau]]'
 published: 2022-07-14
 created: 2026-02-02
-image: "https://cdn.sanity.io/images/2r0kdewr/production/b156a0768613dc78386b85c8906bc7282293a288-1000x563.jpg?w=600&q=50"
+image: https://cdn.sanity.io/images/2r0kdewr/production/b156a0768613dc78386b85c8906bc7282293a288-1000x563.jpg?w=600&q=50
 tags:
-  - "ChiliOil"
-  - "辣椒油"
-base: "[[Recettes.base]]"
+- ChiliOil
+- 辣椒油
+base: '[[Recettes.base]]'
+ingredients:
+- 1.5 oz sichuan dried chili flakes
+- 0.5 oz ginger
+- oz red onion
+- oz shallot
+- clove garlic
+- piece star anise
+- dash sesame seeds
+- oz neutral oil
+- tsp sesame oil
+- 0.5 tsp salt
+- 0.5 tsp sugar
+- 0.5 tsp white pepper
+- tbsp paprika
+- tbsp neutral oil
+type: recette
 ---
+
 ![](https://cdn.sanity.io/images/2r0kdewr/production/b156a0768613dc78386b85c8906bc7282293a288-1000x563.jpg?w=600&q=50)
 
 Learn how a 2x James Beard Award Winning Chinese Chef cooks this Homemade Chili Oil recipe after making this dish thousands of times!
 
 ## Ingrédients
 
-- [ ] 1.5 oz Sichuan dried chili flakes
-- [ ] 0.5 oz ginger
-- [ ] 1 oz red onion
-- [ ] 1 oz shallot
-- [ ] 3 clove garlic
-- [ ] 2 piece star anise
-- [ ] 1 dash sesame seeds
-- [ ] 4 oz neutral oil
-- [ ] 1 tsp sesame oil
-- [ ] 0.5 tsp salt
-- [ ] 0.5 tsp sugar
-- [ ] 0.5 tsp white pepper
-- [ ] 1 tbsp paprika
-- [ ] 1 tbsp neutral oil
+- [[[[1.5 oz sichuan dried chili flakes]]]]
+- [[[[0.5 oz ginger]]]]
+- 1 [[[[oz red onion]]]]
+- 1 [[[[oz shallot]]]]
+- 3 [[[[clove garlic]]]]
+- 2 [[[[piece star anise]]]]
+- 1 [[[[dash sesame seeds]]]]
+- 4 [[[[oz neutral oil]]]]
+- 1 [[[[tsp sesame oil]]]]
+- [[[[0.5 tsp salt]]]]
+- [[[[0.5 tsp sugar]]]]
+- [[[[0.5 tsp white pepper]]]]
+- 1 [[[[tbsp paprika]]]]
+- 1 [[[[tbsp neutral oil]]]]
 
 ## Instructions
 

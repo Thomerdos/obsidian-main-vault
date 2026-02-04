@@ -1,31 +1,44 @@
 ---
-title: "Spaghetti à la tomate, aux asperges et à l’ail confit pour 4 personnes - Recettes - Elle à Table"
-source: "https://www.elle.fr/Elle-a-Table/Recettes-de-cuisine/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907"
+title: Spaghetti à la tomate, aux asperges et à l’ail confit pour 4 personnes - Recettes
+  - Elle à Table
+source: https://www.elle.fr/Elle-a-Table/Recettes-de-cuisine/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907
 author:
-  - "[[ELLE]]"
+- '[[ELLE]]'
 published: 2021-06-04
 created: 2026-02-02
-image: "https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907/94907684-2-fre-FR/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit.jpg"
-tags:
-base: "[[Recettes.base]]"
+image: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907/94907684-2-fre-FR/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit.jpg
+base: '[[Recettes.base]]'
+ingredients:
+- spaghetti
+- grosses asperges vertes
+- huile d'olive
+- gros oignons
+- d'ail
+- feuilles de basilic frais
+- boîtes de tomates pelées italiennes
+- têtes d'ail
+- tomates olivettes
+- thym effeuillé
+type: recette
 ---
+
 ![](https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907/94907684-2-fre-FR/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit.jpg)
 
 Découvrez la préparation de la recette "Spaghetti à la tomate, aux asperges et à l’ail confit". Des pâtes de haut vol signées Simone Zanoni.
 
 ## Ingrédients
 
-- [ ] 350 g de spaghetti
-- [ ] 8 grosses asperges vertes
-- [ ] huile d'olive
-- [ ] 2 gros oignons
-- [ ] 1 gousse d'ail
-- [ ] 5 feuilles de basilic frais
-- [ ] 3 boîtes de tomates pelées italiennes
-- [ ] 2 têtes d'ail
-- [ ] 30 tomates olivettes
-- [ ] 1 gousse d'ail
-- [ ] thym effeuillé
+- 350 g de [[[[spaghetti]]]]
+- 8 [[[[grosses asperges vertes]]]]
+- [[[[huile d'olive]]]]
+- 2 [[[[gros oignons]]]]
+- 1 gousse [[[[d'ail]]]]
+- 5 [[[[feuilles de basilic frais]]]]
+- 3 [[[[boîtes de tomates pelées italiennes]]]]
+- 2 [[[[têtes d'ail]]]]
+- 30 [[[[tomates olivettes]]]]
+- 1 gousse [[[[d'ail]]]]
+- [[[[thym effeuillé]]]]
 
 ## Instructions
 

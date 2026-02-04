@@ -1,51 +1,70 @@
 ---
-title: "Carbonade flamande"
-source: "https://chefsimon.com/gourmets/chef-simon/recettes/carbonade-flamande--10"
+title: Carbonade flamande
+source: https://chefsimon.com/gourmets/chef-simon/recettes/carbonade-flamande--10
 author:
-  - "[[Chef Simon]]"
+- '[[Chef Simon]]'
 published: 2011-12-07
 created: 2026-02-02
-image: "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/119/carbonade-flamande-12.jpg"
+image: https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/119/carbonade-flamande-12.jpg
 tags:
-  - "Boeuf"
-  - "Carbonade"
-  - "Bière"
-  - "Viande"
-  - "Mijoté"
-  - "Ragoût"
-  - "Bistrot"
-  - "CuisineFlamande"
-  - "CuisineDuNord"
-  - "CuisineBelge"
-  - "PainD'épices"
-  - "MoutardeÀL'ancienne"
-  - "Vergeoise"
-  - "CuisineRégionale"
-  - "PlatEnSauce"
-base: "[[Recettes.base]]"
+- Boeuf
+- Carbonade
+- Bière
+- Viande
+- Mijoté
+- Ragoût
+- Bistrot
+- CuisineFlamande
+- CuisineDuNord
+- CuisineBelge
+- PainD'épices
+- MoutardeÀL'ancienne
+- Vergeoise
+- CuisineRégionale
+- PlatEnSauce
+base: '[[Recettes.base]]'
+ingredients:
+- macreuse
+- paleron détaillés en cube de 70 g maximum
+- gîte détaillée en fines tranches
+- poitrine de porc salée en tranches larges
+- gros oignons émincés
+- grosses échalotes
+- d'ail écrasées
+- bouquet garni
+- tranches de pain d'épices ou de pain rassis
+- cuiller de farine
+- litre de fond de veau lié
+- bouteille de bière jenlain ou de leffe brune
+- petits oignons glacés à brun avec 20 g de beurre et 20 g de sucre
+- vergeoise (facultatif)
+- vinaigre de vin (facultatif)
+- moutarde
+type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/119/carbonade-flamande-12.jpg)
 
 Carbonade flamande. Un ragoût de boeuf à la bière du Nord de la France et de la Belgique.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- [ ] 500 g de macreuse
-- [ ] 500 g de paleron détaillés en cube de 70 g maximum
-- [ ] 500 g de gîte détaillée en fines tranches
-- [ ] 300 g de poitrine de porc salée en tranches larges
-- [ ] 4 gros oignons émincés
-- [ ] 8 grosses échalotes
-- [ ] 5 gousses d'ail écrasées
-- [ ] un bouquet garni
-- [ ] 8 tranches de pain d'épices ou de pain rassis
-- [ ] 1 cuiller de farine
-- [ ] 1 litre de fond de veau lié
-- [ ] une bouteille de bière Jenlain ou de Leffe brune
-- [ ] 200 g de petits oignons glacés à brun avec 20 g de beurre et 20 g de sucre
-- [ ] 50 g de vergeoise (facultatif)
-- [ ] 1 dl de vinaigre de vin (facultatif)
-- [ ] 50 g de moutarde
+- 500 g de [[[[macreuse]]]]
+- 500 g de [[[[paleron détaillés en cube de 70 g maximum]]]]
+- 500 g de [[[[gîte détaillée en fines tranches]]]]
+- 300 g de [[[[poitrine de porc salée en tranches larges]]]]
+- 4 [[[[gros oignons émincés]]]]
+- 8 [[[[grosses échalotes]]]]
+- 5 gousses [[[[d'ail écrasées]]]]
+- un [[[[bouquet garni]]]]
+- 8 [[[[tranches de pain d'épices ou de pain rassis]]]]
+- 1 [[[[cuiller de farine]]]]
+- 1 [[[[litre de fond de veau lié]]]]
+- une [[[[bouteille de bière jenlain ou de leffe brune]]]]
+- 200 g de [[[[petits oignons glacés à brun avec 20 g de beurre et 20 g de sucre]]]]
+- 50 g de [[[[vergeoise (facultatif)]]]]
+- 1 dl de [[[[vinaigre de vin (facultatif)]]]]
+- 50 g de [[[[moutarde]]]]
 
 ## Instructions
 

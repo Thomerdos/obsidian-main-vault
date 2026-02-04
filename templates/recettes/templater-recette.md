@@ -1,47 +1,65 @@
 ---
 type: recette
-nom: "<% tp.file.title %>"
-categorie: ""
+title: "<% tp.file.title %>"
+source: ""
+author: []
+published: 
+created: <% tp.date.now("YYYY-MM-DD") %>
+image: ""
+type_cuisine: ""
+origine: ""
+regime: []
+saison: []
 temps_preparation: 
 temps_cuisson: 
-difficulte: ""
-portions: 
 ingredients: []
-etapes: ""
 tags:
   - recette
-photo: ""
-origine: ""
 ---
 
 # 🍽️ <%= tp.file.title %>
 
+<% if (tp.frontmatter.image) { %>
+![<%= tp.file.title %>](<%= tp.frontmatter.image %>)
+<% } %>
+
 ## 📋 Informations
 
-- **Catégorie**: <%= categorie %>
-- **Temps de préparation**: <%= temps_preparation %> minutes
-- **Temps de cuisson**: <%= temps_cuisson %> minutes
-- **Difficulté**: <%= difficulte %>
-- **Portions**: <%= portions %> personnes
-- **Origine**: <%= origine %>
+- **Type de cuisine**: <%= tp.frontmatter.type_cuisine || "" %>
+- **Origine**: <%= tp.frontmatter.origine || "" %>
+- **Régime**: <%= tp.frontmatter.regime ? tp.frontmatter.regime.join(', ') : "" %>
+- **Saison**: <%= tp.frontmatter.saison ? tp.frontmatter.saison.join(', ') : "" %>
+- **Temps de préparation**: <%= tp.frontmatter.temps_preparation %> minutes
+- **Temps de cuisson**: <%= tp.frontmatter.temps_cuisson %> minutes
 
 ## 🥘 Ingrédients
 
-<% ingredients.forEach(ingredient => { %>
-- [[<%= ingredient %>]]
-<% }); %>
+<%* 
+// Afficher les ingrédients avec liens wiki
+if (tp.frontmatter.ingredients && tp.frontmatter.ingredients.length > 0) {
+  tp.frontmatter.ingredients.forEach(ingredient => {
+    tR += `- [[${ingredient}]]\n`;
+  });
+} else {
+  tR += "<!-- Ajouter les ingrédients ici -->\n";
+}
+%>
 
-## 👨‍🍳 Étapes de préparation
+## 👨‍🍳 Instructions
 
-<%= etapes %>
+<!-- Ajouter les instructions étape par étape ici -->
 
 ## 📷 Photos
 
-<% if (photo) { %>
-![<%= tp.file.title %>](<%= photo %>)
+<% if (tp.frontmatter.image) { %>
+![<%= tp.file.title %>](<%= tp.frontmatter.image %>)
 <% } %>
 
 ## 💡 Notes & Astuces
 
 
 ## 🔗 Liens
+
+<% if (tp.frontmatter.source) { %>
+- [Source originale](<%= tp.frontmatter.source %>)
+<% } %>

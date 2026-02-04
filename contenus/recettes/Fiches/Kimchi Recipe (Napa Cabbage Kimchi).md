@@ -1,42 +1,64 @@
 ---
-title: "Kimchi Recipe (Napa Cabbage Kimchi)"
-source: "https://mykoreankitchen.com/kimchi-recipe/"
+title: Kimchi Recipe (Napa Cabbage Kimchi)
+source: https://mykoreankitchen.com/kimchi-recipe/
 author:
-  - "[[Sue]]"
+- '[[Sue]]'
 published: 2022-01-24
 created: 2026-02-02
-image: "https://mykoreankitchen.com/wp-content/uploads/2022/01/5.-Homemade-Kimchi.jpg"
+image: https://mykoreankitchen.com/wp-content/uploads/2022/01/5.-Homemade-Kimchi.jpg
 tags:
-  - "BaechuKimchi"
-  - "Kimchi"
-  - "NapaCabbageKimchi"
-  - "PogiKimchi"
-  - "TraditionalKimchi"
-base: "[[Recettes.base]]"
+- BaechuKimchi
+- Kimchi
+- NapaCabbageKimchi
+- PogiKimchi
+- TraditionalKimchi
+base: '[[Recettes.base]]'
+ingredients:
+- napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)
+- cups water ((3840 ml))
+- 1.5 cups korean coarse sea salt (or natural rock salt (for salt water), (285g /
+  10 ounces))
+- 1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))
+- tbsp glutinous rice flour ((sweet rice flour))
+- 1.5 cups water ((360 ml))
+- 1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))
+- korean radish (or daikon radish (19 ounces), julienned)
+- tbsp fine sea salt
+- 3.5 tbsp korean fish sauce
+- tbsp salted fermented shrimp (, minced)
+- korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)
+- carrots ((4.9 ounces), julienned)
+- 1/4 cup minced garlic ((42g / 1.48 ounces))
+- 1/2 tbsp minced ginger
+- tbsp raw sugar
+- onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely
+  grated)
+type: recette
 ---
+
 ![](https://mykoreankitchen.com/wp-content/uploads/2022/01/5.-Homemade-Kimchi.jpg)
 
 Learn how to make napa cabbage kimchi, a popular Korean side dish made from fermented napa cabbage. Check out my best kimchi recipe and tips!
 
 ## Ingrédients
 
-- [ ] 4 kg napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)
-- [ ] 16 cups water ((3840 ml))
-- [ ] 1.5 cups Korean coarse sea salt (or natural rock salt (for salt water), (285g / 10 ounces))
-- [ ] 1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))
-- [ ] 2 Tbsp glutinous rice flour ((sweet rice flour))
-- [ ] 1.5 cups water ((360 ml))
-- [ ] 1.5 cups gochugaru ((Korean chili flakes), (141g / 4.97 ounces))
-- [ ] 540 g Korean radish (or daikon radish (19 ounces), julienned)
-- [ ] 1 Tbsp fine sea salt
-- [ ] 3.5 Tbsp Korean fish sauce
-- [ ] 2 Tbsp salted fermented shrimp (, minced)
-- [ ] 90 g Korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)
-- [ ] 140 g carrots ((4.9 ounces), julienned)
-- [ ] 1/4 cup minced garlic ((42g / 1.48 ounces))
-- [ ] 1/2 Tbsp minced ginger
-- [ ] 2 Tbsp raw sugar
-- [ ] 75 g onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely grated)
+- 4 kg [[[[napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)]]]]
+- 16 [[[[cups water ((3840 ml))]]]]
+- [[[[1.5 cups korean coarse sea salt (or natural rock salt (for salt water), (285g / 10 ounces))]]]]
+- [[[[1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))]]]]
+- 2 [[[[tbsp glutinous rice flour ((sweet rice flour))]]]]
+- [[[[1.5 cups water ((360 ml))]]]]
+- [[[[1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))]]]]
+- 540 g [[[[korean radish (or daikon radish (19 ounces), julienned)]]]]
+- 1 [[[[tbsp fine sea salt]]]]
+- [[[[3.5 tbsp korean fish sauce]]]]
+- 2 [[[[tbsp salted fermented shrimp (, minced)]]]]
+- 90 g [[[[korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)]]]]
+- 140 g [[[[carrots ((4.9 ounces), julienned)]]]]
+- [[[[1/4 cup minced garlic ((42g / 1.48 ounces))]]]]
+- [[[[1/2 tbsp minced ginger]]]]
+- 2 [[[[tbsp raw sugar]]]]
+- 75 g [[[[onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely grated)]]]]
 
 ## Instructions
 
