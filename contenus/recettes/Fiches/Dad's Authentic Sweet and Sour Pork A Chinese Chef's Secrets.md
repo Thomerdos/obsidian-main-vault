@@ -21,7 +21,7 @@ ingredients:
 - '[[oignon]]'
 - '[[ananas]]'
 - '[[huile de maïs]]'
-- '[[sel d'ail]]'
+- "[[sel d'ail]]"
 - '[[sauce soja claire]]'
 - '[[oeuf]]'
 - '[[farine]]'

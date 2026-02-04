@@ -18,7 +18,7 @@ ingredients:
 - '[[germes de soja]]'
 - '[[sauce soja foncée]]'
 - '[[sauce soja claire]]'
-- '[[sauce d'huître]]'
+- "[[sauce d'huître]]"
 - '[[sucre]]'
 - '[[eau]]'
 - '[[huile de sésame]]'

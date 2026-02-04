@@ -20,7 +20,7 @@ ingredients:
 - '[[céleri]]'
 - '[[sel]]'
 - '[[poivre]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 type: recette
 ---
 

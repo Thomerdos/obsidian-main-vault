@@ -13,7 +13,7 @@ ingredients:
 - '[[persil]]'
 - '[[ail]]'
 - '[[vin blanc]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[sel]]'
 - '[[oignon]]'
 type: recette

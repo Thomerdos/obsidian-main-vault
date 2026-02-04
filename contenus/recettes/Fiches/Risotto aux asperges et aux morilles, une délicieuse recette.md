@@ -18,7 +18,7 @@ ingredients:
 - '[[beurre]]'
 - '[[échalote]]'
 - '[[fromage]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[morille]]'
 - '[[parmesan]]'
 - '[[riz]]'

@@ -24,7 +24,7 @@ ingredients:
 - '[[crevette]]'
 - '[[oeuf]]'
 - '[[germes de soja]]'
-- '[[7-10 stalks garlic chives, cut into 2” pieces]]'
+- '[[ciboulette chinoise]]'
 - '[[cacahuète]]'
 - '[[citron vert]]'
 type: recette

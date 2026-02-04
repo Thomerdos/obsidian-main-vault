@@ -10,7 +10,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[asperge blanche]]'
 - '[[citron]]'
-- '[[jaune d'oeuf]]'
+- '[[jaune d''oeuf]]'
 - '[[beurre]]'
 - '[[eau]]'
 - '[[sel]]'
@@ -29,8 +29,8 @@ Il n'y a rien de meilleur que des asperges fraîchement cueillies et cuites à l
 - 3 jaune(s) d'œuf(s)
 - 250 g beurre
 - 30 ml eau
-- '[[sel]]'
-- '[[poivre]]'
+- 'sel'
+- 'poivre'
 
 ## Instructions
 

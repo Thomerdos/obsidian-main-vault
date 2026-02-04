@@ -19,7 +19,7 @@ ingredients:
 - '[[aubergine]]'
 - '[[tomate]]'
 - '[[courgette]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[feuille de laurier]]'
 - '[[oignon]]'
 - '[[poivron]]'

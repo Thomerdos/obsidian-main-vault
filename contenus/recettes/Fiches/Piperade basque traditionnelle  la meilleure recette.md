@@ -26,11 +26,11 @@ ingredients:
 - '[[ail]]'
 - '[[bouquet garni]]'
 - '[[tomate]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[sel]]'
 - '[[poivre]]'
 - '[[sucre]]'
-- '[[piment d'Espelette]]'
+- "[[piment d'Espelette]]"
 origine: Sud-Ouest
 regime:
 - végétarien

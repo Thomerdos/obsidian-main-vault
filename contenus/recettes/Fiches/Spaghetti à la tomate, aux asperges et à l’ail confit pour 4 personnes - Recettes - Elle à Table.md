@@ -10,7 +10,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[spaghetti]]'
 - '[[asperge]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[oignon]]'
 - '[[ail]]'
 - '[[basilic]]'

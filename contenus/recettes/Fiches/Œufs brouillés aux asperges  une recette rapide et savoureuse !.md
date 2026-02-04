@@ -19,7 +19,7 @@ ingredients:
 - '[[beurre]]'
 - '[[crème liquide]]'
 - '[[sel]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 type: recette
 ---
 

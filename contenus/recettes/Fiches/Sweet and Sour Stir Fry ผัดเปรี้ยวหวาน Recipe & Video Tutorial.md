@@ -19,7 +19,7 @@ ingredients:
 - '[[noix de cajou]]'
 - '[[ciboule]]'
 - '[[vinaigre de riz]]'
-- '[[sauce d'huître]]'
+- "[[sauce d'huître]]"
 - '[[sauce sriracha]]'
 - '[[sauce soja]]'
 - '[[sucre roux]]'

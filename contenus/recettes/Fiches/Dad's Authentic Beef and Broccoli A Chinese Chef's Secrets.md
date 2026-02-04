@@ -25,7 +25,7 @@ ingredients:
 - '[[sel]]'
 - '[[huile de sésame]]'
 - '[[bicarbonate de soude]]'
-- '[[sauce d'huître]]'
+- "[[sauce d'huître]]"
 - '[[sauce soja claire]]'
 - '[[eau]]'
 - '[[fécule de maïs]]'

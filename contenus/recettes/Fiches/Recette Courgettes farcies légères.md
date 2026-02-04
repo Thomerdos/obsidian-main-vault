@@ -15,7 +15,7 @@ ingredients:
 - '[[ail]]'
 - '[[tomate]]'
 - '[[parmesan]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[thym]]'
 - '[[basilic]]'
 - '[[persil]]'

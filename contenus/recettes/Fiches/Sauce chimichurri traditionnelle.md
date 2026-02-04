@@ -37,8 +37,8 @@ La sauce chimichurri traditionnelle, originaire d'Argentine, se prépare à part
 - 2 cuillères à soupe de vinaigre de vin rouge
 - 1 cuillère à café de jus de citron frais
 - 120 mL d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)
-- '[[sel]]'
-- '[[poivre]]'
+- 'sel'
+- 'poivre'
 
 ## Instructions
 

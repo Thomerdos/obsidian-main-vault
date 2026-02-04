@@ -32,7 +32,7 @@ ingredients:
 - '[[échalote]]'
 - '[[ail]]'
 - '[[bouquet garni]]'
-- '[[pain d'épices]]'
+- "[[pain d'épices]]"
 - '[[farine]]'
 - '[[fond de veau]]'
 - '[[bière brune]]'

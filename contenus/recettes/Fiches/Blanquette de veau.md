@@ -52,7 +52,7 @@ Blanquette de veau. La recette de la blanquette de veau à l'ancienne, discutée
 - 8 carotte
 - 4 oignon
 - 1 citron
-- '[[clou de girofle]]'
+- 'clou de girofle'
 - 8 gousses d'ail
 - un bouquet garni
 - 2 poireaux

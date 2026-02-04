@@ -18,7 +18,7 @@ tags:
 - RecetteRapide
 base: '[[Recettes.base]]'
 ingredients:
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[piment]]'
 - '[[fleur de sel]]'
 type: recette

@@ -20,7 +20,7 @@ ingredients:
 - '[[aubergine]]'
 - '[[basilic]]'
 - '[[fromage]]'
-- '[[huile d'olive]]'
+- "[[huile d'olive]]"
 - '[[mozzarella]]'
 - '[[oignon]]'
 - '[[origan]]'
