@@ -151,26 +151,34 @@ def parse_ingredient_line(line: str) -> Optional[str]:
     line = re.sub(r'^-\s*\[[ x]\]\s*', '', line)
     line = re.sub(r'^[-*]\s+', '', line)
     
-    if not line:
+    if not line or len(line) < 2:
         return None
     
     # Pattern: optional number, optional unit, then ingredient name
     # Match patterns like: "600 g oignon", "3 unité poivron", "quelque pincée sel"
     patterns = [
-        r'^[\d,\.]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée|cuillère|cas|cac|tasse)s?\s+(.+)$',
-        r'^quelques?\s+(?:pincée|gousse|unité)s?\s+(.+)$',
+        r'^[\d,\.]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée|cuillère|cas|cac|tasse|branche|feuille|brin)s?\s+(.+)$',
+        r'^quelques?\s+(?:pincée|gousse|unité|branche|feuille|brin)s?\s+(.+)$',
         r'^\d+\s+(.+)$',  # Just number and name
-        r'^(.+)$',  # Fallback: whole line
     ]
     
     for pattern in patterns:
         match = re.match(pattern, line, re.IGNORECASE)
         if match:
-            ingredient = match.group(1).strip()
-            # Clean up
+            ingredient = match[1].strip()
+            # Clean up whitespace
             ingredient = re.sub(r'\s+', ' ', ingredient)
-            ingredient = ingredient.lower()
-            return ingredient
+            # Skip if it starts with "à " (like "à soupe")
+            if ingredient.lower().startswith('à '):
+                return None
+            # Skip if still has numbers (like "1/4 chou")
+            if re.match(r'^\d+[/\d]*\s', ingredient):
+                return None
+            return ingredient.lower()
+    
+    # Fallback: if line doesn't start with number, might be just the ingredient
+    if not re.match(r'^\d', line):
+        return line.lower()
     
     return None
 
@@ -243,6 +251,9 @@ def transform_tags(tags: List[str]) -> Dict[str, any]:
         'regime': [],
         'saison': [],
     }
+    
+    if tags is None:
+        return new_props
     
     for tag in tags:
         if tag in TAGS_TO_IGNORE:
@@ -318,21 +329,20 @@ def update_ingredients_section(content: str, ingredients: List[str]) -> str:
             ingredient = parse_ingredient_line(line)
             if ingredient:
                 normalized = normalize_ingredient_name(ingredient)
-                if normalized:
-                    # Replace ingredient name with wiki link
-                    # Keep the quantity part
-                    line_clean = re.sub(r'^-\s*\[[ x]\]\s*', '- ', line)
-                    # Try to find where the ingredient name starts
-                    for ing in ingredients:
-                        if ing == normalized:
-                            # Simple replacement: add [[ ]] around the ingredient
-                            if ing in line_clean.lower():
-                                # Find the ingredient in the line and wrap it
-                                pattern = re.compile(re.escape(ing), re.IGNORECASE)
-                                line_clean = pattern.sub(f'[[{ing}]]', line_clean, count=1)
-                            break
-                    updated_lines.append(line_clean)
-                    continue
+                if normalized and normalized in ingredients:
+                    # Check if line already has wiki links
+                    if '[[' not in line:
+                        # Replace ingredient name with wiki link
+                        # Keep the quantity part
+                        line_clean = re.sub(r'^-\s*\[[ x]\]\s*', '- ', line)
+                        # Find the ingredient in the line and wrap it
+                        if normalized in line_clean.lower():
+                            pattern = re.compile(re.escape(normalized), re.IGNORECASE)
+                            line_clean = pattern.sub(f'[[{normalized}]]', line_clean, count=1)
+                            updated_lines.append(line_clean)
+                            continue
+            updated_lines.append(line)
+            continue
         
         updated_lines.append(line)
     
@@ -344,8 +354,18 @@ def create_ingredient_page(vault_path: Path, ingredient: str, recipes: List[str]
     ingredients_dir = vault_path / 'contenus' / 'recettes' / 'Ingredients'
     ingredients_dir.mkdir(parents=True, exist_ok=True)
     
+    # Sanitize filename - remove invalid characters
+    ingredient_clean = ingredient.replace('/', '-').replace('\\', '-').strip()
+    # Remove special characters that are invalid in filenames
+    ingredient_clean = re.sub(r'[<>:"|?*]', '', ingredient_clean)
+    # Remove parentheses for cleaner filenames
+    ingredient_clean = re.sub(r'[()]', '', ingredient_clean)
+    # Limit length for filename
+    if len(ingredient_clean) > 100:
+        ingredient_clean = ingredient_clean[:100]
+    
     # Capitalize first letter for filename
-    filename = ingredient.capitalize() + '.md'
+    filename = ingredient_clean.capitalize() + '.md'
     filepath = ingredients_dir / filename
     
     if filepath.exists():
@@ -419,11 +439,23 @@ def process_recipe(filepath: Path, vault_path: Path, scrape: bool = False, dry_r
         # Read recipe
         frontmatter, content = read_recipe_file(filepath)
         
-        # Check if it's a recipe - must have either type='recette' or a tag starting with 'Recette'
+        # Check if it's a recipe - be lenient
         tags = frontmatter.get('tags', [])
-        is_recipe = (frontmatter.get('type') == 'recette' or 
-                    'recette' in tags or
-                    any(tag.startswith('Recette') for tag in tags))
+        if tags is None:
+            tags = []
+        
+        # It's a recipe if:
+        # 1. Has type='recette', OR
+        # 2. Has 'recette' tag, OR
+        # 3. Has any tag starting with 'Recette', OR
+        # 4. Has an ## Ingrédients section (most reliable indicator)
+        is_recipe = (
+            frontmatter.get('type') == 'recette' or 
+            'recette' in tags or
+            any(tag.startswith('Recette') for tag in tags) or
+            '## Ingrédients' in content or
+            '## Ingredients' in content
+        )
         
         if not is_recipe:
             result['errors'].append('Not a recipe file')

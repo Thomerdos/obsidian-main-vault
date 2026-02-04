@@ -1,36 +1,56 @@
 ---
-title: "Sweet and Sour Stir Fry ผัดเปรี้ยวหวาน Recipe & Video Tutorial"
-source: "https://hot-thai-kitchen.com/sweet-and-sour/"
+title: Sweet and Sour Stir Fry ผัดเปรี้ยวหวาน Recipe & Video Tutorial
+source: https://hot-thai-kitchen.com/sweet-and-sour/
 author:
-  - "[[Pailin Chongchitnant]]"
+- '[[Pailin Chongchitnant]]'
 published: 2015-01-30
 created: 2026-02-02
-image: "https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg"
-tags:
-base: "[[Recettes.base]]"
+image: https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg
+base: '[[Recettes.base]]'
+ingredients:
+- medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized
+  pieces (see note)
+- cloves garlic
+- ½ cup pineapple, bite-sized pieces
+- ½ onion, 1-cm julienned
+- tomato, cut into wedges or 1 cup cherry tomatoes, halved
+- cup mini cucumber or regular cucumber, halved lengthwise and sliced on a bias
+- ½ cup asparagus, cut into 2” pieces
+- cup bell pepper, any colour. 1-cm-wide strips
+- ⅓ cup cashews
+- green onions, cut into 1" pieces on a bias (half the white part horizontally if
+  large)
+- tbsp white vinegar or rice wine vinegar
+- tbsp oyster sauce
+- tbsp thai sriraja panich sauce (or substitute sriracha)
+- tbsp soy sauce
+- tbsp brown sugar, packed
+- ½ tsp toasted sesame oil
+type: recette
 ---
+
 ![](https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg)
 
 This sweet and sour stir fry recipe is not like your Chinese take out. It's not gooey and cloying, but bright, fresh, with lots of veggies and cashews!
 
 ## Ingrédients
 
-- [ ] 300g medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized pieces (see note)
-- [ ] 3 cloves garlic
-- [ ] ½ cup pineapple, bite-sized pieces
-- [ ] ½ onion, 1-cm julienned
-- [ ] 1 tomato, cut into wedges or 1 cup cherry tomatoes, halved
-- [ ] 1 cup mini cucumber or regular cucumber, halved lengthwise and sliced on a bias
-- [ ] ½ cup asparagus, cut into 2” pieces
-- [ ] 1 cup bell pepper, any colour. 1-cm-wide strips
-- [ ] ⅓ cup cashews
-- [ ] Green onions, cut into 1" pieces on a bias (half the white part horizontally if large)
-- [ ] 2 Tbsp white vinegar or rice wine vinegar
-- [ ] 2 Tbsp oyster sauce
-- [ ] 2 Tbsp Thai Sriraja Panich sauce (or substitute Sriracha)
-- [ ] 1 Tbsp soy sauce
-- [ ] 2 Tbsp brown sugar, packed
-- [ ] ½ tsp toasted sesame oil
+- 300g [[[[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized pieces (see note)]]]]
+- 3 [[[[cloves garlic]]]]
+- [[[[½ cup pineapple, bite-sized pieces]]]]
+- [[[[½ onion, 1-cm julienned]]]]
+- 1 [[[[tomato, cut into wedges or 1 cup cherry tomatoes, halved]]]]
+- 1 [[[[cup mini cucumber or regular cucumber, halved lengthwise and sliced on a bias]]]]
+- [[[[½ cup asparagus, cut into 2” pieces]]]]
+- 1 [[[[cup bell pepper, any colour. 1-cm-wide strips]]]]
+- [[[[⅓ cup cashews]]]]
+- [[[[green onions, cut into 1" pieces on a bias (half the white part horizontally if large)]]]]
+- 2 [[[[tbsp white vinegar or rice wine vinegar]]]]
+- 2 [[[[tbsp oyster sauce]]]]
+- 2 [[[[tbsp thai sriraja panich sauce (or substitute sriracha)]]]]
+- 1 [[[[tbsp soy sauce]]]]
+- 2 [[[[tbsp brown sugar, packed]]]]
+- [[[[½ tsp toasted sesame oil]]]]
 
 ## Instructions
 

@@ -1,14 +1,29 @@
 ---
-title: "Recette Courgettes farcies légères"
-source: "https://www.cuisineaz.com/recettes/courgettes-farcies-legeres-54220.aspx"
+title: Recette Courgettes farcies légères
+source: https://www.cuisineaz.com/recettes/courgettes-farcies-legeres-54220.aspx
 author:
-  - "[[Monregimeperso]]"
+- '[[Monregimeperso]]'
 published: 2009-11-02
 created: 2026-02-02
-image: "https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg"
-tags:
-base: "[[Recettes.base]]"
+image: https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg
+base: '[[Recettes.base]]'
+ingredients:
+- courgette(s)
+- bœuf haché 5% de matière grasse
+- riz basmati
+- oignon(s)
+- ail
+- coulis de tomates
+- parmesan
+- c. à soupe huile d'olive
+- branche(s) thym
+- feuille (s) basilic
+- brin(s) persil
+- pincée(s) sel
+- pincée(s) poivre
+type: recette
 ---
+
 ![](https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg)
 
 Vous allez enfin vous réconcilier avec les légumes ! Aussi diététique que savoureuse, cette recette de courgettes farcies accompagnées de riz basmati constitue...
@@ -16,19 +31,19 @@ Vous allez enfin vous réconcilier avec les légumes ! Aussi diététique que sa
 ## Ingrédients
 
 - [ ] 
-- [ ] 2 Courgette(s)
-- [ ] 400 g Bœuf haché 5% de matière grasse
-- [ ] 200 g Riz basmati
-- [ ] 1 Oignon(s)
-- [ ] 1 Gousse Ail
-- [ ] 200 g Coulis de tomates
-- [ ] 30 g Parmesan
-- [ ] 2 c. à soupe Huile d'olive
-- [ ] 2 branche(s) Thym
-- [ ] 8 feuille (s) Basilic
-- [ ] 4 brin(s) Persil
-- [ ] 1 pincée(s) Sel
-- [ ] 1 pincée(s) Poivre
+- 2 [[[[courgette(s)]]]]
+- 400 g [[[[bœuf haché 5% de matière grasse]]]]
+- 200 g [[[[riz basmati]]]]
+- 1 [[[[oignon(s)]]]]
+- 1 Gousse [[[[ail]]]]
+- 200 g [[[[coulis de tomates]]]]
+- 30 g [[[[parmesan]]]]
+- 2 [[[[c. à soupe huile d'olive]]]]
+- 2 [[[[branche(s) thym]]]]
+- 8 [[[[feuille (s) basilic]]]]
+- 4 [[[[brin(s) persil]]]]
+- 1 [[[[pincée(s) sel]]]]
+- 1 [[[[pincée(s) poivre]]]]
 
 ## Instructions
 

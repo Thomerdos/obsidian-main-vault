@@ -1,33 +1,45 @@
 ---
-title: "Recette du rougail saucisse : un délicieux classique de la cuisine réunionnaise"
-source: "https://www.reunion.fr/decouvrez/gastronomie/recettes-creoles-reunionnaises/le-rougail-saucisses-de-la-reunion-un-classique-qui-a-tout-bon/"
+title: 'Recette du rougail saucisse : un délicieux classique de la cuisine réunionnaise'
+source: https://www.reunion.fr/decouvrez/gastronomie/recettes-creoles-reunionnaises/le-rougail-saucisses-de-la-reunion-un-classique-qui-a-tout-bon/
 author:
-  - "[[Stéphane]]"
+- '[[Stéphane]]'
 published: 2020-08-19
 created: 2026-02-02
-image: "https://woody.cloudly.space/app/uploads/crt-reunion/2020/05/thumbs/gastronomie_plats17_rougail_saucisse_-_credit_irt_-_studio_lumiere_dts_06_2018-1920x960.jpg"
+image: https://woody.cloudly.space/app/uploads/crt-reunion/2020/05/thumbs/gastronomie_plats17_rougail_saucisse_-_credit_irt_-_studio_lumiere_dts_06_2018-1920x960.jpg
 tags:
-  - "Rougail"
-  - "Saucisses"
-  - "Reunion"
-  - "Reunionnais"
-base: "[[Recettes.base]]"
+- Rougail
+- Saucisses
+- Reunion
+- Reunionnais
+base: '[[Recettes.base]]'
+ingredients:
+- saucisses fraîches
+- saucisses fumées
+- petits piments
+- tomate
+- oignon
+- gingembre
+- sel
+- poivre
+- huile
+type: recette
 ---
+
 ![](https://woody.cloudly.space/app/uploads/crt-reunion/2020/05/thumbs/gastronomie_plats17_rougail_saucisse_-_credit_irt_-_studio_lumiere_dts_06_2018-1920x960.jpg)
 
 A la fois relevée et douce, riche et modeste, la recette du rougail saucisses est une invitation au partage et à la convivialité à La Réunion.
 
 ## Ingrédients
 
-- [ ] 2 saucisses fraîches
-- [ ] 2 saucisses fumées
-- [ ] 4 petits piments
-- [ ] 4 tomates
-- [ ] 2 oignons
-- [ ] Gingembre
-- [ ] Sel
-- [ ] Poivre
-- [ ] Huile
+- 2 [[[[saucisses fraîches]]]]
+- 2 [[[[saucisses fumées]]]]
+- 4 [[[[petits piments]]]]
+- 4 [[[[tomate]]s]]
+- 2 [[[[oignon]]s]]
+- [[[[gingembre]]]]
+- [[[[sel]]]]
+- [[[[poivre]]]]
+- [[[[huile]]]]
 
 ## Instructions
 

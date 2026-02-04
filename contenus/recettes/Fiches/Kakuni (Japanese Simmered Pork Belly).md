@@ -1,30 +1,42 @@
 ---
-title: "Kakuni (Japanese Simmered Pork Belly)"
-source: "https://japan.recipetineats.com/kakuni-simmered-pork-belly/"
+title: Kakuni (Japanese Simmered Pork Belly)
+source: https://japan.recipetineats.com/kakuni-simmered-pork-belly/
 author:
-  - "[[Yumiko]]"
+- '[[Yumiko]]'
 published: 2016-10-18
 created: 2026-02-02
-image: "https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg"
-tags:
-base: "[[Recettes.base]]"
+image: https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg
+base: '[[Recettes.base]]'
+ingredients:
+- (1lb) pork belly ((note 1))
+- shallot/scallion stem (, white part crashed (note 7))
+- (1oz) ginger (, crashed (note 7))
+- (3.foz) sake
+- (3.foz) water
+- ½ tbsp soy sauce
+- tbsp sugar ((note 2))
+- green beans (, boiled and cut into bite size)
+- tbsp shallots (, white part julienned (note 3))
+- japanese karashi ((note4) or hot english mustard (optional))
+type: recette
 ---
+
 ![](https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg)
 
 If you love pork, you must try this kakuni (角煮, simmered pork belly). The pork is so tender with lovely sweet soy sauce flavour.
 
 ## Ingrédients
 
-- [ ] 500g (1lb)  pork belly ((Note 1))
-- [ ] 1  shallot/scallion stem (, white part crashed (note 7))
-- [ ] 30g (1oz)  ginger (, crashed (note 7))
-- [ ] 100ml (3.foz)  sake
-- [ ] 100ml (3.foz)  water
-- [ ] 2 ½ tbsp soy sauce
-- [ ] 2 tbsp sugar ((Note 2))
-- [ ] 6  green beans (, boiled and cut into bite size)
-- [ ] 1 tbsp shallots (, white part julienned (Note 3))
-- [ ] Japanese karashi ((Note4) or hot English mustard (optional))
+- 500g (1lb)  pork belly ((Note 1))
+- 1  [[[[shallot/scallion stem (, white part crashed (note 7))]]]]
+- 30g (1oz)  ginger (, crashed (note 7))
+- 100ml (3.foz)  sake
+- 100ml (3.foz)  water
+- 2 [[[[½ tbsp soy sauce]]]]
+- 2 [[[[tbsp sugar ((note 2))]]]]
+- 6  [[[[green beans (, boiled and cut into bite size)]]]]
+- 1 [[[[tbsp shallots (, white part julienned (note 3))]]]]
+- [[[[japanese karashi ((note4) or hot english mustard (optional))]]]]
 
 ## Instructions
 

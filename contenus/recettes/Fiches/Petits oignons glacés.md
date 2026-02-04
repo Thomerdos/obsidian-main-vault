@@ -1,31 +1,37 @@
 ---
-title: "Petits oignons glacés"
-source: "https://chefsimon.com/gourmets/chef-simon/recettes/petits-oignons-glaces"
+title: Petits oignons glacés
+source: https://chefsimon.com/gourmets/chef-simon/recettes/petits-oignons-glaces
 author:
-  - "[[Chef Simon]]"
+- '[[Chef Simon]]'
 published: 2011-12-07
 created: 2026-02-02
-image: "https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/750/petits-oignons-glaces-3000x2000-1.jpg"
+image: https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/750/petits-oignons-glaces-3000x2000-1.jpg
 tags:
-  - "Oignons"
-  - "Accompagnement"
-  - "BoeufBourguignon"
-  - "Fricassée"
-  - "BlanquetteDeVeau"
-  - "Blanquette"
-  - "OignonsGrelots"
-  - "Garniture"
-base: "[[Recettes.base]]"
+- Oignons
+- Accompagnement
+- BoeufBourguignon
+- Fricassée
+- BlanquetteDeVeau
+- Blanquette
+- OignonsGrelots
+- Garniture
+base: '[[Recettes.base]]'
+ingredients:
+- oignons grelots
+- grammes de beurre
+- cuillère à soupe rase de sucre
+type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/750/petits-oignons-glaces-3000x2000-1.jpg)
 
 Petits oignons glacés. Glacer à blanc et à brun des petits oignons pour une blanquette de veau traditionnelle par exemple.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- [ ] oignons grelots
-- [ ] 30 grammes de beurre
-- [ ] une cuillère à soupe rase de sucre
+- [[[[oignons grelots]]]]
+- 30 [[[[grammes de beurre]]]]
+- une [[[[cuillère à soupe rase de sucre]]]]
 
 ## Instructions
 

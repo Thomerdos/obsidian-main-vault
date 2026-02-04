@@ -1,0 +1,37 @@
+---
+type: ingredient
+nom: '[[tbsp oyster sauce]]'
+categorie: ''
+recettes:
+- Dad's Authentic Beef and Broccoli A Chinese Chef's Secrets
+- Dad's Authentic Cantonese Chow Mein A Chinese Chef's Secrets
+- Sweet and Sour Stir Fry ผัดเปรี้ยวหวาน Recipe & Video Tutorial
+tags:
+- ingredient
+---
+
+# 🥕 [[tbsp oyster sauce]]
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "[[tbsp oyster sauce]]")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

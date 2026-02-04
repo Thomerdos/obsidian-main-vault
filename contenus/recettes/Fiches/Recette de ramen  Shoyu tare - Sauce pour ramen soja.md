@@ -1,30 +1,42 @@
 ---
-title: "Recette de ramen : Shoyu tare - Sauce pour ramen soja"
-source: "https://www.commeaujapon.fr/shoyu-tare-sauce-pour-ramen-soja/"
+title: 'Recette de ramen : Shoyu tare - Sauce pour ramen soja'
+source: https://www.commeaujapon.fr/shoyu-tare-sauce-pour-ramen-soja/
 author:
-  - "[[Cedric]]"
+- '[[Cedric]]'
 published: 2020-05-01
 created: 2026-02-02
-image: "https://www.commeaujapon.fr/wp-content/uploads/2020/11/shoyu-tare.jpg"
-tags:
-base: "[[Recettes.base]]"
+image: https://www.commeaujapon.fr/wp-content/uploads/2020/11/shoyu-tare.jpg
+base: '[[Recettes.base]]'
+ingredients:
+- katsuobushi (copeaux de bonite séchée)
+- shitakés séchés
+- kombu
+- sauce soja
+- saké
+- mirin
+- bonne pincée de sel
+- tranches gingembre
+- d'ail
+- cc de msg
+type: recette
 ---
+
 ![](https://www.commeaujapon.fr/wp-content/uploads/2020/11/shoyu-tare.jpg)
 
 La tare est l'un des éléments de base de la soupe d'un ramen. Voici la recette de la sauce de base pour un shoyu ramen, le ramen sauce soja.
 
 ## Ingrédients
 
-- [ ] 10 g katsuobushi (copeaux de bonite séchée)
-- [ ] 2  shitakés séchés
-- [ ] 5 g kombu
-- [ ] 150 ml sauce soja
-- [ ] 25 ml saké
-- [ ] 25 ml mirin
-- [ ] 1  bonne pincée de sel
-- [ ] 2 tranches gingembre
-- [ ] 1 gousse d'ail
-- [ ] 1 cc de MSG
+- 10 g [[[[katsuobushi (copeaux de bonite séchée)]]]]
+- 2  [[[[shitakés séchés]]]]
+- 5 g [[[[kombu]]]]
+- 150 ml [[[[sauce soja]]]]
+- 25 ml [[[[saké]]]]
+- 25 ml [[[[mirin]]]]
+- 1  [[[[bonne pincée de sel]]]]
+- 2 [[[[tranches gingembre]]]]
+- 1 gousse [[[[d'ail]]]]
+- 1 [[[[cc de msg]]]]
 
 ## Instructions
 

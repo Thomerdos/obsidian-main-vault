@@ -1,0 +1,35 @@
+---
+type: ingredient
+nom: '[[tbsp dried wakame seaweed]]'
+categorie: ''
+recettes:
+- Homemade Miso Soup (Video) 味噌汁
+tags:
+- ingredient
+---
+
+# 🥕 [[tbsp dried wakame seaweed]]
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "[[tbsp dried wakame seaweed]]")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

@@ -1,38 +1,58 @@
 ---
-title: "Tan Tan Ramen (Tantanmen) 坦々麺"
-source: "https://www.justonecookbook.com/tantanmen/"
+title: Tan Tan Ramen (Tantanmen) 坦々麺
+source: https://www.justonecookbook.com/tantanmen/
 author:
-  - "[[Namiko Hirasawa Chen]]"
+- '[[Namiko Hirasawa Chen]]'
 published: 2023-03-27
 created: 2026-02-02
-image: "https://www.justonecookbook.com/wp-content/uploads/2023/03/Tan-Tan-Ramen-6848-I.jpg"
+image: https://www.justonecookbook.com/wp-content/uploads/2023/03/Tan-Tan-Ramen-6848-I.jpg
 tags:
-  - "Video"
-base: "[[Recettes.base]]"
+- Video
+base: '[[Recettes.base]]'
+ingredients:
+- tbsp japanese sesame paste (neri goma)
+- tsp miso
+- tbsp soy sauce
+- tsp rice vinegar (unseasoned)
+- tbsp la-yu (japanese chili oil)
+- knob ginger ((1 inch, 2.5 cm))
+- cloves garlic
+- tbsp neutral oil
+- oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))
+- tbsp sake ((substitute it with chinese rice wine or dry sherry))
+- tbsp doubanjiang (spicy chili bean paste)
+- tsp soy sauce ((use gluten-free soy sauce for gf))
+- 1½ cups chicken stock/broth
+- 1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))
+- diamond crystal kosher salt ((for seasoning the broth, to taste))
+- head shanghai bok choy
+- servings fresh ramen noodles
+type: recette
 ---
+
 ![](https://www.justonecookbook.com/wp-content/uploads/2023/03/Tan-Tan-Ramen-6848-I.jpg)
 
 Make Tan Tan Ramen (Tantanmen) at home—spicy, creamy, and bold with a savory topping. It's an easy, customizable ramen recipe with true restaurant-style taste.
 
 ## Ingrédients
 
-- [ ] 2 Tbsp Japanese sesame paste (neri goma)
-- [ ] 1 tsp miso
-- [ ] 1 Tbsp soy sauce
-- [ ] 1 tsp rice vinegar (unseasoned)
-- [ ] 1 Tbsp la-yu (Japanese chili oil)
-- [ ] 1 knob ginger ((1 inch, 2.5 cm))
-- [ ] 2 cloves garlic
-- [ ] 1 Tbsp neutral oil
-- [ ] 6 oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))
-- [ ] 1 Tbsp sake ((substitute it with Chinese rice wine or dry sherry))
-- [ ] 1 Tbsp doubanjiang (spicy chili bean paste)
-- [ ] 2 tsp soy sauce ((use gluten-free soy sauce for GF))
-- [ ] 1½ cups chicken stock/broth
-- [ ] 1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))
-- [ ] Diamond Crystal kosher salt ((for seasoning the broth, to taste))
-- [ ] 1 head Shanghai bok choy
-- [ ] 2 servings fresh ramen noodles
+- 2 [[[[tbsp japanese sesame paste (neri goma)]]]]
+- 1 [[[[tsp miso]]]]
+- 1 [[[[tbsp soy sauce]]]]
+- 1 [[[[tsp rice vinegar (unseasoned)]]]]
+- 1 [[[[tbsp la-yu (japanese chili oil)]]]]
+- 1 [[[[knob ginger ((1 inch, 2.5 cm))]]]]
+- 2 [[[[cloves garlic]]]]
+- 1 [[[[tbsp neutral oil]]]]
+- 6 [[[[oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))]]]]
+- 1 [[[[tbsp sake ((substitute it with chinese rice wine or dry sherry))]]]]
+- 1 [[[[tbsp doubanjiang (spicy chili bean paste)]]]]
+- 2 [[[[tsp soy sauce ((use gluten-free soy sauce for gf))]]]]
+- [[[[1½ cups chicken stock/broth]]]]
+- [[[[1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))]]]]
+- [[[[diamond crystal kosher salt ((for seasoning the broth, to taste))]]]]
+- 1 [[[[head shanghai bok choy]]]]
+- 2 [[[[servings fresh ramen noodles]]]]
 
 ## Instructions
 

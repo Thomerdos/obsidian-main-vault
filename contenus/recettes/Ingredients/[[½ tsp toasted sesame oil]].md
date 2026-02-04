@@ -1,0 +1,35 @@
+---
+type: ingredient
+nom: '[[½ tsp toasted sesame oil]]'
+categorie: ''
+recettes:
+- Sweet and Sour Stir Fry ผัดเปรี้ยวหวาน Recipe & Video Tutorial
+tags:
+- ingredient
+---
+
+# 🥕 [[½ tsp toasted sesame oil]]
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  temps_preparation as "Préparation (min)",
+  temps_cuisson as "Cuisson (min)",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "[[½ tsp toasted sesame oil]]")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens
