@@ -22,10 +22,7 @@ tags:
 ```dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  temps_preparation as "Préparation (min)",
-  temps_cuisson as "Cuisson (min)",
-  type_cuisine as "Cuisine",
-  regime as "Régime"
+  source as "Source"
 FROM "contenus/recettes/Fiches"
 WHERE contains(ingredients, "<% tp.file.title.toLowerCase() %>")
 SORT file.name ASC
