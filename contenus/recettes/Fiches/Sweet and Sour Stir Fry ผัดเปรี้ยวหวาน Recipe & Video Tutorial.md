@@ -8,7 +8,7 @@ created: 2026-02-02
 image: https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized]]'
+- '[[tofu]]'
 - '[[ail]]'
 - '[[ananas]]'
 - '[[oignon]]'
