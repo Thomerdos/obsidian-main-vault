@@ -12,7 +12,7 @@ tags:
 - piment
 base: '[[Recettes.base]]'
 ingredients:
-- piments forts (antillais bien rouges)
+- piments forts
 - piments végétariens
 - cm de gingembre frais
 - d’ail
@@ -20,7 +20,6 @@ ingredients:
 - à soupe de vinaigre blanc
 - jus d’un demi-citron
 - huile
-- mixeur (1 couteau, une fourchette et des gants)
 type: recette
 ---
 
@@ -31,13 +30,13 @@ La purée de piments au gingembre maison pour accompagner tous les poissons de t
 ## Ingrédients
 
 - 10  [[[[piments forts (antillais bien rouges)]]]]
-- 5  [[[[piments végétariens]]]]
-- 10 [[[[cm de gingembre frais]]]]
-- 2  gousses [[[[d’ail]]]]
-- 1  cuillère [[[[à café rase de gros sel]]]]
-- 2  cuillères [[[[à soupe de vinaigre blanc]]]]
-- le [[[[jus d’un demi-citron]]]]
-- [[[[huile]]]]
+- 5  [[piments végétariens]]
+- 10 [[cm de gingembre frais]]
+- 2  gousses [[d’ail]]
+- 1  cuillère [[à café rase de gros sel]]
+- 2  cuillères [[à soupe de vinaigre blanc]]
+- le [[jus d’un demi-citron]]
+- [[huile]]
 - un [[[[mixeur (1 couteau, une fourchette et des gants)]]]]
 
 ## Instructions

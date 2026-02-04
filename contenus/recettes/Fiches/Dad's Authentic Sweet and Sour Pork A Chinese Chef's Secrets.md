@@ -13,25 +13,25 @@ tags:
 - chineseRestaurantCopycat
 base: '[[Recettes.base]]'
 ingredients:
-- oz pork shoulder butt
-- oz red bell pepper
-- oz yellow bell pepper
-- oz green bell pepper
-- oz red onion
-- oz yellow onion
-- oz pineapple
-- 0.5 lb corn oil
-- tsp garlic salt
-- tbsp light soy sauce
-- 0.5 egg
-- tbsp all-purpose flour
-- tbsp cornstarch
-- tbsp ketchup
-- tbsp brown sugar
-- tbsp vinegar
-- tsp cornstarch
-- 0.5 tsp salt
-- tbsp water
+- pork shoulder butt
+- red poivron
+- yellow poivron
+- green poivron
+- red oignon
+- yellow oignon
+- pineapple
+- huile de maïs
+- ail sel
+- light sauce soja
+- oeuf
+- all-purpose flour
+- fécule de maïs
+- ketchup
+- brown sucre
+- vinegar
+- fécule de maïs
+- sel
+- eau
 type: recette
 ---
 
@@ -41,25 +41,25 @@ Learn how a 2x James Beard Award Winning Chinese Chef cooks this Sweet and Sour 
 
 ## Ingrédients
 
-- 10 [[[[oz pork shoulder butt]]]]
-- 1 [[[[oz red bell pepper]]]]
-- 1 [[[[oz yellow bell pepper]]]]
-- 1 [[[[oz green bell pepper]]]]
-- 1 [[[[oz red onion]]]]
-- 1 [[[[oz yellow onion]]]]
-- 4 [[[[oz pineapple]]]]
-- [[[[0.5 lb corn oil]]]]
-- 1 [[[[tsp garlic salt]]]]
-- 1 [[[[tbsp light soy sauce]]]]
-- [[[[0.5 egg]]]]
-- 2 [[[[tbsp all-purpose flour]]]]
-- 3 [[[[tbsp cornstarch]]]]
-- 4 [[[[tbsp ketchup]]]]
-- 4 [[[[tbsp brown sugar]]]]
-- 3 [[[[tbsp vinegar]]]]
-- 1 [[[[tsp cornstarch]]]]
-- [[[[0.5 tsp salt]]]]
-- 2 [[[[tbsp water]]]]
+- 10 [[oz pork shoulder butt]]
+- 1 [[oz red poivron]]
+- 1 [[oz yellow poivron]]
+- 1 [[oz green poivron]]
+- 1 [[oz red oignon]]
+- 1 [[oz yellow oignon]]
+- 4 [[oz pineapple]]
+- [[huile de maïs]]
+- 1 [[tsp ail sel]]
+- 1 [[tbsp light soy sauce]]
+- [[oeuf]]
+- 2 [[tbsp all-purpose flour]]
+- 3 [[tbsp fécule de maïs]]
+- 4 [[tbsp ketchup]]
+- 4 [[tbsp brown sucre]]
+- 3 [[tbsp vinegar]]
+- 1 [[tsp fécule de maïs]]
+- [[sel]]
+- 2 [[tbsp eau]]
 
 ## Instructions
 

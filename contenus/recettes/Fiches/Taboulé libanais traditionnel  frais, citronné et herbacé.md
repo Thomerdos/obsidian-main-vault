@@ -30,10 +30,10 @@ Découvrez la recette du taboulé libanais traditionnel : persil, menthe, citron
 
 ## Ingrédients
 
-- [[[[boulghour]]]]
-- [[[[citron]]]]
-- [[[[menthe]]]]
-- [[[[persil]]]]
-- [[[[tomate]]s]]
+- [[boulghour]]
+- [[citron]]
+- [[menthe]]
+- [[persil]]
+- [[tomate]]
 
 ## Instructions

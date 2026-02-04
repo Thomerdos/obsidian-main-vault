@@ -10,14 +10,13 @@ tags:
 - Video
 base: '[[Recettes.base]]'
 ingredients:
-- cups water
-- piece kombu (dried kelp) ((⅓ oz, 10 g per piece; 4 x 4 inches or 10 x 10 cm))
-- cup katsuobushi (dried bonito flakes) ((packed; i used a loosely packed 3 cups in
-  the video for stronger flavor))
-- oz soft/silken tofu (kinugoshi dofu)
-- tbsp miso ((use 1 tbsp, 18 g for every 1 cup, 240 ml of dashi))
-- tbsp dried wakame seaweed
-- green onion/scallion
+- eau
+- kombu  )
+- bonite séchée  )
+- soft/silken tofu
+- miso )
+- dried algue wakame
+- green oignon/cébette
 type: recette
 ---
 
@@ -27,12 +26,12 @@ Make my authentic, homemade Japanese miso soup with an easy from-scratch dashi s
 
 ## Ingrédients
 
-- 4 [[[[cups water]]]]
+- 4 [[cups eau]]
 - 1 [[[[piece kombu (dried kelp) ((⅓ oz, 10 g per piece; 4 x 4 inches or 10 x 10 cm))]]]]
 - 1 [[[[cup katsuobushi (dried bonito flakes) ((packed; i used a loosely packed 3 cups in the video for stronger flavor))]]]]
 - 7 [[[[oz soft/silken tofu (kinugoshi dofu)]]]]
 - 4 [[[[tbsp miso ((use 1 tbsp, 18 g for every 1 cup, 240 ml of dashi))]]]]
-- 1 [[[[tbsp dried wakame seaweed]]]]
+- 1 [[tbsp dried algue wakame]]
 - 1  [[[[green onion/scallion]]]]
 
 ## Instructions

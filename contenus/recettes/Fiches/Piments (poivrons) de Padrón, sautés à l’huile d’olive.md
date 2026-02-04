@@ -30,8 +30,8 @@ Découvrez la recette des piments ou poivrons de Padron grillés (Pemento de Her
 
 ## Ingrédients
 
-- [[[[huile d'olive]]]]
-- [[[[piment]]s]]
-- [[[[sel de maldon]]]]
+- [[huile d'olive]]
+- [[piment]]
+- [[sel de maldon]]
 
 ## Instructions

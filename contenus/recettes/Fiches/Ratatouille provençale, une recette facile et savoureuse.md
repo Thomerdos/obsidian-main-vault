@@ -17,7 +17,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - ail
 - aubergine
-- concentré de tomates
+- tomate
 - courgette
 - huile d'olive
 - laurier
@@ -34,15 +34,15 @@ Ratatouille provençale facile et ensoleillée, cuite à la cocotte : une recett
 
 ## Ingrédients
 
-- [[[[ail]]]]
-- [[[[aubergine]]s]]
-- [[[[concentré de tomates]]]]
-- [[[[courgette]]s]]
-- [[[[huile d'olive]]]]
-- [[[[laurier]]]]
-- [[[[oignon]]s]]
-- [[[[poivron]]s]]
-- [[[[thym]]]]
-- [[[[tomate]]s]]
+- [[ail]]
+- [[aubergine]]
+- [[tomate]]
+- [[courgette]]
+- [[huile d'olive]]
+- [[laurier]]
+- [[oignon]]
+- [[poivron]]
+- [[thym]]
+- [[tomate]]
 
 ## Instructions

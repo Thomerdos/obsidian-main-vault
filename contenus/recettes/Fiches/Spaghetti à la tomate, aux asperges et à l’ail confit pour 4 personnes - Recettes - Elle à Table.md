@@ -10,14 +10,14 @@ image: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-tabl
 base: '[[Recettes.base]]'
 ingredients:
 - spaghetti
-- grosses asperges vertes
+- asperge
 - huile d'olive
-- gros oignons
+- oignon
 - d'ail
-- feuilles de basilic frais
-- boîtes de tomates pelées italiennes
+- feuilles de basilicic frais
+- tomate
 - têtes d'ail
-- tomates olivettes
+- tomate
 - thym effeuillé
 type: recette
 ---
@@ -28,17 +28,17 @@ Découvrez la préparation de la recette "Spaghetti à la tomate, aux asperges e
 
 ## Ingrédients
 
-- 350 g de [[[[spaghetti]]]]
-- 8 [[[[grosses asperges vertes]]]]
-- [[[[huile d'olive]]]]
-- 2 [[[[gros oignons]]]]
-- 1 gousse [[[[d'ail]]]]
-- 5 [[[[feuilles de basilic frais]]]]
-- 3 [[[[boîtes de tomates pelées italiennes]]]]
-- 2 [[[[têtes d'ail]]]]
-- 30 [[[[tomates olivettes]]]]
-- 1 gousse [[[[d'ail]]]]
-- [[[[thym effeuillé]]]]
+- 350 g de [[spaghetti]]
+- 8 [[asperge]]
+- [[huile d'olive]]
+- 2 [[oignon]]
+- 1 gousse [[d'ail]]
+- 5 [[feuilles de basilicic frais]]
+- 3 [[tomate]]
+- 2 [[têtes d'ail]]
+- 30 [[tomate]]
+- 1 gousse [[d'ail]]
+- [[thym effeuillé]]
 
 ## Instructions
 

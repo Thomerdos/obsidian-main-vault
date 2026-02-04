@@ -45,17 +45,17 @@ Découvrez cette recette de piperade basque traditionnelle. Ce plat traditionnel
 
 ## Ingrédients
 
-- 600 g [[[[oignon]]]]
-- 1,2 kg [[[[piment doux]]]]
-- 3 unité [[[[poivron]]]]
-- 3 gousse [[[[ail]]]]
-- 1 unité [[[[bouquet garni]]]]
-- 1,5 kg [[[[tomate]]]]
-- 1 filet [[[[huile d'olive]]]]
-- quelque pincée [[[[sel]]]]
-- quelque pincée [[[[poivre]]]]
-- quelque pincée [[[[sucre]]]]
-- quelque pincée [[[[piment d'espelette]]]]
+- 600 g [[oignon]]
+- 1,2 kg [[piment doux]]
+- 3 unité [[poivron]]
+- 3 gousse [[ail]]
+- 1 unité [[bouquet garni]]
+- 1,5 kg [[tomate]]
+- 1 filet [[huile d'olive]]
+- quelque pincée [[sel]]
+- quelque pincée [[poivre]]
+- quelque pincée [[sucre]]
+- quelque pincée [[piment d'espelette]]
 
 ## Instructions
 

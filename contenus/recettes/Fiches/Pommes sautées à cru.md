@@ -32,10 +32,10 @@ Pommes sautées à cru. Une alternative bistronomique à la friture.. Recette pa
 ## Ingrédients
 
 - 1 kg de pommes de terre
-- [[[[sel]]]]
-- [[[[poivre]]]]
-- [[[[persil haché]]]]
-- 150 g de [[[[graisse de canard ou de beurre clarifié]]]]
+- [[sel]]
+- [[poivre]]
+- [[persil haché]]
+- 150 g de [[graisse de canard ou de beurre clarifié]]
 
 ## Instructions
 

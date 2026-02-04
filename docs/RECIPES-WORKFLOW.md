@@ -210,16 +210,6 @@ WHERE origine = "Sud-Ouest"
 SORT file.name ASC
 ```
 
-### Trouver des recettes avec plusieurs ingrédients
-
-```dataview
-TABLE 
-  ingredients as "Ingrédients"
-FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "tomate") AND contains(ingredients, "basilic")
-SORT file.name ASC
-```
-
 ## 📊 Créer des vues personnalisées
 
 ### Hub d'ingrédients

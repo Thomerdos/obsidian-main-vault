@@ -25,10 +25,10 @@ tags:
 base: '[[Recettes.base]]'
 ingredients:
 - macreuse
-- paleron détaillés en cube de 70 g maximum
-- gîte détaillée en fines tranches
+- paleron
+- gîte
 - poitrine de porc salée en tranches larges
-- gros oignons émincés
+- oignon
 - grosses échalotes
 - d'ail écrasées
 - bouquet garni
@@ -36,9 +36,9 @@ ingredients:
 - cuiller de farine
 - litre de fond de veau lié
 - bouteille de bière jenlain ou de leffe brune
-- petits oignons glacés à brun avec 20 g de beurre et 20 g de sucre
-- vergeoise (facultatif)
-- vinaigre de vin (facultatif)
+- oignon
+- vergeoise
+- vinaigre de vin
 - moutarde
 type: recette
 ---
@@ -49,22 +49,22 @@ Carbonade flamande. Un ragoût de boeuf à la bière du Nord de la France et de 
 
 ## Ingrédients
 
-- 500 g de [[[[macreuse]]]]
-- 500 g de [[[[paleron détaillés en cube de 70 g maximum]]]]
-- 500 g de [[[[gîte détaillée en fines tranches]]]]
-- 300 g de [[[[poitrine de porc salée en tranches larges]]]]
-- 4 [[[[gros oignons émincés]]]]
-- 8 [[[[grosses échalotes]]]]
-- 5 gousses [[[[d'ail écrasées]]]]
-- un [[[[bouquet garni]]]]
-- 8 [[[[tranches de pain d'épices ou de pain rassis]]]]
-- 1 [[[[cuiller de farine]]]]
-- 1 [[[[litre de fond de veau lié]]]]
-- une [[[[bouteille de bière jenlain ou de leffe brune]]]]
-- 200 g de [[[[petits oignons glacés à brun avec 20 g de beurre et 20 g de sucre]]]]
+- 500 g de [[macreuse]]
+- 500 g de [[paleron détaillés en cube de 70 g maximum]]
+- 500 g de [[gîte détaillée en fines tranches]]
+- 300 g de [[poitrine de porc salée en tranches larges]]
+- 4 [[oignon]]
+- 8 [[grosses échalotes]]
+- 5 gousses [[d'ail écrasées]]
+- un [[bouquet garni]]
+- 8 [[tranches de pain d'épices ou de pain rassis]]
+- 1 [[cuiller de farine]]
+- 1 [[litre de fond de veau lié]]
+- une [[bouteille de bière jenlain ou de leffe brune]]
+- 200 g de [[oignon]]
 - 50 g de [[[[vergeoise (facultatif)]]]]
 - 1 dl de [[[[vinaigre de vin (facultatif)]]]]
-- 50 g de [[[[moutarde]]]]
+- 50 g de [[moutarde]]
 
 ## Instructions
 

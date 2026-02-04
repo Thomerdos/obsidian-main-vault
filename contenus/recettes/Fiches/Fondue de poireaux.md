@@ -16,11 +16,11 @@ tags:
 - CuisineSanté
 base: '[[Recettes.base]]'
 ingredients:
-- blancs de poireaux
+- poireau
 - échalotes ciselées
 - beurre
 - sel et poivre
-- cuiller à soupe de crème épaisse (facultatif)
+- cuiller à soupe de crème épaisse
 saison:
 - automne
 type: recette
@@ -32,11 +32,11 @@ Fondue de poireaux. La fondue de poireau devient culinaresque avec des Saint-Jac
 
 ## Ingrédients
 
-- 4 [[[[blancs de poireaux]]]]
-- 2 [[[[échalotes ciselées]]]]
-- 50 g de [[[[beurre]]]]
-- [[[[sel et poivre]]]]
-- une [[[[cuiller à soupe de crème épaisse (facultatif)]]]]
+- 4 [[poireau]]
+- 2 [[échalotes ciselées]]
+- 50 g de [[beurre]]
+- [[sel et poivre]]
+- une [[[[cuiller à soupe de crème épaisse]]]]
 
 ## Instructions
 

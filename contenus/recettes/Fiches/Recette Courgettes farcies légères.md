@@ -8,19 +8,19 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- courgette(s)
-- bœuf haché 5% de matière grasse
+- courgette
+- boeuf haché
 - riz basmati
-- oignon(s)
+- oignon
 - ail
-- coulis de tomates
+- tomate
 - parmesan
-- c. à soupe huile d'olive
-- branche(s) thym
-- feuille (s) basilic
-- brin(s) persil
-- pincée(s) sel
-- pincée(s) poivre
+- huile d'olive
+- branche thym
+- feuille  basilicic
+- brin persil
+- pincée sel
+- pincée poivre
 type: recette
 ---
 
@@ -31,19 +31,19 @@ Vous allez enfin vous réconcilier avec les légumes ! Aussi diététique que sa
 ## Ingrédients
 
 - [ ] 
-- 2 [[[[courgette(s)]]]]
-- 400 g [[[[bœuf haché 5% de matière grasse]]]]
-- 200 g [[[[riz basmati]]]]
-- 1 [[[[oignon(s)]]]]
-- 1 Gousse [[[[ail]]]]
-- 200 g [[[[coulis de tomates]]]]
-- 30 g [[[[parmesan]]]]
-- 2 [[[[c. à soupe huile d'olive]]]]
-- 2 [[[[branche(s) thym]]]]
-- 8 [[[[feuille (s) basilic]]]]
-- 4 [[[[brin(s) persil]]]]
-- 1 [[[[pincée(s) sel]]]]
-- 1 [[[[pincée(s) poivre]]]]
+- 2 [[[[courgette]]]]
+- 400 g [[[[boeuf haché]]]]
+- 200 g [[riz basmati]]
+- 1 [[oignon]]
+- 1 Gousse [[ail]]
+- 200 g [[tomate]]
+- 30 g [[parmesan]]
+- 2 [[huile d'olive]]
+- 2 [[[[branche thym]]]]
+- 8 [[[[feuille  basilicic]]]]
+- 4 [[[[brin persil]]]]
+- 1 [[[[pincée sel]]]]
+- 1 [[[[pincée poivre]]]]
 
 ## Instructions
 

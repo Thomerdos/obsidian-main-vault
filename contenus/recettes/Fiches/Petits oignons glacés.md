@@ -17,7 +17,7 @@ tags:
 - Garniture
 base: '[[Recettes.base]]'
 ingredients:
-- oignons grelots
+- oignon
 - grammes de beurre
 - cuillère à soupe rase de sucre
 type: recette
@@ -29,9 +29,9 @@ Petits oignons glacés. Glacer à blanc et à brun des petits oignons pour une b
 
 ## Ingrédients
 
-- [[[[oignons grelots]]]]
-- 30 [[[[grammes de beurre]]]]
-- une [[[[cuillère à soupe rase de sucre]]]]
+- [[oignon]]
+- 30 [[grammes de beurre]]
+- une [[cuillère à soupe rase de sucre]]
 
 ## Instructions
 

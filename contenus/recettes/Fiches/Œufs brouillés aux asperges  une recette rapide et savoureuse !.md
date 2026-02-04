@@ -14,7 +14,7 @@ tags:
 - RecetteExpress
 base: '[[Recettes.base]]'
 ingredients:
-- asperges vertes
+- asperge
 - œufs
 - beurre
 - crème fraîche liquide
@@ -29,11 +29,11 @@ Préparez des œufs brouillés aux asperges vertes pour un plat rapide et savour
 
 ## Ingrédients
 
-- 12 [[[[asperges vertes]]]]
-- 8 [[[[œufs]]]]
-- 30 g de [[[[beurre]]]]
-- 15 cl de [[[[crème fraîche liquide]]]]
-- [[[[sel et poivre]]]]
-- 1 [[[[càs d'huile d'olive]]]]
+- 12 [[asperge]]
+- 8 [[œufs]]
+- 30 g de [[beurre]]
+- 15 cl de [[crème fraîche liquide]]
+- [[sel et poivre]]
+- 1 [[càs d'huile d'olive]]
 
 ## Instructions

@@ -18,7 +18,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - ail
 - aubergine
-- basilic
+- basilicic
 - fromages
 - huile d'olive
 - mozzarella
@@ -26,7 +26,7 @@ ingredients:
 - origan
 - parmesan
 - tomate
-- tomates concassées
+- tomate
 type: recette
 ---
 
@@ -36,16 +36,16 @@ Cette recette facile, traditionnelle du Nord de l'Italie (Parme), transmise par 
 
 ## Ingrédients
 
-- [[[[ail]]]]
-- [[[[aubergine]]s]]
-- [[[[basilic]]]]
-- [[[[fromages]]]]
-- [[[[huile d'olive]]]]
-- [[[[mozzarella]]]]
-- [[[[oignon]]s]]
-- [[[[origan]]]]
-- [[[[parmesan]]]]
-- [[[[tomate]]s]]
-- [[[[tomates concassées]]]]
+- [[ail]]
+- [[aubergine]]
+- [[basilicic]]
+- [[fromages]]
+- [[huile d'olive]]
+- [[mozzarella]]
+- [[oignon]]
+- [[origan]]
+- [[parmesan]]
+- [[tomate]]
+- [[tomate]]
 
 ## Instructions

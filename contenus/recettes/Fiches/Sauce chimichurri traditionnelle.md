@@ -11,16 +11,15 @@ tags:
 - SauceArgentine
 base: '[[Recettes.base]]'
 ingredients:
-- ½ bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé
+- bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé
 - à soupe d’origan fraîchement ciselé
 - d’ail pressées
-- ½ tasse de ciboule émincée
+- tasse de ciboule
 - 'petit piment rouge : retirer les graines et la membrane intérieure blanche puis
   le tailler finement'
 - à soupe de vinaigre de vin rouge
 - à café de jus de citron frais
-- d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection
-  en argentine)
+- d’huile
 - sel et poivre
 type: recette
 ---
@@ -31,15 +30,15 @@ La sauce chimichurri traditionnelle, originaire d'Argentine, se prépare à part
 
 ## Ingrédients
 
-- [[½  bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé]]
-- 2 cuillères [[[[à soupe d’origan fraîchement ciselé]]]]
-- 4 gousses [[[[d’ail pressées]]]]
-- [[[[½ tasse de ciboule émincée]]]]
+- [[bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé]]
+- 2 cuillères [[à soupe d’origan fraîchement ciselé]]
+- 4 gousses [[d’ail pressées]]
+- [[tasse de ciboule]]
 - 1  [[[[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]]]
-- 2 cuillères [[[[à soupe de vinaigre de vin rouge]]]]
-- 1 cuillère [[[[à café de jus de citron frais]]]]
+- 2 cuillères [[à soupe de vinaigre de vin rouge]]
+- 1 cuillère [[à café de jus de citron frais]]
 - 120 mL [[[[d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)]]]]
-- [[[[sel et poivre]]]]
+- [[sel et poivre]]
 
 ## Instructions
 

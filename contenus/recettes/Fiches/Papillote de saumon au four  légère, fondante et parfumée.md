@@ -27,7 +27,7 @@ ingredients:
 - coriandre
 - saumon
 - tomate
-- tomates cerises
+- tomate
 type: recette
 ---
 
@@ -37,12 +37,12 @@ Une papillote de saumon fondante et parfumée aux tomates, citron et aneth. Simp
 
 ## Ingrédients
 
-- [[[[aneth]]]]
-- [[[[citron]]]]
-- [[[[citron confit]]]]
-- [[[[coriandre]]]]
-- [[[[saumon]]]]
-- [[[[tomate]]s]]
-- [[[[tomates cerises]]]]
+- [[aneth]]
+- [[citron]]
+- [[citron confit]]
+- [[coriandre]]
+- [[saumon]]
+- [[tomate]]
+- [[tomate]]
 
 ## Instructions

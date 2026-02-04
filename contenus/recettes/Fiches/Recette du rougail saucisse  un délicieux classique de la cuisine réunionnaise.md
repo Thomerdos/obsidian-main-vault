@@ -15,7 +15,7 @@ base: '[[Recettes.base]]'
 ingredients:
 - saucisses fraîches
 - saucisses fumées
-- petits piments
+- petits piment
 - tomate
 - oignon
 - gingembre
@@ -31,15 +31,15 @@ A la fois relevée et douce, riche et modeste, la recette du rougail saucisses e
 
 ## Ingrédients
 
-- 2 [[[[saucisses fraîches]]]]
-- 2 [[[[saucisses fumées]]]]
-- 4 [[[[petits piments]]]]
-- 4 [[[[tomate]]s]]
-- 2 [[[[oignon]]s]]
-- [[[[gingembre]]]]
-- [[[[sel]]]]
-- [[[[poivre]]]]
-- [[[[huile]]]]
+- 2 [[saucisses fraîches]]
+- 2 [[saucisses fumées]]
+- 4 [[petits piment]]
+- 4 [[tomate]]
+- 2 [[oignon]]
+- [[gingembre]]
+- [[sel]]
+- [[poivre]]
+- [[huile]]
 
 ## Instructions
 
