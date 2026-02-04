@@ -1,0 +1,13 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - base == link("Recettes.base")
+    order:
+      - file.name
+      - source
+      - tags
+    columnSize:
+      file.name: 290
+      note.source: 568
