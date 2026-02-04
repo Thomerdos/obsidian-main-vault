@@ -21,6 +21,11 @@ This vault uses a clean hub/star structure that:
 - **By Artist**: `contenus/musique/Groupes/` - Artist pages with concert history
 - **By Venue**: `contenus/musique/Salles/` - Venue pages with concerts held there
 
+### Browse Recipes
+- **All Recipes**: `contenus/recettes/Fiches/` - 60+ recipes with structured ingredients
+- **By Ingredient**: `contenus/recettes/Ingredients/` - Find recipes by ingredient
+- **Categories**: `contenus/recettes/Categories.md` - Browse by cuisine type
+
 ### Add Content
 
 #### Using Templates
@@ -29,11 +34,20 @@ This vault uses a clean hub/star structure that:
 3. Fill in the template fields
 4. Save to appropriate `contenus/` subdirectory
 
-#### Semi-Automated Method
-Use Python script in `tools/`:
+#### Semi-Automated Method - Concerts
 ```bash
 # Add a concert interactively
 python3 tools/add-concert.py
+```
+
+#### Semi-Automated Method - Recipes
+```bash
+# Option 1: Use Web Clipper (see docs/WEBCLIPPER-RECETTES.md)
+# Clip recipe from web → Post-process with:
+python3 tools/migrate-recipes.py --recipe "Recipe Name"
+
+# Option 2: Migrate existing recipes
+python3 tools/migrate-recipes.py
 ```
 
 ## 📂 Structure
@@ -59,24 +73,34 @@ obsidian-main-vault/
 │   └── recettes/
 │       ├── Ingredients.md   # Hub for ingredients
 │       ├── Categories.md    # Hub for recipe categories
-│       └── Fiches/          # Recipe files (60+ total)
+│       ├── Fiches/          # Recipe files (60+ total)
+│       └── Ingredients/     # Individual ingredient pages
 │
 ├── templates/               # Templater templates
 │   ├── musique/             # Music templates
 │   ├── lieux/               # Location templates
 │   └── recettes/            # Recipe templates
+│       ├── templater-recette.md          # New recipe template
+│       ├── templater-ingredient.md       # Ingredient template
+│       ├── webclipper-recette.md         # Web clipper template
+│       └── templater-post-webclipper.md  # Post-process template
 │
 ├── tools/                   # Python automation scripts
 │   ├── add-concert.py       # Interactive concert creation
-│   └── generate-stats.py    # Generate vault statistics
+│   ├── generate-stats.py    # Generate vault statistics
+│   └── migrate-recipes.py   # Recipe migration & ingredient extraction
 │
 ├── docs/                    # Documentation
+│   ├── WEBCLIPPER-RECETTES.md  # Web clipper guide for recipes
+│   ├── RECIPES-WORKFLOW.md     # Complete recipes workflow
+│   └── ...
 │
 ├── .obsidian/               # Obsidian configuration
 │   └── app.json             # Vault settings
 │
 ├── README.md                # This file
-└── README-RELATIONS.md      # Graph structure guide
+├── README-RELATIONS.md      # Graph structure guide
+└── requirements.txt         # Python dependencies
 ```
 
 ## 🔗 Hub/Star Graph Structure
@@ -152,8 +176,71 @@ python3 tools/add-concert.py
 
 ## 📖 Documentation
 
+### General
 - **[Graph Structure Guide](README-RELATIONS.md)** - Hub/star topology and Dataview queries
 - **[Implementation Summary](IMPLEMENTATION-SUMMARY.md)** - Technical migration details
+
+### Recipes System
+- **[Recipe Workflow Guide](docs/RECIPES-WORKFLOW.md)** - Complete guide to the recipe system
+- **[Web Clipper Guide](docs/WEBCLIPPER-RECETTES.md)** - How to clip recipes from the web
+- **[Migration Script Documentation](tools/README-RECIPES.md)** - Script usage and customization
+
+## 🍽️ Recipe Management System
+
+### Features
+
+This vault includes a powerful recipe management system with:
+- ✅ **Structured ingredients** with automatic normalization
+- ✅ **Wiki-linked ingredients** for easy navigation
+- ✅ **Auto-generated ingredient pages** listing all recipes
+- ✅ **Tag transformation** to structured properties
+- ✅ **Web clipping support** for easy recipe capture
+- ✅ **Migration script** to transform existing recipes
+- ✅ **Dataview queries** for filtering and discovery
+
+### Recipe Properties
+
+Each recipe includes:
+```yaml
+type: recette
+title: "Recipe Name"
+source: "https://..."
+type_cuisine: "Italienne"     # Cuisine type
+origine: "Toscane"            # Geographic origin
+regime: ["végétarien"]        # Dietary restrictions
+saison: ["été"]               # Seasons
+temps_preparation: 20         # Minutes
+temps_cuisson: 45             # Minutes
+ingredients:                  # Normalized ingredient list
+  - tomate
+  - basilic
+  - mozzarella
+```
+
+### Quick Recipe Workflow
+
+1. **Clip from web**: Use Web Clipper with the recipe template
+2. **Process**: Run `python3 tools/migrate-recipes.py --recipe "Name"`
+3. **Complete**: Fill in metadata (cuisine, origin, times)
+4. **Enjoy**: Navigate between recipes and ingredients!
+
+### Example Dataview Queries
+
+Find all recipes with tomatoes:
+```dataview
+TABLE temps_preparation, type_cuisine
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "tomate")
+```
+
+Find vegetarian Italian recipes:
+```dataview
+LIST
+FROM "contenus/recettes/Fiches"
+WHERE type_cuisine = "Italienne" AND contains(regime, "végétarien")
+```
+
+See [Recipe Workflow Guide](docs/RECIPES-WORKFLOW.md) for more examples.
 
 ## 🔐 Data Quality
 
@@ -177,10 +264,26 @@ Last verified: 2026-02-03 (100% complete)
 4. Create missing entity pages (artists, venues) if needed
 
 #### Recipes
-1. Use templates from `templates/recettes/`
+
+**Method 1: Web Clipper (Recommended)**
+1. Use Obsidian Web Clipper extension with `templates/recettes/webclipper-recette.md`
+2. Clip recipe from any website
+3. Post-process: `python3 tools/migrate-recipes.py --recipe "Name"`
+4. Complete metadata fields
+
+**Method 2: Manual Creation**
+1. Use template from `templates/recettes/templater-recette.md`
 2. Save to `contenus/recettes/Fiches/`
-3. Link to ingredients using `[[ingredient]]` syntax
-4. Add appropriate tags and categories
+3. Fill all frontmatter fields
+4. List ingredients in `ingredients: []` property
+5. Use `[[ingredient]]` links in the ingredients section
+
+**Method 3: Migration**
+1. Place recipe in `contenus/recettes/Fiches/`
+2. Run: `python3 tools/migrate-recipes.py`
+3. Script will extract ingredients and create links
+
+See [Recipe Workflow Guide](docs/RECIPES-WORKFLOW.md) for details.
 
 #### Locations
 1. Use templates from `templates/lieux/`
@@ -197,12 +300,13 @@ Last verified: 2026-02-03 (100% complete)
 ## 📱 Obsidian Setup
 
 ### Required Plugins
-- **Dataview** - For automatic relationship queries
+- **Dataview** - For automatic relationship queries and recipe filtering
 
 ### Recommended Plugins
 - **Templater** - For quick template insertion
 - **Calendar** - For date-based navigation
 - **Excalidraw** - For concert memory drawings
+- **Web Clipper** - For capturing recipes from websites (browser extension)
 
 ### Theme Compatibility
 Works with all Obsidian themes. Tested with:
