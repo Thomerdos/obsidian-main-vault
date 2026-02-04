@@ -20,52 +20,52 @@ tags:
 - PlatEnSauce
 base: '[[Recettes.base]]'
 ingredients:
-- veau
-- carotte
-- oignon
-- citron
-- clous de girofle
-- d'ail
-- bouquet garni
-- poireaux
-- champignon
-- oignon
-- beurre
-- sucre
-- farine
-- litres de bouillon de cuisson
-- crème entière
-- muscade
-- sel
+- '[[veau]]'
+- '[[carotte]]'
+- '[[oignon]]'
+- '[[citron]]'
+- '[[clous de girofle]]'
+- '[[d''ail]]'
+- '[[bouquet garni]]'
+- '[[poireaux]]'
+- '[[champignon]]'
+- '[[beurre]]'
+- '[[sucre]]'
+- '[[farine]]'
+- '[[litres de bouillon de cuisson]]'
+- '[[crème entière]]'
+- '[[muscade]]'
+- '[[sel]]'
 type_cuisine: Française
 saison:
 - hiver
 type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/69/blanquette-de-veau-a-l-ancienne-3000x2000.jpg)
 
 Blanquette de veau. La recette de la blanquette de veau à l'ancienne, discutée et argumentée.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- 2,5 kg de [[veau (épaule, flanchet, tendron, poitrine)]]
-- 8 [[carotte]]
-- 4 [[oignon]]
-- 1 [[citron]]
-- [[clous de girofle]]
-- 8 gousses [[d'ail]]
-- un [[bouquet garni]]
-- 2 [[poireaux]]
-- 500 g de [[champignon]]
-- 250 g de [[oignon]]
-- 40 g de [[beurre]]
-- 20 g de [[sucre]]
-- 180 g [[beurre]]
-- 180 g de [[farine]]
-- 2 [[litres de bouillon de cuisson]]
-- 1,5 dl de [[crème entière]]
-- [[muscade]]
-- [[sel]]
+- 2,5 kg de veau (épaule, flanchet, tendron, poitrine)
+- 8 carotte
+- 4 oignon
+- 1 citron
+- clous de girofle
+- 8 gousses d'ail
+- un bouquet garni
+- 2 poireaux
+- 500 g de champignon
+- 250 g de oignon
+- 40 g de beurre
+- 20 g de sucre
+- 180 g beurre
+- 180 g de farine
+- 2 litres de bouillon de cuisson
+- 1,5 dl de crème entière
+- muscade
+- sel
 
 ## Instructions
 

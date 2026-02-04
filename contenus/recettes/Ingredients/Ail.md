@@ -1,0 +1,39 @@
+---
+type: ingredient
+nom: ail
+categorie: ''
+recettes:
+- Aubergines à la Parmigiana façon Jamie Oliver
+- Authentic Thai Red Curry Recipe (Gaeng Ped)
+- Piperade basque traditionnelle  la meilleure recette
+- Ratatouille provençale, une recette facile et savoureuse
+- Recette Courgettes farcies légères
+tags:
+- ingredient
+---
+
+# 🥕 Ail
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, this.file.link)
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

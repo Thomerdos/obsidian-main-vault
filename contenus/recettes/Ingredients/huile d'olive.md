@@ -1,12 +1,9 @@
 ---
 type: ingredient
-nom: "huile d'olive"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
+nom: huile d'olive
+categorie: ''
 tags:
-  - ingredient
+- ingredient
 ---
 
 # 🥕 Huile d'olive
@@ -24,7 +21,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 

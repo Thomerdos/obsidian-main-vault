@@ -1,0 +1,36 @@
+---
+type: ingredient
+nom: sucre de palme
+categorie: ''
+recettes:
+- Authentic Thai Red Curry Recipe (Gaeng Ped)
+- Green Thai Curry Recipe
+tags:
+- ingredient
+---
+
+# 🥕 Sucre de palme
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source",
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, this.file.link)
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

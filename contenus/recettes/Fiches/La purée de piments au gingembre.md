@@ -12,31 +12,33 @@ tags:
 - piment
 base: '[[Recettes.base]]'
 ingredients:
-- piments forts
-- piments végétariens
-- cm de gingembre frais
-- d’ail
-- à café rase de gros sel
-- à soupe de vinaigre blanc
-- jus d’un demi-citron
-- huile
+- '[[piments forts]]'
+- '[[piments végétariens]]'
+- '[[cm de gingembre frais]]'
+- '[[d’ail]]'
+- '[[cuillère à café rase de gros sel]]'
+- '[[cuillères à soupe de vinaigre blanc]]'
+- '[[jus d’un demi-citron]]'
+- '[[huile]]'
+- '[[mixeur]]'
 type: recette
 ---
+
 ![](https://sweetkwisine.com/wp-content/uploads/2021/10/pimgingembre3.jpg)
 
 La purée de piments au gingembre maison pour accompagner tous les poissons de ton choix et plus si affinités - by Sweet Kwisine
 
 ## Ingrédients
 
-- 10  [[piments forts (antillais bien rouges)]]
-- 5  [[piments végétariens]]
-- 10 [[cm de gingembre frais]]
-- 2  gousses [[d’ail]]
-- 1  cuillère [[à café rase de gros sel]]
-- 2  cuillères [[à soupe de vinaigre blanc]]
-- le [[jus d’un demi-citron]]
-- [[huile]]
-- un [[mixeur (1 couteau, une fourchette et des gants)]]
+- 10  piments forts (antillais bien rouges)
+- 5  piments végétariens
+- 10 cm de gingembre frais
+- 2  gousses d’ail
+- 1  cuillère à café rase de gros sel
+- 2  cuillères à soupe de vinaigre blanc
+- le jus d’un demi-citron
+- huile
+- un mixeur (1 couteau, une fourchette et des gants)
 
 ## Instructions
 

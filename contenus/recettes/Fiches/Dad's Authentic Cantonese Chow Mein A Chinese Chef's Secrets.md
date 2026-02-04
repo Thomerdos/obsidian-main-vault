@@ -12,17 +12,17 @@ tags:
 - dimSum
 base: '[[Recettes.base]]'
 ingredients:
-- hong kong style pan-fried nouilles
-- oignon
-- stalks cébette
-- bean sprouts
-- dark sauce soja
-- light sauce soja
-- oyster sauce
-- sucre
-- eau
-- huile de sésame
-- huile de maïs
+- '[[hong kong style pan-fried nouilles]]'
+- '[[oignon]]'
+- '[[stalks cébette]]'
+- '[[germes de soja]]'
+- '[[dark soy sauce]]'
+- '[[light soy sauce]]'
+- '[[sauce huître]]'
+- '[[sucre]]'
+- '[[eau]]'
+- '[[huile de sésame]]'
+- '[[huile de maïs]]'
 type: recette
 ---
 
@@ -32,17 +32,17 @@ Learn how a 2x James Beard Award Winning Chinese Chef cooks this Cantonese Chow 
 
 ## Ingrédients
 
-- 12 [[oz hong kong style pan-fried nouilles]]
-- [[oignon]]
-- 5 [[stalks cébette]]
-- 4 [[oz bean sprouts]]
-- 1 [[tbsp dark soy sauce]]
-- 1 [[tbsp light soy sauce]]
-- 1 [[tbsp oyster sauce]]
-- 2 [[tsp sucre]]
-- 1 [[tbsp eau]]
-- 1 [[tsp huile de sésame]]
-- 3 [[tbsp huile de maïs]]
+- 12 oz hong kong style pan-fried nouilles
+- oignon
+- 5 stalks cébette
+- 4 oz bean sprouts
+- 1 tbsp dark soy sauce
+- 1 tbsp light soy sauce
+- 1 tbsp oyster sauce
+- 2 tsp sucre
+- 1 tbsp eau
+- 1 tsp huile de sésame
+- 3 tbsp huile de maïs
 
 ## Instructions
 

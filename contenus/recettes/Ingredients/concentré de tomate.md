@@ -1,12 +1,9 @@
 ---
 type: ingredient
-nom: "concentré de tomate"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
+nom: concentré de tomate
+categorie: ''
 tags:
-  - ingredient
+- ingredient
 ---
 
 # 🥕 Concentré de tomate
@@ -24,7 +21,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 

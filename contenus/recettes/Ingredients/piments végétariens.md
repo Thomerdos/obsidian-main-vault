@@ -1,12 +1,9 @@
 ---
 type: ingredient
-nom: "piments végétariens"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
+nom: piments végétariens
+categorie: ''
 tags:
-  - ingredient
+- ingredient
 ---
 
 # 🥕 Piments végétariens
@@ -24,7 +21,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 

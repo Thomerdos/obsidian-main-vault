@@ -10,48 +10,49 @@ tags:
 - Video
 base: '[[Recettes.base]]'
 ingredients:
-- japanese pâte de sésame
-- miso
-- sauce soja
-- riz vinegar
-- la-yu
-- knob gingembre )
-- cloves ail
-- neutral oil
-- ground pork )
-- saké )
-- doubanjiang
-- sauce soja )
-- 1½ cups bouillon de poulet/broth
-- 1½ cups unsweetened lait de soja )
-- diamond crystal kosher sel )
-- head shanghai bok choy
-- servings fresh ramen nouilles
+- '[[japanese sesame paste]]'
+- '[[miso]]'
+- '[[sauce soja]]'
+- '[[rice vinegar]]'
+- '[[la-yu]]'
+- '[[knob ginger )]]'
+- '[[cloves ail]]'
+- '[[neutral oil]]'
+- '[[ground pork )]]'
+- '[[sake )]]'
+- '[[doubanjiang]]'
+- '[[soy sauce )]]'
+- '[[chicken stock/broth]]'
+- '[[unsweetened soy milk )]]'
+- '[[diamond crystal kosher salt )]]'
+- '[[head shanghai bok choy]]'
+- '[[servings fresh ramen nouilles]]'
 type: recette
 ---
+
 ![](https://www.justonecookbook.com/wp-content/uploads/2023/03/Tan-Tan-Ramen-6848-I.jpg)
 
 Make Tan Tan Ramen (Tantanmen) at home—spicy, creamy, and bold with a savory topping. It's an easy, customizable ramen recipe with true restaurant-style taste.
 
 ## Ingrédients
 
-- 2 [[tbsp japanese sesame paste (neri goma)]]
-- 1 [[tsp miso]]
-- 1 [[tbsp soy sauce]]
-- 1 [[tsp rice vinegar (unseasoned)]]
-- 1 [[tbsp la-yu (japanese chili oil)]]
-- 1 [[knob ginger ((1 inch, 2.5 cm))]]
-- 2 [[cloves ail]]
-- 1 [[tbsp neutral oil]]
-- 6 [[oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))]]
-- 1 [[tbsp sake ((substitute it with chinese rice wine or dry sherry))]]
-- 1 [[tbsp doubanjiang (spicy chili bean paste)]]
-- 2 [[tsp soy sauce ((use gluten-free soy sauce for gf))]]
-- [[1½ cups chicken stock/broth]]
-- [[1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))]]
-- [[diamond crystal kosher salt ((for seasoning the broth, to taste))]]
-- 1 [[head shanghai bok choy]]
-- 2 [[servings fresh ramen nouilles]]
+- 2 tbsp japanese sesame paste (neri goma)
+- 1 tsp miso
+- 1 tbsp soy sauce
+- 1 tsp rice vinegar (unseasoned)
+- 1 tbsp la-yu (japanese chili oil)
+- 1 knob ginger ((1 inch, 2.5 cm))
+- 2 cloves ail
+- 1 tbsp neutral oil
+- 6 oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))
+- 1 tbsp sake ((substitute it with chinese rice wine or dry sherry))
+- 1 tbsp doubanjiang (spicy chili bean paste)
+- 2 tsp soy sauce ((use gluten-free soy sauce for gf))
+- 1½ cups chicken stock/broth
+- 1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))
+- diamond crystal kosher salt ((for seasoning the broth, to taste))
+- 1 head shanghai bok choy
+- 2 servings fresh ramen nouilles
 
 ## Instructions
 

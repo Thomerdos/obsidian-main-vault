@@ -1,12 +1,9 @@
 ---
 type: ingredient
-nom: "gîte"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
+nom: gîte
+categorie: ''
 tags:
-  - ingredient
+- ingredient
 ---
 
 # 🥕 Gîte
@@ -24,7 +21,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 

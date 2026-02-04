@@ -13,13 +13,13 @@ tags:
 - SauceAuPoivreFacile
 base: '[[Recettes.base]]'
 ingredients:
-- beurre
-- cognac
-- crème fraîche
-- echalotes
-- maizena
-- persil
-- poivre
+- '[[beurre]]'
+- '[[cognac]]'
+- '[[crème fraîche]]'
+- '[[echalotes]]'
+- '[[maizena]]'
+- '[[persil]]'
+- '[[poivre]]'
 type: recette
 ---
 
@@ -29,12 +29,12 @@ Découvrez ma recette de sauce au poivre maison en 15 minutes chrono : onctueuse
 
 ## Ingrédients
 
-- [[beurre]]
-- [[cognac]]
-- [[crème fraîche]]
-- [[echalotes]]
-- [[maizena]]
-- [[persil]]
-- [[poivre]]
+- beurre
+- cognac
+- crème fraîche
+- echalotes
+- maizena
+- persil
+- poivre
 
 ## Instructions

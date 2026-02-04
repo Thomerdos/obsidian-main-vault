@@ -15,6 +15,24 @@ tags:
 - FaireUneRatatouille
 base: '[[Recettes.base]]'
 ingredients:
+- '[[ail]]'
+- '[[aubergine]]'
+- '[[tomate]]'
+- '[[courgette]]'
+- '[[huile d''olive]]'
+- '[[laurier]]'
+- '[[oignon]]'
+- '[[poivron]]'
+- '[[thym]]'
+type: recette
+---
+
+![](https://www.papillesetpupilles.fr/opengraph_image/54053)
+
+Ratatouille provençale facile et ensoleillée, cuite à la cocotte : une recette généreuse, fondante et pleine de goût, à savourer chaude ou froide.
+
+## Ingrédients
+
 - ail
 - aubergine
 - tomate
@@ -25,24 +43,5 @@ ingredients:
 - poivron
 - thym
 - tomate
-type: recette
----
-
-![](https://www.papillesetpupilles.fr/opengraph_image/54053)
-
-Ratatouille provençale facile et ensoleillée, cuite à la cocotte : une recette généreuse, fondante et pleine de goût, à savourer chaude ou froide.
-
-## Ingrédients
-
-- [[ail]]
-- [[aubergine]]
-- [[tomate]]
-- [[courgette]]
-- [[huile d'olive]]
-- [[laurier]]
-- [[oignon]]
-- [[poivron]]
-- [[thym]]
-- [[tomate]]
 
 ## Instructions

@@ -9,16 +9,15 @@ created: 2026-02-02
 image: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-table/recettes-de-cuisine/spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907/94907684-2-fre-FR/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- spaghetti
-- asperge
-- huile d'olive
-- oignon
-- d'ail
-- feuilles de basilicic frais
-- tomate
-- têtes d'ail
-- tomate
-- thym effeuillé
+- '[[spaghetti]]'
+- '[[asperge]]'
+- '[[huile d''olive]]'
+- '[[oignon]]'
+- '[[d''ail]]'
+- '[[basilicic frais]]'
+- '[[tomate]]'
+- '[[têtes d''ail]]'
+- '[[thym effeuillé]]'
 type: recette
 ---
 
@@ -28,17 +27,17 @@ Découvrez la préparation de la recette "Spaghetti à la tomate, aux asperges e
 
 ## Ingrédients
 
-- 350 g de [[spaghetti]]
-- 8 [[asperge]]
-- [[huile d'olive]]
-- 2 [[oignon]]
-- 1 gousse [[d'ail]]
-- 5 [[feuilles de basilicic frais]]
-- 3 [[tomate]]
-- 2 [[têtes d'ail]]
-- 30 [[tomate]]
-- 1 gousse [[d'ail]]
-- [[thym effeuillé]]
+- 350 g de spaghetti
+- 8 asperge
+- huile d'olive
+- 2 oignon
+- 1 gousse d'ail
+- 5 feuilles de basilicic frais
+- 3 tomate
+- 2 têtes d'ail
+- 30 tomate
+- 1 gousse d'ail
+- thym effeuillé
 
 ## Instructions
 

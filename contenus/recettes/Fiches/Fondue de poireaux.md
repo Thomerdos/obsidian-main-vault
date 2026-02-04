@@ -16,26 +16,27 @@ tags:
 - CuisineSanté
 base: '[[Recettes.base]]'
 ingredients:
-- poireau
-- échalotes ciselées
-- beurre
-- sel et poivre
-- cuiller à soupe de crème épaisse
+- '[[poireau]]'
+- '[[échalotes ciselées]]'
+- '[[beurre]]'
+- '[[sel et poivre]]'
+- '[[cuiller à soupe de crème épaisse]]'
 saison:
 - automne
 type: recette
 ---
+
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/97678/fondue-de-poireaux-3000x2000.jpg)
 
 Fondue de poireaux. La fondue de poireau devient culinaresque avec des Saint-Jacques sautées.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- 4 [[poireau]]
-- 2 [[échalotes ciselées]]
-- 50 g de [[beurre]]
-- [[sel et poivre]]
-- une [[cuiller à soupe de crème épaisse]]
+- 4 poireau
+- 2 échalotes ciselées
+- 50 g de beurre
+- sel et poivre
+- une cuiller à soupe de crème épaisse
 
 ## Instructions
 

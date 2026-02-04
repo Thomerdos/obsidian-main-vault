@@ -1,12 +1,9 @@
 ---
 type: ingredient
-nom: "bicarbonate de soude"
-categorie: ""
-recettes: []
-allergenes: []
-saison: []
+nom: bicarbonate de soude
+categorie: ''
 tags:
-  - ingredient
+- ingredient
 ---
 
 # 🥕 Bicarbonate de soude
@@ -24,7 +21,7 @@ TABLE WITHOUT ID
   file.link as "Recette",
   source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(file.outlinks, this.file.link)
+WHERE contains(ingredients, this.file.link)
 SORT file.name ASC
 ```
 

@@ -8,14 +8,14 @@ created: 2026-02-02
 image: https://www.quatresaisonsaujardin.com/wp-content/uploads/2020/05/Pâtes-all-volongole-de-Cyril-Lignac-Magali-ANCENAY_-7.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- linguines de semoule ou de spaghettis
-- poignées de palourdes bien trempées à l'avance
-- 1/4 de botte de persil plat lavé et haché
-- d'ail
-- 1/2 verre de vin blanc
-- huile d'olive
-- sel et poivre du moulin
-- oignon ou échalote
+- '[[linguines de semoule ou de spaghettis]]'
+- '[[poignées de palourdes bien trempées à l''avance]]'
+- '[[botte de persil plat lavé et haché]]'
+- '[[d''ail]]'
+- '[[verre de vin blanc]]'
+- '[[huile d''olive]]'
+- '[[sel et poivre du moulin]]'
+- '[[oignon ou échalote]]'
 type: recette
 ---
 
@@ -25,14 +25,14 @@ Envie d'un plat de pâtes ? Les pâtes alle vongole de Cyril Lignac sauront affo
 
 ## Ingrédients
 
-- 240 g  de [[linguines de semoule ou de spaghettis]]
-- 4  [[poignées de palourdes bien trempées à l'avance]]
+- 240 g  de linguines de semoule ou de spaghettis
+- 4  poignées de palourdes bien trempées à l'avance
 - 1/4  de botte de persil plat lavé et haché
-- 2  gousses [[d'ail]]
+- 2  gousses d'ail
 - 1/2  verre de vin blanc
-- [[huile d'olive]]
-- [[sel et poivre du moulin]]
-- 1  [[oignon ou échalote]]
+- huile d'olive
+- sel et poivre du moulin
+- 1  oignon ou échalote
 
 ## Instructions
 

@@ -8,21 +8,22 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- courgette
-- boeuf haché
-- riz basmati
-- oignon
-- ail
-- tomate
-- parmesan
-- huile d'olive
-- branche thym
-- feuille  basilicic
-- brin persil
-- pincée sel
-- pincée poivre
+- '[[courgette]]'
+- '[[boeuf haché]]'
+- '[[riz basmati]]'
+- '[[oignon]]'
+- '[[ail]]'
+- '[[tomate]]'
+- '[[parmesan]]'
+- '[[huile d''olive]]'
+- '[[thym]]'
+- '[[basilicic]]'
+- '[[persil]]'
+- '[[sel]]'
+- '[[poivre]]'
 type: recette
 ---
+
 ![](https://img.cuisineaz.com/680x357/2022/08/07/i185086-shutterstock-538856515-min.jpeg)
 
 Vous allez enfin vous réconcilier avec les légumes ! Aussi diététique que savoureuse, cette recette de courgettes farcies accompagnées de riz basmati constitue...
@@ -30,19 +31,19 @@ Vous allez enfin vous réconcilier avec les légumes ! Aussi diététique que sa
 ## Ingrédients
 
 - [ ] 
-- 2 [[courgette]]
-- 400 g [[boeuf haché]]
-- 200 g [[riz basmati]]
-- 1 [[oignon]]
-- 1 Gousse [[ail]]
-- 200 g [[tomate]]
-- 30 g [[parmesan]]
-- 2 [[huile d'olive]]
-- 2 [[branche thym]]
-- 8 [[feuille  basilicic]]
-- 4 [[brin persil]]
-- 1 [[pincée sel]]
-- 1 [[pincée poivre]]
+- 2 courgette
+- 400 g boeuf haché
+- 200 g riz basmati
+- 1 oignon
+- 1 Gousse ail
+- 200 g tomate
+- 30 g parmesan
+- 2 huile d'olive
+- 2 branche thym
+- 8 feuille  basilicic
+- 4 brin persil
+- 1 pincée sel
+- 1 pincée poivre
 
 ## Instructions
 

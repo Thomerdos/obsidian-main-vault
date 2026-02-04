@@ -16,6 +16,25 @@ tags:
 - JamieOliverAubergines
 base: '[[Recettes.base]]'
 ingredients:
+- '[[ail]]'
+- '[[aubergine]]'
+- '[[basilicic]]'
+- '[[fromages]]'
+- '[[huile d''olive]]'
+- '[[mozzarella]]'
+- '[[oignon]]'
+- '[[origan]]'
+- '[[parmesan]]'
+- '[[tomate]]'
+type: recette
+---
+
+![](https://www.papillesetpupilles.fr/opengraph_image/26660)
+
+Cette recette facile, traditionnelle du Nord de l'Italie (Parme), transmise par Jamie Oliver est une manière fantastique de cuisiner les aubergines. Un régal
+
+## Ingrédients
+
 - ail
 - aubergine
 - basilicic
@@ -27,25 +46,5 @@ ingredients:
 - parmesan
 - tomate
 - tomate
-type: recette
----
-
-![](https://www.papillesetpupilles.fr/opengraph_image/26660)
-
-Cette recette facile, traditionnelle du Nord de l'Italie (Parme), transmise par Jamie Oliver est une manière fantastique de cuisiner les aubergines. Un régal
-
-## Ingrédients
-
-- [[ail]]
-- [[aubergine]]
-- [[basilicic]]
-- [[fromages]]
-- [[huile d'olive]]
-- [[mozzarella]]
-- [[oignon]]
-- [[origan]]
-- [[parmesan]]
-- [[tomate]]
-- [[tomate]]
 
 ## Instructions
