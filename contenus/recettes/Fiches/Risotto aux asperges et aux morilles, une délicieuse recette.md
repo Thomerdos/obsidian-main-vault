@@ -14,8 +14,8 @@ tags:
 - risottoAuxAspergesEtMorilles
 base: '[[Recettes.base]]'
 ingredients:
-- asperges
-- asperges vertes
+- asperge
+- asperge
 - beurre
 - echalotes
 - fromages
@@ -34,16 +34,16 @@ Réalisez cette recette facile de risotto aux asperges vertes et morilles, fonda
 
 ## Ingrédients
 
-- [[[[asperges]]]]
-- [[[[asperges vertes]]]]
-- [[[[beurre]]]]
-- [[[[echalotes]]]]
-- [[[[fromages]]]]
-- [[[[huile d'olive]]]]
-- [[[[morilles]]]]
-- [[[[parmesan]]]]
-- [[[[riz]]]]
-- [[[[thym]]]]
-- [[[[vin blanc]]]]
+- [[asperge]]
+- [[asperge]]
+- [[beurre]]
+- [[echalotes]]
+- [[fromages]]
+- [[huile d'olive]]
+- [[morilles]]
+- [[parmesan]]
+- [[riz]]
+- [[thym]]
+- [[vin blanc]]
 
 ## Instructions

@@ -8,16 +8,16 @@ created: 2026-02-02
 image: https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- (1lb) pork belly ((note 1))
-- shallot/scallion stem (, white part crashed (note 7))
-- (1oz) ginger (, crashed (note 7))
-- (3.foz) sake
-- (3.foz) water
-- ½ tbsp soy sauce
-- tbsp sugar ((note 2))
-- green beans (, boiled and cut into bite size)
-- tbsp shallots (, white part julienned (note 3))
-- japanese karashi ((note4) or hot english mustard (optional))
+- poitrine de porc )
+- shallot/cébette stem )
+- gingembre )
+- saké
+- eau
+- sauce soja
+- sucre )
+- haricots verts
+- shallots )
+- japanese karashi  or hot english mustard )
 type: recette
 ---
 
@@ -32,7 +32,7 @@ If you love pork, you must try this kakuni (角煮, simmered pork belly). The po
 - 30g (1oz)  ginger (, crashed (note 7))
 - 100ml (3.foz)  sake
 - 100ml (3.foz)  water
-- 2 [[[[½ tbsp soy sauce]]]]
+- 2 [[soy sauce]]
 - 2 [[[[tbsp sugar ((note 2))]]]]
 - 6  [[[[green beans (, boiled and cut into bite size)]]]]
 - 1 [[[[tbsp shallots (, white part julienned (note 3))]]]]

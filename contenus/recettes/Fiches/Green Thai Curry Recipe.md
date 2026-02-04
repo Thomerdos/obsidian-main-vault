@@ -10,20 +10,20 @@ tags:
 - GlutenFree
 base: '[[Recettes.base]]'
 ingredients:
-- 1¾ cups coconut milk (divided)
-- cup chicken stock (unsalted)
-- lb chicken thigh (boneless, skinless, 1-inch pieces (see note 1))
-- tablespoons finely chopped palm sugar (or light brown sugar)
-- ½ - 2 tablespoons fish sauce
-- makrut lime leaves ((aka kaffir lime leaves))
-- ½ lb thai eggplant (or sub a 19-oz can of bamboo shoots (see note 2))
-- cup thai basil leaves
-- ¼ red bell pepper (or another mild red pepper, julienned)
-- jasmine rice for serving
-- thai basil leaves (finely julienned)
-- piece fingerroot (krachai) (optional)
-- teaspoon fermented shrimp paste (gapi)
-- ½ tablespoons green curry paste
+- 1¾ cups lait de coco
+- bouillon de poulet
+- chicken thigh )
+- tablespoons
+- sauce de poisson
+- makrut lime leaves )
+- thai aubergine )
+- thai basilic leaves
+- red poivron
+- jasmine riz for serving
+- thai basilic leaves
+- fingerroot
+- fermented pâte de crevette
+- green curry paste
 type: recette
 ---
 
@@ -37,15 +37,15 @@ Authentic Thai green curry recipe chicken. A delicious and classic dish that is 
 - 1 cup  chicken stock (unsalted)
 - 1 [[[[lb chicken thigh (boneless, skinless, 1-inch pieces (see note 1))]]]]
 - 2 Tablespoons  finely chopped palm sugar (or light brown sugar)
-- 1 [[[[½ - 2 tablespoons fish sauce]]]]
+- 1 [[2 tablespoons sauce de poisson]]
 - 5  [[[[makrut lime leaves ((aka kaffir lime leaves))]]]]
 - [[½  lb thai eggplant (or sub a 19-oz can of bamboo shoots (see note 2))]]
-- 1 [[[[cup thai basil leaves]]]]
+- 1 [[cup thai basilic leaves]]
 - [[¼  red bell pepper (or another mild red pepper, julienned)]]
-- [[[[jasmine rice for serving]]]]
+- [[jasmine riz for serving]]
 - 15  [[[[thai basil leaves (finely julienned)]]]]
 - 1 [[[[piece fingerroot (krachai) (optional)]]]]
 - 1 [[[[teaspoon fermented shrimp paste (gapi)]]]]
-- 3 [[[[½ tablespoons green curry paste]]]]
+- 3 [[tablespoons green curry paste]]
 
 ## Instructions

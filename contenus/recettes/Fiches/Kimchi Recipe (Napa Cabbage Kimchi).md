@@ -14,25 +14,23 @@ tags:
 - TraditionalKimchi
 base: '[[Recettes.base]]'
 ingredients:
-- napa cabbage ((8.8 pounds), remove thick outer cabbage leaves)
-- cups water ((3840 ml))
-- 1.5 cups korean coarse sea salt (or natural rock salt (for salt water), (285g /
-  10 ounces))
-- 1/2 cup cooking salt (, medium sized crystals (for sprinkle), (97g / 3.4 ounces))
-- tbsp glutinous rice flour ((sweet rice flour))
-- 1.5 cups water ((360 ml))
-- 1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))
-- korean radish (or daikon radish (19 ounces), julienned)
-- tbsp fine sea salt
-- 3.5 tbsp korean fish sauce
-- tbsp salted fermented shrimp (, minced)
-- korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)
-- carrots ((4.9 ounces), julienned)
-- 1/4 cup minced garlic ((42g / 1.48 ounces))
-- 1/2 tbsp minced ginger
-- tbsp raw sugar
-- onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely
-  grated)
+- napa cabbage , remove thick outer cabbage leaves)
+- eau )
+- korean coarse sea sel , )
+- 1/2 cup cooking sel , )
+- glutinous riz flour )
+- eau )
+- gochugaru , )
+- korean radish
+- fine sea sel
+- korean sauce de poisson
+- seled crevettes fermentées
+- korean chives , cut in
+- carotte
+- 1/4 cup
+- 1/2 tbsp
+- raw sucre
+- oignon , blended  or finely grated)
 type: recette
 ---
 
@@ -50,14 +48,14 @@ Learn how to make napa cabbage kimchi, a popular Korean side dish made from ferm
 - [[[[1.5 cups water ((360 ml))]]]]
 - [[[[1.5 cups gochugaru ((korean chili flakes), (141g / 4.97 ounces))]]]]
 - 540 g [[[[korean radish (or daikon radish (19 ounces), julienned)]]]]
-- 1 [[[[tbsp fine sea salt]]]]
-- [[[[3.5 tbsp korean fish sauce]]]]
+- 1 [[tbsp fine sea sel]]
+- [[korean sauce de poisson]]
 - 2 [[[[tbsp salted fermented shrimp (, minced)]]]]
 - 90 g [[[[korean chives ((3.2 ounces), cut in 5 cm / 2 inch length)]]]]
 - 140 g [[[[carrots ((4.9 ounces), julienned)]]]]
 - [[[[1/4 cup minced garlic ((42g / 1.48 ounces))]]]]
 - [[[[1/2 tbsp minced ginger]]]]
-- 2 [[[[tbsp raw sugar]]]]
+- 2 [[tbsp raw sucre]]
 - 75 g [[[[onion ((2.6 ounces), blended (with a stick blender or vegetable chopper) or finely grated)]]]]
 
 ## Instructions

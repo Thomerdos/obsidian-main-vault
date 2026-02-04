@@ -39,13 +39,13 @@ Découvrez la recette de Rôti de boeuf (rosbeef) au four à faire en 15 minutes
 
 ## Ingrédients
 
-- 1,2 kg de [[[[rosbif]]]]
-- 2 [[[[oignon]]s]]
+- 1,2 kg de [[rosbif]]
+- 2 [[oignon]]
 - 50 g de beurre  mou
-- 2 gousses [[[[d'ail]]]]
-- [[[[eau]]]]
-- [[[[sel ou sel fin]]]]
-- [[[[poivre]]]]
+- 2 gousses [[d'ail]]
+- [[eau]]
+- [[sel ou sel fin]]
+- [[poivre]]
 
 ## Instructions
 

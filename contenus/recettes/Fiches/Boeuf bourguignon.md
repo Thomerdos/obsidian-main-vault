@@ -23,17 +23,17 @@ tags:
 - PlatEnSauce
 base: '[[Recettes.base]]'
 ingredients:
-- viande de boeuf (gîte, paleron ou macreuse)
+- viande de boeuf
 - fond de veau lié
 - d'huile
 - carotte
-- d'oignons
+- oignon
 - d'ail
 - vin rouge corsé
 - poitrine de porc salée
-- champignons de paris
-- petits oignons sauciers
-- beurre (40 g pour les champignons + 30 g pour les petits oignons)
+- champignon
+- oignon
+- beurre
 - sucre
 - fécule de pomme de terre
 - sel
@@ -55,22 +55,22 @@ Boeuf bourguignon. Un ragoût de boeuf classique de la cuisine française cuisin
 ## Ingrédients
 
 - 2 kg de [[[[viande de boeuf (gîte, paleron ou macreuse)]]]]
-- 1,5 l de [[[[fond de veau lié]]]]
-- 8 cl [[[[d'huile]]]]
-- 200 g de [[[[carotte]]s]]
-- 200 g [[[[d'oignons]]]]
-- 6 gousses [[[[d'ail]]]]
-- 75 cl de [[[[vin rouge corsé]]]]
-- 400 g de [[[[poitrine de porc salée]]]]
-- 400 g de [[[[champignons de paris]]]]
-- 300 g de [[[[petits oignons sauciers]]]]
+- 1,5 l de [[fond de veau lié]]
+- 8 cl [[d'huile]]
+- 200 g de [[carotte]]
+- 200 g [[oignon]]
+- 6 gousses [[d'ail]]
+- 75 cl de [[vin rouge corsé]]
+- 400 g de [[poitrine de porc salée]]
+- 400 g de [[champignon]]
+- 300 g de [[oignon]]
 - 70 g de [[[[beurre (40 g pour les champignons + 30 g pour les petits oignons)]]]]
-- 1 cas de [[[[sucre]]]]
-- 3 cas de [[[[fécule de pomme de terre]]]]
-- [[[[sel]]]]
-- [[[[poivre en grains]]]]
-- [[[[thym]]]]
-- [[[[laurier]]]]
+- 1 cas de [[sucre]]
+- 3 cas de [[fécule de pomme de terre]]
+- [[sel]]
+- [[poivre en grains]]
+- [[thym]]
+- [[laurier]]
 
 ## Instructions
 

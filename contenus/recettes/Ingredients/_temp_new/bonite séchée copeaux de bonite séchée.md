@@ -1,0 +1,34 @@
+---
+type: ingredient
+nom: "bonite séchée copeaux de bonite séchée"
+categorie: ""
+recettes: []
+allergenes: []
+saison: []
+tags:
+  - ingredient
+---
+
+# 🥕 Bonite séchée copeaux de bonite séchée
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "bonite séchée copeaux de bonite séchée")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

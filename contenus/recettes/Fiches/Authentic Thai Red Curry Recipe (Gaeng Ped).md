@@ -10,25 +10,25 @@ tags:
 - ThaiRedCurry
 base: '[[Recettes.base]]'
 ingredients:
-- large shrimp (deveined)
-- tbsp red curry paste
-- cups coconut milk (full fat)
-- tbsp fish sauce
-- 1/2 tbsp palm sugar
-- cups thai eggplants (halved or quartered)
-- yardlong beans (cut into 1-inch sized pieces)
-- kaffir lime leaves (finely shredded)
-- fresh red chilies (diagonally sliced)
-- 0.3 ounces dry red spur chilies (chopped)
-- 0.1 ounces dry chilies (chopped)
-- 0.5 ounces galangal (chopped)
-- ounces garlic (chopped)
-- ounces shallots (chopped)
-- 0.1 ounces kaffir lime skin (chopped)
-- 0.1 ounces turmeric (chopped)
-- ounces lemongrass (chopped)
-- 0.3 ounces shrimp paste
-- 0.1 ounces salt
+- large shrimp
+- red curry paste
+- lait de coco
+- sauce de poisson
+- 1/2 tbsp palm sucre
+- aubergine
+- yardlong beans
+- combava leaves
+- fresh red pimentes
+- ounces dry red spur pimentes
+- ounces dry pimentes
+- ounces galanga
+- ounces ail
+- ounces shallots
+- ounces combava skin
+- ounces curcuma
+- ounces lemongrass
+- ounces pâte de crevette
+- ounces sel
 type: recette
 ---
 
@@ -39,9 +39,9 @@ This authentic Thai red curry recipe is rich, creamy, and easy to make. It's the
 ## Ingrédients
 
 - 10 [[[[large shrimp (deveined)]]]]
-- 2 [[[[tbsp red curry paste]]]]
+- 2 [[tbsp red curry paste]]
 - 2 [[[[cups coconut milk (full fat)]]]]
-- 1 [[[[tbsp fish sauce]]]]
+- 1 [[tbsp sauce de poisson]]
 - 1 [[[[1/2 tbsp palm sugar]]]]
 - 2 [[[[cups thai eggplants (halved or quartered)]]]]
 - 4  [[[[yardlong beans (cut into 1-inch sized pieces)]]]]
@@ -55,7 +55,7 @@ This authentic Thai red curry recipe is rich, creamy, and easy to make. It's the
 - [[[[0.1 ounces kaffir lime skin (chopped)]]]]
 - [[[[0.1 ounces turmeric (chopped)]]]]
 - 1 [[[[ounces lemongrass (chopped)]]]]
-- [[[[0.3 ounces shrimp paste]]]]
-- [[[[0.1 ounces salt]]]]
+- [[ounces pâte de crevette]]
+- [[ounces sel]]
 
 ## Instructions

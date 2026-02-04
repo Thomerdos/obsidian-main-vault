@@ -20,7 +20,7 @@ tags:
 - PlatEnSauce
 base: '[[Recettes.base]]'
 ingredients:
-- veau (épaule, flanchet, tendron, poitrine)
+- veau
 - carotte
 - oignon
 - citron
@@ -28,8 +28,8 @@ ingredients:
 - d'ail
 - bouquet garni
 - poireaux
-- champignons de paris
-- petits oignons grelots glacés à blanc ou oignons saucier
+- champignon
+- oignon
 - beurre
 - sucre
 - farine
@@ -50,23 +50,23 @@ Blanquette de veau. La recette de la blanquette de veau à l'ancienne, discutée
 ## Ingrédients
 
 - 2,5 kg de [[[[veau (épaule, flanchet, tendron, poitrine)]]]]
-- 8 [[[[carotte]]s]]
-- 4 [[[[oignon]]s]]
-- 1 [[[[citron]]]]
-- [[[[clous de girofle]]]]
-- 8 gousses [[[[d'ail]]]]
-- un [[[[bouquet garni]]]]
-- 2 [[[[poireaux]]]]
-- 500 g de [[[[champignons de paris]]]]
-- 250 g de [[[[petits oignons grelots glacés à blanc ou oignons saucier]]]]
-- 40 g de [[[[beurre]]]]
-- 20 g de [[[[sucre]]]]
-- 180 g [[[[beurre]]]]
-- 180 g de [[[[farine]]]]
-- 2 [[[[litres de bouillon de cuisson]]]]
-- 1,5 dl de [[[[crème entière]]]]
-- [[[[muscade]]]]
-- [[[[sel]]]]
+- 8 [[carotte]]
+- 4 [[oignon]]
+- 1 [[citron]]
+- [[clous de girofle]]
+- 8 gousses [[d'ail]]
+- un [[bouquet garni]]
+- 2 [[poireaux]]
+- 500 g de [[champignon]]
+- 250 g de [[oignon]]
+- 40 g de [[beurre]]
+- 20 g de [[sucre]]
+- 180 g [[beurre]]
+- 180 g de [[farine]]
+- 2 [[litres de bouillon de cuisson]]
+- 1,5 dl de [[crème entière]]
+- [[muscade]]
+- [[sel]]
 
 ## Instructions
 

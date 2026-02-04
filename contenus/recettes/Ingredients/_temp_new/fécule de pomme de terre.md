@@ -1,0 +1,34 @@
+---
+type: ingredient
+nom: "fécule de pomme de terre"
+categorie: ""
+recettes: []
+allergenes: []
+saison: []
+tags:
+  - ingredient
+---
+
+# 🥕 Fécule de pomme de terre
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "fécule de pomme de terre")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

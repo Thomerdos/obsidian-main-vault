@@ -1,0 +1,34 @@
+---
+type: ingredient
+nom: "ounces shallots"
+categorie: ""
+recettes: []
+allergenes: []
+saison: []
+tags:
+  - ingredient
+---
+
+# 🥕 Ounces shallots
+
+## 📋 Informations
+
+- **Catégorie**: 
+- **Saison**: 
+- **Allergènes**: 
+
+## 🍽️ Utilisé dans les recettes
+
+```dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source"
+FROM "contenus/recettes/Fiches"
+WHERE contains(ingredients, "ounces shallots")
+SORT file.name ASC
+```
+
+## 💡 Notes
+
+
+## 🔗 Liens

@@ -8,9 +8,9 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2018/06/12/i140367-asperges-sauce-hollandaise.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- botte(s) asperge(s) blanche(s)
-- citron(s)
-- jaune(s) d'œuf(s)
+- botte asperge blanche
+- citron
+- jaune d'œuf
 - beurre
 - eau
 - sel, poivre
@@ -27,9 +27,9 @@ Il n'y a rien de meilleur que des asperges fraîchement cueillies et cuites à l
 - 2 [[[[botte(s) asperge(s) blanche(s)]]]]
 - 1 [[[[citron(s)]]]]
 - 3 [[[[jaune(s) d'œuf(s)]]]]
-- 250 g [[[[beurre]]]]
-- 30 ml [[[[eau]]]]
-- [[[[sel, poivre]]]]
+- 250 g [[beurre]]
+- 30 ml [[eau]]
+- [[sel, poivre]]
 
 ## Instructions
 

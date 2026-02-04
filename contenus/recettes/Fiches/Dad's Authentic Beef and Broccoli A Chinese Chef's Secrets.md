@@ -15,26 +15,26 @@ tags:
 - StirFry
 base: '[[Recettes.base]]'
 ingredients:
-- oz beef
-- lb broccoli
-- 0.5 carrot
-- small piece ginger
-- stem scallions
-- cloves garlic
-- tbsp cooking oil
-- pinch salt
-- tsp sesame oil
-- tsp baking soda
-- tbsp oyster sauce
-- tbsp light soy sauce
-- tbsp water
-- tbsp cornstarch
-- 0.25 tsp white pepper
-- tsp sugar
-- tbsp cooking wine
-- tsp light soy sauce
-- tsp dark soy sauce
-- tsp cornstarch
+- beef
+- broccoli
+- carotte
+- small piece gingembre
+- stem cébette
+- cloves ail
+- huile
+- pinch sel
+- huile de sésame
+- bicarbonate de soude
+- oyster sauce
+- light sauce soja
+- eau
+- fécule de maïs
+- white poivre
+- sucre
+- cooking wine
+- light sauce soja
+- dark sauce soja
+- fécule de maïs
 type: recette
 ---
 
@@ -44,32 +44,32 @@ Learn how a 2x James Beard Award Winning Chinese Chef cooks this Beef and Brocco
 
 ## Ingrédients
 
-- 12 [[[[oz beef]]]]
-- 1 [[[[lb broccoli]]]]
-- [[[[0.5 carrot]]]]
-- 1 [[[[small piece ginger]]]]
-- 1 [[[[stem scallions]]]]
-- 2 [[[[cloves garlic]]]]
-- 2 [[[[tbsp cooking oil]]]]
-- 1 [[[[pinch salt]]]]
-- 1 [[[[tsp sesame oil]]]]
-- 1 [[[[tsp baking soda]]]]
-- 1 [[[[tbsp oyster sauce]]]]
-- 1 [[[[tbsp light soy sauce]]]]
-- 2 [[[[tbsp water]]]]
-- 1 [[[[tbsp cornstarch]]]]
-- [[[[0.25 tsp white pepper]]]]
-- 1 [[[[tsp sugar]]]]
-- 1 [[[[tbsp cooking wine]]]]
-- 1 [[[[tbsp cooking oil]]]]
-- 1 [[[[tbsp oyster sauce]]]]
-- 1 [[[[tsp light soy sauce]]]]
-- 1 [[[[tsp dark soy sauce]]]]
-- 1 [[[[tbsp water]]]]
-- 1 [[[[tbsp cooking wine]]]]
-- 1 [[[[tsp sugar]]]]
-- 1 [[[[tsp cornstarch]]]]
-- [[[[0.25 tsp white pepper]]]]
+- 12 [[oz beef]]
+- 1 [[lb broccoli]]
+- [[carotte]]
+- 1 [[small piece gingembre]]
+- 1 [[stem cébette]]
+- 2 [[cloves ail]]
+- 2 [[tbsp cooking oil]]
+- 1 [[pinch sel]]
+- 1 [[tsp huile de sésame]]
+- 1 [[tsp baking soda]]
+- 1 [[tbsp oyster sauce]]
+- 1 [[tbsp light soy sauce]]
+- 2 [[tbsp eau]]
+- 1 [[tbsp fécule de maïs]]
+- [[white poivre]]
+- 1 [[tsp sucre]]
+- 1 [[tbsp cooking wine]]
+- 1 [[tbsp cooking oil]]
+- 1 [[tbsp oyster sauce]]
+- 1 [[tsp light soy sauce]]
+- 1 [[tsp dark soy sauce]]
+- 1 [[tbsp eau]]
+- 1 [[tbsp cooking wine]]
+- 1 [[tsp sucre]]
+- 1 [[tsp fécule de maïs]]
+- [[white poivre]]
 
 ## Instructions
 

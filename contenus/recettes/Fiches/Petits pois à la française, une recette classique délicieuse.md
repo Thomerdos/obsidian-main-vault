@@ -18,7 +18,7 @@ ingredients:
 - lardons
 - oignon
 - petits pois
-- sucrines
+- sucrine
 type: recette
 ---
 
@@ -28,11 +28,11 @@ Une recette traditionnelle et délicieuse mêlant petits pois frais, lardons et 
 
 ## Ingrédients
 
-- [[[[beurre]]]]
-- [[[[laitue]]]]
-- [[[[lardons]]]]
-- [[[[oignon]]s]]
-- [[[[petits pois]]]]
-- [[[[sucrines]]]]
+- [[beurre]]
+- [[laitue]]
+- [[lardons]]
+- [[oignon]]
+- [[petits pois]]
+- [[sucrine]]
 
 ## Instructions
