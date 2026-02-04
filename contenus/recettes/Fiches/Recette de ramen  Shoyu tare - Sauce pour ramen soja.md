@@ -9,15 +9,15 @@ image: https://www.commeaujapon.fr/wp-content/uploads/2020/11/shoyu-tare.jpg
 base: '[[Recettes.base]]'
 ingredients:
 - '[[katsuobushi]]'
-- '[[shitakés séchés]]'
+- '[[champignon shiitake]]'
 - '[[kombu]]'
 - '[[sauce soja]]'
 - '[[saké]]'
 - '[[mirin]]'
-- '[[bonne pincée de sel]]'
-- '[[tranches gingembre]]'
-- '[[d''ail]]'
-- '[[cc de glutamate monosodique]]'
+- '[[sel]]'
+- '[[gingembre]]'
+- '[[ail]]'
+- '[[glutamate monosodique]]'
 type: recette
 ---
 

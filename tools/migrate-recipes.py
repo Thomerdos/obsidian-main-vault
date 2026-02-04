@@ -138,13 +138,14 @@ def scrape_instructions(url: str) -> Optional[str]:
 
 def parse_ingredient_line(line: str) -> Optional[str]:
     """
-    Extract ingredient name from a line like:
+    Extract ONLY the main ingredient name from a line like:
     - [ ] 600 g oignon
     - [ ] 3 unité poivron
     - [ ] 1¾ cups coconut milk (divided)
     - [ ] 2 Tablespoons finely chopped palm sugar
     
-    Returns the ingredient name without quantity/unit/notes.
+    Returns ONLY the main ingredient name without quantity/unit/preparation/notes.
+    Example: "2 tbsp finely chopped fresh basil" → "basil"
     """
     line = line.strip()
     
@@ -165,43 +166,68 @@ def parse_ingredient_line(line: str) -> Optional[str]:
     # Pattern: optional number/fraction, optional unit, then ingredient name
     # Extended to handle English units and more complex patterns
     patterns = [
-        # French units
-        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|gousse|filet|pincée|cuillère|cas|cac|tasse|branche|feuille|brin)s?\s+(?:de\s+)?(.+)$',
-        # English units (cups, tablespoons, teaspoons, oz, lb, etc.)
-        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s]+(?:cup|cups|tablespoon|tablespoons|tbsp|tsp|teaspoon|teaspoons|ounce|ounces|oz|pound|pounds|lb|lbs)\s+(?:of\s+)?(.+)$',
-        # Words like "quelques", "finely chopped", etc.
-        r'^quelques?\s+(?:pincée|gousse|unité|branche|feuille|brin)s?\s+(?:de\s+)?(.+)$',
-        r'^(?:finely\s+)?(?:chopped|diced|minced|sliced|grated)?\s*(.+)$',
+        # French units with "de"
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞]+\s*(?:kg|g|mg|l|ml|cl|dl|unité|unités|gousse|gousses|filet|filets|pincée|pincées|cuillère|cuillères|cas|cac|tasse|tasses|branche|branches|feuille|feuilles|brin|brins)s?\s+(?:de\s+)?(.+)$',
+        # English units with "of"
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s-]+(?:cup|cups|tablespoon|tablespoons|tbsp|tsp|teaspoon|teaspoons|ounce|ounces|oz|pound|pounds|lb|lbs|serving|servings|stalk|stalks|piece|pieces|clove|cloves|pinch)s?\s+(?:of\s+)?(.+)$',
+        # Words like "quelques"
+        r'^quelques?\s+(?:pincée|pincées|gousse|gousses|unité|unités|branche|branches|feuille|feuilles|brin|brins)s?\s+(?:de\s+)?(.+)$',
         # Just number and name
-        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s]+(.+)$',
+        r'^[\d,\.¼½¾⅓⅔⅛⅜⅝⅞/\s-]+(.+)$',
     ]
     
+    ingredient = None
     for pattern in patterns:
         match = re.match(pattern, line_without_notes, re.IGNORECASE)
         if match:
             ingredient = match[1].strip()
-            # Clean up whitespace
-            ingredient = re.sub(r'\s+', ' ', ingredient)
-            # Skip if it starts with "à " (like "à soupe") or "of "
-            if ingredient.lower().startswith(('à ', 'of ', 'to ', 'for ')):
-                continue
-            # Skip if still has numbers at the start (like "1/4 chou")
-            if re.match(r'^[\d/]+\s', ingredient):
-                continue
-            # Skip very short results
-            if len(ingredient) < 2:
-                continue
-            # Remove leading descriptors
-            ingredient = re.sub(r'^(?:finely\s+|roughly\s+|finely\s+)?(?:chopped|diced|minced|sliced|grated|packed)\s+', '', ingredient, flags=re.IGNORECASE)
-            return ingredient.lower()
+            break
     
     # Fallback: if line doesn't start with number, might be just the ingredient
-    if not re.match(r'^\d', line_without_notes):
-        cleaned = re.sub(r'^(?:finely\s+|roughly\s+)?(?:chopped|diced|minced|sliced|grated)\s+', '', line_without_notes, flags=re.IGNORECASE)
-        if cleaned and len(cleaned) >= 2:
-            return cleaned.lower()
+    if not ingredient:
+        if not re.match(r'^[\d,\.\s-]', line_without_notes):
+            ingredient = line_without_notes
     
-    return None
+    if not ingredient or len(ingredient) < 2:
+        return None
+    
+    # Clean up whitespace
+    ingredient = re.sub(r'\s+', ' ', ingredient)
+    
+    # Remove preparation descriptors at the start
+    ingredient = re.sub(r'^(?:finely\s+|roughly\s+|thinly\s+|thickly\s+|coarsely\s+)?(?:chopped|diced|minced|sliced|grated|shredded|crushed|pressed|cut|torn|packed|peeled|washed|cleaned|trimmed|drained|rinsed|soaked)\s+', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove preparation descriptors after commas (e.g., "sugar, chopped" → "sugar")
+    ingredient = re.sub(r',\s*(?:finely\s+|roughly\s+|thinly\s+)?(?:chopped|diced|minced|sliced|grated|shredded|crushed|cut|torn|packed).*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove "cut into..." or "sliced into..." patterns
+    ingredient = re.sub(r',?\s+(?:cut|sliced|chopped|diced)\s+into\s+.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove size/quality descriptors at the start (medium, large, small, fresh, dried, etc.)
+    ingredient = re.sub(r'^(?:small|medium|large|extra-large|fresh|dried|dry|frozen|canned|bottled|unsalted|salted|raw|cooked|roasted|toasted)\s+', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove "size" after ingredient (e.g., "onion, medium size" → "onion")
+    ingredient = re.sub(r',?\s*(?:medium|large|small)\s+size.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Remove measurement-related endings (e.g., "soak in room temp water for 1 hour")
+    ingredient = re.sub(r',?\s+(?:soak|soaked)\s+in\s+.*$', '', ingredient, flags=re.IGNORECASE)
+    
+    # Skip if it starts with "à " (like "à soupe") or "of " or "to " or "for "
+    if ingredient.lower().startswith(('à ', 'of ', 'to ', 'for ', 'into ', 'about ')):
+        return None
+    
+    # Skip if still has numbers at the start (like "1/4 chou")
+    if re.match(r'^[\d/\s-]+$', ingredient) or re.match(r'^[\d/]', ingredient):
+        return None
+    
+    # Skip very short results
+    if len(ingredient) < 2:
+        return None
+    
+    # Clean trailing dots, commas, etc.
+    ingredient = ingredient.rstrip('.,;:')
+    
+    return ingredient.lower()
 
 
 # English to French ingredient mappings (for normalization)

@@ -8,12 +8,12 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2018/06/12/i140367-asperges-sauce-hollandaise.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[botte asperge blanche]]'
+- '[[asperge blanche]]'
 - '[[citron]]'
-- '[[jaune d''œuf]]'
+- '[[jaune d'oeuf]]'
 - '[[beurre]]'
 - '[[eau]]'
-- '[[sel, poivre]]'
+- '[[sel]]'
 type: recette
 ---
 

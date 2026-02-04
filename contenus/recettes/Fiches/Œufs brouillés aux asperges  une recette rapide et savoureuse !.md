@@ -15,11 +15,11 @@ tags:
 base: '[[Recettes.base]]'
 ingredients:
 - '[[asperge]]'
-- '[[œufs]]'
+- '[[oeuf]]'
 - '[[beurre]]'
-- '[[crème fraîche liquide]]'
-- '[[sel et poivre]]'
-- '[[càs d''huile d''olive]]'
+- '[[crème liquide]]'
+- '[[sel]]'
+- '[[huile d'olive]]'
 type: recette
 ---
 

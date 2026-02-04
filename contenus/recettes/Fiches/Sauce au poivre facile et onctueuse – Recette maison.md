@@ -16,8 +16,8 @@ ingredients:
 - '[[beurre]]'
 - '[[cognac]]'
 - '[[crème fraîche]]'
-- '[[echalotes]]'
-- '[[maizena]]'
+- '[[échalote]]'
+- '[[fécule de maïs]]'
 - '[[persil]]'
 - '[[poivre]]'
 type: recette

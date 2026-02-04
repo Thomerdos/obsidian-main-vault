@@ -11,16 +11,15 @@ tags:
 - SauceArgentine
 base: '[[Recettes.base]]'
 ingredients:
-- '[[bouquet de persil pour obtenir environ ½ tasse de persil une fois ciselé]]'
+- '[[persil]]'
 - '[[cuillères à soupe d’origan fraîchement ciselé]]'
 - '[[d’ail pressées]]'
-- '[[tasse de ciboule]]'
-- '[[petit piment rouge : retirer les graines et la membrane intérieure blanche puis
-  le tailler finement]]'
-- '[[cuillères à soupe de vinaigre de vin rouge]]'
-- '[[cuillère à café de jus de citron frais]]'
+- '[[ciboule]]'
+- '[[piment rouge]]'
+- '[[vinaigre de vin rouge]]'
+- '[[jus de citron]]'
 - '[[d’huile]]'
-- '[[sel et poivre]]'
+- '[[sel]]'
 type: recette
 ---
 

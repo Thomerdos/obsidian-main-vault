@@ -1,6 +1,5 @@
 ---
 title: Spaghetti à la tomate, aux asperges et à l’ail confit pour 4 personnes - Recettes
-  - Elle à Table
 source: https://www.elle.fr/Elle-a-Table/Recettes-de-cuisine/Spaghetti-a-la-tomate-aux-asperges-et-a-l-ail-confit-3929907
 author:
 - '[[ELLE]]'
@@ -11,13 +10,13 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[spaghetti]]'
 - '[[asperge]]'
-- '[[huile d''olive]]'
+- '[[huile d'olive]]'
 - '[[oignon]]'
-- '[[d''ail]]'
-- '[[basilicic frais]]'
+- '[[ail]]'
+- '[[basilic]]'
 - '[[tomate]]'
-- '[[têtes d''ail]]'
-- '[[thym effeuillé]]'
+- '[[ail]]'
+- '[[thym]]'
 type: recette
 ---
 

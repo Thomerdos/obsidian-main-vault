@@ -8,13 +8,13 @@ created: 2026-02-02
 image: https://www.latunisienne.fr/wp-content/uploads/2015/02/couscous-complet-vgétarien-gafsa-2-e1423477143915.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[couscous complet]]'
+- '[[couscous]]'
 - '[[épinard]]'
-- '[[bol de pois chiches]]'
-- '[[cs de tomate concentrée]]'
+- '[[pois chiche]]'
+- '[[concentré de tomate]]'
 - '[[huile d’olive]]'
-- '[[1,5 cs de piment moulu]]'
-- '[[pointe de curcuma]]'
+- '[[piment moulu]]'
+- '[[curcuma]]'
 - '[[sel]]'
 - '[[thym]]'
 - '[[carotte]]'

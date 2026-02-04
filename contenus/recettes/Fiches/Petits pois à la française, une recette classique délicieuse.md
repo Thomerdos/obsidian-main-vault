@@ -15,9 +15,9 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[beurre]]'
 - '[[laitue]]'
-- '[[lardons]]'
+- '[[lardon]]'
 - '[[oignon]]'
-- '[[petits pois]]'
+- '[[petit pois]]'
 - '[[sucrine]]'
 type: recette
 ---

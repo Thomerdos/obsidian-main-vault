@@ -11,18 +11,18 @@ tags:
 - 辣椒油
 base: '[[Recettes.base]]'
 ingredients:
-- '[[sichuan dried piment flakes]]'
+- '[[piment du Sichuan]]'
 - '[[gingembre]]'
-- '[[red oignon]]'
-- '[[shallot]]'
-- '[[clove ail]]'
-- '[[piece star anise]]'
-- '[[dash graines de sésame]]'
-- '[[neutral oil]]'
+- '[[oignon rouge]]'
+- '[[échalote]]'
+- '[[ail]]'
+- '[[anis étoilé]]'
+- '[[graines de sésame]]'
+- '[[huile neutre]]'
 - '[[huile de sésame]]'
 - '[[sel]]'
 - '[[sucre]]'
-- '[[white poivre]]'
+- '[[poivre blanc]]'
 - '[[paprika]]'
 type: recette
 ---

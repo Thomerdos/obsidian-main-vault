@@ -25,10 +25,10 @@ base: '[[Recettes.base]]'
 ingredients:
 - '[[rosbif]]'
 - '[[oignon]]'
-- '[[beurre mou]]'
-- '[[d''ail]]'
+- '[[beurre]]'
+- '[[ail]]'
 - '[[eau]]'
-- '[[sel ou sel fin]]'
+- '[[sel]]'
 - '[[poivre]]'
 type: recette
 ---

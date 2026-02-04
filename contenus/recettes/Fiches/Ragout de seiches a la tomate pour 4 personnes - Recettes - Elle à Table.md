@@ -9,10 +9,10 @@ image: https://resize.elle.fr/original/var/plain_site/storage/images/elle-a-tabl
 base: '[[Recettes.base]]'
 ingredients:
 - '[[oignon]]'
-- '[[verre de vin blanc]]'
-- '[[seiches]]'
-- '[[bocal de 750 ml de sauce tomate fraiche]]'
-- '[[sel, poivre du moulin, persil 1cuill à soupe d''huile d''olive]]'
+- '[[vin blanc]]'
+- '[[seiche]]'
+- '[[sauce tomate]]'
+- '[[sel]]'
 type: recette
 ---
 

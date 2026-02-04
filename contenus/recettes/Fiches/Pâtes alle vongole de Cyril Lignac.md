@@ -8,14 +8,14 @@ created: 2026-02-02
 image: https://www.quatresaisonsaujardin.com/wp-content/uploads/2020/05/Pâtes-all-volongole-de-Cyril-Lignac-Magali-ANCENAY_-7.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[linguines de semoule ou de spaghettis]]'
-- '[[poignées de palourdes bien trempées à l''avance]]'
-- '[[botte de persil plat lavé et haché]]'
-- '[[d''ail]]'
-- '[[verre de vin blanc]]'
-- '[[huile d''olive]]'
-- '[[sel et poivre du moulin]]'
-- '[[oignon ou échalote]]'
+- '[[linguine]]'
+- '[[palourde]]'
+- '[[persil]]'
+- '[[ail]]'
+- '[[vin blanc]]'
+- '[[huile d'olive]]'
+- '[[sel]]'
+- '[[oignon]]'
 type: recette
 ---
 

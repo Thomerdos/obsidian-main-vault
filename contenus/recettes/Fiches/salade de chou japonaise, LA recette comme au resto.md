@@ -29,14 +29,14 @@ tags:
 - TsukemonoChou
 base: '[[Recettes.base]]'
 ingredients:
-- '[[cuillères à soupe de vinaigre de riz]]'
-- '[[cuillère à soupe d''eau]]'
-- '[[1.5 cuillères à soupe de sucre]]'
-- '[[cuillère à soupe d''huile de sésame]]'
-- '[[chou blanc )]]'
-- '[[cuillère à soupe de sel]]'
-- '[[cuillère à soupe de mayonnaise]]'
-- '[[cuillères à soupe de graines de sésame noir]]'
+- '[[vinaigre de riz]]'
+- '[[eau]]'
+- '[[sucre]]'
+- '[[huile de sésame]]'
+- '[[chou blanc]]'
+- '[[sel]]'
+- '[[mayonnaise]]'
+- '[[graines de sésame noir]]'
 type: recette
 ---
 

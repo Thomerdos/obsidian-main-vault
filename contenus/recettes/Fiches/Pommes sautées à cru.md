@@ -19,8 +19,8 @@ ingredients:
 - '[[pomme de terre]]'
 - '[[sel]]'
 - '[[poivre]]'
-- '[[persil haché]]'
-- '[[graisse de canard ou de beurre clarifié]]'
+- '[[persil]]'
+- '[[graisse de canard]]'
 type_cuisine: Française
 type: recette
 ---

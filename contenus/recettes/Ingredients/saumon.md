@@ -1,31 +1,8 @@
 ---
+title: Saumon
 type: ingredient
-nom: saumon
-categorie: ''
-tags:
-- ingredient
 ---
 
-# 🥕 Saumon
+# Saumon
 
-## 📋 Informations
-
-- **Catégorie**: 
-- **Saison**: 
-- **Allergènes**: 
-
-## 🍽️ Utilisé dans les recettes
-
-```dataview
-TABLE WITHOUT ID
-  file.link as "Recette",
-  source as "Source"
-FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, this.file.link)
-SORT file.name ASC
-```
-
-## 💡 Notes
-
-
-## 🔗 Liens
+Ingrédient utilisé dans les recettes.

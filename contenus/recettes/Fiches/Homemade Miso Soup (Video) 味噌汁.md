@@ -11,12 +11,12 @@ tags:
 base: '[[Recettes.base]]'
 ingredients:
 - '[[eau]]'
-- '[[piece kombu )]]'
-- '[[katsuobushi )]]'
-- '[[soft/silken tofu]]'
-- '[[miso )]]'
-- '[[dried algue wakame]]'
-- '[[green onion/scallion]]'
+- '[[kombu]]'
+- '[[katsuobushi]]'
+- '[[tofu soyeux]]'
+- '[[miso]]'
+- '[[algue wakame]]'
+- '[[ciboule]]'
 type: recette
 ---
 

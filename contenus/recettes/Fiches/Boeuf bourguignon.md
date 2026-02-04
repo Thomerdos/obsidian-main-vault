@@ -23,22 +23,22 @@ tags:
 - PlatEnSauce
 base: '[[Recettes.base]]'
 ingredients:
-- '[[viande de boeuf]]'
-- '[[fond de veau lié]]'
-- '[[d''huile]]'
+- '[[boeuf]]'
+- '[[fond de veau]]'
+- '[[huile]]'
 - '[[carotte]]'
 - '[[oignon]]'
-- '[[d''ail]]'
-- '[[vin rouge corsé]]'
-- '[[poitrine de porc salée]]'
+- '[[ail]]'
+- '[[vin rouge]]'
+- '[[poitrine de porc]]'
 - '[[champignon]]'
 - '[[beurre]]'
 - '[[sucre]]'
 - '[[fécule de pomme de terre]]'
 - '[[sel]]'
-- '[[poivre en grains]]'
+- '[[poivre]]'
 - '[[thym]]'
-- '[[laurier]]'
+- '[[feuille de laurier]]'
 type_cuisine: Française
 regime:
 - sans gluten

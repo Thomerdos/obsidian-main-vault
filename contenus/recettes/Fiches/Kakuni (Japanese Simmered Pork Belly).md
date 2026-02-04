@@ -8,16 +8,16 @@ created: 2026-02-02
 image: https://i8b2m3d9.stackpathcdn.com/wp-content/uploads/2016/10/Kakuni_2.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[pork belly )]]'
-- '[[shallot/scallion stem )]]'
-- '[[ginger )]]'
-- '[[sake]]'
+- '[[poitrine de porc]]'
+- '[[ciboule]]'
+- '[[gingembre]]'
+- '[[saké]]'
 - '[[eau]]'
 - '[[sauce soja]]'
-- '[[sugar )]]'
-- '[[haricots verts]]'
-- '[[shallots )]]'
-- '[[japanese karashi or hot english mustard )]]'
+- '[[sucre]]'
+- '[[haricot vert]]'
+- '[[échalote]]'
+- '[[moutarde japonaise]]'
 type: recette
 ---
 

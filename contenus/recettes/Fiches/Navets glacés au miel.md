@@ -8,11 +8,10 @@ created: 2026-02-02
 image: http://www.recettesduchef.fr/images/legumes/navets-glaces.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[petits navets]]'
+- '[[navet]]'
 - '[[beurre]]'
-- '[[grosse cuillère à soupe de miel liquide]]'
-- '[[cuillère à café de vinaigre de vin blanc ou rouge selon la coloration que vous
-  voulez donner]]'
+- '[[miel]]'
+- '[[vinaigre de vin]]'
 - '[[thym]]'
 - '[[sel]]'
 - '[[poivre]]'

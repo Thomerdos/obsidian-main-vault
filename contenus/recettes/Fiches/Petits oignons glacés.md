@@ -18,8 +18,8 @@ tags:
 base: '[[Recettes.base]]'
 ingredients:
 - '[[oignon]]'
-- '[[grammes de beurre]]'
-- '[[cuillère à soupe rase de sucre]]'
+- '[[beurre]]'
+- '[[sucre]]'
 type: recette
 ---
 

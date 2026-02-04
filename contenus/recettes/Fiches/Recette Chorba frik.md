@@ -8,20 +8,19 @@ created: 2026-02-02
 image: https://img.cuisineaz.com/680x357/2017/01/10/i115502-chorba-frik.jpeg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[préparation]]'
 - '[[mouton]]'
-- '[[viande de boeuf]]'
-- '[[pois chiches]]'
-- '[[botte coriandre]]'
-- '[[verre frik]]'
+- '[[boeuf]]'
+- '[[pois chiche]]'
+- '[[coriandre]]'
+- '[[frik]]'
 - '[[concentré de tomate]]'
-- '[[c. à soupe piment doux en poudre]]'
-- '[[c. à soupe smen]]'
+- '[[piment doux]]'
+- '[[smen]]'
 - '[[oignon]]'
 - '[[céleri]]'
 - '[[sel]]'
 - '[[poivre]]'
-- '[[huile d''olive]]'
+- '[[huile d'olive]]'
 type: recette
 ---
 

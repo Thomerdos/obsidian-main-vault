@@ -12,15 +12,14 @@ tags:
 - piment
 base: '[[Recettes.base]]'
 ingredients:
-- '[[piments forts]]'
-- '[[piments végétariens]]'
-- '[[cm de gingembre frais]]'
+- '[[piment fort]]'
+- '[[piment végétarien]]'
+- '[[gingembre]]'
 - '[[d’ail]]'
-- '[[cuillère à café rase de gros sel]]'
-- '[[cuillères à soupe de vinaigre blanc]]'
+- '[[gros sel]]'
+- '[[vinaigre blanc]]'
 - '[[jus d’un demi-citron]]'
 - '[[huile]]'
-- '[[mixeur]]'
 type: recette
 ---
 

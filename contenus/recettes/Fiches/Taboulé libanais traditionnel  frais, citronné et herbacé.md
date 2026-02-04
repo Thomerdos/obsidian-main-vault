@@ -16,7 +16,7 @@ tags:
 - RecetteDuTaboulé
 base: '[[Recettes.base]]'
 ingredients:
-- '[[boulghour]]'
+- '[[boulgour]]'
 - '[[citron]]'
 - '[[menthe]]'
 - '[[persil]]'

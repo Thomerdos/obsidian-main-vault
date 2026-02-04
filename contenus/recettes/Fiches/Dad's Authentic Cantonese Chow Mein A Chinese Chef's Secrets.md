@@ -12,13 +12,13 @@ tags:
 - dimSum
 base: '[[Recettes.base]]'
 ingredients:
-- '[[hong kong style pan-fried nouilles]]'
+- '[[nouilles]]'
 - '[[oignon]]'
-- '[[stalks cébette]]'
+- '[[ciboule]]'
 - '[[germes de soja]]'
-- '[[dark soy sauce]]'
-- '[[light soy sauce]]'
-- '[[sauce huître]]'
+- '[[sauce soja foncée]]'
+- '[[sauce soja claire]]'
+- '[[sauce d'huître]]'
 - '[[sucre]]'
 - '[[eau]]'
 - '[[huile de sésame]]'

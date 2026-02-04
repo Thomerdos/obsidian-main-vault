@@ -17,10 +17,10 @@ tags:
 base: '[[Recettes.base]]'
 ingredients:
 - '[[poireau]]'
-- '[[échalotes ciselées]]'
+- '[[échalote]]'
 - '[[beurre]]'
-- '[[sel et poivre]]'
-- '[[cuiller à soupe de crème épaisse]]'
+- '[[sel]]'
+- '[[crème épaisse]]'
 saison:
 - automne
 type: recette

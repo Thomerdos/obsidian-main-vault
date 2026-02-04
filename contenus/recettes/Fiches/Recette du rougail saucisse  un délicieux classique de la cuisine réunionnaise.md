@@ -13,9 +13,9 @@ tags:
 - Reunionnais
 base: '[[Recettes.base]]'
 ingredients:
-- '[[saucisses fraîches]]'
-- '[[saucisses fumées]]'
-- '[[petits piment]]'
+- '[[saucisse]]'
+- '[[saucisse fumée]]'
+- '[[piment]]'
 - '[[tomate]]'
 - '[[oignon]]'
 - '[[gingembre]]'

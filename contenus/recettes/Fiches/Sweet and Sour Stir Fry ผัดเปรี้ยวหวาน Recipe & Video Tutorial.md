@@ -8,23 +8,22 @@ created: 2026-02-02
 image: https://hot-thai-kitchen.com/wp-content/uploads/2015/01/Sweet-sour-sm.jpg
 base: '[[Recettes.base]]'
 ingredients:
-- '[[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized
-  pieces]]'
-- '[[cloves ail]]'
-- '[[pineapple, bite-sized pieces]]'
-- '[[oignon, 1-cm]]'
+- '[[medium firm tofu, 1” cubed, or another meat of your choice, cut into small bite-sized]]'
+- '[[ail]]'
+- '[[ananas]]'
+- '[[oignon]]'
 - '[[tomate]]'
-- '[[mini cucumber or regular cucumber, halved lengthwise and]]'
-- '[[asparagus]]'
-- '[[poivron, any colour. 1-cm-wide strips]]'
-- '[[cashews]]'
-- '[[green onions, cut into 1" pieces on a bias]]'
-- '[[white vinegar or riz wine vinegar]]'
-- '[[sauce huître]]'
-- '[[thai sriraja panich sauce]]'
+- '[[concombre]]'
+- '[[asperge]]'
+- '[[poivron]]'
+- '[[noix de cajou]]'
+- '[[ciboule]]'
+- '[[vinaigre de riz]]'
+- '[[sauce d'huître]]'
+- '[[sauce sriracha]]'
 - '[[sauce soja]]'
-- '[[brown sucre, packed]]'
-- '[[toasted huile de sésame]]'
+- '[[sucre roux]]'
+- '[[huile de sésame grillée]]'
 type: recette
 ---
 
