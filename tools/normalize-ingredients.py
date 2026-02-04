@@ -457,6 +457,7 @@ def main():
     
     # Check for --apply flag
     apply_mode = '--apply' in sys.argv
+    auto_confirm = '--yes' in sys.argv or '-y' in sys.argv
     
     vault_path = Path('/home/runner/work/obsidian-main-vault/obsidian-main-vault')
     ingredients_dir = vault_path / 'contenus' / 'recettes' / 'Ingredients'
@@ -585,29 +586,33 @@ def main():
     # Step 7: Apply changes if requested
     if apply_mode:
         print("\n[Step 7] Applying changes...")
-        response = input("\n⚠️  Are you sure you want to apply these changes? (yes/no): ")
-        if response.lower() == 'yes':
-            apply_changes(vault_path, normalized_to_files)
-            
-            # Delete orphan ingredients
-            if orphans:
-                print(f"\n[APPLY] Deleting {len(orphans)} orphan ingredient files...")
-                for orphan in orphans:
-                    orphan_path = ingredients_dir / f"{orphan}.md"
-                    if orphan_path.exists():
-                        orphan_path.unlink()
-                        print(f"  Deleted: {orphan}.md")
-            
-            print("\n✅ Changes applied successfully!")
+        if not auto_confirm:
+            response = input("\n⚠️  Are you sure you want to apply these changes? (yes/no): ")
+            if response.lower() != 'yes':
+                print("\n❌ Changes NOT applied. Preview files remain in _temp_new/")
+                return
         else:
-            print("\n❌ Changes NOT applied. Preview files remain in _temp_new/")
+            print("\n✅ Auto-confirming (--yes flag provided)")
+        
+        apply_changes(vault_path, normalized_to_files)
+        
+        # Delete orphan ingredients
+        if orphans:
+            print(f"\n[APPLY] Deleting {len(orphans)} orphan ingredient files...")
+            for orphan in orphans:
+                orphan_path = ingredients_dir / f"{orphan}.md"
+                if orphan_path.exists():
+                    orphan_path.unlink()
+                    print(f"  Deleted: {orphan}.md")
+        
+        print("\n✅ Changes applied successfully!")
     else:
         print("\n" + "=" * 80)
         print("NORMALIZATION PREVIEW COMPLETE")
         print("=" * 80)
         print("\nNOTE: This is a preview run. Files are in _temp_new/ directory.")
         print("Review the report, then run with --apply flag to apply changes:")
-        print(f"  python3 {sys.argv[0]} --apply")
+        print(f"  python3 {sys.argv[0]} --apply --yes")
 
 if __name__ == '__main__':
     main()
