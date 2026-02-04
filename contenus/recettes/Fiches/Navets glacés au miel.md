@@ -17,14 +17,13 @@ ingredients:
 - poivre
 type: recette
 ---
-
 ![](http://www.recettesduchef.fr/images/legumes/navets-glaces.jpg)
 
 Parfait pour une entrée ou accompagnement d'une viande ou d'un poisson, réalisez facilement le glaçage de vos navets avec du miel et régalez-vous.
 
 ## Ingrédients
 
-- 12 [[[[petits navets (ou 2 gros ronds à col violet ou 2 longs)]]]]
+- 12 [[petits navets (ou 2 gros ronds à col violet ou 2 longs)]]
 - 30 g de [[beurre]]
 - 1 [[grosse cuillère à soupe de miel liquide]]
 - 1 cuillère [[à café de vinaigre de vin blanc ou rouge selon la coloration que vous voulez donner]]

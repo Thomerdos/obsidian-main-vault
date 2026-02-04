@@ -42,14 +42,13 @@ saison:
 - hiver
 type: recette
 ---
-
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/69/blanquette-de-veau-a-l-ancienne-3000x2000.jpg)
 
 Blanquette de veau. La recette de la blanquette de veau à l'ancienne, discutée et argumentée.. Recette par Chef Simon.
 
 ## Ingrédients
 
-- 2,5 kg de [[[[veau (épaule, flanchet, tendron, poitrine)]]]]
+- 2,5 kg de [[veau (épaule, flanchet, tendron, poitrine)]]
 - 8 [[carotte]]
 - 4 [[oignon]]
 - 1 [[citron]]

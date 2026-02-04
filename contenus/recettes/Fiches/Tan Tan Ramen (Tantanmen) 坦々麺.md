@@ -29,28 +29,27 @@ ingredients:
 - servings fresh ramen nouilles
 type: recette
 ---
-
 ![](https://www.justonecookbook.com/wp-content/uploads/2023/03/Tan-Tan-Ramen-6848-I.jpg)
 
 Make Tan Tan Ramen (Tantanmen) at home—spicy, creamy, and bold with a savory topping. It's an easy, customizable ramen recipe with true restaurant-style taste.
 
 ## Ingrédients
 
-- 2 [[[[tbsp japanese sesame paste (neri goma)]]]]
+- 2 [[tbsp japanese sesame paste (neri goma)]]
 - 1 [[tsp miso]]
 - 1 [[tbsp soy sauce]]
-- 1 [[[[tsp rice vinegar (unseasoned)]]]]
-- 1 [[[[tbsp la-yu (japanese chili oil)]]]]
-- 1 [[[[knob ginger ((1 inch, 2.5 cm))]]]]
+- 1 [[tsp rice vinegar (unseasoned)]]
+- 1 [[tbsp la-yu (japanese chili oil)]]
+- 1 [[knob ginger ((1 inch, 2.5 cm))]]
 - 2 [[cloves ail]]
 - 1 [[tbsp neutral oil]]
-- 6 [[[[oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))]]]]
-- 1 [[[[tbsp sake ((substitute it with chinese rice wine or dry sherry))]]]]
-- 1 [[[[tbsp doubanjiang (spicy chili bean paste)]]]]
-- 2 [[[[tsp soy sauce ((use gluten-free soy sauce for gf))]]]]
-- [[[[1½ cups chicken stock/broth]]]]
-- [[[[1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))]]]]
-- [[[[diamond crystal kosher salt ((for seasoning the broth, to taste))]]]]
+- 6 [[oz ground pork ((use meat alternatives or chopped mushrooms for vegan/vegetarian))]]
+- 1 [[tbsp sake ((substitute it with chinese rice wine or dry sherry))]]
+- 1 [[tbsp doubanjiang (spicy chili bean paste)]]
+- 2 [[tsp soy sauce ((use gluten-free soy sauce for gf))]]
+- [[1½ cups chicken stock/broth]]
+- [[1½ cups unsweetened soy milk ((plus more to make the broth creamier, as desired))]]
+- [[diamond crystal kosher salt ((for seasoning the broth, to taste))]]
 - 1 [[head shanghai bok choy]]
 - 2 [[servings fresh ramen nouilles]]
 

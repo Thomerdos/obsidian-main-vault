@@ -23,7 +23,6 @@ ingredients:
 - sel et poivre
 type: recette
 ---
-
 ![](https://www.laylita.com/recettes/wp-content/uploads/2014/10/sauce-chimichurri-traditionnelle.jpg)
 
 La sauce chimichurri traditionnelle, originaire d'Argentine, se prépare à partir de persil, d’origan, d’ail, d’oignon, de piment, de vinaigre et d’huile.
@@ -34,10 +33,10 @@ La sauce chimichurri traditionnelle, originaire d'Argentine, se prépare à part
 - 2 cuillères [[à soupe d’origan fraîchement ciselé]]
 - 4 gousses [[d’ail pressées]]
 - [[tasse de ciboule]]
-- 1  [[[[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]]]
+- 1  [[petit piment rouge : retirer les graines et la membrane intérieure blanche puis le tailler finement]]
 - 2 cuillères [[à soupe de vinaigre de vin rouge]]
 - 1 cuillère [[à café de jus de citron frais]]
-- 120 mL [[[[d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)]]]]
+- 120 mL [[d’huile (j’utilise de l’huile d’olive mais ce n’est pas l’huile de prédilection en argentine)]]
 - [[sel et poivre]]
 
 ## Instructions

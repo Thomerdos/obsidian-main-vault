@@ -42,7 +42,6 @@ ingredients:
 - moutarde
 type: recette
 ---
-
 ![](https://res.cloudinary.com/hv9ssmzrz/image/fetch/c_fill,f_auto,h_675,q_auto:eco,w_1200/https://s3-eu-west-1.amazonaws.com/images-ca-1-0-1-eu/recipe_photos/original/119/carbonade-flamande-12.jpg)
 
 Carbonade flamande. Un ragoût de boeuf à la bière du Nord de la France et de la Belgique.. Recette par Chef Simon.
@@ -62,8 +61,8 @@ Carbonade flamande. Un ragoût de boeuf à la bière du Nord de la France et de 
 - 1 [[litre de fond de veau lié]]
 - une [[bouteille de bière jenlain ou de leffe brune]]
 - 200 g de [[oignon]]
-- 50 g de [[[[vergeoise (facultatif)]]]]
-- 1 dl de [[[[vinaigre de vin (facultatif)]]]]
+- 50 g de [[vergeoise (facultatif)]]
+- 1 dl de [[vinaigre de vin (facultatif)]]
 - 50 g de [[moutarde]]
 
 ## Instructions
