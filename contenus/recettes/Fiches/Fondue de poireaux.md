@@ -35,7 +35,8 @@ Fondue de poireaux. La fondue de poireau devient culinaresque avec des Saint-Jac
 - 4 poireau
 - 2 échalotes ciselées
 - 50 g de beurre
-- sel et poivre
+- '[[sel]]'
+- '[[poivre]]'
 - une cuiller à soupe de crème épaisse
 
 ## Instructions
