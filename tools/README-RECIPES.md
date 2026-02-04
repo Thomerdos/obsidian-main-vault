@@ -16,6 +16,69 @@ Le script `migrate-recipes.py` est un outil Python qui transforme les recettes O
 6. **Mise à jour des liens**: Ajoute des liens wiki `[[ingredient]]` dans les recettes
 7. **Rapport de migration**: Génère un rapport détaillé des changements
 
+## 🔗 Système de wikilinks et graphe de liens
+
+### Pourquoi utiliser des wikilinks ?
+
+Le système d'ingrédients utilise maintenant le **graphe de liens natif d'Obsidian** avec des wikilinks `[[ingredient]]` au lieu de simplement utiliser les propriétés frontmatter.
+
+**Avantages** :
+
+✅ **Liens cliquables**: Les propriétés frontmatter ne sont pas cliquables dans Obsidian. Avec `[[tomate]]` dans le corps de la recette, on peut cliquer pour naviguer  
+✅ **Backlinks automatiques**: Obsidian affiche automatiquement les backlinks dans chaque page d'ingrédient  
+✅ **Graphe visuel**: Le graphe montre les relations entre recettes et ingrédients  
+✅ **Navigation intuitive**: Utilise les fonctionnalités natives d'Obsidian
+
+### Comment ça fonctionne
+
+**Dans les recettes** :
+```markdown
+## Ingrédients
+
+- 6 [[tomate]]s
+- 2 [[oignon]]s  
+- 3 gousses d'[[ail]]
+```
+
+**Dans les pages d'ingrédients** :
+```markdown
+## 🍽️ Utilisé dans les recettes
+
+\`\`\`dataview
+TABLE WITHOUT ID
+  file.link as "Recette",
+  source as "Source"
+FROM "contenus/recettes/Fiches"
+WHERE contains(file.outlinks, this.file.link)
+SORT file.name ASC
+\`\`\`
+```
+
+**Explication de la requête** :
+- `file.outlinks` : tous les wikilinks sortants de chaque fichier de recette
+- `this.file.link` : référence à la page d'ingrédient actuelle
+- Dataview compare automatiquement : si une recette a un lien vers cet ingrédient, elle est listée
+
+### Script d'ajout automatique
+
+Le script `tools/add-wikilinks-to-recipes.py` automatise l'ajout de wikilinks :
+
+```bash
+# Voir ce qui serait fait
+python3 tools/add-wikilinks-to-recipes.py --dry-run
+
+# Ajouter les wikilinks réellement
+python3 tools/add-wikilinks-to-recipes.py
+```
+
+Le script :
+1. Lit les ingrédients normalisés du frontmatter
+2. Cherche chaque ingrédient dans la section "## Ingrédients"
+3. Ajoute `[[ingredient]]` autour de chaque occurrence
+4. Gère les pluriels, articles (d', de, du, etc.)
+5. Corrige les wikilinks malformés (`[[[[ingredient]]]]` → `[[ingredient]]`)
+6. Génère un rapport détaillé
+
 ## 🚀 Installation
 
 ### Prérequis
@@ -226,13 +289,17 @@ tags:
 \`\`\`dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  temps_preparation as "Préparation (min)",
-  temps_cuisson as "Cuisson (min)",
-  type_cuisine as "Cuisine"
+  source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "ingredient")
+WHERE contains(file.outlinks, this.file.link)
 SORT file.name ASC
 \`\`\`
+
+**Explication de la requête**:
+- `file.outlinks` = tous les wikilinks sortants de chaque recette
+- `this.file.link` = référence à la page d'ingrédient actuelle
+- Si une recette contient `[[tomate]]`, elle apparaîtra automatiquement sur la page "tomate.md"
+- Cette méthode utilise le graphe de liens natif d'Obsidian au lieu des propriétés frontmatter
 
 ## 💡 Notes
 

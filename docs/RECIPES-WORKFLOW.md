@@ -95,11 +95,20 @@ python3 tools/migrate-recipes.py --dry-run
 
 ### Comment ça marche
 
-1. **Dans les recettes**: Les ingrédients sont listés dans deux endroits:
-   - Propriété frontmatter `ingredients: []` (noms normalisés)
-   - Section `## Ingrédients` (avec quantités et liens wiki)
+Le système d'ingrédients utilise le **graphe de liens natif d'Obsidian** avec des wikilinks `[[ingredient]]` pour créer des connexions cliquables entre recettes et ingrédients.
 
-2. **Pages d'ingrédients**: Chaque ingrédient a sa propre page qui liste automatiquement toutes les recettes qui l'utilisent
+1. **Dans les recettes**: Les ingrédients sont listés dans deux endroits:
+   - Propriété frontmatter `ingredients: []` (noms normalisés, pour référence)
+   - Section `## Ingrédients` (avec quantités et **wikilinks `[[ingredient]]`**)
+
+2. **Pages d'ingrédients**: Chaque ingrédient a sa propre page qui utilise `file.outlinks` pour lister automatiquement toutes les recettes qui l'utilisent
+
+### Pourquoi des wikilinks ?
+
+✅ **Liens cliquables**: Dans les recettes, cliquer sur `[[tomate]]` ouvre directement la page de l'ingrédient  
+✅ **Backlinks natifs**: Les pages d'ingrédients affichent automatiquement les backlinks Obsidian  
+✅ **Graphe de liens**: Le graphe Obsidian montre visuellement les relations recettes ↔ ingrédients  
+✅ **Navigation intuitive**: Utilise les fonctionnalités natives d'Obsidian au lieu de propriétés non-cliquables
 
 ### Normalisation des ingrédients
 
@@ -117,15 +126,15 @@ Dans la section Ingrédients de la recette:
 
 - 6 [[tomate]]s
 - 2 [[oignon]]s
-- 3 gousses [[ail]]
+- 3 gousses d'[[ail]]
 - 100g [[parmesan]]
 ```
 
-La quantité reste visible, mais l'ingrédient devient un lien cliquable.
+La quantité reste visible, mais l'ingrédient devient un **lien cliquable**.
 
 ### Pages d'ingrédients
 
-Chaque page d'ingrédient affiche automatiquement toutes les recettes qui l'utilisent via Dataview:
+Chaque page d'ingrédient utilise `file.outlinks` pour détecter automatiquement les recettes via le graphe de liens:
 
 ```markdown
 ## 🍽️ Utilisé dans les recettes
@@ -133,19 +142,34 @@ Chaque page d'ingrédient affiche automatiquement toutes les recettes qui l'util
 \`\`\`dataview
 TABLE WITHOUT ID
   file.link as "Recette",
-  temps_preparation as "Préparation (min)",
-  temps_cuisson as "Cuisson (min)",
-  type_cuisine as "Cuisine"
+  source as "Source"
 FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "tomate")
+WHERE contains(file.outlinks, this.file.link)
 SORT file.name ASC
 \`\`\`
 ```
+
+**Comment ça fonctionne** :
+- `file.outlinks` = tous les liens sortants de chaque recette
+- `this.file.link` = le lien vers la page d'ingrédient actuelle
+- Si une recette contient `[[tomate]]`, elle apparaîtra automatiquement sur la page "tomate.md"
 
 ## 🔍 Requêtes Dataview utiles
 
 ### Toutes les recettes avec un ingrédient
 
+**Méthode 1 - Via wikilinks (recommandé):**
+```dataview
+TABLE 
+  temps_preparation as "Préparation",
+  temps_cuisson as "Cuisson",
+  type_cuisine as "Cuisine"
+FROM "contenus/recettes/Fiches"
+WHERE contains(file.outlinks, [[tomate]])
+SORT file.name ASC
+```
+
+**Méthode 2 - Via propriété frontmatter:**
 ```dataview
 TABLE 
   temps_preparation as "Préparation",

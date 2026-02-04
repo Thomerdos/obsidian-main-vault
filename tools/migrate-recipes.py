@@ -407,7 +407,7 @@ TABLE WITHOUT ID
   temps_cuisson as "Cuisson (min)",
   type_cuisine as "Cuisine"
 FROM "contenus/recettes/Fiches"
-WHERE contains(ingredients, "{ingredient}")
+WHERE contains(file.outlinks, this.file.link)
 SORT file.name ASC
 ```
 
